@@ -1,0 +1,70 @@
+@import "variables";
+.contPie{
+    margin-top: 30px;
+    width: 100%;
+    padding: 5px 0px;
+    background:$colorNegro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .boxing1{
+        width:100px;
+        height: 50px;
+        //padding: 5px 0px;
+        background-image: url(../img/LOGO/loogo.png);
+        background-size: 100% 100%;
+        margin-left: 20px;
+    }
+    .boxing2{
+        width: auto;
+        padding: 5px 0px;
+        //background: yellow;
+        .contFooter_derechos_text{
+          font-size: 12px;
+          color: $colorVerde;
+          text-align: center;
+          line-height: 14px;
+        }
+    }
+    @media (min-width:20px) and (max-width:480px){
+        .boxing2{
+            display: none;
+        }
+    }
+    .boxing3{
+        width: 180px;
+        //padding: 5px 0px;
+        //background: lightblue;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .pieRedes{
+            //background: khaki;
+            .IconRed{
+                font-size: 23px;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+    
+    @media (min-width:481px) and (max-width:640px){
+        .boxing3{
+            width: 140px;
+            //background: rgb(34, 92, 178);
+        }
+    }
+    @media (min-width:20px) and (max-width:480px){
+        .boxing3{
+            width: 120px;
+            //background: rgb(178, 34, 142);
+        }
+    }
+    
+}
+
+

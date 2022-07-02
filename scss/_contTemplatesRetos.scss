@@ -1,0 +1,61 @@
+@import "variables";
+
+.contTemsplatesRetos{
+    width: 170px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 500;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    .contTemplatesRetos_box{
+        width: 70px;
+        height: 70px;
+        border: 2px solid white;
+        border-radius: 50%;
+        box-shadow: 0px 5px 10px $colorVerde;
+        background: $colorAzulTransparente;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 15px;
+        transition: 0.5s all;
+        animation-name: frontMovie;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode:forwards;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        .contTemplatesRetos_box_text{
+            color: $colorVerde;
+            font-size: 13px;
+            transition: 0.3s all;
+            font-weight: 100;
+        }
+    }
+    .contTemplatesRetos_box:hover{
+        border:2px solid $colorVerde;
+        .contTemplatesRetos_box_text{
+            color: white;
+        }
+    }
+
+    @keyframes frontMovie {
+        from{
+            transform: rotate(0deg);
+        }to{
+            transform: rotate(-20deg);
+        }
+    }
+
+}
+.contTemsplatesRetos_JS{
+    opacity: 1;
+    transform: rotate(360deg);
+}

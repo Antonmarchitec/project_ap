@@ -1,0 +1,372 @@
+
+@import "../variables";
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+#contBase{
+    background:$colorAzul;
+    //overflow: hidden;
+  
+    .containerBaseCuadros{
+        margin-top: -150px;
+        width: 100%;
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .contCuadro{
+            width: 250px;
+            height: 250px;
+            background: $colorAzulTransparente;
+            border-radius: 5px;
+            //border: 5px solid $colorBlack;
+            box-shadow: 0px 0px 10px $colorCelesteOscuro;
+            margin:10px auto;
+            position: relative;
+            overflow: hidden;
+            .contCuadro_imagen{
+                width: 100%;
+                height: 250px;
+                background-image: url(../img/SERVICIOS/sitiosWebs.png);
+                background-size: 100% 100%;
+                transition: 0.5s all;
+            }
+            
+            .contCuadro_imagen2{
+                width: 100%;
+                height: 250px;
+                background-image: url(../img/SERVICIOS/tienda2.png);
+                background-size: 100% 100%;
+                transition: 0.5s all;
+            }
+           
+            .contCuadro_imagen3{
+                width: 100%;
+                height: 250px;
+                background-image: url(../img/SERVICIOS/asesoria.png);
+                background-size: 100% 100%;
+                transition: 0.5s all;
+            }
+            
+            .contCuadro_imagen4{
+                width: 100%;
+                height: 250px;
+                background-image: url(../img/SERVICIOS/grafico.png);
+                background-size: 100% 100%;
+                transition: 0.5s all;
+            }
+            
+
+            .contCuadro_descripcion{   //cuadro de ensima superior
+                width: 100%;
+                height: 250px;
+                //background: chartreuse;
+                padding: 18px 20px;
+                position: absolute;
+                top: 0;
+                transition: 0.5s all;
+                .contCuadro_title{
+                    text-align: center;
+                    line-height: 25px;
+                    color: $colorVerde;
+                    line-height: 24px;
+                    //background: rgba(100, 148, 237, 0.452);
+                }
+                
+                .contCuadro_parrafo{
+                    text-align: center;
+                    margin-top: 180px;
+                    opacity: 0;
+                    color: white;
+                    //background: rgba(220, 20, 60, 0.548);
+                    transition: 0.5s all;
+                    
+                }
+
+                @media only screen and (max-width:720px) {
+                    .contCuadro_parrafo{
+                        margin-top: 15px;
+                        opacity: 1;
+                    }
+                }
+                .btnPlanes{
+                    display: none;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px;
+                    background: $colorAzulTransparente;
+                    padding: 3px 10px;
+                    position: relative;
+                    top: 15px;
+                    left: calc(50% - 40px);
+                    color: white;
+                    cursor: pointer;
+                }
+                .btnPlanes:hover{
+                    background: rgba(255, 255, 255, 0.205);
+                }
+            }
+        }
+        .contCuadro:hover{
+            /////////////
+            cursor: pointer;
+            .contCuadro_imagen{
+                transform: scale(1.1,1.1);
+            }
+            .contCuadro_imagen2{
+                transform: scale(1.1,1.1);
+            }
+            .contCuadro_imagen3{
+                transform: scale(1.1,1.1);
+            }
+            .contCuadro_imagen4{
+                transform: scale(1.1,1.1);
+            }
+            .contCuadro_descripcion{
+                /////////////
+                background:$colorAzulTransparente;
+                .contCuadro_title{
+                    color: $colorVerde;
+                }
+                .contCuadro_parrafo{
+                   opacity: 1;
+                   margin-top: 20px;
+                }
+            }
+        }
+        
+        @media (min-width: 981px) and (max-width: 1024px){
+            .contCuadro{
+                width: 230px;
+                height: 250px;
+                //background: rgb(30, 33, 210);
+                .contCuadro_imagen{
+                    width: 100%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen2{
+                    width: 100%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen3{
+                    width: 100%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen4{
+                    width: 100%;
+                    height: 250px;
+                    margin: auto;
+                }
+            }
+        }
+        @media (min-width: 721px) and (max-width: 980px){
+            .contCuadro{
+                width: 330px;
+                height: 250px;
+                //background: chocolate;
+                .contCuadro_imagen{
+                    width: 80%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen2{
+                    width: 80%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen3{
+                    width: 80%;
+                    height: 250px;
+                    margin: auto;
+                }
+                .contCuadro_imagen4{
+                    width: 80%;
+                    height: 250px;
+                    margin: auto;
+                }
+            }
+        }
+        @media (min-width: 641px) and (max-width: 720px){
+            .contCuadro{
+                width: calc(50% - 20px);
+                height: 250px;
+                //background: rgb(196, 51, 184);
+                .contCuadro_imagen{
+                    width: 80%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen2{
+                    width:80%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen3{
+                    width:80%;
+                    margin: auto;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen4{
+                    width:80%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+            }
+        }
+        @media (min-width: 481px) and (max-width: 640px){
+            .contCuadro{
+                width: calc(50% - 20px);
+                height: 250px;
+                //background: cornflowerblue;
+                .contCuadro_imagen{
+                    width: 100%;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen2{
+                    width:100%;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen3{
+                    width:100%;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen4{
+                    width:100%;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+            }
+        }
+        @media (min-width: 424px) and (max-width: 480px){
+            .contCuadro{
+                width: calc(100% - 95px);
+                height: 250px;
+                //background: chartreuse;
+                .contCuadro_imagen{
+                    width: 85%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.5;
+                }
+                .contCuadro_imagen2{
+                    width:85%;
+                    margin: auto;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen3{
+                    width:85%;
+                    margin: auto;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen4{
+                    width:85%;
+                    margin: auto;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+            }
+        }
+        @media (min-width: 320px) and (max-width: 423px){
+            .contCuadro{
+                width: calc(100% - 60px);
+                height: 250px;
+                //background: brown;
+                .contCuadro_imagen{
+                    width: 85%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen2{
+                    width:85%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen3{
+                    width:85%;
+                    height: 250px;
+                    margin: auto;
+                    opacity: 0.4;
+                }
+                .contCuadro_imagen4{
+                    width:85%;
+                    margin: auto;
+                    height: 250px;
+                    opacity: 0.4;
+                }
+                .contCuadro_descripcion{
+                    height: 250px;
+                }
+                
+            }
+        }
+    }
+
+    .contBase_gradient{
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(transparent, $colorNegro);
+    }
+
+}
+
+
+
+
+
+@media (min-width:641px) and (max-width:1200px) {
+    #contBase{
+        background:$colorAzul;
+        //overflow: hidden;
+        .containerBaseCuadros{
+            margin-top: -100px;
+        }
+
+        .contBase_gradient{
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(transparent, $colorNegro);
+        }
+    
+    }
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:640px) {
+    #contBase{
+        background:$colorAzul;
+        //overflow: hidden;
+      
+        .containerBaseCuadros{
+            margin-top: -50px;
+        }
+    
+        .contBase_gradient{
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(transparent, $colorNegro);
+        }
+    
+    }
+}
+
+
+
+

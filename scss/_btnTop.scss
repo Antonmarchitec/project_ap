@@ -1,0 +1,66 @@
+//ESTILOS DEL BOTON TOP
+.contBtnTop{
+    //background: orange;
+    position: fixed;
+    right:40px;
+    bottom: 60px;
+    z-index: 100;
+    .iconTop{
+        font-size: 40px;
+        color: $colorBlanco;
+        opacity: 0;
+        transition: 0.5s all;
+        transform: scale(0,0);
+        animation: moverTop;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-fill-mode:both;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes moverTop {
+        from{
+         transform: translateY(0);
+        }to{
+         transform: translateY(20px);
+        }
+    }
+    .iconTopJS{
+        opacity: 1;
+        transform: scale(0.8,0.8);
+        cursor: pointer;
+        position: relative;
+        z-index: 2000;
+    } 
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:720px) {
+    .contBtnTop{
+        //background: orange;
+        position: fixed;
+        right:20px;
+        bottom: 60px;
+        .iconTop{
+            font-size: 35px;
+            color: $colorBlanco;
+            opacity: 0;
+            transition: 0.5s all;
+            transform: scale(0,0);
+        }
+        .iconTopJS{
+            opacity: 1;
+            transform: scale(0.8,0.8);
+            cursor: pointer;
+            z-index: 1000;
+            transform: scale(1,1);
+        } 
+    }
+}

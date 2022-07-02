@@ -1,0 +1,21 @@
+.barras{
+    width: 15px;
+    padding: 5px 0px;
+    //background: rgb(70, 70, 66);
+    position: fixed;
+    top: 400px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    .barra1{
+        width: 5px;
+        height: 200px;
+        background: $colorVerde;
+        margin-top: 10px; 
+    }
+    .barra2{
+        width: 5px;
+        height: 180px;
+        background: $colorVerde;
+    }
+}

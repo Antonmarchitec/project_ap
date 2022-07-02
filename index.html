@@ -1,0 +1,192 @@
+<!--REALIZACION DE LA PAGINA CON FRAMEWORK BOOTSTRAP-->
+<!--
+
+  TAMAÑOS QUE MANEJA BOOTSTRAP PARA DIFERENTES DISPOSITIVOS:
+    xs ( < 575  )    TAMAÑO CELULAR
+    sm  (576 - 767)  TAMAÑO CELULAR
+    md  (768 - 991)  TAMAÑO SMART FONE O TABLETA
+    lg  (992 - 1199) TAMAÑO MONITORES ANTIGUOS O TABLES DE ALTA RESOLLUCION
+    xl  (1200 - > )  TAMAÑO PARA PC DE ESCRITORIO
+
+
+  COLORES
+  - primary
+  - secondary
+  - dark
+  - light
+  - danger
+  - warning
+  - success
+  - info
+  - white
+
+  Propiedades y funciones importantes 
+  - fluid   ...(la pagina hace que se mueestre al 100%) 
+  - d-xs-none     (desaparece una casilla de bootstrap)
+  - d-xs-block    (aparece nuevamente un campo de bootstrap)
+  - d-inline-block  (para poner en linea)
+
+    -->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>PORTAFOLIO</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+    <!------------ CDN LINK BOOTSTRAP---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!------------LINK PERSONALIZADO-------->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  
+  <div class="CONTENT-PRINCIPAL">
+
+    <!--PRELOADER DE LA PAGINA STAR-->
+    <div class="loader" id="loader">
+      <img src="img/rodaje.gif" class="rodaje">
+      <p style="color: #56fbd3;">Cargando Portafolio..</p>
+    </div>
+     <!--PRELOADER DE LA PAGINA END-->
+
+
+
+    <div class="CONTENT-HEADER">
+      <header class="headerFrente">
+        <div class="header_logoFrontal">
+      
+            <img src="img/LOGO/loogo.png" alt="logo" width="100%" height="100%">
+         
+        </div>
+
+
+        <nav class="header_navFrontal" id="header_navFrontal">
+          <a href="contenido.html">
+            <i class="iconPrinc fas fa-cogs"></i>
+            <span class="nom"> INICIO </span>
+          </a>
+        </nav> 
+      </header>
+    </div>   
+   
+    
+    <div class="CONTENT-PARTICULAS">
+      <div class="contParticulas">
+        <div id="particles-js">
+          
+            <h1 class="titulo_principal
+            animate__animated animate__fadeInDown" style="animation-duration: 2s;">Antonio Dennis Ponce Salazar </h1>
+              
+            <h2 class="subtitle
+            animate__animated animate__fadeInUp" style="animation-duration: 2s;"> <- Desarrollador web <span class="typed"></span></h2>
+            <!--
+            <a href="#" class="contBtnC">
+              <button class="contBtnContact"> Contacto <i class="iconWatt fab fa-whatsapp-square"></i></button>
+            </a>
+            -->
+            <div class="contFooter">
+              <div class="contFooter_cuadroBase">
+                <div class="contFooter_cuadroBase_caja">
+                  <a href="https://www.facebook.com/digitizingCode/" target="_blank">
+                    <i class="IconRed fab fa-facebook-square"></i><span class="caja__parra"> facebook</span>
+                  </a>
+                </div>
+
+
+                <div class="contFooter_cuadroBase_caja">
+                  <a href="https://www.instagram.com/antom_ap/" target="_blank">
+                    <i class="IconRed fab fa-instagram-square"></i><span class="caja__parra"> Instagram</span>
+                  </a>
+                </div>
+
+
+                <div class="contFooter_cuadroBase_caja">
+                  <a href="https://linkedin.com/in/antonio-dennis-ponce-salazar-255243225" target="_blank"><i class="IconRed fab fa-linkedin"></i><span class="caja__parra"> Linkedln</span>
+                  </a>
+                </div>
+
+
+                <div class="contFooter_cuadroBase_caja">
+                  <a href="https://www.youtube.com/channel/UCZtTDiJ1y1lGsi5i3C_s3Qw" target="_blank">
+                    <i class="IconRed fab fa-youtube" title="youTube"></i><span class="caja__parra"> YouTube</span>
+                  </a>
+                </div>
+
+                <div class="contFooter_cuadroBase_caja">
+                  <a href="https://twitter.com/AntonioDennisP1" target="_blank">
+                    <i class="IconRed fab fa-twitter-square" title="youTube"></i><span class="caja__parra"> Twitter</span>
+                  </a>
+                </div>
+      
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+    
+ 
+  
+    
+
+
+
+   <!--SCRIPT DE ANIMATION EL SCROLLING-->
+   <script src="mis_scripts/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+   
+    <!--SCRIPT PARA EL MENU PRINCIPAL-->
+     <script src="mis_scripts/menu.js"></script>
+
+
+     
+    <!--SCRIPT DE PARTICULAS-->
+    <script src="./mis_scripts/particles.min.js"></script>
+    <script src="./mis_scripts/app.js"></script>
+    
+
+
+     <!--SCRIPT DE BTN HAMBURGUESA-->
+     <script src="mis_scripts/hamburguesa.js"></script>
+     
+
+     <!--SCRIPT DE EFECTO TYPEAR-->
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+     <script src="mis_scripts/efecto_typear/main.js"></script>
+
+     <!--SCRIPT DE EFECTO PRELOADER-->
+     <script src="mis_scripts/preloader.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

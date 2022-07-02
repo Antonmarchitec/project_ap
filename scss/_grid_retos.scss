@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /*background-image: url(../img/DEVELOPER.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+.CONTAINER{
+    width: 100%;
+    max-width: 1440px;
+    padding: 10px 0px;
+    background:$colorAzul;
+    margin: auto;
+    display: grid;
+    overflow: hidden;
+    //gap: 1em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px auto auto;
+    grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                         "SECTION     SECTION      SECTION      SIDEBAR"
+                         "SECTION     SECTION      SECTION      SIDEBAR "
+                         "FOOTER      FOOTER       FOOTER       FOOTER";
+    .NAVIGATION{
+        padding: 10px 0px;
+        //background: rgba(165, 42, 42, 0.438);
+        //grid-column: 1/5;
+        //grid-row: 1/2;
+        grid-area:NAVIGATION ;
+        
+    }
+    .SECTION{
+        padding: 10px 0px;
+        //background: rgba(165, 42, 42, 0.438);
+        //grid-column: 1/4;
+        //grid-row: 2/3;
+        grid-area: SECTION;
+    }
+    .SIDEBAR{
+        padding: 10px 0px;
+        //background: rgba(165, 42, 42, 0.438);
+        //grid-column:4/5;
+        //grid-row: 2/3;
+        grid-area: SIDEBAR;
+    }
+    .FOOTER{
+        padding: 10px 0px;
+        //background: rgba(165, 42, 42, 0.438);
+        //grid-column: span 4;
+        grid-area: FOOTER;
+    }
+}
+
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .CONTAINER{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        //background:rgb(84, 226, 65);
+        margin: auto;
+        display: grid;
+        //gap: 1em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                             "SECTION     SECTION      SECTION      SECTION"
+                             "SIDEBAR     SIDEBAR      SIDEBAR      SIDEBAR "
+                             "FOOTER      FOOTER       FOOTER       FOOTER";
+    }
+}
+
+
+
+
+@media (min-width:770px) and (max-width:1024px){
+    .CONTAINER{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        //background:rgb(204, 175, 11);
+        margin: auto;
+        display: grid;
+        //gap: 1em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                             "SECTION     SECTION      SECTION      SECTION"
+                             "SIDEBAR     SIDEBAR      SIDEBAR      SIDEBAR "
+                             "FOOTER      FOOTER       FOOTER       FOOTER";
+    }
+}
+
+
+
+@media (min-width:641px) and (max-width:769px){
+    .CONTAINER{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        //background:rgb(46, 156, 199);
+        margin: auto;
+        display: grid;
+        //gap: 1em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                             "SECTION     SECTION      SECTION      SECTION"
+                             "SIDEBAR     SIDEBAR      SIDEBAR      SIDEBAR "
+                             "FOOTER      FOOTER       FOOTER       FOOTER";
+    }
+}
+
+
+
+@media (min-width:481px) and (max-width:640px){
+    .CONTAINER{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        margin: auto;
+        display: grid;
+        //gap: 1em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                             "SECTION     SECTION      SECTION      SECTION"
+                             "SIDEBAR     SIDEBAR      SIDEBAR      SIDEBAR "
+                             "FOOTER      FOOTER       FOOTER       FOOTER";
+    }
+}
+
+
+
+@media (min-width:20px) and (max-width:480px){
+    .CONTAINER{
+        width: 100%;
+        max-width: 1440px;
+        padding: 10px 0px;
+        //background:rgb(173, 13, 13);
+        margin: auto;
+        display: grid;
+        //gap: 1em;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 80px auto auto;
+        grid-template-areas: "NAVIGATION  NAVIGATION   NAVIGATION   NAVIGATION"
+                             "SECTION     SECTION      SECTION      SECTION"
+                             "SIDEBAR     SIDEBAR      SIDEBAR      SIDEBAR "
+                             "FOOTER      FOOTER       FOOTER       FOOTER";
+    }
+}

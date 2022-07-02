@@ -1,0 +1,713 @@
+@import "../variables";
+
+.contSkills{
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+    background-image: url(../img/developer.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    /////////////////////////////*
+    //////BLOCK SKILL HTML
+    .contSkills_barsA1{
+        width: 20px;
+        height: 120px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        left: calc(50% - 450px);
+        
+    }
+    .contSkills_contHTML{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        left: calc(50% - 500px);
+        top: 130px;
+        .contSkills_contHTML_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contHTML_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contHTML_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL CSS
+    .contSkills_barsA2{
+        width: 20px;
+        height: 120px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        left: calc(50% - 200px);
+        
+    }
+    .contSkills_contCSS{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        left: calc(50% - 250px);
+        top: 130px;
+        .contSkills_contCSS_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contCSS_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contCSS_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL SASS
+    .contSkills_barsA6{
+        width: 20px;
+        height: 190px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        left: calc(50% - 130px);
+        opacity: 0.5;
+    }
+    .contSkills_contSASS{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        left: calc(50% - 180px);
+        top: 190px;
+        opacity: 0.7;
+        .contSkills_contSASS_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contSASS_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contSASS_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL BOOTSTRAP    
+    .contSkills_barsA5{
+        width: 20px;
+        height: 150px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        left:calc(50% - 290px);
+        opacity: 0.7;
+    }
+    .contSkills_contBOOTSTRAP{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        left: calc(50% - 340px);
+        top: 160px;
+        opacity: 0.7;
+        .contSkills_contBOOTSTRAP_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contBOOTSTRAP_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contBOOTSTRAP_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+     
+    /////////////////////////////*
+    //////BLOCK SKILL JS
+    .contSkills_barsA3{
+        width: 20px;
+        height: 120px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        right:calc(50% - 50px);
+    }
+    .contSkills_contJS{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        right: calc(50% - 100px);
+        top: 130px;
+        .contSkills_contJS_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contJS_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contJS_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL REACT
+    .contSkills_barsA7{
+        width: 20px;
+        height: 170px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        right:calc(50% - 130px);
+        opacity: 0.7;
+    }
+    .contSkills_contREACT{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        right: calc(50% - 180px);
+        top: 180px;
+        opacity: 0.7;
+        .contSkills_contREACT_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contREACT_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contREACT_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL GIT    
+    .contSkills_barsA4{
+        width: 20px;
+        height: 120px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        right:calc(50% - 250px);
+    }
+    .contSkills_contGIT{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        right: calc(50% - 300px);
+        top: 130px;
+        .contSkills_contGIT_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contGIT_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contGIT_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL GITHUB    
+    .contSkills_barsA8{
+        width: 20px;
+        height: 170px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        right:calc(50% - 330px);
+        opacity: 0.7;
+    }
+    .contSkills_contGITHUB{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        right: calc(50% - 380px);
+        top: 180px;
+        opacity: 0.7;
+        .contSkills_contGITHUB_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contGITHUB_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contGITHUB_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+
+    /////////////////////////////*
+    //////BLOCK SKILL PHOTOSHOP   
+    .contSkills_barsA9{
+        width: 20px;
+        height: 120px;
+        background: linear-gradient(transparent ,$colorVerde);
+        opacity: 0.5;
+        border-radius: 5px;
+        position: absolute;
+        right:calc(50% - 450px);
+    }
+    .contSkills_contPHOTOSHOP{
+        width: 120px;
+        height: 120px;
+        //background: grey;
+        position: absolute;
+        right: calc(50% - 500px);
+        top: 130px;
+        .contSkills_contPHOTOSHOP_img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            //background: yellow;
+           
+        }
+        .contSkills_contPHOTOSHOP_title{
+            //background: red;
+            margin-top: -15px;
+            .contSkills_contPHOTOSHOP_title_h2{
+                color:$colorVerde;
+                text-align: center;
+            }
+        }
+    }
+
+
+    
+    
+}
+
+
+
+@media (min-width:1025px) and (max-width:1152px) {
+    .contSkills{
+        width: 100%;
+        height: 400px;
+        padding: 10px 0px;
+        position: relative;
+        /////////////////////////////*
+        //////BLOCK SKILL HTML
+        .contSkills_barsA1{
+            width: 20px;
+            height: 120px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            left: calc(50% - 450px);
+            
+        }
+        .contSkills_contHTML{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            left: calc(50% - 500px);
+            top: 130px;
+            .contSkills_contHTML_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contHTML_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contHTML_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL CSS
+        .contSkills_barsA2{
+            width: 20px;
+            height: 120px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            left: calc(50% - 200px);
+            
+        }
+        .contSkills_contCSS{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            left: calc(50% - 250px);
+            top: 130px;
+            .contSkills_contCSS_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contCSS_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contCSS_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL SASS
+        .contSkills_barsA6{
+            width: 20px;
+            height: 190px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            left: calc(50% - 130px);
+            opacity: 0.5;
+        }
+        .contSkills_contSASS{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            left: calc(50% - 180px);
+            top: 190px;
+            opacity: 0.7;
+            .contSkills_contSASS_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contSASS_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contSASS_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL BOOTSTRAP    
+        .contSkills_barsA5{
+            width: 20px;
+            height: 150px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            left:calc(50% - 290px);
+            opacity: 0.7;
+        }
+        .contSkills_contBOOTSTRAP{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            left: calc(50% - 340px);
+            top: 160px;
+            opacity: 0.7;
+            .contSkills_contBOOTSTRAP_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contBOOTSTRAP_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contBOOTSTRAP_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+         
+        /////////////////////////////*
+        //////BLOCK SKILL JS
+        .contSkills_barsA3{
+            width: 20px;
+            height: 120px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            right:calc(50% - 50px);
+        }
+        .contSkills_contJS{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            right: calc(50% - 100px);
+            top: 130px;
+            .contSkills_contJS_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contJS_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contJS_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL REACT
+        .contSkills_barsA7{
+            width: 20px;
+            height: 170px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            right:calc(50% - 130px);
+            opacity: 0.7;
+        }
+        .contSkills_contREACT{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            right: calc(50% - 180px);
+            top: 180px;
+            opacity: 0.7;
+            .contSkills_contREACT_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contREACT_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contREACT_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL GIT    
+        .contSkills_barsA4{
+            width: 20px;
+            height: 120px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            right:calc(50% - 250px);
+        }
+        .contSkills_contGIT{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            right: calc(50% - 300px);
+            top: 130px;
+            .contSkills_contGIT_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contGIT_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contGIT_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL GITHUB    
+        .contSkills_barsA8{
+            width: 20px;
+            height: 170px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            right:calc(50% - 330px);
+            opacity: 0.7;
+        }
+        .contSkills_contGITHUB{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            right: calc(50% - 380px);
+            top: 180px;
+            opacity: 0.7;
+            .contSkills_contGITHUB_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contGITHUB_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contGITHUB_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+    
+        /////////////////////////////*
+        //////BLOCK SKILL PHOTOSHOP   
+        .contSkills_barsA9{
+            width: 20px;
+            height: 120px;
+            background: linear-gradient(transparent ,$colorVerde);
+            opacity: 0.5;
+            border-radius: 5px;
+            position: absolute;
+            right:calc(50% - 450px);
+        }
+        .contSkills_contPHOTOSHOP{
+            width: 120px;
+            height: 120px;
+            //background: grey;
+            position: absolute;
+            right: calc(50% - 500px);
+            top: 130px;
+            .contSkills_contPHOTOSHOP_img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                //background: yellow;
+               
+            }
+            .contSkills_contPHOTOSHOP_title{
+                //background: red;
+                margin-top: -15px;
+                .contSkills_contPHOTOSHOP_title_h2{
+                    color:$colorVerde;
+                    text-align: center;
+                }
+            }
+        }
+    
+    
+        
+        
+    }
+}
+
+
+
+/*
+@media (max-width:1025px) and (min-width:1200px) 
+@media (max-width:770px) and (min-width:1024px)
+@media (max-width:641px) and (min-width:769px)
+@media (max-width:481px) and (min-width:640px)
+@media (max-width:320px) and (min-width:480px)
+
+*/

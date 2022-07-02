@@ -1,0 +1,262 @@
+/*
+RESPONSIVE DESING OFICIAL
+@import (min-width:1025px) and (max-width:1200px){}
+@import (min-width:770px)  and (max-width:1024px){}
+@import (min-width:641px)  and (max-width:769px){}
+@import (min-width:481px)  and (max-width:640px){}
+@import (min-width:320px)  and (max-width:480px){}
+
+*/
+
+
+.headerFrente{
+    width: 100%;
+    padding: 10px 0px;
+    background: $colorAzul;
+    box-shadow: 0px 2px 10px $colorNegro;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    /*position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;*/
+    .header_logoFrontal{
+        width: 100px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .header_navFrontal{
+        //background: green;
+        margin-right: 30px;
+        .iconPrinc{
+           font-size: 30px;
+           color:$colorVerde;
+           animation: rotacion 10s infinite alternate ease-out; 
+        }
+        .nom{
+            color: white;
+            font-size: 18px;
+            margin-left: 8px;
+        }
+        @keyframes rotacion {
+           0%{
+            transform: rotate(0deg);
+           }
+           25%{
+            transform: rotate(50deg);
+           }
+           75%{
+            transform: rotate(180deg);   
+           } 
+           100%{
+            transform: rotate(360deg);   
+           } 
+        }
+    
+    }
+}
+
+
+
+
+
+
+/////////////////CAJA PARTICULASS/////////////////////////
+
+.contParticulas{
+    width: 100%;
+    height: 87vh;
+    background-image: url(../img/desarrollando.jpg);
+    background-size: 100% 100%;
+    //background-attachment: fixed;
+    #particles-js{
+        width: 100%;
+        height:100%;
+        background: $colorAzulTransparente;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .titulo_principal{
+            text-align: center;
+            color:$colorVerde;
+            font-size: 60px;
+            position: absolute;
+            top: 70px;
+            line-height:50px;
+        }
+
+        .subtitle{
+            text-align: center;
+            color:$colorCelesteOscuro;
+            font-size: 30px;
+            position: absolute;
+            top: 140px;
+            //background: green;
+            .front_css_js{
+                color: $colorVerde;
+                font-family: 'Oswald', sans-serif;
+                font-style: normal;
+            }
+        }
+        @media (min-width:770px) and (max-width:1024px){
+            .titulo_principal{
+                margin-top: 30px;
+                font-size: 50px;
+                line-height: 40px;
+            }
+            .subtitle{
+                text-align: center;
+                color:$colorCelesteOscuro;
+                font-size: 28px;
+                position: absolute;
+                top: 160px;
+            }
+        }
+        @media (min-width:641px) and (max-width:769px){
+            .titulo_principal{
+                margin-top: 30px;
+                font-size: 45px;
+                line-height: 40px;
+            }
+            .subtitle{
+                text-align: center;
+                color:$colorCelesteOscuro;
+                font-size: 26px;
+                position: absolute;
+                top: 160px;
+            }
+        }
+        @media (min-width:20px) and (max-width:640px){
+            .titulo_principal{
+                width: 300px;
+                margin-top: -10px;
+                font-size: 45px;
+                line-height: 42px;
+            }
+            .subtitle{
+                text-align: center;
+                color:$colorCelesteOscuro;
+                font-size: 22px;
+                position: absolute;
+                top: 160px;
+            }
+        }
+        
+
+
+
+        ////////////////////FOOTER/////////////////////////
+        .contFooter{
+            width:100%;
+            //padding: 5px 0px;
+            background: $colorAzulTransparente;
+            position: absolute;
+            bottom: 20px;
+            .contFooter_cuadroBase{
+                width: 70%;
+                margin: auto;
+                //background: red;
+                padding: 3px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .contFooter_cuadroBase_caja{
+                    background: transparent;
+                    .IconRed{
+                        font-size: 30px;
+                        color:$colorVerde;
+                        transform:  rotateY(25deg);
+                        transition: all 0.2s;
+                    }
+                    .IconRed:hover{
+                        color: $colorCelesteOscuro;
+                        transform: rotate(360deg);
+                        cursor: pointer;
+                    }  
+                    .caja__parra{
+                        color: white;
+                    }  
+                }
+            }
+        }
+
+        @media (min-width:770px) and (max-width:1024px){
+           .contFooter{
+               //background: firebrick;
+               .contFooter_cuadroBase{
+                width: 90%;
+            }
+           }
+        }
+        @media (min-width:641px) and (max-width:769px){
+            .contFooter{
+                //background: rgb(135, 178, 34);
+                .contFooter_cuadroBase{
+                    width: 90%;
+                }
+            }
+        }
+        @media (min-width:481px) and (max-width:640px){
+            .contFooter{
+                //background: rgb(34, 44, 178);
+                .contFooter_cuadroBase{
+                    width: 95%;
+                    .contFooter_cuadroBase_caja{
+                        background: transparent;
+                        .IconRed{
+                            font-size: 25px;
+                        }
+                        .caja__parra{
+                            color: white;
+                            font-size: 12px;
+                        }  
+                    }
+                }
+            }
+        }
+        @media (min-width:20px) and (max-width:480px){
+            .contFooter{
+                //background: rgb(175, 84, 84);
+                .contFooter_cuadroBase{
+                    //background: firebrick;
+                    width: 70%;
+                    .contFooter_cuadroBase_caja{
+                        background: transparent;
+                        
+                        .IconRed{
+                            font-size:38px;
+                        }
+                        .caja__parra{
+                            color: white;
+                            font-size: 12px;
+                            display: none;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

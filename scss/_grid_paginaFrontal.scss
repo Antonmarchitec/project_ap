@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+/*******ESTILOS DE LA GRID*****/
+/*******ESTILOS DE LA GRID*****/
+/*******ESTILOS DE LA GRID*****/
+/*******ESTILOS DE LA GRID*****/
+.CONTENT-PRINCIPAL{
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    //padding: 10px 0px;
+    background: rgb(194, 194, 194);
+    display: grid;
+    //grid-gap:1em;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:70px auto;
+    grid-template-areas: "CONTENT-HEADER      CONTENT-HEADER       CONTENT-HEADER"
+                         "CONTENT-PARTICULAS  CONTENT-PARTICULAS   CONTENT-PARTICULAS";
+                        
+                         .CONTENT-HEADER{
+                            //padding: 10px 0px;
+                            //background: rgb(169, 9, 9);
+                            grid-area:CONTENT-HEADER;
+                        }
+                        .CONTENT-PARTICULAS{
+                            //padding: 10px 0px;
+                            //background: brown;
+                            grid-area:CONTENT-PARTICULAS;
+                        }
+                       
+}

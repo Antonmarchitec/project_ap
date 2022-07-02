@@ -1,0 +1,137 @@
+{
+    "retos1_9":[
+        {
+            "id":1,
+            "idGit":1,
+            "idLive":1,
+            "title":"Sección de prueba social con valoración",
+            "urlRepositorio":"https://github.com/Antonmarchitec/Secci-n-de-prueba-social.git",
+            "urlVista":"https://antonmarchitec.github.io/Secci-n-de-prueba-social/",
+            "tech_html": "HTML1",
+            "tech_css": "CSS1",
+            "tech_js": "JS1",
+            "imagen":"./img/RETOS/TARGET_1.jpg",
+            "descripcion": "Diseño para sección social desarrollado con HTML, CSS con tres campos de valoración."
+        },
+        {
+            "id":2,
+            "idGit":2,
+            "idLive":2,
+            "title":"Sección en función de cuatro cartas",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_2.jpg",
+            "descripcion": "Sección de cuatro cartas desarrollado en HTML, CSS GRID Y FLEXBOX."
+        },
+        {
+            "id":3,
+            "idGit":3,
+            "idLive":3,
+            "title":"Tarjeta para presentación de clientes",
+            "tech_html": "HTML3",
+            "tech_css": "CSS3",
+            "tech_js": "JS3",
+            "imagen":"./img/RETOS/TARGET_3.jpg",
+            "descripcion": "Tarjetas básicas para clientes creadas con HTML, CSS, FLEXBOX."
+        },
+        {
+            "id":4,
+            "idGit":4,
+            "idLive":4,
+            "title":"Trageta de vistas de tres columnas.",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_4.jpg",
+            "descripcion": "Sección diseñada con HTML, CSS Y FLEXBOX, tres columnas."
+        },
+        {
+            "id":5,
+            "idGit":5,
+            "idLive":5,
+            "title":"Pagina de destino huddle, dos columnas",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_5.jpg",
+            "descripcion": "Sección desarrollada con HTML, CSS GRID y FLEXBOX de dos columnas."
+        },
+        {
+            "id":6,
+            "idGit":6,
+            "idLive":6,
+            "title":"Tarjeta previa de estadísticas",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_6.jpg",
+            "descripcion": "Tarjeta desarrollada en HTML, CSS para estadísticas en dos columnas."
+        },
+        {
+            "id":7,
+            "idGit":7,
+            "idLive":7,
+            "title":"Tarjeta creada con API RESTful de Pokémon",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_7.jpg",
+            "descripcion": "Tarjeta desarrollada con HTML, CSS y JS utilizando la API RESful de Pokémon."
+        },
+        {
+            "id":8,
+            "idGit":8,
+            "idLive":8,
+            "title":"Tablero de control de tiempo",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_8.jpg",
+            "descripcion": "Tablero de control desarrollado en HTML, CSS y JS, utilizando archivo JSON para extracción de datos."
+        },
+        {
+            "id":9,
+            "idGit":9,
+            "idLive":9,
+            "title":"Sitio web turismo espacial",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_9.jpg",
+            "descripcion": "Desarrollo de sitio web con 4 páginas dinámicas en HTML, CSS y JavaScript."
+        }
+        
+    ],
+    
+    "retos10_18":[
+        {
+            "id":10,
+            "idGit":10,
+            "idLive":10,
+            "title":"Huddle landing page",
+            "urlRepositorio":"https://github.com/Antonmarchitec/Huddle-landing-page.git",
+            "urlVista":"https://antonmarchitec.github.io/Huddle-landing-page/",
+            "tech_html": "HTML1",
+            "tech_css": "CSS1",
+            "tech_js": "JS1",
+            "imagen":"./img/RETOS/TARGET_10.jpg",
+            "descripcion": "El proyecto es una solución a los retos que nos ofrece la página de Frontend Mentor,."
+        },
+        {
+            "id":11,
+            "idGit":11,
+            "idLive":11,
+            "title":"Clipboard landing page",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_11.jpg",
+            "descripcion": "Diseño básico de una landing page con un header 5 secciones y un footer trabajados con HTML, CSS y .."
+        }
+    ],
+
+    "retos19_27":[
+        
+    ]
+}

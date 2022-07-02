@@ -1,0 +1,26 @@
+@import "variables";
+.texto{
+    font-size: 20px;
+    color: $colorAzul;
+    
+}
+.class_icon{
+    font-size:15px;
+}
+.class_buttonConfirm{
+    padding: 3px 20px;
+    background: $colorAzul;
+    color: $colorCelesteOscuro;
+    border-radius: 5px;
+    border: 2px solid $colorVerde;
+    margin-right: 5px;
+    color: white;
+}
+.footer{
+    color: $colorCelesteOscuro;
+    font-size: 15px;
+}
+.class_popup{
+    border-radius:15px;
+}
+

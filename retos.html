@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>retos || Portafolio</title>
+</head>
+<body>
+   
+  <!--PRELOADER DE LA PAGINA STAR-->
+  <div class="loader" id="loader">
+    <img src="img/rodaje.gif" class="rodaje">
+    <p style="color: #56fbd3;">Cargando Portafolio..</p>
+  </div>
+   <!--PRELOADER DE LA PAGINA END-->
+
+   
+   <div class="CONTAINER">
+
+     <div class="NAVIGATION">
+       <div class="contNavigation">
+          <div class="contNavigation_logo">
+            <img src="img/LOGO/loogo.png" alt="logo" width="100%" height="100%" class="logo">
+          </div>
+
+          <div class="contNavigation_enlaces" id="contEnlaces">
+            <a href="index.html">
+              <div class="contNavigation__regresar">
+                <div class="contNavigation__regresar__inicio">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg>
+                </div>
+                <span class="ttSpan">INICIO</span>
+              </div>
+            </a> 
+  
+            <a href="contenido.html">
+              <div class="contNavigation__regresar">
+                <div class="contNavigation__regresar__inicio">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg>
+                </div>
+                <span class="ttSpan"> PORTAFOLIO </span>
+              </div>
+            </a> 
+  
+            <a href="landing.html">
+              <div class="contNavigation__regresar">
+                <div class="contNavigation__regresar__inicio">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                  </svg>
+                </div>
+                <span class="ttSpan"> LANDING</span>
+              </div>
+            </a> 
+          </div>
+
+          <div class="contNavigation_BtnRespon" id="btnRetos">
+            <i class="iconResss fa-solid fa-bars"></i>
+          </div>
+       </div>   
+     </div>
+
+     <div class="SECTION">
+       <section class="contentSection">
+
+        <div class="contentSection_cont">
+          <div class="contentSection_contSup">
+
+          </div>
+          <h2 class="contentSection__title 
+          animate__animated animate__fadeInUp">Retos frontEnd</h2>
+          <div class="contentSection_contInf">
+            
+          </div>
+        </div> 
+
+        <section class="contentSection__todosCuadros" id="contSectionCuadros">
+          <!--CONTENIDO TEMPLATE-->
+        </section>
+           
+        <!-----------TEMPLATE TARGET---------------------->
+        <template id="template_target">
+          <div class="contentSection__cuadro wow animate__animated animate__fadeIn">
+
+            <div class="contentSection__cuadro__sup">
+               <img  style="width:100%; height:100%">
+            </div>
+
+            <h1 class="contentSection__cuadro__title" id="titleTarget">Sección de prueba social con valoración</h1>
+
+            <div class="contentSection__cuadro__box">
+              <div class="contentSection__cuadro__box__details">
+                 <div class="caja">
+                   <h2 class="sub" id="techHTML"> HTML</h2>
+                   <h2 class="sub" id="techCSS"> CSS</h2>
+                   <h2 class="sub" id="techJS"> JS</h2>
+
+                 </div>
+                
+              </div>
+
+              <div class="contentSection__cuadro__box__details2">
+                <i class="icon fab fa-github" id="git"></i>
+                <i class="icon fas fa-eye" id="live"></i>
+             </div>
+            </div>
+
+            <p class="contentSection__cuadro__box__description" id="description">
+                Diseño para sección social desarrollado con HTML, CSS con tres campos de valoración.
+            </p>
+          </div>
+        </template>
+        <!--------------------------------->
+
+        <div class="contentSection_blocks">
+          <div class="contentSection_blocks_number" id="num1"> 1 </div>
+          <div class="contentSection_blocks_number" id="num2"> 2 </div>
+          <div class="contentSection_blocks_number" id="num3"> 3 </div>
+          <div class="contentSection_blocks_number" id="num4"> 4 </div>
+          <div class="contentSection_blocks_number" id="num5"> 5 </div>
+      
+        </div>
+
+       </section>
+     </div>
+
+     <div class="SIDEBAR">
+        <h1 class="title__sidebar">Sígueme en:</h1>
+        <section class="contSidebar">
+
+          <a href="https://www.facebook.com/Digitizing-102974211681718" target="_blank">
+            <div class="anuncio1 wow animate__animated animate__backInLeft">
+            </div>
+          </a>
+
+          
+          <a href="https://www.facebook.com/ANTOM-GAME-101778548320899" target="_blank">
+            <div class="anuncio2 wow animate__animated animate__backInRight">
+            </div>
+          </a>
+        </section>
+     </div>
+
+
+     <div class="FOOTER">
+       <footer class="contentFoot">
+
+         <div class="contentFoot__cajaLN">
+           <div class="contentFoot__cajaLN__logo">
+             <img src="img/LOGO/loogo.png" alt="logo" width="100%" height="100%">
+           </div>
+           <div class="contentFoot__cajaLN__nombre">
+             <p class="name"> Antonio Ponce<br><span class="nameObj">Desarrollador Frontend</span></p>
+          </div>
+         </div>
+
+         <div class="contentFoot__cajaRedes">
+           <div class="cajaSociales">
+            <a href="https://www.facebook.com/digitizingCode/" target="_blank">
+              <i class="IconSocial fab fa-facebook-square"></i><span class="nota"> Facebook</span>
+            </a>
+           </div>
+
+           <div class="cajaSociales">
+            <a href="https://www.instagram.com/antom_ap/" target="_blank">
+              <i class="IconSocial fab fa-instagram-square"></i><span class="nota"> Instagram</span>
+            </a>
+           </div>
+
+           <div class="cajaSociales">
+            <a href="https://www.youtube.com/channel/UCZtTDiJ1y1lGsi5i3C_s3Qw" target="_blank">
+              <i class="IconSocial fab fa-youtube" title="youTube"></i><span class="nota"> YouTube</span>
+            </a>
+           </div>
+
+           <div class="cajaSociales">
+            <a href="https://twitter.com/AntonioDennisP1" target="_blank">
+              <i class="IconSocial fab fa-twitter-square" title="youTube"></i><span class="nota"> twitter</span>
+            </a>
+           </div>
+
+           <div class="cajaSociales">
+            <a href="https://linkedin.com/in/antonio-dennis-ponce-salazar-255243225" target="_blank">
+              <i class="IconSocial fab fa-linkedin" title="youTube"></i><span class="nota"> Linkedin</span>
+            </a>
+           </div>
+
+         </div>
+       </footer>
+     </div>
+   </div>
+
+
+   <script src="mis_scripts/preloader.js"></script>
+   <script src="./mis_scripts/btnRetos.js"></script>
+   <script src="./mis_scripts/templates/templates_targets.js"></script>
+
+   <!--SCRIPT DE ANIMATION EL SCROLLING-->
+   <script src="mis_scripts/wow.min.js"></script>
+   <script>
+       new WOW().init();
+   </script>
+</body>
+</html>
