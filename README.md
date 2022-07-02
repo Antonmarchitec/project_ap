@@ -32,7 +32,8 @@ https://vincentgarreau.com/particles.js/
 
 ### - Typed.js
 Efecto animado de escritura typeo.
-https://mattboldt.github.io/typed.js/
+https://mattboldt.github.io/typed.js/   
 
 
-CAMBIANDO
+
+ya no hay cambios
