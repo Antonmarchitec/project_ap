@@ -4352,7 +4352,7 @@ a {
   left: 20px;
   z-index: 500;
   opacity: 0;
-  transition: 1s all;
+  transition: 0.5s all;
   /*@keyframes frontMovie {
       from{
           transform: rotate(0deg);
