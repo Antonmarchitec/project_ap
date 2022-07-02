@@ -36,4 +36,3 @@ https://mattboldt.github.io/typed.js/
 
 
 
-ya no hay cambios
