@@ -12,7 +12,7 @@
     left: 20px;
     z-index: 500;
     opacity: 1;
-    transition: 0.5s all;
+    /*transition: 0.5s all;*/
     .contTemplatesRetos_box{
         width: 70px;
         height: 70px;
@@ -25,13 +25,13 @@
         align-items: center;
         text-align: center;
         line-height: 15px;
-        /*transition: 0.5s all;
+        transition: 0.5s all;
         animation-name: frontMovie;
         animation-duration: 2s;
         animation-timing-function: ease-in-out;
         animation-fill-mode:forwards;
         animation-iteration-count: infinite;
-        animation-direction: alternate;*/
+        animation-direction: alternate;
         .contTemplatesRetos_box_text{
             color: $colorVerde;
             font-size: 13px;
@@ -46,13 +46,13 @@
         }
     }
 
-    /*@keyframes frontMovie {
+    @keyframes frontMovie {
         from{
             transform: rotate(0deg);
         }to{
             transform: rotate(-20deg);
         }
-    }*/
+    }
 
 }
 .contTemsplatesRetos_JS{
