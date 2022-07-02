@@ -4351,8 +4351,8 @@ a {
   bottom: 40px;
   left: 20px;
   z-index: 500;
-  opacity: 1;
-  /*transition: 0.5s all;*/
+  opacity: 0;
+  transition: 1s all;
 }
 .contTemsplatesRetos .contTemplatesRetos_box {
   width: 70px;
@@ -4366,7 +4366,6 @@ a {
   align-items: center;
   text-align: center;
   line-height: 15px;
-  transition: 0.5s all;
   animation-name: frontMovie;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -4396,8 +4395,8 @@ a {
 }
 
 .contTemsplatesRetos_JS {
-  /*opacity: 1;*/
-  /*transform: rotate(360deg);*/
+  opacity: 1;
+  transform: rotate(360deg);
 }
 
 .containerPortfolio {
