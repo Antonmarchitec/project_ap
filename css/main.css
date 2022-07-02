@@ -4396,7 +4396,7 @@ a {
 
 .contTemsplatesRetos_JS {
   opacity: 1;
-  transform: rotate(360deg);
+  /*transform: rotate(360deg);*/
 }
 
 .containerPortfolio {
