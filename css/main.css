@@ -4368,7 +4368,7 @@ a {
   line-height: 15px;
   animation-name: frontMovie;
   animation-duration: 2s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: all;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   animation-direction: alternate;
