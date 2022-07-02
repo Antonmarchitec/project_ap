@@ -11,8 +11,8 @@
     bottom: 40px;
     left: 20px;
     z-index: 500;
-    opacity: 1;
-    transition: 1s ease-in-out;
+    opacity: 0;
+    transition: 1s all;
     .contTemplatesRetos_box{
         width: 70px;
         height: 70px;
@@ -56,6 +56,6 @@
 
 }
 .contTemsplatesRetos_JS{
-    /*opacity: 1;*/
-    /*transform: rotate(360deg);*/
+    opacity: 1;
+    transform: rotate(360deg);
 }
