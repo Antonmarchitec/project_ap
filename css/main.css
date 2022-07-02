@@ -4351,7 +4351,7 @@ a {
   bottom: 40px;
   left: 20px;
   z-index: 500;
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s all;
   /*@keyframes frontMovie {
       from{
@@ -4395,7 +4395,7 @@ a {
 }
 
 .contTemsplatesRetos_JS {
-  opacity: 1;
+  /*opacity: 1;*/
   /*transform: rotate(360deg);*/
 }
 
