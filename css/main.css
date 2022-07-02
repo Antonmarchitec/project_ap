@@ -4353,6 +4353,13 @@ a {
   z-index: 500;
   opacity: 0;
   transition: 1s ease-in-out;
+  /*@keyframes frontMovie {
+      from{
+          transform: rotate(0deg);
+      }to{
+          transform: rotate(-20deg);
+      }
+  }*/
 }
 .contTemsplatesRetos .contTemplatesRetos_box {
   width: 70px;
@@ -4366,13 +4373,13 @@ a {
   align-items: center;
   text-align: center;
   line-height: 15px;
-  transition: 0.5s all;
+  /*transition: 0.5s all;
   animation-name: frontMovie;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
+  animation-fill-mode:forwards;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate;*/
 }
 .contTemsplatesRetos .contTemplatesRetos_box .contTemplatesRetos_box_text {
   color: #56fbd3;
@@ -4386,18 +4393,10 @@ a {
 .contTemsplatesRetos .contTemplatesRetos_box:hover .contTemplatesRetos_box_text {
   color: white;
 }
-@keyframes frontMovie {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-20deg);
-  }
-}
 
 .contTemsplatesRetos_JS {
   opacity: 1;
-  transform: rotate(360deg);
+  /*transform: rotate(360deg);*/
 }
 
 .containerPortfolio {
