@@ -5474,6 +5474,7 @@ a {
   margin: 10px auto;
   position: relative;
   overflow: hidden;
+  animation-duration: 3s;
 }
 #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen {
   width: 100%;

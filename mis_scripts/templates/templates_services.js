@@ -27,6 +27,7 @@ const pintarCuadroServicios = (dataServices) =>{
         templateCuadro.querySelector("#contCuadro_title").textContent = element.title
         templateCuadro.querySelector("#imgServices").setAttribute("src", element.imagen)
         templateCuadro.querySelector("#contCuadro_parrafo").textContent = element.descripcion
+        templateCuadro.querySelector("#imgServices").setAttribute("alt", element.title)
         
         let cloneServices = templateCuadro.cloneNode(true)
         fragmentServicios.appendChild(cloneServices)
