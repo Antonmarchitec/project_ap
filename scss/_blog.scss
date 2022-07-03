@@ -1,0 +1,106 @@
+@import "variables";
+
+.contBlog{
+    width: 150px;
+    padding: 8px 0px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 100;
+    background: $colorAzulTransparente;
+    border: 2px solid $colorVerde;
+    border-radius: 10px;
+    opacity: 1;
+    transition: 0.5s all;
+    transform: translateX(200px);
+    .contBlog_title{
+        text-align: center;
+        font-size: 16px;
+        color: $colorVerde;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconBlog{
+        margin-left: 10px;
+        color:$colorCelesteOscuro;
+        font-size: 38px;
+        animation-name: blogMovi;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-fill-mode:backwards;
+        animation-direction: alternate;
+    }
+    .iconBlog:hover{
+        color: $colorVerde;
+    }
+    @keyframes blogMovi {
+        from{
+            transform: scale(1,1);
+            color: $colorCelesteOscuro;
+        }to{
+            transform: scale(1.1,1.1);
+            color: $colorVerde;
+        }
+    }
+}
+
+.contBlog_JS{
+    transform: translateX(0px);
+}
+
+
+
+@media (min-width:320px) and (max-width:640px){
+    .contBlog{
+        width: 150px;
+        padding: 5px 0px;
+        position: fixed;
+        bottom: 90px;
+        right: 0px;
+        z-index: 100;
+        background: $colorAzulTransparente;
+        border: 2px solid $colorVerde;
+        border-radius: 10px;
+        opacity: 1;
+        transition: 0.5s all;
+        transform: translateX(200px);
+        .contBlog_title{
+            text-align: center;
+            font-size: 14px;
+            color: $colorVerde;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .iconBlog{
+            margin-left: 10px;
+            color:$colorCelesteOscuro;
+            font-size: 20px;
+            animation-name: blogMovi;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-fill-mode:backwards;
+            animation-direction: alternate;
+        }
+        .iconBlog:hover{
+            color: $colorVerde;
+        }
+        @keyframes blogMovi {
+            from{
+                transform: scale(1,1);
+                color: $colorCelesteOscuro;
+            }to{
+                transform: scale(1.1,1.1);
+                color: $colorVerde;
+            }
+        }
+    }
+    .contBlog_JS{
+        transform: translateX(0px);
+    }
+}

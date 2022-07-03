@@ -1,5 +1,6 @@
 
 let contTemsplatesRetos = document.querySelector("#contTemsplatesRetos")
+let posTitleContacto = document.querySelector("#contacto")
 
 
 
@@ -11,11 +12,12 @@ document.addEventListener("scroll", () =>{
      let scrollPosition = document.documentElement.scrollTop
      //console.log(scrollPosition)
 
+     let contactPosition = posTitleContacto.offsetTop     //5541
+     //console.log(contactPosition)
+
      if(scrollPosition > elementPosition){
         contTemsplatesRetos.classList.add("contTemsplatesRetos_JS")
      }else if(scrollPosition < elementPosition){
         contTemsplatesRetos.classList.remove("contTemsplatesRetos_JS")
      }
-      
-    
 })

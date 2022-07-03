@@ -21,7 +21,7 @@ const dataFechServices = async () =>{
 
 
 const pintarCuadroServicios = (dataServices) =>{
-    console.log(dataServices)
+    //console.log(dataServices)
     dataServices.forEach( element => {
         //console.log(element)
         templateCuadro.querySelector("#contCuadro_title").textContent = element.title
