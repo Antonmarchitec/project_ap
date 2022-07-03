@@ -5504,7 +5504,6 @@ a {
   margin-top: 180px;
   opacity: 0;
   color: white;
-  font-size: 18px;
   transition: 0.5s all;
 }
 @media only screen and (max-width: 720px) {
