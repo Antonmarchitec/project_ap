@@ -6,47 +6,47 @@
         "descripcion": "Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier resolución: equipos de escritorio, tablet y dispositivos móviles."
     },   
     {
-        "id":3,
+        "id":2,
         "title":"Asesoria frontEnd",
         "imagen":"./img/SERVICIOS/ASESORIA.png",
         "descripcion": "Si estás iniciando en el desarrollo web, puedo asesorarte para que tomes la mejor ruta de aprendizaje, con base en mi experiencia."
     },   
     {
-        "id":4,
+        "id":3,
         "title":"Diseño grafico",
         "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
         "descripcion": "Personalización de logotipos y artes publicitarios para tu negocio o emprendimiento."
     },   
     {
-        "id":5,
+        "id":4,
         "title":"Páginas One page",
         "imagen":"./img/SERVICIOS/ECOMMERCE.png",
         "descripcion": "Diseño de páginas one page a medida para tu negocio o emprendimiento donde podras presentar todo tus servicios en una sola pagina."
     },   
     {
-        "id":6,
+        "id":5,
         "title":"Páginas corporativas",
-        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "imagen":"./img/SERVICIOS/ASESORIA.png",
         "descripcion": "Desarrollo de paginas web corporativas hechas a medida y con todas las caracteristicas que represente a tu empresa."
     },   
     
     {
-        "id":8,
+        "id":6,
         "title":"Páginas presenciales",
-        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "imagen":"./img/SERVICIOS/ASESORIA.png",
         "descripcion": "Desarrollo de paginas web para negocios pequeños o que estan iniciando, muestra tus productos o servicios."
     },
     {
-        "id":10,
+        "id":7,
         "title":"Landing name",
-        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "imagen":"./img/SERVICIOS/ASESORIA.png",
         "descripcion": "Una landing promocionando tu nombre y tu marca integrando tu curriculum web personalizado."
     },
     
     {
-        "id":12,
+        "id":8,
         "title":"Podcast web",
-        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "imagen":"./img/SERVICIOS/ASESORIA.png",
         "descripcion": "Una página web para compartir tus podcasts, canal e integrar todos tus canales."
     }  
     
