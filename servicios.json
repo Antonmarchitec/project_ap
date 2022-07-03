@@ -3,13 +3,13 @@
         "id":1,
         "title":"Sitios web y landing page",
         "imagen":"./img/SERVICIOS/SITIOS_WEB.png",
-        "descripcion": "Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier resolución: equipos de escritorio, tablet y dispositivos móviles."
+        "descripcion": "Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier dispositivo: equipos de escritorio, tablet y dispositivos móviles."
     },   
     {
         "id":2,
         "title":"Asesoria frontEnd",
         "imagen":"./img/SERVICIOS/ASESORAMOS.png",
-        "descripcion": "Si estás iniciando en el desarrollo web, puedo asesorarte para que tomes la mejor ruta de aprendizaje, con base en mi experiencia."
+        "descripcion": "Si estás iniciando en el desarrollo web, puedo asesorarte para que tomes la mejor ruta de aprendizaje, en base en mi experiencia."
     },   
     {
         "id":3,
@@ -46,8 +46,8 @@
     {
         "id":8,
         "title":"Podcast web",
-        "imagen":"./img/SERVICIOS/ASESORIA.png",
-        "descripcion": "Una página web para compartir tus podcasts, canal e integrar todos tus canales."
+        "imagen":"./img/SERVICIOS/POSDCAST.png",
+        "descripcion": "Una página web para compartir tus conocimientos, servicios o productos en formato de audio."
     }  
     
 ]  
