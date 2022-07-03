@@ -4,15 +4,15 @@
     width: 150px;
     padding: 8px 0px;
     position: fixed;
-    bottom: 100px;
-    right: 20px;
+    bottom: 50px;
+    right: 150px;
     z-index: 100;
     background: $colorAzulTransparente;
     border: 2px solid $colorVerde;
     border-radius: 10px;
     opacity: 1;
     transition: 0.5s all;
-    transform: translateX(200px);
+    transform: translateX(300px);
     .contBlog_title{
         text-align: center;
         font-size: 16px;

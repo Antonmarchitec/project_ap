@@ -1,0 +1,39 @@
+@import "variables";
+
+.contRedes{
+    width: 35px;
+    padding: 10px 0px;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    z-index: 100;
+    .contRedes_box{
+        width: 100%;
+        padding: 5px;
+        background:$colorAzulTransparente;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+        .IconRed{
+            color: $colorVerde;
+            font-size: 28px;
+            width: 50px;
+            z-index: 100;
+        }
+        .textRedes{
+            color: white;
+            font-size: 20px;
+            transition: 0.5s all;
+            opacity: 0;
+        }
+        
+    }
+
+    .contRedes_box:hover{
+        .textRedes{
+            transform: translateX(-110px) rotate(8deg);
+            opacity: 1;
+        }
+    }
+}
