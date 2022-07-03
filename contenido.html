@@ -339,67 +339,29 @@
               <path fill="#000000" fill-opacity="1" d="M0,64L0,96L40,96L40,96L80,96L80,64L120,64L120,256L160,256L160,160L200,160L200,256L240,256L240,224L280,224L280,64L320,64L320,192L360,192L360,320L400,320L400,96L440,96L440,96L480,96L480,96L520,96L520,224L560,224L560,288L600,288L600,256L640,256L640,64L680,64L680,256L720,256L720,288L760,288L760,224L800,224L800,128L840,128L840,64L880,64L880,288L920,288L920,128L960,128L960,64L1000,64L1000,0L1040,0L1040,32L1080,32L1080,192L1120,192L1120,256L1160,256L1160,224L1200,224L1200,224L1240,224L1240,160L1280,160L1280,256L1320,256L1320,32L1360,32L1360,64L1400,64L1400,160L1440,160L1440,0L1400,0L1400,0L1360,0L1360,0L1320,0L1320,0L1280,0L1280,0L1240,0L1240,0L1200,0L1200,0L1160,0L1160,0L1120,0L1120,0L1080,0L1080,0L1040,0L1040,0L1000,0L1000,0L960,0L960,0L920,0L920,0L880,0L880,0L840,0L840,0L800,0L800,0L760,0L760,0L720,0L720,0L680,0L680,0L640,0L640,0L600,0L600,0L560,0L560,0L520,0L520,0L480,0L480,0L440,0L440,0L400,0L400,0L360,0L360,0L320,0L320,0L280,0L280,0L240,0L240,0L200,0L200,0L160,0L160,0L120,0L120,0L80,0L80,0L40,0L40,0L0,0L0,0Z"></path>
             </svg>
 
-            <div class="containerBaseCuadros">
+            <div class="containerBaseCuadros" id="containerBaseCuadros">
                <!--------------PRIMER CUADRO---------------------->
-              <div class="contCuadro
-              wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
-                <div class="contCuadro_imagen">
-
-                </div>
-                <div class="contCuadro_descripcion">
-                  <h2 class="contCuadro_title">SITIOS WEB Y<br>LANDING PAGE</h2>
-                  <p class="contCuadro_parrafo">
-                    Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier resolución: equipos de escritorio, tablet y dispositivos móviles.       
-                  </p>
-                  <a href="planes.html"><button class="btnPlanes"> Ver planes</button></a>
-                </div> 
-              </div>
-
-              <!--------------SEGUNDO CUADRO---------------------->
-              <div class="contCuadro
-              wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
-                <div class="contCuadro_imagen2">
-
-                </div>
-                <div class="contCuadro_descripcion">
-                  <h2 class="contCuadro_title">TIENDA ONLINE<br>ECOMMERCE</h2>
-                  <p class="contCuadro_parrafo">
-                    Entra en el mundo digital y empieza a vender 
-                    tus productos y servicios por internet a travez de 
-                    tu sitio web!       
-                  </p>
-                </div> 
-              </div>
-              
-              <!--------------TERCER CUADRO---------------------->
-              <div class="contCuadro
-              wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
-                <div class="contCuadro_imagen3">
-
-                </div>
-                <div class="contCuadro_descripcion">
-                  <h2 class="contCuadro_title">ASESORÍA<br>FRONT-END</h2>
-                  <p class="contCuadro_parrafo">
-                    Si estás iniciando en el desarrollo web, puedo asesorarte para que tomes la mejor ruta de aprendizaje, con base en mi experiencia.
-                  </p>
-                </div> 
-              </div>             
               
 
-              <!--------------CUARTO CUADRO---------------------->
-              <div class="contCuadro
-              wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
-                <div class="contCuadro_imagen4">
+              <!--------------TEMPLATE CUADRO---------------------->
+              <template id="templateCuadro">
+                <div class="contCuadro
+                 wow animate__animated animate__fadeIn" style="animation-duration: 3s;">
+                  <div class="contCuadro_imagen">
+                    <img src="" alt="" style="width:100%; height:100%;" id="imgServices">
+                  </div>
 
+                  <div class="contCuadro_descripcion">
+                    <h2 class="contCuadro_title" id="contCuadro_title">SITIOS WEB Y LANDING PAGE</h2>
+                    <p class="contCuadro_parrafo" id="contCuadro_parrafo">
+                      Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier resolución: equipos de escritorio, tablet y dispositivos móviles.       
+                    </p>
+                    <a href="planes.html"><button class="btnPlanes"> Ver planes</button></a>
+                  </div> 
                 </div>
-                <div class="contCuadro_descripcion">
-                  <h2 class="contCuadro_title">DISEÑO <br>GRÁFICO</h2>
-                  <p class="contCuadro_parrafo">
-                    Personalización de logotipos y artes publicitarios para tu negocio o emprendimiento.              
-                  </p>
-                </div> 
-              </div>              
-      
+              </template>
+          
+             
             </div>
 
             <div class="contBase_gradient">
@@ -815,6 +777,7 @@
     <script src="mis_scripts/galeria_mentor.js"></script>
     <script src="./mis_scripts/titleMovi.js"></script>
     <script src="./mis_scripts/contTemplatesRetos.js"></script>
+    <script src="./mis_scripts/templates/templates_services.js"></script>
 
      <!--SCRIPT DE EFECTO PRELOADER-->
      <script src="mis_scripts/preloader.js"></script>

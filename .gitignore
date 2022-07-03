@@ -1,0 +1,24 @@
+{
+        "id":2,
+        "title":"Tienda online Ecommerce",
+        "imagen":"./img/SERVICIOS/ECOMMERCE.png",
+        "descripcion": "Entra en el mundo digital y empieza a vender tus productos y servicios por internet a travez de tu sitio web!"
+    },
+    {
+        "id":7,
+        "title":"Landing Shope",
+        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "descripcion": "Combinación de artículo con tienda, en una sola sección, se muestran beneficios y  compra."
+    },
+    {
+        "id":9,
+        "title":"Payme web",
+        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "descripcion": "Desarrollo web para negocios pequeños o Startup, muestra tus productos o servicios."
+    }, 
+    {
+        "id":11,
+        "title":"Marca personal",
+        "imagen":"./img/SERVICIOS/DISEÑO_GRAFICO.png",
+        "descripcion": "Desarrollo de tu web con tu nombre para potencializar tu imagen."
+    }
