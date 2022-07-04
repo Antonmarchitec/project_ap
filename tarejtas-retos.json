@@ -128,6 +128,28 @@
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_11.jpg",
             "descripcion": "Diseño básico de una landing page con un header 5 secciones y un footer trabajados con HTML, CSS y .."
+        },
+        {
+            "id":12,
+            "idGit":12,
+            "idLive":12,
+            "title":"Preview card component",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_12.jpg",
+            "descripcion": "Este es un desafío de la página frontend mentor que nos permite mejorar nuestra técnica en HTML y CSS y es perfecto para mejorar los aspectos receptivos."
+        },
+        {
+            "id":13,
+            "idGit":13,
+            "idLive":13,
+            "title":"Seccion_cuadricula_testimonios",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_13.jpg",
+            "descripcion": "Práctica perfecta para cualquiera que quiera probar sus habilidades con CSS Grid. Grid es una adición tan poderosa a CSS, ¡así que vale la pena familiarizarse con él!."
         }
     ],
 

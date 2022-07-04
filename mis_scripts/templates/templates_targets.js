@@ -98,8 +98,6 @@ const pintarTarjetas = (data) =>{
             location.href = "https://antonmarchitec.github.io/Turismo_espacial/"
         }
         
-        
-        
     })
     
 }
@@ -147,10 +145,17 @@ const pintarTarjetas2 = (data) =>{
         }else if(e.target.dataset.idGit === "11"){
             //console.log("me diste en live 1")
             location.href = "https://github.com/Antonmarchitec/Clipboard_landing-_page.git"
-        }else if(e.target.dataset.idLive === "11"){
+        }else if(e.target.dataset.idLive === "12"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Clipboard_landing-_page/"
+            location.href = "https://antonmarchitec.github.io/Product_preview_card_component/"
+        }else if(e.target.dataset.idGit === "13"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git"
+        }else if(e.target.dataset.idLive === "13"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
         }
+        
     })
 }
 ////////////////////////////////////////////////////////////////////////
