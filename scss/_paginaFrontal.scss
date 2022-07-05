@@ -136,12 +136,13 @@ RESPONSIVE DESING OFICIAL
                 top: 160px;
             }
         }
-        @media (min-width:20px) and (max-width:640px){
+        @media (min-width:320px) and (max-width:640px){
             .titulo_principal{
-                width: 300px;
+                width: 90%;
                 margin-top: -10px;
-                font-size: 45px;
+                font-size: 49px;
                 line-height: 42px;
+                color: white;
             }
             .subtitle{
                 text-align: center;
