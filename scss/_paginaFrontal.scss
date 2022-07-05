@@ -142,7 +142,7 @@ RESPONSIVE DESING OFICIAL
                 margin-top: -10px;
                 font-size: 49px;
                 line-height: 42px;
-                color: white;
+              
             }
             .subtitle{
                 text-align: center;
@@ -198,6 +198,7 @@ RESPONSIVE DESING OFICIAL
                //background: firebrick;
                .contFooter_cuadroBase{
                 width: 90%;
+
             }
            }
         }
@@ -227,17 +228,15 @@ RESPONSIVE DESING OFICIAL
                 }
             }
         }
-        @media (min-width:20px) and (max-width:480px){
+        @media (min-width:320px) and (max-width:480px){
             .contFooter{
                 //background: rgb(175, 84, 84);
                 .contFooter_cuadroBase{
-                    //background: firebrick;
                     width: 70%;
                     .contFooter_cuadroBase_caja{
                         background: transparent;
-                        
                         .IconRed{
-                            font-size:38px;
+                            font-size:35px;
                         }
                         .caja__parra{
                             color: white;
