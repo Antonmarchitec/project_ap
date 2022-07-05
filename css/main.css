@@ -274,10 +274,12 @@ RESPONSIVE DESING OFICIAL
 .contParticulas #particles-js .titulo_principal {
   text-align: center;
   color: #56fbd3;
-  font-size: 60px;
+  font-size: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: absolute;
   top: 70px;
   line-height: 50px;
+  letter-spacing: -2px;
 }
 .contParticulas #particles-js .subtitle {
   text-align: center;
