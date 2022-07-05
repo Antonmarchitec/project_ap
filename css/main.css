@@ -4305,18 +4305,19 @@ a {
   }
 }
 .contTemsplatesRetos {
-  width: 170px;
-  padding: 10px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  width: 100px;
+  height: 150px;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   bottom: 40px;
   left: 20px;
   z-index: 500;
   opacity: 0;
-  transition: 1s all;
+  transition: 0.5s all;
+  transform: translateX(-100px);
 }
 .contTemsplatesRetos .contTemplatesRetos_box {
   width: 70px;
@@ -4360,14 +4361,9 @@ a {
 
 .contTemsplatesRetos_JS {
   opacity: 1;
-  transform: rotate(360deg);
+  transform: translateX(0);
 }
 
-/*.contTemsplatesRetos_JS2{
-    opacity: 0;
-    transform: rotate(360deg);
-    background: green;
-}*/
 .contBlog {
   width: 150px;
   padding: 8px 0px;
