@@ -1,8 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
 .header {
   background: #0c1b32;
   transition: 0.5s all;
@@ -170,13 +177,6 @@
     box-shadow: 0px 2px 20px #56fbd3;
   }
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
-}
-
 /*******ESTILOS DE LA GRID*****/
 /*******ESTILOS DE LA GRID*****/
 /*******ESTILOS DE LA GRID*****/
@@ -284,12 +284,14 @@ RESPONSIVE DESING OFICIAL
   color: #96aadb;
   font-size: 30px;
   position: absolute;
-  top: 140px;
+  top: 130px;
+  font-weight: 300;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
-  color: #56fbd3;
+  color: white;
   font-family: "Oswald", sans-serif;
   font-style: normal;
+  font-size: 25px;
 }
 @media (min-width: 770px) and (max-width: 1024px) {
   .contParticulas #particles-js .titulo_principal {
@@ -329,7 +331,7 @@ RESPONSIVE DESING OFICIAL
   .contParticulas #particles-js .subtitle {
     text-align: center;
     color: #96aadb;
-    font-size: 22px;
+    font-size: 25px;
     position: absolute;
     top: 160px;
   }
@@ -544,7 +546,9 @@ html {
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
   text-align: justify;
-  color: #77829e;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
   color: #56fbd3;
@@ -555,6 +559,8 @@ html {
   padding: 5px;
   background: rgba(12, 27, 50, 0.6980392157);
   color: white;
+  font-size: 18px;
+  font-weight: 300;
   margin-top: 20px;
   margin-left: 10px;
   float: right;
@@ -564,7 +570,9 @@ html {
   cursor: pointer;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-  font-size: 18px;
+  margin-left: 5px;
+  font-size: 25px;
+  color: #56fbd3;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
   background: rgba(255, 255, 255, 0.075);
@@ -652,7 +660,7 @@ html {
     }
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 430px;
+    width: 83%;
     height: 270px;
     position: absolute;
     left: 100px;
@@ -660,14 +668,14 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
-    color: #77829e;
+    color: white;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
     border: 2px solid #56fbd3;
-    padding: 5px 50px;
+    padding: 5px 30px;
     background: rgba(12, 27, 50, 0.6980392157);
     color: white;
     margin-top: 20px;
@@ -678,7 +686,9 @@ html {
     cursor: pointer;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    font-size: 18px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
     background: rgba(255, 255, 255, 0.075);
@@ -736,7 +746,7 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 600px;
+    height: 750px;
     margin-left: initial;
     position: relative;
   }
@@ -766,7 +776,7 @@ html {
     }
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 45%;
+    width: 40%;
     padding: 10px 0px;
     height: initial;
     position: absolute;
@@ -776,14 +786,14 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
-    color: #77829e;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 100%;
     border: 2px solid #56fbd3;
-    padding: 5px 50px;
+    padding: 5px 0px;
     background: rgba(12, 27, 50, 0.6980392157);
     color: white;
     margin-top: 8px;
@@ -794,7 +804,9 @@ html {
     cursor: pointer;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    font-size: 18px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
     background: rgba(255, 255, 255, 0.075);
@@ -804,7 +816,7 @@ html {
     width: 50%;
     margin-right: initial;
     margin-left: 20px;
-    margin-top: -200px;
+    margin-top: -300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -847,10 +859,11 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 600px;
+    height: 780px;
     margin-left: initial;
     position: relative;
   }
@@ -885,17 +898,17 @@ html {
     height: initial;
     position: absolute;
     right: 20px;
-    bottom: -10;
+    bottom: 0;
     left: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
-    color: #77829e;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 100%;
     border: 2px solid #56fbd3;
     padding: 5px 50px;
     background: rgba(12, 27, 50, 0.6980392157);
@@ -908,24 +921,28 @@ html {
     cursor: pointer;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    font-size: 18px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
     background: rgba(255, 255, 255, 0.075);
     border: 2px solid #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_der {
-    width: 40%;
+    width: 48%;
     margin-right: initial;
-    margin-left: 20px;
-    margin-top: -280px;
+    margin-left: initial;
+    margin-top: initial;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 400px;
   }
   #cont_descripcion_foto .contBase .contenedor_der .foto {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     background-image: url(../img/foto.jpg);
     background-size: 100% 100%;
     margin: auto;
@@ -957,14 +974,14 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 680px;
+    height: 750px;
     margin-left: initial;
     position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
     width: 100%;
     height: initial;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 10px;
     font-size: 120px;
     color: #56fbd3;
@@ -997,8 +1014,8 @@ html {
     left: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    margin-top: 25px;
     text-align: justify;
-    color: #77829e;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1018,7 +1035,9 @@ html {
     cursor: pointer;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    font-size: 18px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
     background: rgba(255, 255, 255, 0.075);
@@ -1382,19 +1401,6 @@ html {
 
 .class_popup {
   border-radius: 15px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  /*background-image: url(../img/DEVELOPER.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
 }
 
 .CONTAINER {
@@ -5610,13 +5616,14 @@ a {
   transition: 0.5s all;
 }
 #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_title {
-  width: 70%;
+  width: 60%;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
   line-height: 25px;
   color: #56fbd3;
   line-height: 24px;
+  font-size: 20px;
 }
 #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_parrafo {
   text-align: center;
@@ -5624,11 +5631,13 @@ a {
   opacity: 0;
   color: white;
   transition: 0.5s all;
+  font-size: 18px;
 }
 @media only screen and (max-width: 720px) {
   #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_parrafo {
     margin-top: 15px;
     opacity: 1;
+    font-size: 18px;
   }
 }
 #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .btnPlanes {
@@ -5867,6 +5876,24 @@ a {
   }
   #contBase .containerBaseCuadros {
     margin-top: -50px;
+  }
+  #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion {
+    width: 100%;
+    height: 250px;
+    padding: 18px 20px;
+    position: absolute;
+    top: 0;
+    transition: 0.5s all;
+  }
+  #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_title {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    color: #56fbd3;
+    line-height: 24px;
+    font-size: 25px;
   }
   #contBase .contBase_gradient {
     width: 100%;

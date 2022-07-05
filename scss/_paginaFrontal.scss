@@ -96,12 +96,14 @@ RESPONSIVE DESING OFICIAL
             color:$colorCelesteOscuro;
             font-size: 30px;
             position: absolute;
-            top: 140px;
+            top: 130px;
+            font-weight: 300;
             //background: green;
             .front_css_js{
-                color: $colorVerde;
+                color: white;
                 font-family: 'Oswald', sans-serif;
                 font-style: normal;
+                font-size: 25px;
             }
         }
         @media (min-width:770px) and (max-width:1024px){
@@ -142,7 +144,7 @@ RESPONSIVE DESING OFICIAL
             .subtitle{
                 text-align: center;
                 color:$colorCelesteOscuro;
-                font-size: 22px;
+                font-size: 25px;
                 position: absolute;
                 top: 160px;
             }
