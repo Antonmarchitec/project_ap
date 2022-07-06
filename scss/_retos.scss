@@ -205,6 +205,8 @@ a{
     width: 100%;
     padding: 10px 15px;
     background:$colorAzul;
+
+    //TITULO RETOS FRONTEND////////////////////////////////////////////
     .contentSection_cont{
         width: 100%;
         height: 200px;
@@ -239,8 +241,10 @@ a{
         .contentSection_cont{
         
             .contentSection_contSup{
-               
+                width: 100%;
+                height: 200px;
             }
+            s
             .contentSection__title{
                 width: 80%;
                 margin: auto;
@@ -252,18 +256,22 @@ a{
                 letter-spacing: -5px;
                 line-height: 90px;
 
-           }
+            }
           
             .contentSection_contInf{
-             
+                width: 100%;
+                height: 200px;
             }
         }
     }
 
     @media (min-width:320px) and (max-width:479px){
         .contentSection_cont{
+            width: 100%;
+            height: 180px;
             .contentSection_contSup{
-               
+                width: 100%;
+                height: 180px;
             }
             .contentSection__title{
                 width: 90%;
@@ -278,14 +286,17 @@ a{
            }
           
             .contentSection_contInf{
-             
+                width: 100%;
+                height: 180px;
             }
         }
     }
 
+
+    //SECCION DE LOS CUADROS FRONTEND//////////////////////////////////
     .contentSection__todosCuadros{
-        margin-top: 20px;
-        padding: 10px 0px;
+        margin-top: 5px;
+        padding: 5px 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -303,7 +314,6 @@ a{
             text-align: center;
             box-shadow: 0px 0px 5px $colorVerde;
             transition: 0.2s all;
-            
             .contentSection__cuadro__sup{
                 width: 100%;
                 height: 200px;
@@ -378,7 +388,7 @@ a{
                 text-align: center;
                 box-shadow: 0px 0px 5px rgb(255, 255, 255);
                 transition: 0.2s all;
-                
+
                 
                 .contentSection__cuadro__sup{
                     width: 100%;
@@ -677,7 +687,8 @@ a{
         }
 
     }
-
+ 
+    //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
     .contentSection_blocks{
         width: 280px;
         margin: auto;
@@ -708,11 +719,16 @@ a{
 
 
 ///////////SIDEBAR////////////////////
+/// TITULO SIGUEME EN: //////////////////////////////////////////////////
 .title__sidebar{
     color: white;
-    font-size: 25px;
+    font-size: 40px;
     margin-left: 10px;
 }
+
+
+
+//BLOQUE SIDEBAR ///////////////////////////////
 .contSidebar{
     margin-top: 10px;
     width: 100%;
@@ -722,7 +738,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
+    
    
     .anuncio1{
         margin: 10px auto;
@@ -877,7 +893,7 @@ a{
     }
 }
 
-////////////////////////////////////////////////////////
+
 
 
 
