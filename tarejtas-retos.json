@@ -116,7 +116,7 @@
             "tech_css": "CSS1",
             "tech_js": "JS1",
             "imagen":"./img/RETOS/TARGET_10.jpg",
-            "descripcion": "El proyecto es una solución a los retos que nos ofrece la página de Frontend Mentor,."
+            "descripcion": "Landing page Huddle desarrollada con HTML y CSS 4 secciones mas su pie de pagina. "
         },
         {
             "id":11,
@@ -127,7 +127,7 @@
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_11.jpg",
-            "descripcion": "Diseño básico de una landing page con un header 5 secciones y un footer trabajados con HTML, CSS y .."
+            "descripcion": "Diseño básico de una landing page con un header 5 secciones y un footer trabajados con HTML y CSS."
         },
         {
             "id":12,

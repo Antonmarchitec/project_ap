@@ -11,7 +11,7 @@ a{
 }
 
 ///////////CONTENEDOR NAVEGACION///////
-.contNavigation{
+.contNavigation{    //ESTILOS DE MENU RETOS.HTML COMPARTIDOS CON MENU LANDING.HTML
     width: 100%;
     height: 80px;
     background: $colorAzul;
@@ -31,52 +31,33 @@ a{
     }
 
     .contNavigation_enlaces{
-        width: 380px;
+        width: 450px;
         padding: 5px 0px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        .contNavigation__regresar{
-            width: 100px;
+        .contNavigation_enlaces_ul{
+            width: 100%;
             padding: 10px 0px;
             display: flex;
+            flex-direction: row;
+            justify-content: space-around;
             align-items: center;
-            position: relative;
-            .contNavigation__regresar__inicio{
-                //background: violet;
-                color:$colorVerde;
-                font-size: 18px;
-                opacity: 0;
-                position: absolute;
-                right: 0;
-                display: flex;
-                align-items: center;
-                transition: .3s ease-in-out all;
-                .bi-arrow-left{
-                    color: white;
-                    width: 20px;
-                    height: 20px;
+            .contNavigation_enlaces_ul_li{
+                width: 100px;
+                padding: 5px;
+                text-align: center;
+                list-style: none;
+                .enlaceA{
+                    color: $colorVerde;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transition: 0.5s all;
                 }
-            }
-            .ttSpan{
-                //background: yellow;
-                color: aqua;
-                position: absolute;
-                right: 25%;
-                transition: .3s ease-in-out all;
-                display: flex;
-                align-items: center;
-            }
-        }
-    
-        .contNavigation__regresar:hover{
-            .contNavigation__regresar__inicio{
-                right: 60%;
-                opacity: 1;
-            }
-            .ttSpan{
-                right: 0;
+                .enlaceA:hover{
+                    color: white;
+                }
             }
         }
     }
@@ -84,14 +65,13 @@ a{
     .contNavigation_BtnRespon{
         width: 50px;
         height: 50px;
-        background: yellow;
         display: none;
     }
     
 }
 
 @media (min-width:320px) and (max-width:769px){
-    .contNavigation{
+    .contNavigation{    //ESTILOS DE MENU RETOS.HTML COMPARTIDOS CON MENU LANDING.HTML
         width: 100%;
         height: 80px;
         background: $colorAzul;
@@ -104,95 +84,79 @@ a{
         justify-content: space-between;
         align-items: center;
         z-index: 500;
-        .contNavigation_logo{
-            margin-left: 20px;
-            width: 100px;
-            height: 50px;
-        }
+       
     
         .contNavigation_enlaces{
-            width: 200px;
-            height: 100vh;
+            width: 100%;
+            padding: 5px 0px;
             display: flex;
             flex-direction:column;
-            justify-content: flex-start;
+            justify-content: space-around;
             align-items: center;
-            background:$colorAzulTransparente;
-            position: fixed;
-            top: 80px;
-            right: -100%;
-            transition: 0.5s ease-in;
-            .contNavigation__regresar{
-                width: 150px;
-                padding: 30px 0px;
+            background: $colorAzul;
+            position: absolute;
+            transition: 0.5s all;
+            top: 65px;
+            left: -100%;
+            .contNavigation_enlaces_ul{
+                width: 100%;
+                padding: 10px 0px;
+                height: 100vh;
                 display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
                 align-items: center;
-                position: relative;
-                .contNavigation__regresar__inicio{
-                    //background: violet;
-                    color:$colorVerde;
-                    font-size: 18px;
-                    opacity: 0;
-                    position: absolute;
-                    right: 0;
+                .contNavigation_enlaces_ul_li{
+                    width: 100%;
+                    height: 21vh;
+                    margin: 0px;
+                    text-align: center;
                     display: flex;
+                    justify-content: center;
                     align-items: center;
-                    transition: .3s ease-in-out all;
-                    .bi-arrow-left{
+                    list-style: none;
+                    transition: 0.2s all;
+                    .enlaceA{
+                        color: $colorVerde;
+                        text-decoration: none;
+                        cursor: pointer;
+                        font-size: 30px;
+                        transition: 0.5s all;
+                    }
+                    
+                }
+                .contNavigation_enlaces_ul_li:hover{
+                    background: $colorBlackTransparent;
+                    .enlaceA{
                         color: white;
-                        width: 20px;
-                        height: 20px;
                     }
                 }
-                .ttSpan{
-                    //background: yellow;
-                    color: aqua;
-                    position: absolute;
-                    right: 25%;
-                    transition: .3s ease-in-out all;
-                    display: flex;
-                    align-items: center;
-                }
-            }
-        
-            .contNavigation__regresar:hover{
-                .contNavigation__regresar__inicio{
-                    right: 60%;
-                    opacity: 1;
-                }
-                .ttSpan{
-                    right: 0;
-                }
             }
         }
-        .contEnlaces_JS{
-            right: 0;
+        .contNavEnlaces_JS{
+            opacity: 1;
+            left: 0;
         }
-
+    
         .contNavigation_BtnRespon{
             width: 50px;
             height: 50px;
-            display: block;
-            background: transparent;
-            margin-right: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-right: 20px;
             .iconResss{
-                color:white;
-                font-size: 35px;
+                font-size: 40px;
+                color: $colorVerde;
                 transition: 0.5s all;
-                opacity: 0.5;
             }
-            &:hover{
-                .iconResss{
-                    color:white;
-                    font-size: 40px;
-                    opacity: 1;
-                    cursor: pointer;
-                }
+            .iconResss:hover{
+                transform: translateX(10px);
+                color: white;
+                cursor: pointer;
             }
         }
+       
         
     }
 }

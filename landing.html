@@ -27,37 +27,24 @@
   <div class="CONTAINER_LANDING">
     
     <div class="HEADER">
-      <nav class="contHeader_nav">
-            <div class="contHeader_nav_logo">
-               <!--logo-->
-            </div>
-            <ul class="contHeader_nav_ul">
-                
-                <!--ICONO INICIO-->
-                <a href="index.html">
-                  <div class="contHeader_nav_ul_cont">
-                    <i class="iconMenu fa-solid fa-user-gear"></i>
-                    <h2 class="contHeader_nav_ul_title">INICIO</h2>
-                  </div>
-                </a>
+      <div class="contNavigation">
+        <div class="contNavigation_logo">
+          <img src="img/LOGO/loogo.png" alt="logo" width="100%" height="100%" class="logo">
+        </div>
 
-                <!--ICONO RETOS-->
-                <a href="retos.html ">
-                  <div class="contHeader_nav_ul_cont">
-                    <i class="iconMenu fa-solid fa-user-gear"></i>
-                    <h2 class="contHeader_nav_ul_title">RETOS</h2>
-                  </div>
-                </a>
+        <div class="contNavigation_enlaces" id="contNavigation_enlaces">
+          <ul class="contNavigation_enlaces_ul">
+            <li class="contNavigation_enlaces_ul_li"> <a href="index.html" class="enlaceA"> Inicio </a></li>
+            <li class="contNavigation_enlaces_ul_li"> <a href="retos.html" class="enlaceA"> Retos </a></li>
+            <li class="contNavigation_enlaces_ul_li"> <a href="#" class="enlaceA"> Blog </a></li>
+            <li class="contNavigation_enlaces_ul_li"> <a href="contenido.html" class="enlaceA"> Portafolio </a></li>           
+          </ul>
+        </div>
 
-                <!--ICONO ATRAS-->
-                <a href="contenido.html">
-                  <div class="contHeader_nav_ul_cont">
-                    <i class="iconMenu fa-solid fa-repeat"></i>
-                    <h2 class="contHeader_nav_ul_title">ATRAS</h2>
-                  </div>
-                </a>
-            </ul>
-      </nav>
+        <div class="contNavigation_BtnRespon" id="btnRetos">
+          <i class="iconResss fa-solid fa-bars"></i>
+        </div>
+      </div>   
     </div>
     
     <div class="BARS_VERTICLE">
@@ -199,6 +186,7 @@
         
     <script src="mis_scripts/preloader.js"></script>  
     <script src="mis_scripts/templates/template_landing.js"></script>
+    <script src="./mis_scripts/btnRetos.js"></script>    <!--script compartido-->
     
     <!--SCRIPT DE ANIMATION EL SCROLLING-->
     <script src="mis_scripts/wow.min.js"></script>

@@ -1523,54 +1523,39 @@ a {
   height: 50px;
 }
 .contNavigation .contNavigation_enlaces {
-  width: 380px;
+  width: 450px;
   padding: 5px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.contNavigation .contNavigation_enlaces .contNavigation__regresar {
-  width: 100px;
+.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul {
+  width: 100%;
   padding: 10px 0px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  position: relative;
 }
-.contNavigation .contNavigation_enlaces .contNavigation__regresar .contNavigation__regresar__inicio {
+.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  list-style: none;
+}
+.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA {
   color: #56fbd3;
-  font-size: 18px;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  display: flex;
-  align-items: center;
-  transition: 0.3s ease-in-out all;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s all;
 }
-.contNavigation .contNavigation_enlaces .contNavigation__regresar .contNavigation__regresar__inicio .bi-arrow-left {
+.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA:hover {
   color: white;
-  width: 20px;
-  height: 20px;
-}
-.contNavigation .contNavigation_enlaces .contNavigation__regresar .ttSpan {
-  color: aqua;
-  position: absolute;
-  right: 25%;
-  transition: 0.3s ease-in-out all;
-  display: flex;
-  align-items: center;
-}
-.contNavigation .contNavigation_enlaces .contNavigation__regresar:hover .contNavigation__regresar__inicio {
-  right: 60%;
-  opacity: 1;
-}
-.contNavigation .contNavigation_enlaces .contNavigation__regresar:hover .ttSpan {
-  right: 0;
 }
 .contNavigation .contNavigation_BtnRespon {
   width: 50px;
   height: 50px;
-  background: yellow;
   display: none;
 }
 
@@ -1589,84 +1574,72 @@ a {
     align-items: center;
     z-index: 500;
   }
-  .contNavigation .contNavigation_logo {
-    margin-left: 20px;
-    width: 100px;
-    height: 50px;
-  }
   .contNavigation .contNavigation_enlaces {
-    width: 200px;
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #0c1b32;
+    position: absolute;
+    transition: 0.5s all;
+    top: 65px;
+    left: -100%;
+  }
+  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul {
+    width: 100%;
+    padding: 10px 0px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: rgba(12, 27, 50, 0.6980392157);
-    position: fixed;
-    top: 80px;
-    right: -100%;
-    transition: 0.5s ease-in;
   }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar {
-    width: 150px;
-    padding: 30px 0px;
+  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li {
+    width: 100%;
+    height: 21vh;
+    margin: 0px;
+    text-align: center;
     display: flex;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    list-style: none;
+    transition: 0.2s all;
   }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar .contNavigation__regresar__inicio {
+  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA {
     color: #56fbd3;
-    font-size: 18px;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    display: flex;
-    align-items: center;
-    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.5s all;
   }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar .contNavigation__regresar__inicio .bi-arrow-left {
+  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li:hover {
+    background: rgba(20, 20, 20, 0.5254901961);
+  }
+  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li:hover .enlaceA {
     color: white;
-    width: 20px;
-    height: 20px;
   }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar .ttSpan {
-    color: aqua;
-    position: absolute;
-    right: 25%;
-    transition: 0.3s ease-in-out all;
-    display: flex;
-    align-items: center;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar:hover .contNavigation__regresar__inicio {
-    right: 60%;
+  .contNavigation .contNavEnlaces_JS {
     opacity: 1;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation__regresar:hover .ttSpan {
-    right: 0;
-  }
-  .contNavigation .contEnlaces_JS {
-    right: 0;
+    left: 0;
   }
   .contNavigation .contNavigation_BtnRespon {
     width: 50px;
     height: 50px;
-    display: block;
-    background: transparent;
-    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
   }
   .contNavigation .contNavigation_BtnRespon .iconResss {
-    color: white;
-    font-size: 35px;
-    transition: 0.5s all;
-    opacity: 0.5;
-  }
-  .contNavigation .contNavigation_BtnRespon:hover .iconResss {
-    color: white;
     font-size: 40px;
-    opacity: 1;
+    color: #56fbd3;
+    transition: 0.5s all;
+  }
+  .contNavigation .contNavigation_BtnRespon .iconResss:hover {
+    transform: translateX(10px);
+    color: white;
     cursor: pointer;
   }
 }
@@ -2524,56 +2497,6 @@ a {
   height: 60px;
   padding: 10px 0px;
   grid-area: HEADER;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav {
-  width: 100%;
-  padding: 10px 0px;
-  background: #0c1b32;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  box-shadow: 0px 5px 5px black;
-  z-index: 500;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_logo {
-  margin-left: 20px;
-  width: 100px;
-  height: 50px;
-  background: url(../img/LOGO/loogo.png);
-  background-size: 100% 100%;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul {
-  margin-right: 20px;
-  width: 150px;
-  padding: 5px 0px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont {
-  width: 50px;
-  text-align: center;
-  line-height: 20px;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu {
-  font-size: 18px;
-  color: #96aadb;
-  transition: 0.3s all;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu:hover {
-  color: #56fbd3;
-}
-.CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .contHeader_nav_ul_title {
-  font-size: 14px;
-  color: #56fbd3;
 }
 .CONTAINER_LANDING .BARS_VERTICLE {
   padding: 30px 0px;
