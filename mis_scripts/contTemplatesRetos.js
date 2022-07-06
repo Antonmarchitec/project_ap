@@ -15,9 +15,11 @@ document.addEventListener("scroll", () =>{
      let contactPosition = posTitleContacto.offsetTop     //5541
      //console.log(contactPosition)
 
-     if(scrollPosition > elementPosition){
-        contTemsplatesRetos.classList.add("contTemsplatesRetos_JS")
-     }else if(scrollPosition < elementPosition){
+     if(scrollPosition < elementPosition){
         contTemsplatesRetos.classList.remove("contTemsplatesRetos_JS")
+     }else if(scrollPosition > elementPosition){
+        contTemsplatesRetos.classList.add("contTemsplatesRetos_JS")
+     }if(scrollPosition > contactPosition){
+         contTemsplatesRetos.classList.remove("contTemsplatesRetos_JS")
      }
 })

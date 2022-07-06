@@ -1,5 +1,5 @@
 let contBlog = document.querySelector("#contBlog")
-let titleSkills = document.querySelector("#habilidades")
+let titleSkills = document.querySelector("#contacto")
 
 
     
