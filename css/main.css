@@ -2666,6 +2666,7 @@ a {
 .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
   color: white;
   letter-spacing: -1px;
+  font-size: 40px;
 }
 .CONTAINER_LANDING .SIDEBAR .contSidebar {
   width: 100%;
@@ -2825,6 +2826,7 @@ a {
   .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
     color: white;
     letter-spacing: -1px;
+    font-size: 40px;
   }
   .CONTAINER_LANDING .SIDEBAR .contSidebar {
     width: 100%;
@@ -2982,10 +2984,9 @@ a {
     grid-area: SIDEBAR;
   }
   .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-    margin: 20px auto;
     color: white;
     letter-spacing: -1px;
-    text-align: center;
+    font-size: 40px;
   }
   .CONTAINER_LANDING .SIDEBAR .contSidebar {
     width: 100%;
@@ -3143,10 +3144,9 @@ a {
     grid-area: SIDEBAR;
   }
   .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-    margin: 20px auto;
     color: white;
     letter-spacing: -1px;
-    text-align: center;
+    font-size: 40px;
   }
   .CONTAINER_LANDING .SIDEBAR .contSidebar {
     width: 100%;
@@ -3305,10 +3305,9 @@ a {
     grid-area: SIDEBAR;
   }
   .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-    margin: 20px auto;
     color: white;
     letter-spacing: -1px;
-    text-align: center;
+    font-size: 40px;
   }
   .CONTAINER_LANDING .SIDEBAR .contSidebar {
     width: 100%;
@@ -3567,10 +3566,9 @@ a {
     grid-area: SIDEBAR;
   }
   .CONTAINER_LANDING .SIDEBAR .sidebarTitle {
-    margin: 20px auto;
     color: white;
     letter-spacing: -1px;
-    text-align: center;
+    font-size: 40px;
   }
   .CONTAINER_LANDING .SIDEBAR .contSidebar {
     width: 100%;
