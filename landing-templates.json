@@ -8,7 +8,7 @@
     {
         "id":2,
         "title":"Cinema disney plus",
-        "descripcion":"Landing page desarrollado con HTML, CSS, SASS y JavaScript utilizando un archivo JSON para extraccion de datos, tambien presenta un efecto de modo oscuro y claro.",
+        "descripcion":"Landing page desarrollado con HTML, CSS, SASS y JavaScript , tambien presenta un efecto de modo oscuro y claro.",
         "image": "./img/PLANTILLA3.jpg"
 
     },

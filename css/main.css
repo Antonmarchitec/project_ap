@@ -2571,11 +2571,11 @@ a {
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox {
   margin-top: 20px;
-  width: 300px;
-  padding: 30px 0px;
+  width: 290px;
+  height: 580px;
   background: linear-gradient(#000000, transparent);
-  padding: 20px;
-  box-shadow: 0px 0px 10px #56fbd3;
+  padding: 30px 10px;
+  box-shadow: 0px 0px 5px #56fbd3;
   border: 1px solid #56fbd3;
   border-radius: 5px;
   transition: 0.5s ease;
@@ -2594,17 +2594,18 @@ a {
   margin-top: 20px;
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   line-height: 30px;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_parrafo {
   margin-top: 10px;
-  height: 150px;
+  height: 120px;
+  padding: 0px;
   color: #96aadb;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 90%;
   border: 2px solid;
   background: linear-gradient(#56fbd3, transparent);
@@ -2817,146 +2818,6 @@ a {
     position: absolute;
     bottom: 0;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
-    width: 100%;
-    padding: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-    width: 330px;
-    padding: 10px 0px;
-    margin-bottom: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 180px 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 280px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: -50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 100%;
-    height: 280px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-    width: 330px;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 180px;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKA";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 280px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: -50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 100%;
-    height: 280px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3115,146 +2976,6 @@ a {
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
-    width: 100%;
-    padding: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-    width: 330px;
-    padding: 10px 0px;
-    margin-bottom: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 180px 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 280px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: -50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 100%;
-    height: 280px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-    width: 330px;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 180px;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKA";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 280px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: -50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 100%;
-    height: 280px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
   }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
@@ -3416,149 +3137,6 @@ a {
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
-    width: 100%;
-    padding: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-    width: 280px;
-    padding: 10px 0px;
-    margin-bottom: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKA" "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 200px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    width: 180px;
-    margin: auto;
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 24px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 200px;
-    height: 250px;
-    margin: auto;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-    width: 280px;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 180px;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKA" "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 200px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    width: 150px;
-    color: #56fbd3;
-    margin: auto;
-    font-size: 23px;
-    text-align: center;
-    line-height: 24px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 200px;
-    height: 250px;
-    margin: auto;
   }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
@@ -3722,149 +3300,6 @@ a {
     position: absolute;
     bottom: 0;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
-    width: 100%;
-    padding: 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-    width: 95%;
-    padding: 10px 0px;
-    margin-bottom: 20px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 200px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    width: 180px;
-    margin: auto;
-    color: #56fbd3;
-    font-size: 23px;
-    text-align: center;
-    line-height: 24px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 90%;
-    height: 260px;
-    margin: auto;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    right: 0;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-    width: 95%;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKA";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: 200px;
-    background: #0c1b32;
-    padding: 30px 10px;
-    position: relative;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    width: 150px;
-    color: #56fbd3;
-    margin: auto;
-    font-size: 23px;
-    text-align: center;
-    line-height: 24px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    margin-top: 10px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 90%;
-    height: 260px;
-    margin: auto;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3990,7 +3425,7 @@ a {
     height: 50px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS {
-    padding: 10px 0px;
+    padding: 5px 0px;
     grid-area: SECTION_PROYECTS;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
@@ -4013,7 +3448,7 @@ a {
     margin: auto;
     color: #56fbd3;
     padding-top: 50px;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     line-height: 80px;
     letter-spacing: -5px;
@@ -4029,149 +3464,103 @@ a {
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
     width: 100%;
-    padding: 0px 0px;
+    margin-top: 0px;
+    padding: initial;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-    width: 90%;
-    padding: 0px 0px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    margin-bottom: 20px;
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox {
+    margin-top: 20px;
+    width: 85%;
+    height: 550px;
+    background: linear-gradient(#000000, transparent);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px #56fbd3;
+    border: 1px solid #56fbd3;
     border-radius: 10px;
+    transition: 0.5s ease;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_image {
     width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 0px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKA" "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKB";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: auto;
-    padding: 20px 10px;
-    position: relative;
-    overflow: hidden;
-    background: transparent;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-    width: 180px;
-    margin: auto;
-    color: #56fbd3;
-    font-size: 30px;
-    text-align: center;
-    line-height: 27px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    width: 90%;
-    margin: 10px auto;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
-    color: white;
-    font-size: 23px;
-    cursor: pointer;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 260px;
-    height: 300px;
-    margin: auto;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-    width: 90%;
-    padding: 10px 0px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    margin-bottom: 10px;
+    height: 250px;
+    background: #56fbd3;
     border-radius: 10px;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-    width: 100%;
-    padding: 10px 0px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKA" "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKB  ";
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-    padding: 5px 0px;
-    grid-area: CONT_GRILLA_BLOCKA;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-    width: 100%;
-    height: auto;
-    padding: 20px 10px;
-    background: transparent;
-    position: relative;
     overflow: hidden;
+    background-image: url(../img/foto.jpg);
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_title {
     width: 200px;
-    color: #56fbd3;
     margin: auto;
-    font-size: 30px;
+    margin-top: 20px;
     text-align: center;
-    line-height: 27px;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 30px;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-    width: 90%;
-    margin: 10px auto;
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_parrafo {
+    margin-top: 10px;
+    height: 120px;
+    padding: 0px;
     color: #96aadb;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-    width: 35px;
-    height: 70px;
-    background: rgba(20, 20, 20, 0.5254901961);
-    border-radius: 10px 0px 0px 10px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom {
+    margin-top: 10px;
+    width: 90%;
+    border: 2px solid;
+    background: linear-gradient(#56fbd3, transparent);
+    border: none;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     transition: 0.5s all;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_text {
+    width: 100%;
+    height: 40px;
     color: white;
-    font-size: 23px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon {
+    width: 50px;
+    height: 40px;
+    background: #060f1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn {
+    color: white;
+    animation-name: moverArrow;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: 0.5s all;
+  }
+  @keyframes moverArrow {
+    from {
+      transform: translateX(-10px);
+    }
+    to {
+      transform: translateX(10);
+    }
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn:hover {
+    color: #56fbd3;
     cursor: pointer;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-    padding: 0px;
-    grid-area: CONT_GRILLA_BLOCKB;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-    width: 260px;
-    height: 300px;
-    margin: auto;
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox:hover {
+    background: rgba(20, 20, 20, 0.5254901961);
+    transform: scale(1.02, 1.02);
   }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
