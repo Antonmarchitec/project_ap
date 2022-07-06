@@ -1730,7 +1730,7 @@ a {
   }
 }
 .contentSection .contentSection__todosCuadros {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
@@ -1759,7 +1759,7 @@ a {
   overflow: hidden;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-  width: 90%;
+  width: 85%;
   margin: auto;
   line-height: 25px;
   color: #56fbd3;
@@ -2060,9 +2060,18 @@ a {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
+    margin-top: -15px;
     width: 95%;
     background: #0c1b32;
-    padding: 10px;
+    padding: 30px 30px;
+  }
+  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
+    width: 80%;
+    margin: auto;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
   }
 }
 .contentSection .contentSection_blocks {
