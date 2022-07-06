@@ -156,178 +156,103 @@
             margin-top: 20px;
             padding: 10px 0px;
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
             align-items: center;
-            
-            ///ESTILO A 
-            .contSectionP_boxA{
-                width: 400px;
-                padding: 10px 0px;
-                //background: orange;
-                margin-bottom: 20px;
-                .CONT_GRILLA{
+            .contSectionPBox{
+                margin-top: 20px;
+                width: 300px;
+                padding: 30px 0px;
+                background: linear-gradient($colorNegro, transparent);
+                padding: 20px;
+                box-shadow: 0px 0px 10px $colorVerde;
+                border:1px solid $colorVerde;
+                border-radius: 5px;
+                transition: 0.5s ease;
+                .contSectionPBox_image{
                     width: 100%;
-                    padding: 10px 0px;
-                    //background: brown;
-                    display: grid;
-                    gap: 10px;
-                    grid-template-columns: 200px 1fr;
-                    grid-template-rows: auto;
-                    grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKB";
-                                            
-                    .CONT_GRILLA_BLOCKA{
-                        padding: 5px 0px;
-                        //background: rgb(255, 0, 0);
-                        grid-area:CONT_GRILLA_BLOCKA ;
-                        .contBloqueA{
-                            width: 100%;
-                            height:300px;
-                            background: $colorAzul;
-                            padding: 30px 10px;
-                            position: relative;
-                            overflow: hidden;
-                            .contBloqueA_title{
-                              color: $colorVerde;
-                              font-size: 23px;
-                              text-align: center;
-                              line-height: 20px; 
-                            }
-                            .contBloqueA_description{
-                                margin-top: 10px;
-                                color: $colorCelesteOscuro;
-                            }
-                            .contBloqueA_blockHover{
-                                width: 35px;
-                                height: 70px;
-                                background:$colorBlackTransparent;
-                                border-radius: 10px 0px 0px 10px;
-                                position: absolute;
-                                top: 20px;
-                                //right:0;
-                                right: -50%;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: space-around;
-                                align-items: center;
-                                transition: 0.3s all;
-                                .iconHover{
-                                    color: white;
-                                    font-size: 23px;
-                                    cursor: pointer;
-                                }
-                            }
-                        }
-                    }
-                    .CONT_GRILLA_BLOCKB{
-                        padding: 5px 0px;
-                        //background: rgb(43, 43, 43);
-                        grid-area: CONT_GRILLA_BLOCKB;
-                        .contBloqueB{
-                            width: 100%;
-                            height: 300px;
-                            //background: rgba(255, 255, 0, 0.267);
-                        }
-                        
-                    }
+                    height: 250px;
+                    background: $colorVerde;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    background-image: url(../img/foto.jpg);
                 }
-                &:hover{
-                    .CONT_GRILLA{
-                        .CONT_GRILLA_BLOCKA{
-                            .contBloqueA{
-                                .contBloqueA_blockHover{
-                                    right: 0;
-                                }
-                            }
-                        } 
-                    }
-                 }
-            }
-            
-            ///ESTILO INVERTIDO
-            .contSectionP_boxB{
-                width: 400px;
-                padding: 10px 0px;
-                //background: orange;
-                margin-bottom: 10px;
-                .CONT_GRILLA{
-                    width: 100%;
-                    padding: 10px 0px;
-                    //background: brown;
-                    display: grid;
-                    gap: 10px;
-                    grid-template-columns: 1fr 200px;
-                    grid-template-rows: auto;
-                    grid-template-areas: "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKA";
-                                            
-                    .CONT_GRILLA_BLOCKA{
-                        padding: 5px 0px;
-                        //background: rgb(255, 0, 0);
-                        grid-area:CONT_GRILLA_BLOCKA ;
-                        .contBloqueA{
-                            width: 100%;
-                            height: 300px;
-                            background: $colorAzul;
-                            padding: 30px 10px;
-                            position: relative;
-                            overflow: hidden;
-                            .contBloqueA_title{
-                              color: $colorVerde;
-                              font-size: 23px;
-                              text-align: center;
-                              line-height: 20px; 
-                            }
-                            .contBloqueA_description{
-                                margin-top: 10px;
-                                color: $colorCelesteOscuro;
-                            }
-                            .contBloqueA_blockHover{
-                                width: 35px;
-                                height: 70px;
-                                background:$colorBlackTransparent;
-                                border-radius: 10px 0px 0px 10px;
-                                position: absolute;
-                                top: 20px;
-                                //right:0;
-                                right: -50%;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: space-around;
-                                align-items: center;
-                                transition: 0.5s all;
-                                .iconHover{
-                                    color: white;
-                                    font-size: 23px;
-                                    cursor: pointer;
-                                }
-                            }
-                        }
-                    }
-                    
-                    .CONT_GRILLA_BLOCKB{
-                        padding: 5px 0px;
-                        //background: rgb(43, 43, 43);
-                        grid-area: CONT_GRILLA_BLOCKB;
-                        .contBloqueB{
-                            width: 100%;
-                            height: 300px;
-                            //background: rgba(0, 128, 0, 0.308);
-                        }
-                    }
+
+                .contSectionPBox_title{
+                    width: 200px;
+                    margin: auto;
+                    margin-top: 20px;
+                    text-align: center;
+                    color: white;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    line-height: 30px;
                 }
-                &:hover{
-                    .CONT_GRILLA{
-                        .CONT_GRILLA_BLOCKA{
-                            .contBloqueA{
-                                .contBloqueA_blockHover{
-                                    right: 0;
-                                }
+
+                .contSectionPBox_parrafo{
+                    margin-top: 10px;
+                    height: 150px;
+                    color: $colorCelesteOscuro;
+                }
+
+                .contSectionPBox_botom{
+                    margin-top: 20px;
+                    width: 90%;
+                    border: 2px solid ;
+                    background: linear-gradient($colorVerde, transparent);
+                    border: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    transition: 0.5s all;
+                    .contSectionPBox_botom_text{
+                        width: 100%;
+                        height: 40px;
+                        color: white;
+                        font-size: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                    }
+                    .contSectionPBox_botom_contIcon{
+                        width: 50px;
+                        height: 40px;
+                        background: $colorAzulOscuro;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .iconLearn{
+                            color: white;
+                            animation-name: moverArrow;
+                            animation-duration: 1s;
+                            animation-timing-function: ease;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: infinite;
+                            animation-direction: alternate;
+                            transition: 0.5s all;
+                        }
+                        @keyframes moverArrow {
+                            from{
+                                transform: translateX(-10px);
+                            }to{
+                                transform: translateX(10);
                             }
+                        }
+                        .iconLearn:hover{
+                            color: $colorVerde;
+                            cursor: pointer;
+                            
                         }
                     }
                 }
             }
-           
+            .contSectionPBox:hover{
+                background: $colorBlackTransparent;
+                transform: scale(1.02,1.02);
+              
+            }
         }
     }
 

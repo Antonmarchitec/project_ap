@@ -2627,141 +2627,99 @@ a {
   margin-top: 20px;
   padding: 10px 0px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA {
-  width: 400px;
-  padding: 10px 0px;
-  margin-bottom: 20px;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox {
+  margin-top: 20px;
+  width: 300px;
+  padding: 30px 0px;
+  background: linear-gradient(#000000, transparent);
+  padding: 20px;
+  box-shadow: 0px 0px 10px #56fbd3;
+  border: 1px solid #56fbd3;
+  border-radius: 5px;
+  transition: 0.5s ease;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_image {
   width: 100%;
-  padding: 10px 0px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "CONT_GRILLA_BLOCKA    CONT_GRILLA_BLOCKB";
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-  padding: 5px 0px;
-  grid-area: CONT_GRILLA_BLOCKA;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-  width: 100%;
-  height: 300px;
-  background: #0c1b32;
-  padding: 30px 10px;
-  position: relative;
+  height: 250px;
+  background: #56fbd3;
+  border-radius: 10px;
   overflow: hidden;
+  background-image: url(../img/foto.jpg);
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-  color: #56fbd3;
-  font-size: 23px;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_title {
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
   text-align: center;
-  line-height: 20px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
-  margin-top: 10px;
-  color: #96aadb;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-  width: 35px;
-  height: 70px;
-  background: rgba(20, 20, 20, 0.5254901961);
-  border-radius: 10px 0px 0px 10px;
-  position: absolute;
-  top: 20px;
-  right: -50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  transition: 0.3s all;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
   color: white;
-  font-size: 23px;
-  cursor: pointer;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 30px;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-  padding: 5px 0px;
-  grid-area: CONT_GRILLA_BLOCKB;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-  width: 100%;
-  height: 300px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxA:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-  right: 0;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB {
-  width: 400px;
-  padding: 10px 0px;
-  margin-bottom: 10px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA {
-  width: 100%;
-  padding: 10px 0px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 200px;
-  grid-template-rows: auto;
-  grid-template-areas: "CONT_GRILLA_BLOCKB    CONT_GRILLA_BLOCKA";
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA {
-  padding: 5px 0px;
-  grid-area: CONT_GRILLA_BLOCKA;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA {
-  width: 100%;
-  height: 300px;
-  background: #0c1b32;
-  padding: 30px 10px;
-  position: relative;
-  overflow: hidden;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_title {
-  color: #56fbd3;
-  font-size: 23px;
-  text-align: center;
-  line-height: 20px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_description {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_parrafo {
   margin-top: 10px;
+  height: 150px;
   color: #96aadb;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-  width: 35px;
-  height: 70px;
-  background: rgba(20, 20, 20, 0.5254901961);
-  border-radius: 10px 0px 0px 10px;
-  position: absolute;
-  top: 20px;
-  right: -50%;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom {
+  margin-top: 20px;
+  width: 90%;
+  border: 2px solid;
+  background: linear-gradient(#56fbd3, transparent);
+  border: none;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   transition: 0.5s all;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover .iconHover {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_text {
+  width: 100%;
+  height: 40px;
   color: white;
-  font-size: 23px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon {
+  width: 50px;
+  height: 40px;
+  background: #060f1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn {
+  color: white;
+  animation-name: moverArrow;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: 0.5s all;
+}
+@keyframes moverArrow {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(10);
+  }
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn:hover {
+  color: #56fbd3;
   cursor: pointer;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB {
-  padding: 5px 0px;
-  grid-area: CONT_GRILLA_BLOCKB;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB .CONT_GRILLA .CONT_GRILLA_BLOCKB .contBloqueB {
-  width: 100%;
-  height: 300px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionP_boxB:hover .CONT_GRILLA .CONT_GRILLA_BLOCKA .contBloqueA .contBloqueA_blockHover {
-  right: 0;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox:hover {
+  background: rgba(20, 20, 20, 0.5254901961);
+  transform: scale(1.02, 1.02);
 }
 .CONTAINER_LANDING .SIDEBAR {
   padding: 10px 0px;

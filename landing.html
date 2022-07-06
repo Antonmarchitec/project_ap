@@ -88,124 +88,37 @@
         </div>
       </div>
 
-      <div class="contSectionP">
-        
-        <!--PRIMER CUADRO-->
-        <div class="contSectionP_boxA wow animate__animated animate__fadeIn"> 
-           <div class="CONT_GRILLA">
+      <div class="contSectionP" id="contSectionP">
+
+       
+ 
+        <template id="templateCuadroLanding">
+          <div class="contSectionPBox">
+            <figure class="contSectionPBox_image">
+              <img  style="width: 100%;height:100%" id="imageLan">
+            </figure>
+
+            <h2 class="contSectionPBox_title" id="contSectionPBox_title">Titulo tarjeta Titulo</h2>
+
+            <p class="contSectionPBox_parrafo" id="contSectionPBox_parrafo">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, atque! Illum repellat hic exercitationem dicta!
+            </p>
+
+            <button class="contSectionPBox_botom" >
+              <div class="contSectionPBox_botom_text" id="btnLanding">
+                Ver Proyecto 
+              </div>
+
               
-             <div class="CONT_GRILLA_BLOCKA">
-               <div class="contBloqueA">
-                 <h1 class="contBloqueA_title"> Consultorio Veterinario</h1>
+                <div class="contSectionPBox_botom_contIcon">
+                  <i class="iconLearn fa-solid fa-angle-right"></i>
+                </div>
+              
+            </button>
+          </div>
+        </template>
 
-                 <p class="contBloqueA_description">
-                   Landing page desarrollado para consultorio veterinario
-                   construido con HTML, CSS Y SASS. 
-                 </p>
-
-                 <div class="contBloqueA_blockHover">
-                  <a href="https://antonmarchitec.github.io/veterinaria_vip/" target="_blanck"><i class="iconHover fa-solid fa-eye"></i></a>
-                  <a href="https://github.com/Antonmarchitec/veterinaria_vip.git" target="_blanck"><i class="iconHover fa-brands fa-github-alt"></i></a>
-                 </div>
-               </div>
-             </div>
-
-             <div class="CONT_GRILLA_BLOCKB">
-               <div class="contBloqueB">
-                  <img src="img/MOCKUPS/veterinaria.png" alt="proy_1" width="100%" height="100%">
-               </div>
-               
-             </div>
-           </div>
-        </div>
         
-        <!--SEGUNDO CUADRO-->
-        <div class="contSectionP_boxA wow animate__animated animate__fadeIn">
-          <div class="CONT_GRILLA">
-             
-            <div class="CONT_GRILLA_BLOCKA">
-              <div class="contBloqueA">
-                <h1 class="contBloqueA_title"> Cinema Disney Plus</h1>
-
-                <p class="contBloqueA_description">
-                  Landing page desarrollado con HTML, CSS, SASS y JavaScript
-                  utilizando un archivo JSON para extraccion de datos, tambien 
-                  presenta un efecto de modo oscuro y claro. 
-                </p>
-
-                <div class="contBloqueA_blockHover">
-                 <a href="https://antonmarchitec.github.io/landing_page_modo_oscuro/" target="_blanck"><i class="iconHover fa-solid fa-eye"></i></a>
-                 <a href="https://github.com/Antonmarchitec/landing_page_modo_oscuro.git" target="_blanck"><i class="iconHover fa-brands fa-github-alt"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="CONT_GRILLA_BLOCKB">
-              <div class="contBloqueB">
-                <img src="img/MOCKUPS/disney.png" alt="proy_2" width="100%" height="100%">
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--TERCER CUADRO INVERTIDO-->
-        <div class="contSectionP_boxB wow animate__animated animate__fadeIn">
-          <div class="CONT_GRILLA">
-             
-            <div class="CONT_GRILLA_BLOCKA">
-              <div class="contBloqueA">
-                <h1 class="contBloqueA_title"> Restaurant comida rapida</h1>
-
-                <p class="contBloqueA_description">
-                  Landing page para restaurant de comida rapida desarrollado 
-                  con HTML y CSS. 
-
-                </p>
-
-                <div class="contBloqueA_blockHover">
-                 <a href="https://antonmarchitec.github.io/Proyecto-restaurant/" target="_hblanck"><i class="iconHover fa-solid fa-eye"></i></a>
-                 <a href="https://github.com/Antonmarchitec/Proyecto-restaurant.git" target="_hblanck"><i class="iconHover fa-brands fa-github-alt"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="CONT_GRILLA_BLOCKB">
-              <div class="contBloqueB">
-                <img src="img/MOCKUPS/restaurant.png" alt="proy_3" width="100%" height="100%">
-              </div>
-            </div>
-          </div>
-        </div>
-         
-        <!--CUARTO CUADRO INVERTIDO-->
-        <div class="contSectionP_boxB wow animate__animated animate__fadeIn">
-          <div class="CONT_GRILLA">
-             
-            <div class="CONT_GRILLA_BLOCKA">
-              <div class="contBloqueA">
-                <h1 class="contBloqueA_title"> Calculadora Indemnización</h1>
-
-                <p class="contBloqueA_description">
-                  Prototipo de una calculadora de indemnizacion desarrollado 
-                  con HTML, CSS y JavaScript.
-                </p>
-
-                <div class="contBloqueA_blockHover">
-                 <a href="https://antonmarchitec.github.io/calculadora_indemnizacion/" target="_hblanck"><i class="iconHover fa-solid fa-eye"></i></a>
-                 <a href="https://github.com/Antonmarchitec/calculadora_indemnizacion.git" target="_hblanck"><i class="iconHover fa-brands fa-github-alt"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="CONT_GRILLA_BLOCKB">
-              <div class="contBloqueB">
-                <img src="img/MOCKUPS/calculadora.png" alt="proy_4" width="100%" height="100%">
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
 
       
@@ -284,7 +197,8 @@
              
         
         
-    <script src="mis_scripts/preloader.js"></script>   
+    <script src="mis_scripts/preloader.js"></script>  
+    <script src="mis_scripts/templates/template_landing.js"></script>
     
     <!--SCRIPT DE ANIMATION EL SCROLLING-->
     <script src="mis_scripts/wow.min.js"></script>
