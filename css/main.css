@@ -1328,7 +1328,7 @@ html {
 .contPie {
   margin-top: 30px;
   width: 100%;
-  padding: 5px 0px;
+  padding: 10px 0px;
   background: #000000;
   display: flex;
   flex-direction: row;
@@ -1345,8 +1345,7 @@ html {
 }
 .contPie .boxing2 {
   width: auto;
-  padding: 5px 0px;
-  margin-right: 100px;
+  margin-right: 20px;
 }
 .contPie .boxing2 .contFooter_derechos_text {
   font-size: 16px;

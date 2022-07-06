@@ -2,7 +2,7 @@
 .contPie{
     margin-top: 30px;
     width: 100%;
-    padding: 5px 0px;
+    padding: 10px 0px;
     background:$colorNegro;
     display: flex;
     flex-direction: row;
@@ -12,16 +12,13 @@
     .boxing1{
         width:100px;
         height: 50px;
-        //padding: 5px 0px;
         background-image: url(../img/LOGO/loogo.png);
         background-size: 100% 100%;
         margin-left: 20px;
     }
     .boxing2{
         width: auto;
-        padding: 5px 0px;
-        //background: yellow;
-        margin-right: 100px;
+        margin-right: 20px;
         .contFooter_derechos_text{
           font-size: 16px;
           color: $colorVerde;
