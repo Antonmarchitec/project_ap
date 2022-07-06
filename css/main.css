@@ -1740,7 +1740,7 @@ a {
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro {
   width: 285px;
-  height: 450px;
+  height: 480px;
   background: #060f1d;
   padding: 10px;
   margin: 10px auto;
@@ -2061,6 +2061,7 @@ a {
 @media (min-width: 320px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 95%;
+    height: 480px;
     background: #0c1b32;
     padding: 30px 30px;
   }

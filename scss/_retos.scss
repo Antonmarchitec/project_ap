@@ -293,7 +293,7 @@ a{
         align-items: center;
         .contentSection__cuadro{
             width: 285px;
-            height: 450px;
+            height: 480px;
             background:$colorAzulOscuro;
             padding: 10px;
             margin: 10px auto;
@@ -661,6 +661,7 @@ a{
         @media (min-width:320px) and (max-width:480px){
             .contentSection__cuadro{
                 width:95%;
+                height: 480px;
                 background:$colorAzul;
                 padding: 30px 30px;
                 .contentSection__cuadro__title{
