@@ -2060,7 +2060,6 @@ a {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    margin-top: -15px;
     width: 95%;
     background: #0c1b32;
     padding: 30px 30px;
