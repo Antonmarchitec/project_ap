@@ -4476,6 +4476,8 @@ a {
   right: 0;
   top: 100px;
   z-index: 100;
+  opacity: 0;
+  transition: 0.3s all;
 }
 .contRedes .contRedes_box {
   width: 100%;
@@ -4500,6 +4502,10 @@ a {
 }
 .contRedes .contRedes_box:hover .textRedes {
   transform: translateX(-110px) rotate(8deg);
+  opacity: 1;
+}
+
+.contRedes_js {
   opacity: 1;
 }
 
