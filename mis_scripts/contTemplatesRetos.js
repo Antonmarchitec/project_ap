@@ -1,6 +1,6 @@
 
 let contTemsplatesRetos = document.querySelector("#contTemsplatesRetos")
-let posTitleContacto = document.querySelector("#contacto")
+let posTitleContacto = document.querySelector("#servicios")
 
 
 
