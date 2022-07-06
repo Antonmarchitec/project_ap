@@ -1760,7 +1760,7 @@ a {
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro {
   width: 285px;
-  height: 480px;
+  height: 450px;
   background: #060f1d;
   padding: 10px;
   margin: 10px auto;
@@ -1774,20 +1774,20 @@ a {
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
   width: 100%;
   height: 200px;
-  background: floralwhite;
   border-radius: 10px;
   overflow: hidden;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-  width: 85%;
+  width: 200px;
   margin: auto;
   line-height: 25px;
   color: #56fbd3;
   margin-top: 20px;
   font-size: 22px;
+  text-transform: uppercase;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1818,9 +1818,8 @@ a {
   color: white;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
+  margin: 10px auto;
   width: 90%;
-  margin: auto;
-  margin-top: 20px;
   color: #96aadb;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro:hover {
@@ -1829,8 +1828,7 @@ a {
 @media (min-width: 1025px) and (max-width: 1200px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 250px;
-    height: 400px;
-    background: #0c1b32;
+    height: 450px;
     padding: 10px;
     margin: 10px auto;
     overflow: hidden;
@@ -1892,8 +1890,7 @@ a {
 @media (min-width: 770px) and (max-width: 1024px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 250px;
-    height: 400px;
-    background: #0c1b32;
+    height: 450px;
     padding: 10px;
     margin: 10px auto;
     overflow: hidden;
@@ -1955,8 +1952,7 @@ a {
 @media (min-width: 641px) and (max-width: 769px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 250px;
-    height: 400px;
-    background: #0c1b32;
+    height: 450px;
     padding: 10px;
     margin: 10px auto;
     overflow: hidden;
@@ -2018,8 +2014,7 @@ a {
 @media (min-width: 481px) and (max-width: 640px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 220px;
-    height: 400px;
-    background: #0c1b32;
+    height: 450px;
     padding: 10px;
     margin: 10px auto;
     overflow: hidden;
@@ -2081,8 +2076,7 @@ a {
 @media (min-width: 320px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 95%;
-    height: 480px;
-    background: #0c1b32;
+    height: 450px;
     padding: 30px 30px;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
