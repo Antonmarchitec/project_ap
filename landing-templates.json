@@ -3,20 +3,20 @@
         "id":1,
         "title":"Consultorio veterinario",
         "descripcion":"Landing page desarrollado para consultorio veterinario construido con HTML, CSS Y SASS.",
-        "image": "../img/PLANTILLA1.jpg"
+        "image": "./img/PLANTILLA1.jpg"
     },
     {
         "id":2,
         "title":"Cinema disney plus",
         "descripcion":"Landing page desarrollado con HTML, CSS, SASS y JavaScript utilizando un archivo JSON para extraccion de datos, tambien presenta un efecto de modo oscuro y claro.",
-        "image": "../img/PLANTILLA3.jpg"
+        "image": "./img/PLANTILLA3.jpg"
 
     },
     {
         "id":3,
         "title":"Restaurant comida rapida",
         "descripcion":"Landing page para restaurant de comida rapida desarrollado con HTML y CSS.",
-        "image": "../img/PLANTILLA4.jpg"
+        "image": "./img/PLANTILLA4.jpg"
 
     }
    
