@@ -2562,7 +2562,7 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
   width: 100%;
   margin-top: 20px;
-  padding: 10px 0px;
+  padding: 20px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -2658,6 +2658,30 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox:hover {
   background: rgba(20, 20, 20, 0.5254901961);
   transform: scale(1.02, 1.02);
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
+  width: 280px;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number {
+  width: 40px;
+  height: 40px;
+  background: #56fbd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+  color: #0c1b32;
+  transition: 0.3s all;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
+  background: #060f1d;
+  color: #56fbd3;
 }
 .CONTAINER_LANDING .SIDEBAR {
   padding: 10px 0px;

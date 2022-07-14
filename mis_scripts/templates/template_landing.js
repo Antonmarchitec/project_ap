@@ -13,9 +13,8 @@ const dataFechLanding = async () =>{
     try{
         const resLanding = await fetch("landing-templates.json")
         const dataLanding = await resLanding.json()
-        //console.log(dataLanding)
-
         pintarTargetLanding(dataLanding)
+      
 
 
     }catch(error){

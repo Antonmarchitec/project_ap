@@ -1,11 +1,26 @@
 let template_target = document.querySelector("#template_target").content
-let contSectionCuadros = document.querySelector("#contSectionCuadros")
-
+let contSectionCards = document.querySelector("#contSectionCards")
 let fragmentTarjets = document.createDocumentFragment()
 
 
-document.addEventListener("DOMContentLoaded", ()=>{
-    dataFechTarget()
+
+document.addEventListener("DOMContentLoaded", () =>{
+    dataFechRetos1_9()
+    dataFechRetos10_18()
+    
+})
+  
+
+
+
+document.addEventListener("click", (e) =>{
+    if(e.target.id === "number1"){
+        console.log("click en uno")
+        contSectionCards.textContent = dataFechRetos1_9()
+    }else if(e.target.id === "number2"){
+        console.log("click en dos")
+        contSectionCards.textContent = dataFechRetos10_18()
+    }
 })
 
 
@@ -13,20 +28,28 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 //////////////////////////////////////////////////////////////////
 //Llamada para las targetas 1-9///////////////////////////////////
-const dataFechTarget = async ()=>{
+const dataFechRetos1_9 = async ()=>{
     try{
-        const res = await fetch("tarejtas-retos.json")
-        const data = await res.json()
-        //console.log(data)
-        pintarTarjetas(data)
+        const resCard1_9 = await fetch("tarejtas-retos.json")
+        const dataCard1_9 = await resCard1_9.json()
+        pintarCards1_9(dataCard1_9)
+
+        document.addEventListener("click", (e) =>{
+            if(e.target.id === "number1"){
+                console.log("click en uno")
+                contSectionCards.textContent = pintarCards1_9(dataCard1_9)
+            }
+        })
        
+
     }catch(error){
         console.log("error al cargar tarjetas del 1 al 9")
     }
 }
-const pintarTarjetas = (data) =>{
+
+const pintarCards1_9 = (dataCard1_9) =>{
      //console.log(data)
-     data.retos1_9.forEach( element =>{
+     dataCard1_9.retos1_9.forEach( element =>{
         //console.log(element)
         template_target.querySelector("#titleTarget").textContent = element.title
         template_target.querySelector("#description").textContent = element.descripcion
@@ -38,10 +61,11 @@ const pintarTarjetas = (data) =>{
         let cloneTarget = template_target.cloneNode(true)
         fragmentTarjets.appendChild(cloneTarget)
      }) 
-     contSectionCuadros.appendChild(fragmentTarjets)  
+     contSectionCards.appendChild(fragmentTarjets)  
+
 
     //ACA EJECUTO LOS EVENTOS DE ICONOS
-    window.document.addEventListener("click", (e) =>{
+    document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "1"){
             //console.log("me diste en git 1")
             location.href = "https://github.com/Antonmarchitec/Secci-n-de-prueba-social.git"
@@ -101,6 +125,10 @@ const pintarTarjetas = (data) =>{
     })
     
 }
+
+
+
+
 //////////////////////////////////////////////////////////////
 
 
@@ -108,20 +136,27 @@ const pintarTarjetas = (data) =>{
 
 ///////////////////////////////////////////////////////////////////
 //Llamada para los targetas 10 - 18/////////////////////////////////
-const dataFechTarget2 = async () =>{
+const dataFechRetos10_18 = async () =>{
     try{
-        const res2 = await fetch("tarejtas-retos.json")
-        const data2 = await res2.json()
-        pintarTarjetas2(data2)
+        const resCard10_18 = await fetch("tarejtas-retos.json")
+        const dataCard10_18 = await resCard10_18.json()
+        pintarCards10_18(dataCard10_18)
 
+        document.addEventListener("click", (e) =>{
+            if(e.target.id === "number2"){
+                console.log("click en dos")
+                contSectionCards.textContent = pintarCards10_18(dataCard10_18)
+            }
+        })
         
     }catch(error){
         console.log("error al cargar tarjetas del 10 al 18")
     }
 }
-const pintarTarjetas2 = (data) =>{
-    console.log(data.retos10_18)
-    data.retos10_18.forEach( element2 =>{
+
+const pintarCards10_18 = (dataCard10_18) =>{
+    //console.log(data.retos10_18)
+    dataCard10_18.retos10_18.forEach( element2 =>{
         //console.log(element2)
         template_target.querySelector("#titleTarget").textContent = element2.title
         template_target.querySelector("#description").textContent = element2.descripcion
@@ -133,9 +168,10 @@ const pintarTarjetas2 = (data) =>{
         let clone2 = template_target.cloneNode(template_target)
         fragmentTarjets.appendChild(clone2)
     })
-    contSectionCuadros.appendChild(fragmentTarjets)
+    contSectionCards.appendChild(fragmentTarjets)
 
-    window.document.addEventListener("click", (e) =>{
+
+    document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "10"){
             //console.log("me diste en git 1")
             location.href = "https://github.com/Antonmarchitec/Huddle-landing-page.git"
@@ -158,20 +194,7 @@ const pintarTarjetas2 = (data) =>{
         
     })
 }
+
+
+
 ////////////////////////////////////////////////////////////////////////
-
-
-
-
-/////////////////////////////////////////////////////////////
-//////////////LLAMADAS DESDE NUMEROS/////////////////
-document.addEventListener("click", (e)=>{
-    if(e.target.id === "num1"){
-        const data1 = dataFechTarget()
-        contSectionCuadros.textContent = data1
-
-    }else if(e.target.id === "num2"){
-        contSectionCuadros.textContent = dataFechTarget2()
-
-    }
-})

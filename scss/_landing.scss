@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -105,7 +106,7 @@
         .contSectionP{
             width: 100%;
             margin-top: 20px;
-            padding: 10px 0px;
+            padding: 20px 0px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -206,6 +207,34 @@
               
             }
         }
+
+        //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
+        .contentSection_blocks{
+            width: 280px;
+            margin: auto;
+            padding: 10px 0px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .contentSection_blocks_number{
+                width: 40px;
+                height: 40px;
+                background: $colorVerde;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                font-weight: bold;
+                color: $colorAzul;
+                transition: 0.3s all;
+            }
+            .contentSection_blocks_number:hover{
+                background: $colorAzulOscuro;
+                color: $colorVerde;
+            }
+        }
+
+        
     }
 
     .SIDEBAR{
