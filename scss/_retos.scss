@@ -672,7 +672,7 @@ a{
     @media (min-width:320px) and (max-width:423px){
         .contentSection_blocks{
             width: 45px;
-            height: 40%;
+            height: 30%;
             margin: initial;
             background: $colorAzulOscuro;
             padding: 0px;
@@ -683,6 +683,7 @@ a{
             position: fixed;
             top: 50%;
             left: 0;
+            transition: 0.5s all;
         }
     }
 }
