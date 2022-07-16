@@ -1235,6 +1235,21 @@
                   
                 }
             }
+
+            .contentSection_blocks{
+                width: 45px;
+                height: 40%;
+                margin: initial;
+                background: $colorAzulOscuro;
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+                position: fixed;
+                top: 50%;
+                left: 0;
+            }
         }
     
         .SIDEBAR{
