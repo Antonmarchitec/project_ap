@@ -5,9 +5,9 @@ let fragmentTarjets = document.createDocumentFragment()
 
 
 document.addEventListener("DOMContentLoaded", () =>{
-    dataFechRetos1_9()
-    dataFechRetos10_18()
-    
+    dataFechRetos1_6()
+    dataFechRetos7_12()
+    dataFechRetos13_18()
 })
   
 
@@ -16,10 +16,13 @@ document.addEventListener("DOMContentLoaded", () =>{
 document.addEventListener("click", (e) =>{
     if(e.target.id === "number1"){
         console.log("click en uno")
-        contSectionCards.textContent = dataFechRetos1_9()
+        contSectionCards.textContent = dataFechRetos1_6()
     }else if(e.target.id === "number2"){
         console.log("click en dos")
-        contSectionCards.textContent = dataFechRetos10_18()
+        contSectionCards.textContent = dataFechRetos7_12()
+    }else if(e.target.id === "number3"){
+        console.log("click en tres")
+        contSectionCards.textContent = dataFechRetos13_18()
     }
 })
 
@@ -28,16 +31,16 @@ document.addEventListener("click", (e) =>{
 
 //////////////////////////////////////////////////////////////////
 //Llamada para las targetas 1-9///////////////////////////////////
-const dataFechRetos1_9 = async ()=>{
+const dataFechRetos1_6 = async ()=>{
     try{
         const resCard1_9 = await fetch("tarejtas-retos.json")
         const dataCard1_9 = await resCard1_9.json()
-        pintarCards1_9(dataCard1_9)
+        pintarCards1_6(dataCard1_9)
 
         document.addEventListener("click", (e) =>{
             if(e.target.id === "number1"){
                 console.log("click en uno")
-                contSectionCards.textContent = pintarCards1_9(dataCard1_9)
+                contSectionCards.textContent = pintarCards1_6(dataCard1_9)
             }
         })
        
@@ -47,7 +50,7 @@ const dataFechRetos1_9 = async ()=>{
     }
 }
 
-const pintarCards1_9 = (dataCard1_9) =>{
+const pintarCards1_6 = (dataCard1_9) =>{
      //console.log(data)
      dataCard1_9.retos1_9.forEach( element =>{
         //console.log(element)
@@ -102,25 +105,8 @@ const pintarCards1_9 = (dataCard1_9) =>{
         }else if(e.target.dataset.idLive === "6"){
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/desafio_tarjeta_estadisticas/"
-        }else if(e.target.dataset.idGit === "7"){
-            //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/POKEAPI.git"
-        }else if(e.target.dataset.idLive === "7"){
-            //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/POKEAPI/"
-        }else if(e.target.dataset.idGit === "8"){
-            //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Tablero_de_control_de_tiempo.git"
-        }else if(e.target.dataset.idLive === "8"){
-            //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Tablero_de_control_de_tiempo/"
-        }else if(e.target.dataset.idGit === "9"){
-            //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Turismo_espacial.git"
-        }else if(e.target.dataset.idLive === "9"){
-            //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Turismo_espacial/"
         }
+        
         
     })
     
@@ -136,16 +122,16 @@ const pintarCards1_9 = (dataCard1_9) =>{
 
 ///////////////////////////////////////////////////////////////////
 //Llamada para los targetas 10 - 18/////////////////////////////////
-const dataFechRetos10_18 = async () =>{
+const dataFechRetos7_12 = async () =>{
     try{
         const resCard10_18 = await fetch("tarejtas-retos.json")
         const dataCard10_18 = await resCard10_18.json()
-        pintarCards10_18(dataCard10_18)
+        pintarCards7_12(dataCard10_18)
 
         document.addEventListener("click", (e) =>{
             if(e.target.id === "number2"){
                 console.log("click en dos")
-                contSectionCards.textContent = pintarCards10_18(dataCard10_18)
+                contSectionCards.textContent = pintarCards7_12(dataCard10_18)
             }
         })
         
@@ -154,7 +140,7 @@ const dataFechRetos10_18 = async () =>{
     }
 }
 
-const pintarCards10_18 = (dataCard10_18) =>{
+const pintarCards7_12 = (dataCard10_18) =>{
     //console.log(data.retos10_18)
     dataCard10_18.retos10_18.forEach( element2 =>{
         //console.log(element2)
@@ -172,7 +158,25 @@ const pintarCards10_18 = (dataCard10_18) =>{
 
 
     document.addEventListener("click", (e) =>{
-        if(e.target.dataset.idGit === "10"){
+        if(e.target.dataset.idGit === "7"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/POKEAPI.git"
+        }else if(e.target.dataset.idLive === "7"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/POKEAPI/"
+        }else if(e.target.dataset.idGit === "8"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/Tablero_de_control_de_tiempo.git"
+        }else if(e.target.dataset.idLive === "8"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/Tablero_de_control_de_tiempo/"
+        }else if(e.target.dataset.idGit === "9"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/Turismo_espacial.git"
+        }else if(e.target.dataset.idLive === "9"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/Turismo_espacial/"
+        }else if(e.target.dataset.idGit === "10"){
             //console.log("me diste en git 1")
             location.href = "https://github.com/Antonmarchitec/Huddle-landing-page.git"
         }else if(e.target.dataset.idLive === "10"){
@@ -184,12 +188,6 @@ const pintarCards10_18 = (dataCard10_18) =>{
         }else if(e.target.dataset.idLive === "12"){
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/Product_preview_card_component/"
-        }else if(e.target.dataset.idGit === "13"){
-            //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git"
-        }else if(e.target.dataset.idLive === "13"){
-            //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
         }
         
     })
@@ -198,3 +196,47 @@ const pintarCards10_18 = (dataCard10_18) =>{
 
 
 ////////////////////////////////////////////////////////////////////////
+const dataFechRetos13_18 = async () =>{
+    try{
+        const resCard13_18 = await fetch("tarejtas-retos.json")
+        const dataCard13_18 = await resCard13_18.json()
+        pintarCards13_18(dataCard13_18)
+
+        document.addEventListener("click", (e) =>{
+            if(e.target.id === "number3"){
+                console.log("click en tres")
+                contSectionCards.textContent = pintarCards13_18(dataCard13_18)
+            }
+        })
+        
+    }catch(error){
+        console.log("error al cargar tarjetas del 10 al 18")
+    }
+}
+
+const pintarCards13_18 = (dataCard13_18) =>{
+    //console.log(data.retos10_18)
+    dataCard13_18.retos13_18.forEach( element2 =>{
+        //console.log(element2)
+        template_target.querySelector("#titleTarget").textContent = element2.title
+        template_target.querySelector("#description").textContent = element2.descripcion
+        template_target.querySelector("img").setAttribute("src", element2.imagen)
+        template_target.querySelector("img").setAttribute("alt", element2.title)
+        template_target.querySelector("#git").dataset.idGit = element2.idGit
+        template_target.querySelector("#live").dataset.idLive = element2.idLive
+        
+        let clone2 = template_target.cloneNode(template_target)
+        fragmentTarjets.appendChild(clone2)
+    })
+    contSectionCards.appendChild(fragmentTarjets)
+
+
+    /*
+    else if(e.target.dataset.idGit === "13"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git"
+        }else if(e.target.dataset.idLive === "13"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
+        }*/ 
+}

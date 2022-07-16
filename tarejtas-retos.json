@@ -67,7 +67,14 @@
             "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_6.jpg",
             "descripcion": "Tarjeta desarrollada en HTML, CSS para estadísticas en dos columnas."
-        },
+        }
+
+
+       
+        
+    ],
+    
+    "retos10_18":[
         {
             "id":7,
             "idGit":7,
@@ -100,11 +107,8 @@
             "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_9.jpg",
             "descripcion": "Desarrollo de sitio web con 4 páginas dinámicas en HTML, CSS y JavaScript."
-        }
+        },
         
-    ],
-    
-    "retos10_18":[
         {
             "id":10,
             "idGit":10,
@@ -139,7 +143,11 @@
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_12.jpg",
             "descripcion": "Tarjeta previa para ventas desarrollada con HTML y CSS, dos secciones y colores claros "
-        },
+        }
+        
+    ],
+
+    "retos13_18":[
         {
             "id":13,
             "idGit":13,
@@ -150,10 +158,28 @@
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_13.jpg",
             "descripcion": "Componente con 5 seciones desarrolado con HTML, CSS y JS, tambien integrado con CSS GRID. "
-        }
-    ],
-
-    "retos19_27":[
-        
+        },
+        {
+            "id":14,
+            "idGit":13,
+            "idLive":13,
+            "title":"PROYECTO EN DESARROLLO",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/CONSTRUCCION.png",
+            "descripcion": "Desarrollando componentes... "
+        },
+        {
+            "id":15,
+            "idGit":13,
+            "idLive":13,
+            "title":"PROYECTO EN DESARROLLO",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/CONSTRUCCION.png",
+            "descripcion": "Desarrollando componentes... "
+        } 
     ]
 }
