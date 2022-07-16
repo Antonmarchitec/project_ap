@@ -3309,10 +3309,10 @@ a {
     margin: auto;
     color: #56fbd3;
     padding-top: 50px;
-    font-size: 90px;
+    font-size: 120px;
     text-align: center;
-    line-height: 80px;
-    letter-spacing: -5px;
+    line-height: 110px;
+    letter-spacing: -9px;
     animation-duration: 3s;
     z-index: 50;
   }
@@ -3452,14 +3452,14 @@ a {
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
     width: 100%;
-    height: 300px;
+    height: 250px;
     position: relative;
     background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
@@ -3479,7 +3479,7 @@ a {
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: 0;

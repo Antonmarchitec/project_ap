@@ -899,7 +899,6 @@
         width: 100%;
         max-width: 1300px;
         background:$colorAzul;
-        //background: rgb(201, 62, 38);
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -1020,10 +1019,10 @@
                     margin: auto;
                     color: $colorVerde;
                     padding-top: 50px;
-                    font-size: 90px;
+                    font-size: 120px;
                     text-align: center;
-                    line-height: 80px;
-                    letter-spacing: -5px;
+                    line-height: 110px;
+                    letter-spacing: -9px;
                     animation-duration: 3s;
                     z-index: 50;
                 }
@@ -1207,13 +1206,13 @@
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
                 width: 100%;
-                height: 300px;
+                height: 250px;
                 position: relative;
                 background: $colorAzul;
                 overflow: hidden;
                 .contSectionTitleTop{
                     width: 100%;
-                    height: 300px;
+                    height: 250px;
                     background: linear-gradient($colorAzul,transparent);
                     position: absolute;
                     top: 0;
@@ -1233,7 +1232,7 @@
                 }
                 .contSectionTitleBottom{
                     width: 100%;
-                    height: 300px;
+                    height: 250px;
                     background:linear-gradient(transparent,$colorAzul);
                     position: absolute;
                     bottom: 0;
