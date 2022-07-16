@@ -669,6 +669,22 @@ a{
             color: $colorVerde;
         }
     }
+    @media (min-width:320px) and (max-width:423px){
+        .contentSection_blocks{
+            width: 45px;
+            height: 40%;
+            margin: initial;
+            background: $colorAzulOscuro;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            position: fixed;
+            top: 200px;
+            left: 0;
+        }
+    }
 }
 
 
@@ -864,7 +880,6 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     .contentFoot__cajaLN{
         width: 250px;
         padding: 5px 0px;

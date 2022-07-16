@@ -2090,6 +2090,22 @@ a {
   background: #060f1d;
   color: #56fbd3;
 }
+@media (min-width: 320px) and (max-width: 423px) {
+  .contentSection .contentSection_blocks {
+    width: 45px;
+    height: 40%;
+    margin: initial;
+    background: #060f1d;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: fixed;
+    top: 200px;
+    left: 0;
+  }
+}
 
 .title__sidebar {
   color: white;
