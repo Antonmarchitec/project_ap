@@ -69,13 +69,13 @@
         grid-area:SECTION_PROYECTS;
         .contSectionTitle{
             width: 100%;
-            height: 300px;
+            height: 250px;
             position: relative;
             background: $colorAzul;
             overflow: hidden;
             .contSectionTitleTop{
                 width: 100%;
-                height: 300px;
+                height: 250px;
                 background: linear-gradient($colorAzul,transparent);
                 position: absolute;
                 top: 0;
@@ -85,7 +85,7 @@
                 width:80%;
                 margin: auto;
                 color: $colorVerde;
-                padding-top: 50px;
+                padding-top: 100px;
                 font-size: 120px;
                 text-align: center;
                 line-height: 110px;
@@ -95,7 +95,7 @@
             }
             .contSectionTitleBottom{
                 width: 100%;
-                height: 300px;
+                height: 250px;
                 background:linear-gradient(transparent,$colorAzul);
                 position: absolute;
                 bottom: 0;
@@ -105,7 +105,6 @@
 
         .contSectionP{
             width: 100%;
-            margin-top: 20px;
             padding: 20px 0px;
             display: flex;
             flex-direction: row;
@@ -282,15 +281,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////
 
@@ -299,7 +289,6 @@
         width: 100%;
         max-width: 1300px;
         background:$colorAzul;
-        //background: gold;
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -400,41 +389,7 @@
         .SECTION_PROYECTS{
             padding: 10px 0px;
             grid-area:SECTION_PROYECTS;
-            .contSectionTitle{
-                width: 100%;
-                height: 300px;
-                position: relative;
-                background: $colorAzul;
-                overflow: hidden;
-                .contSectionTitleTop{
-                    width: 100%;
-                    height: 300px;
-                    background: linear-gradient($colorAzul,transparent);
-                    position: absolute;
-                    top: 0;
-                    z-index: -10;
-                }
-                .titleProyectos{
-                    width:80%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 50px;
-                    font-size: 120px;
-                    text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
-                }
-                .contSectionTitleBottom{
-                    width: 100%;
-                    height: 300px;
-                    background:linear-gradient(transparent,$colorAzul);
-                    position: absolute;
-                    bottom: 0;
-                }
-    
-            }
+           
            
         }
     
@@ -485,14 +440,6 @@
 
 
 
-
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////
 
@@ -501,7 +448,6 @@
         width: 100%;
         max-width: 1300px;
         background:$colorAzul;
-        //background: rgb(38, 62, 201);
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -602,41 +548,7 @@
             padding: 10px 0px;
             //background: brown;
             grid-area:SECTION_PROYECTS;
-            .contSectionTitle{
-                width: 100%;
-                height: 300px;
-                position: relative;
-                background: $colorAzul;
-                overflow: hidden;
-                .contSectionTitleTop{
-                    width: 100%;
-                    height: 300px;
-                    background: linear-gradient($colorAzul,transparent);
-                    position: absolute;
-                    top: 0;
-                    z-index: -10;
-                }
-                .titleProyectos{
-                    width:80%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 50px;
-                    font-size: 120px;
-                    text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
-                }
-                .contSectionTitleBottom{
-                    width: 100%;
-                    height: 300px;
-                    background:linear-gradient(transparent,$colorAzul);
-                    position: absolute;
-                    bottom: 0;
-                }
-    
-            }
+           
 
            
         }
@@ -685,21 +597,14 @@
 
 
 
-
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////
 
 @media (min-width:641px) and (max-width:769px){
     .CONTAINER_LANDING{
-        width: 100%;
+        width: 90%;
         max-width: 1300px;
         background:$colorAzul;
-        //background: rgb(38, 62, 201);
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -877,13 +782,6 @@
         }
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -1080,13 +978,6 @@
         }
     }
 }
-
-
-
-
-
-
-
 
 
 

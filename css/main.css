@@ -2527,14 +2527,14 @@ a {
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
   width: 100%;
-  height: 300px;
+  height: 250px;
   position: relative;
   background: #0c1b32;
   overflow: hidden;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(#0c1b32, transparent);
   position: absolute;
   top: 0;
@@ -2544,7 +2544,7 @@ a {
   width: 80%;
   margin: auto;
   color: #56fbd3;
-  padding-top: 50px;
+  padding-top: 100px;
   font-size: 120px;
   text-align: center;
   line-height: 110px;
@@ -2554,14 +2554,13 @@ a {
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(transparent, #0c1b32);
   position: absolute;
   bottom: 0;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
   width: 100%;
-  margin-top: 20px;
   padding: 20px 0px;
   display: flex;
   flex-direction: row;
@@ -2808,40 +2807,6 @@ a {
     padding: 10px 0px;
     grid-area: SECTION_PROYECTS;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background: #0c1b32;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#0c1b32, transparent);
-    position: absolute;
-    top: 0;
-    z-index: -10;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .titleProyectos {
-    width: 80%;
-    margin: auto;
-    color: #56fbd3;
-    padding-top: 50px;
-    font-size: 120px;
-    text-align: center;
-    line-height: 110px;
-    letter-spacing: -9px;
-    animation-duration: 3s;
-    z-index: 50;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(transparent, #0c1b32);
-    position: absolute;
-    bottom: 0;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -2968,40 +2933,6 @@ a {
     padding: 10px 0px;
     grid-area: SECTION_PROYECTS;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background: #0c1b32;
-    overflow: hidden;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(#0c1b32, transparent);
-    position: absolute;
-    top: 0;
-    z-index: -10;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .titleProyectos {
-    width: 80%;
-    margin: auto;
-    color: #56fbd3;
-    padding-top: 50px;
-    font-size: 120px;
-    text-align: center;
-    line-height: 110px;
-    letter-spacing: -9px;
-    animation-duration: 3s;
-    z-index: 50;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(transparent, #0c1b32);
-    position: absolute;
-    bottom: 0;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3037,7 +2968,7 @@ a {
 }
 @media (min-width: 641px) and (max-width: 769px) {
   .CONTAINER_LANDING {
-    width: 100%;
+    width: 90%;
     max-width: 1300px;
     background: #0c1b32;
     padding: 20px 0px;
