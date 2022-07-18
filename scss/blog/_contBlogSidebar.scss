@@ -1,0 +1,43 @@
+@import "../variables";
+
+.contBlogSidebar{
+    width: 100%;
+    height: 100%;
+    padding: 30px 25px;
+    background:$colorAzul;
+
+    .contBlogSidebar_contPublicidad{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
+    .contBlogSidebar_contRedes{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .contBlogSidebar_contRedes_box{
+            width: 110px;
+            padding: 10px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.2s linear;
+            .iconBlog{
+                color:$colorAzul;
+                transition: 0.2s linear;
+
+            }
+        }
+        .contBlogSidebar_contRedes_box:hover{
+            background: $colorAzul;
+            .iconBlog{
+                color:white;
+            }
+        }
+    }
+}

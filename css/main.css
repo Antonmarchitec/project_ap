@@ -6276,4 +6276,99 @@ html, body {
   transform: scale(1.1, 1.1);
 }
 
+.contBlogBloggersBase {
+  width: 100%;
+  padding: 30px 0px;
+}
+.contBlogBloggersBase .contBlogBloggers {
+  width: 100%;
+  padding: 10px 0px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_img {
+  width: 280px;
+  height: 280px;
+  background: teal;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc {
+  width: 500px;
+  height: 280px;
+  padding: 0px 20px;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_title {
+  width: 400px;
+  padding: 5px 0px;
+  font-weight: 600;
+  color: #060f1d;
+  font-size: 25px;
+  line-height: 30px;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
+  margin-top: 10px;
+  font-weight: 300;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_btn {
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: #242424;
+}
+.contBlogBloggersBase .contBlogBloggers .blogSeparador {
+  margin-top: 20px;
+  width: 90%;
+  height: 2px;
+  border: none;
+  background: rgba(128, 128, 128, 0.171);
+}
+
+.contBlogSidebar {
+  width: 100%;
+  height: 100%;
+  padding: 30px 25px;
+  background: #0c1b32;
+}
+.contBlogSidebar .contBlogSidebar_contPublicidad {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+.contBlogSidebar .contBlogSidebar_contRedes {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box {
+  width: 110px;
+  padding: 10px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s linear;
+}
+.contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
+  color: #0c1b32;
+  transition: 0.2s linear;
+}
+.contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover {
+  background: #0c1b32;
+}
+.contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover .iconBlog {
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
