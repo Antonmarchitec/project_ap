@@ -1,0 +1,34 @@
+@import "../variables";
+
+.contBlogTop{
+    width: 100%;
+    padding: 10px 0px;
+    background: $colorNegro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .contBlogTop_logo{
+        margin-left: 20px;
+        
+        .contBlogTop_logo_text{
+            color: $colorVerde;
+            font-size: 80px;
+            letter-spacing: -4px;
+            .blogtextAux{
+                color:white;
+                font-size: 80px;
+                letter-spacing: -4px;
+            }
+        }
+      
+    }
+    .contBlogTop_banner{
+        width: 750px;
+        height: 100px;
+        padding: 10px 0px;
+        background: rgb(255, 255, 255);
+        
+    }
+}

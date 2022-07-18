@@ -1,5 +1,5 @@
 let preloader = document.querySelector("#loader");
 
-window.addEventListener("load" , function(){
+window.addEventListener("load" , () =>{
     preloader.classList.add("loaderJS");
 });

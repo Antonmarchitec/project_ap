@@ -1,0 +1,29 @@
+@import "../variables";
+
+.contBlogMenu{
+    width: 100%;
+    padding: 10px 0px;
+    background:$colorNegro;
+    .contBlogMenu_ul{
+        width:80%;
+        padding: 10px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .contBlogMenu_ul_li{
+            padding: 5px 0px;
+            list-style: none;
+            text-align: center;
+            .blogLink{
+                color: $colorVerde;
+                font-weight: 300;
+                transition: 0.5s all;
+            }
+            .blogLink:hover{
+                color: white;
+            }
+        }
+    }
+}

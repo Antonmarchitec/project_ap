@@ -26,15 +26,28 @@
 @import "blog";
 @import "block_redes";
 
+
+//ESTILOS PORTAFOLIO
 @import "../scss/portfolio/title";
 @import "../scss/portfolio/estructura";
 
+
+//ESTILOS SERVICIOS
 @import "../scss/services/titleServices";
 @import "../scss/services/services";
 
-
+//ESTILOS SKILLS
 @import "../scss/skills/skillsCont";
 @import "../scss/skills/titleSkills";
 @import "../scss/skills/skills";
 
+
+//ESTILOS CONTACT
 @import "../scss/contact/contactTitle";
+
+
+//ESTILOS BLOGGER
+@import "../scss/blog/blogGrilla";  
+@import "../scss/blog/contBlogTop";
+@import "../scss/blog/contBlogMenu";
+@import "../scss/blog/contBlogHeader";
