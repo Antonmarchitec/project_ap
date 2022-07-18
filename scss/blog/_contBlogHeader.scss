@@ -9,9 +9,11 @@
     flex-wrap: wrap;
     justify-content: space-arounda;
     align-items: center;
+
+    //CONTENEDOR IZQUIERDO BANNER
     .contBlogHeader_bannerRight{
         width:60%;
-        height: 400px;
+        height: 500px;
         background: firebrick;
         overflow: hidden;
         position: relative;
@@ -32,7 +34,7 @@
             padding: 10px 0px;
             position: absolute;
             bottom: 30px;
-            left:calc(50% - 200px);
+            left:calc(50% - 180px);
             text-align: center;
             .contBlogHeader_bannerRight_contTitle_text{
                 color: white;
@@ -44,11 +46,38 @@
         }
     }
   
-
+    //CONTENEDOR DERECHO BANNER PEQUEÑOS
     .contBlogHeader_boxBanners{
         width:40%;
-        height: 400px;
+        height: 500px;
         background: rgb(148, 34, 22);
-       
+        overflow: hidden;
+        .contBlogHeader_boxBanners_box{
+            width: 100%;
+            height: 166.66px;
+            background: tan;
+            position: relative;
+            transition: 0.5s all;
+            .contBlogHeader_boxBanners_box_contImgage{
+                width: 100%;
+                height: 100%;
+            }
+            .contBlogHeader_boxBanners_box_conttitle{
+                width: 300px;
+                padding: 10px 0px;
+                text-align: center;
+                position: absolute;
+                bottom: 20px;
+                line-height: 20px;
+                left: calc(50% - 150px);
+                .contcontBlogHeader_bannerRight_title{
+                    color: white;
+                    font-weight: 300;
+                }
+            }
+        }
+        .contBlogHeader_boxBanners_box:hover{
+            transform: scale(1.1,1.1);
+        }
     }
 }
