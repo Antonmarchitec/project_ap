@@ -2,7 +2,6 @@
 
 .contBlogBloggersBase{
     width: 100%;
-    padding: 30px 0px;
     .contBlogBloggers{
         width: 100%;
         padding: 10px 0px;
@@ -52,6 +51,38 @@
             height: 2px;
             border: none;
             background: rgba(128, 128, 128, 0.171);
+        }
+    }
+    
+}
+
+.contBlogNumerador{
+    width: 300px;
+    height: 50px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .contBlogNumerador_box{
+        width: 45px;
+        height: 30px;
+        background:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s all;
+        .contBlogNumerador_box_number{
+            color:$colorAzul;
+            transition: 0.2s all;
+            font-size: 15px;
+        }
+    }
+    .contBlogNumerador_box:hover{
+        background: $colorAzul;
+        cursor: pointer;
+        .contBlogNumerador_box_number{
+            color: white;
         }
     }
     

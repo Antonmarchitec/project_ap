@@ -1,0 +1,70 @@
+{    
+    "blog_1-7":[
+        {
+            "id":1,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
+            "imagen":"./img/frontend.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":2,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":3,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
+            "imagen":"./img/desarrollando.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        }         
+    ],
+
+    "blog_8-14":[
+        {
+            "id":8,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
+            "imagen":"./img/frontend.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":9,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":10,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
+            "imagen":"./img/desarrollando.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        }         
+    ],
+    
+    "blog_15-21":[
+        {
+            "id":15,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
+            "imagen":"./img/frontend.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":16,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        },
+        {
+            "id":17,
+            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
+            "imagen":"./img/desarrollando.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+        }         
+    ]    
+
+}
+
+
+
+    
+  

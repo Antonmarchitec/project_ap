@@ -6103,7 +6103,6 @@ html, body {
 .CONTAINER_BLOG {
   width: 100%;
   max-width: 1440px;
-  padding: 20px 0px;
   margin: auto;
   display: grid;
   gap: 1em;
@@ -6202,7 +6201,6 @@ html, body {
 
 .contBlogHeader {
   width: 100%;
-  padding: 10px 0px;
   background: rgba(238, 130, 238, 0.404);
   display: flex;
   flex-direction: row;
@@ -6278,7 +6276,6 @@ html, body {
 
 .contBlogBloggersBase {
   width: 100%;
-  padding: 30px 0px;
 }
 .contBlogBloggersBase .contBlogBloggers {
   width: 100%;
@@ -6331,6 +6328,37 @@ html, body {
   background: rgba(128, 128, 128, 0.171);
 }
 
+.contBlogNumerador {
+  width: 300px;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contBlogNumerador .contBlogNumerador_box {
+  width: 45px;
+  height: 30px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s all;
+}
+.contBlogNumerador .contBlogNumerador_box .contBlogNumerador_box_number {
+  color: #0c1b32;
+  transition: 0.2s all;
+  font-size: 15px;
+}
+.contBlogNumerador .contBlogNumerador_box:hover {
+  background: #0c1b32;
+  cursor: pointer;
+}
+.contBlogNumerador .contBlogNumerador_box:hover .contBlogNumerador_box_number {
+  color: white;
+}
+
 .contBlogSidebar {
   width: 100%;
   height: 100%;
@@ -6369,6 +6397,13 @@ html, body {
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover .iconBlog {
   color: white;
+}
+
+.contBlogFooter {
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px;
+  background: grey;
 }
 
 /*# sourceMappingURL=main.css.map */
