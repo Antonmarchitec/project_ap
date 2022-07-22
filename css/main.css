@@ -6105,34 +6105,23 @@ html, body {
   max-width: 1440px;
   margin: auto;
   display: grid;
-  gap: 1em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
 }
 .CONTAINER_BLOG .BLOG_BLOCK_TOP {
-  padding: 10px 0px;
-  background: brown;
   grid-area: BLOG_BLOCK_TOP;
 }
 .CONTAINER_BLOG .BLOG_BLOCK_MENU {
-  padding: 10px 0px;
-  background: brown;
   grid-area: BLOG_BLOCK_MENU;
 }
 .CONTAINER_BLOG .BLOG_BLOCK_HEADER {
-  padding: 10px 0px;
-  background: brown;
   grid-area: BLOG_BLOCK_HEADER;
 }
 .CONTAINER_BLOG .BLOG_BLOCK_BLOGGERS {
-  padding: 10px 0px;
-  background: brown;
   grid-area: BLOG_BLOCK_BLOGGERS;
 }
 .CONTAINER_BLOG .BLOG_BLOCK_SIDEBAR {
-  padding: 10px 0px;
-  background: brown;
   grid-area: BLOG_BLOCK_SIDEBAR;
 }
 .CONTAINER_BLOG .BLOG_BLOCK_FOOTER {
@@ -6406,9 +6395,49 @@ html, body {
 
 .contBlogFooter {
   width: 100%;
-  height: 50px;
+  padding: 80px 0px;
+  background: #000000;
+}
+.contBlogFooter .contBlogFooterTitle {
+  color: #56fbd3;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+.contBlogFooter .contBlogFooter_articulos {
+  width: 100%;
   padding: 10px 0px;
-  background: grey;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box {
+  width: 100px;
+  padding: 10px 0px;
+}
+.contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box .contBlogFooter_articulos_box_icon {
+  margin: 5px 0px;
+}
+.contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box .contBlogFooter_articulos_box_icon .iconBlog {
+  color: #56fbd3;
+}
+.contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box .contBlogFooter_articulos_box_icon .tBlog {
+  margin-left: 10px;
+  color: white;
+}
+.contBlogFooter .contBlogFooter_pie {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+.contBlogFooter .contBlogFooter_pie .contBlogFooter_pie_text {
+  color: #56fbd3;
+  font-weight: 300;
+}
+.contBlogFooter .contBlogFooter_pie .contBlogFooter_pie_text .spanText {
+  color: #96aadb;
 }
 
 /*# sourceMappingURL=main.css.map */

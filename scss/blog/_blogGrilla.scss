@@ -12,7 +12,7 @@ html, body{
     //padding: 20px 0px;
     margin: auto;
     display: grid;
-    gap: 1em;
+    //gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:auto ;
     grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP"
@@ -22,34 +22,34 @@ html, body{
                          "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
 
                          .BLOG_BLOCK_TOP{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area:BLOG_BLOCK_TOP;
                          }
 
                          .BLOG_BLOCK_MENU{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area:BLOG_BLOCK_MENU;
                          }
 
 
                          .BLOG_BLOCK_HEADER{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area:BLOG_BLOCK_HEADER;
                          }
 
 
                          .BLOG_BLOCK_BLOGGERS{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area:BLOG_BLOCK_BLOGGERS;
                          }
 
                          .BLOG_BLOCK_SIDEBAR{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area:BLOG_BLOCK_SIDEBAR;
                          }
 
