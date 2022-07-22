@@ -1,64 +1,70 @@
 {    
-    "blog_1-7":[
+    "blog_1_7":[
         {
             "id":1,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
+            "title":"LOS TRES LENGUAJES DE PROGRAMACION MAS UTILIZADOS",
             "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...1"
         },
         {
             "id":2,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
+            "title":"LA MEJOR RUTA DE APRENDISAJE PARA PODER SER UN DESARROLLADOR FULL STACK",
             "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...2"
         },
         {
             "id":3,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
+            "title":"LAS PROPIEDADES MAS UTILIZADAS EN CSS Y SASS",
             "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
-        }         
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...3"
+        },
+        {
+            "id":4,
+            "title":"LIBROS DE PROGRAMACION QUE PODRIAN SER DE MUCHA AYUDA",
+            "imagen":"./img/desarrollando.jpg",
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...3"
+        }              
     ],
 
-    "blog_8-14":[
+    "blog_8_14":[
         {
             "id":8,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
             "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...8"
         },
         {
             "id":9,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
             "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...9"
         },
         {
             "id":10,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
             "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...10"
         }         
     ],
     
-    "blog_15-21":[
+    "blog_15_21":[
         {
             "id":15,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
             "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...15"
         },
         {
             "id":16,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
             "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...16"
         },
         {
             "id":17,
             "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
             "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur..."
+            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...17"
         }         
     ]    
 

@@ -6319,6 +6319,11 @@ html, body {
   border: none;
   color: white;
   background: #242424;
+  transition: 0.5s;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_btn:hover {
+  background: #0c1b32;
+  transform: translateX(5px);
 }
 .contBlogBloggersBase .contBlogBloggers .blogSeparador {
   margin-top: 20px;
@@ -6340,7 +6345,7 @@ html, body {
 .contBlogNumerador .contBlogNumerador_box {
   width: 45px;
   height: 30px;
-  background: white;
+  background: rgb(209, 208, 208);
   display: flex;
   justify-content: center;
   align-items: center;
