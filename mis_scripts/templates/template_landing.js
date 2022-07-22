@@ -30,11 +30,7 @@ const dataFechLanding = async () =>{
                 contSectionP.textContent = pintarTargetLanding(dataLanding) 
                 pintarTargetLanding(dataLanding) 
                 console.log("diste en numero 1")
-            }else if(e.target.id === "lnum2"){
-                contSectionP.textContent = pintarTargetLanding_10_18(dataLanding)
-                pintarTargetLanding_10_18(dataLanding) 
-                console.log("diste en numero 2")
-            }         
+            }     
         })
 
 
