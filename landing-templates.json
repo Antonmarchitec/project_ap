@@ -43,23 +43,6 @@
     ],
 
     "landing_19_27":[
-        {
-            "id":1,
-            "title":"Consultorio veterinario 3",
-            "descripcion":"Landing page desarrollado para consultorio veterinario construido con HTML, CSS Y SASS.",
-            "image": "./img/PLANTILLA1.jpg"
-        },
-        {
-            "id":2,
-            "title":"Cinema disney plus 3",
-            "descripcion":"Landing page desarrollado con HTML, CSS, SASS y JavaScript , tambien presenta un efecto de modo oscuro y claro.",
-            "image": "./img/PLANTILLA3.jpg"
-        },
-        {
-            "id":3,
-            "title":"Restaurant comida rapida 3",
-            "descripcion":"Landing page para restaurant de comida rapida desarrollado con HTML y CSS.",
-            "image": "./img/PLANTILLA4.jpg"
-        }
+       
     ]
 }

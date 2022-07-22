@@ -6,25 +6,8 @@ let fragmentTarjets = document.createDocumentFragment()
 
 document.addEventListener("DOMContentLoaded", () =>{
     dataFechRetos1_6()
-    dataFechRetos7_12()
-    dataFechRetos13_18()
 })
   
-
-
-
-document.addEventListener("click", (e) =>{
-    if(e.target.id === "number1"){
-        console.log("click en uno")
-        contSectionCards.textContent = dataFechRetos1_6()
-    }else if(e.target.id === "number2"){
-        console.log("click en dos")
-        contSectionCards.textContent = dataFechRetos7_12()
-    }else if(e.target.id === "number3"){
-        console.log("click en tres")
-        contSectionCards.textContent = dataFechRetos13_18()
-    }
-})
 
 
 
@@ -41,6 +24,15 @@ const dataFechRetos1_6 = async ()=>{
             if(e.target.id === "number1"){
                 console.log("click en uno")
                 contSectionCards.textContent = pintarCards1_6(dataCard1_9)
+                pintarCards1_6(dataCard1_9)
+            }else if(e.target.id === "number2"){
+                console.log("click en dos")
+                contSectionCards.textContent = pintarCards7_12(dataCard1_9)
+                pintarCards7_12(dataCard1_9)
+            }else if(e.target.id === "number3"){
+                console.log("click en tres")
+                contSectionCards.textContent = pintarCards13_18(dataCard1_9)
+                pintarCards13_18(dataCard1_9)
             }
         })
        
@@ -113,33 +105,6 @@ const pintarCards1_6 = (dataCard1_9) =>{
 }
 
 
-
-
-//////////////////////////////////////////////////////////////
-
-
-
-
-///////////////////////////////////////////////////////////////////
-//Llamada para los targetas 10 - 18/////////////////////////////////
-const dataFechRetos7_12 = async () =>{
-    try{
-        const resCard10_18 = await fetch("tarejtas-retos.json")
-        const dataCard10_18 = await resCard10_18.json()
-        pintarCards7_12(dataCard10_18)
-
-        document.addEventListener("click", (e) =>{
-            if(e.target.id === "number2"){
-                console.log("click en dos")
-                contSectionCards.textContent = pintarCards7_12(dataCard10_18)
-            }
-        })
-        
-    }catch(error){
-        console.log("error al cargar tarjetas del 10 al 18")
-    }
-}
-
 const pintarCards7_12 = (dataCard10_18) =>{
     //console.log(data.retos10_18)
     dataCard10_18.retos10_18.forEach( element2 =>{
@@ -193,26 +158,6 @@ const pintarCards7_12 = (dataCard10_18) =>{
     })
 }
 
-
-
-////////////////////////////////////////////////////////////////////////
-const dataFechRetos13_18 = async () =>{
-    try{
-        const resCard13_18 = await fetch("tarejtas-retos.json")
-        const dataCard13_18 = await resCard13_18.json()
-        pintarCards13_18(dataCard13_18)
-
-        document.addEventListener("click", (e) =>{
-            if(e.target.id === "number3"){
-                console.log("click en tres")
-                contSectionCards.textContent = pintarCards13_18(dataCard13_18)
-            }
-        })
-        
-    }catch(error){
-        console.log("error al cargar tarjetas del 10 al 18")
-    }
-}
 
 const pintarCards13_18 = (dataCard13_18) =>{
     //console.log(data.retos10_18)

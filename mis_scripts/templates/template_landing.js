@@ -4,18 +4,18 @@ let fragmentLanding = document.createDocumentFragment()
 
 document.addEventListener("DOMContentLoaded", () =>{
     dataFechLanding()
-    dataFechLanding_10_18()
+    //dataFechLanding_10_18()
 })
 
 
 //DELEGACION DE EVENTOS PARA NUMERADORES
-document.addEventListener("click", (e)=>{
+/*document.addEventListener("click", (e)=>{
     if(e.target.id === "lnum1"){
         contSectionP.textContent = dataFechLanding()        
     }else if(e.target.id === "lnum2"){
         contSectionP.textContent = dataFechLanding_10_18()   
     }
-})
+})*/
 
 
 //FUNCION DATAFECH TARJETAS DEL 1 AL 9
@@ -28,7 +28,13 @@ const dataFechLanding = async () =>{
         document.addEventListener("click", (e)=>{
             if(e.target.id === "lnum1"){
                 contSectionP.textContent = pintarTargetLanding(dataLanding) 
-            }      
+                pintarTargetLanding(dataLanding) 
+                console.log("diste en numero 1")
+            }else if(e.target.id === "lnum2"){
+                contSectionP.textContent = pintarTargetLanding_10_18(dataLanding)
+                pintarTargetLanding_10_18(dataLanding) 
+                console.log("diste en numero 2")
+            }         
         })
 
 
@@ -58,27 +64,6 @@ const pintarTargetLanding = (dataLanding) =>{
 
 }
 
-
-
-
-//FUNCION DATAFECH TARJETAS DEL 10 AL 18
-const dataFechLanding_10_18 = async () =>{
-    try{
-        const resLanding_10_18 = await fetch("landing-templates.json")
-        const dataLanding_10_18 = await resLanding_10_18.json()
-        pintarTargetLanding_10_18(dataLanding_10_18)
-       
-        document.addEventListener("click", (e)=>{
-            if(e.target.id === "lnum2"){
-                contSectionP.textContent = pintarTargetLanding_10_18(dataLanding_10_18) 
-            }      
-        })
-
-
-    }catch(error){
-        console.log("error en carga landing")
-    }
-}
 
 const pintarTargetLanding_10_18 = (dataLanding_10_18) =>{
     //console.log(dataLanding)
