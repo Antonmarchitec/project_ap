@@ -6133,7 +6133,7 @@ html, body {
 .contBlogTop {
   width: 100%;
   padding: 10px 0px;
-  background: #000000;
+  background: #0c1b32;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6145,25 +6145,35 @@ html, body {
 }
 .contBlogTop .contBlogTop_logo .contBlogTop_logo_text {
   color: #56fbd3;
-  font-size: 80px;
+  font-size: 100px;
   letter-spacing: -4px;
 }
 .contBlogTop .contBlogTop_logo .contBlogTop_logo_text .blogtextAux {
   color: white;
-  font-size: 80px;
+  font-size: 100px;
   letter-spacing: -4px;
 }
+.contBlogTop .contBlogTop_bar {
+  width: 4px;
+  height: 150px;
+  background: white;
+}
 .contBlogTop .contBlogTop_banner {
-  width: 750px;
+  width: 60%;
+  margin-right: 20px;
   height: 100px;
-  padding: 10px 0px;
-  background: rgb(255, 255, 255);
+}
+.contBlogTop .contBlogTop_banner .contBlogTop_banner_title {
+  color: white;
+  font-weight: 300;
+  font-size: 80px;
+  text-align: end;
 }
 
 .contBlogMenu {
   width: 100%;
   padding: 10px 0px;
-  background: #000000;
+  background: #0c1b32;
 }
 .contBlogMenu .contBlogMenu_ul {
   width: 80%;

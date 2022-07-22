@@ -3,7 +3,7 @@
 .contBlogTop{
     width: 100%;
     padding: 10px 0px;
-    background: $colorNegro;
+    background: $colorAzul;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,24 +11,34 @@
     align-items: center;
     .contBlogTop_logo{
         margin-left: 20px;
-        
         .contBlogTop_logo_text{
             color: $colorVerde;
-            font-size: 80px;
+            font-size: 100px;
             letter-spacing: -4px;
             .blogtextAux{
                 color:white;
-                font-size: 80px;
+                font-size: 100px;
                 letter-spacing: -4px;
             }
         }
       
     }
+
+    .contBlogTop_bar{
+        width: 4px;
+        height: 150px;
+        background: white;
+    }
+
     .contBlogTop_banner{
-        width: 750px;
+        width: 60%;
+        margin-right:20px;
         height: 100px;
-        padding: 10px 0px;
-        background: rgb(255, 255, 255);
-        
+        .contBlogTop_banner_title{
+            color: white;
+            font-weight: 300;
+            font-size: 80px;
+            text-align: end;
+        }
     }
 }
