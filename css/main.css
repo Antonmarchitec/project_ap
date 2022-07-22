@@ -6426,6 +6426,17 @@ html, body {
 .contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box .contBlogFooter_articulos_box_icon .tBlog {
   margin-left: 10px;
   color: white;
+  transition: 0.1s all;
+}
+.contBlogFooter .contBlogFooter_articulos .contBlogFooter_articulos_box .contBlogFooter_articulos_box_icon .tBlog:hover {
+  color: #96aadb;
+}
+.contBlogFooter .lineaBlog {
+  width: 90%;
+  height: 2px;
+  background: rgba(128, 128, 128, 0.288);
+  border: none;
+  margin: 20px auto;
 }
 .contBlogFooter .contBlogFooter_pie {
   width: 100%;

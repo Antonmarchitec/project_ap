@@ -30,12 +30,23 @@
                 .tBlog{
                     margin-left: 10px;
                     color: white;   
+                    transition: 0.1s all;
+                }
+                .tBlog:hover{
+                    color: $colorCelesteOscuro;
                 }
             }
         }
        
     }
 
+    .lineaBlog{
+        width: 90%;
+        height: 2px;
+        background: rgba(128, 128, 128, 0.288);
+        border: none;
+        margin:20px auto;
+    } 
     .contBlogFooter_pie{
         width: 100%;
         padding: 20px 0px;
