@@ -6321,12 +6321,6 @@ html, body {
   display: none;
 }
 
-/*## RESPONSIVE DESING UTILIZADOS
-*  175px diferencia
-* @media (min-width:770px) and (max-width:1024px)  254px diferencias
-* @media (min-width:641px) and (max-width:769px)   728 px diferencia
-* @media (min-width:481px) and (max-width:640px)   159px diferencia
-* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
 @media (min-width: 320px) and (max-width: 770px) {
   .contBlogMenu {
     width: 100%;
@@ -6460,6 +6454,57 @@ html, body {
   transform: scale(1.1, 1.1);
 }
 
+/*@media (min-width:1025px) and (max-width:1200px) 175px diferencia
+* @media (min-width:770px) and (max-width:1024px)  254px diferencias
+* @media (min-width:641px) and (max-width:769px)   728 px diferencia
+* @media (min-width:481px) and (max-width:640px)   159px diferencia
+* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
+@media (min-width: 320px) and (max-width: 640px) {
+  .contBlogHeader {
+    width: 100%;
+    background: rgba(238, 130, 238, 0.404);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-arounda;
+    align-items: center;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight {
+    width: 100%;
+    height: 500px;
+    background: firebrick;
+    overflow: hidden;
+    position: relative;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/developer.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio:hover {
+    transform: scale(1.1, 1.1);
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
+    width: 250px;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 130px);
+    text-align: center;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners {
+    display: none;
+  }
+}
 .contBlogBloggersBase {
   width: 100%;
 }
