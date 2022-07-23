@@ -157,8 +157,8 @@
         },
         {
             "id":14,
-            "idGit":13,
-            "idLive":13,
+            "idGit":14,
+            "idLive":14,
             "title":"PROYECTO EN DESARROLLO",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
@@ -168,8 +168,8 @@
         },
         {
             "id":15,
-            "idGit":13,
-            "idLive":13,
+            "idGit":15,
+            "idLive":15,
             "title":"PROYECTO EN DESARROLLO",
             "tech_html": "HTML2",
             "tech_css": "CSS2",

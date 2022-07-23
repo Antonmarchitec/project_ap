@@ -184,13 +184,13 @@ const pintarCards13_18 = (dataCard13_18) =>{
     })
     contSectionCards.appendChild(fragmentTarjets)
 
-
-    /*
-    else if(e.target.dataset.idGit === "13"){
+    document.addEventListener("click", (e) =>{
+        if(e.target.dataset.idGit === "13"){
             //console.log("me diste en live 1")
             location.href = "https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git"
         }else if(e.target.dataset.idLive === "13"){
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
-        }*/ 
+        }
+    })
 }
