@@ -9,6 +9,8 @@
     //flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
     .contBlogTop_logo{
         margin-left: 20px;
         .contBlogTop_logo_text{
@@ -42,6 +44,8 @@
             line-height: 60px;
         }
     }
+
+   
 }
 
 
@@ -154,7 +158,8 @@
     
         .contBlogTop_bar{
            display: none;
-        }     
+        }
+
         .contBlogTop_banner{
             width:100%;
             margin-left: 10px;

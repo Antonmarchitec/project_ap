@@ -4,10 +4,15 @@
     width: 100%;
     padding: 10px 0px;
     background:$colorAzul;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     .contBlogMenu_ul{
-        width:80%;
+        width:90%;
         padding: 10px 0px;
-        margin: auto;
+        margin-left: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -26,4 +31,92 @@
             }
         }
     }
+    
+    .contBlogTop_btnResponsive{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        .iconBlogResponsive{
+            font-size: 35px;
+            cursor: pointer;
+            color: white;
+            transition: 0.2s ease;
+            display: none;
+        }
+    }
+}
+
+
+/*## RESPONSIVE DESING UTILIZADOS
+*  175px diferencia
+* @media (min-width:770px) and (max-width:1024px)  254px diferencias
+* @media (min-width:641px) and (max-width:769px)   728 px diferencia
+* @media (min-width:481px) and (max-width:640px)   159px diferencia
+* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
+
+@media (min-width:320px) and (max-width:770px){
+    .contBlogMenu{
+        width: 100%;
+        padding: 10px 0px;
+        background:$colorAzul;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        .contBlogMenu_ul{
+            width:100%;
+            padding: 0px;
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            background:$colorAzul;
+            top:-220px;  //70px
+            opacity: 1;
+            transition: 0.2s linear;
+            z-index: 10;
+            .contBlogMenu_ul_li{
+                width: 100%;
+                padding: 5px 0px;
+                height: 50px;
+                list-style: none;
+                text-align: center;
+                .blogLink{
+                    color: $colorVerde;
+                    font-weight: 300;
+                    transition: 0.5s all;
+                }
+                .blogLink:hover{
+                    color: white;
+                }
+            }
+           
+        }
+
+        .contBlogMenu_ul_JS{
+            opacity: 1;
+            top: 70px;
+        }
+        
+        .contBlogTop_btnResponsive{
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            z-index: 20;
+            .iconBlogResponsive{
+                display: block;
+            }
+          
+        }
+    }
+    
 }
