@@ -77,18 +77,13 @@
         justify-content: center;
         align-items: center;
         transition: 0.2s all;
-        .contBlogNumerador_box_number{
-            color:$colorAzul;
-            transition: 0.2s all;
-            font-size: 15px;
-        }
+        color:$colorAzul;
+        font-size: 15px;
     }
     .contBlogNumerador_box:hover{
         background: $colorAzul;
         cursor: pointer;
-        .contBlogNumerador_box_number{
-            color: white;
-        }
+        color: white;
     }
     
 }

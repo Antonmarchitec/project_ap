@@ -6581,17 +6581,12 @@ html, body {
   justify-content: center;
   align-items: center;
   transition: 0.2s all;
-}
-.contBlogNumerador .contBlogNumerador_box .contBlogNumerador_box_number {
   color: #0c1b32;
-  transition: 0.2s all;
   font-size: 15px;
 }
 .contBlogNumerador .contBlogNumerador_box:hover {
   background: #0c1b32;
   cursor: pointer;
-}
-.contBlogNumerador .contBlogNumerador_box:hover .contBlogNumerador_box_number {
   color: white;
 }
 
