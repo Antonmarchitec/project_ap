@@ -159,12 +159,12 @@
             "id":14,
             "idGit":14,
             "idLive":14,
-            "title":"PROYECTO EN DESARROLLO",
+            "title":"Generador de mensajes",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
-            "imagen":"./img/RETOS/CONSTRUCCION.png",
-            "descripcion": "Desarrollando componentes... "
+            "imagen":"./img/RETOS/TARGET_14.jpg",
+            "descripcion": "Componente generador de mensajes al hacerle click en el boton, desarroollado con HTML, CSS y JS."
         },
         {
             "id":15,

@@ -192,5 +192,12 @@ const pintarCards13_18 = (dataCard13_18) =>{
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
         }
+        else if(e.target.dataset.idGit === "14"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/App_generadora_consejos.git"
+        }else if(e.target.dataset.idLive === "14"){
+            //console.log("me diste en live 1")
+            location.href = "https://antonmarchitec.github.io/App_generadora_consejos/"
+        }
     })
 }
