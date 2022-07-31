@@ -198,6 +198,10 @@ const pintarCards13_18 = (dataCard13_18) =>{
         }else if(e.target.dataset.idLive === "14"){
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/App_generadora_consejos/"
+        }else if(e.target.dataset.idGit === "15"){
+            location.href = "https://github.com/Antonmarchitec/ComponentePrecioUnico.git"
+        }else if(e.target.dataset.idLive === "15"){
+            location.href = "https://antonmarchitec.github.io/ComponentePrecioUnico/"
         }
     })
 }

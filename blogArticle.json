@@ -2,70 +2,40 @@
     "blog_1_7":[
         {
             "id":1,
-            "title":"LOS TRES LENGUAJES DE PROGRAMACION MAS UTILIZADOS",
-            "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...1"
+            "title":"Perfil de desarrollador",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Aprender a codificar en línea aumentó del 60 % al 70 % año tras año.Es más probable que los encuestados mayores de 45 años hayan aprendido de los libros, mientras que los más jóvenes están aprendiendo en línea. Los encuestados más jóvenes (menores de 18 años) confían más en los recursos en línea y es más probable que hayan aprendido de cursos o certificaciones en línea. || Fuente: Stack Overflow."
         },
         {
             "id":2,
-            "title":"LA MEJOR RUTA DE APRENDISAJE PARA PODER SER UN DESARROLLADOR FULL STACK",
+            "title":"Tecnologías más populares",
             "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...2"
+            "descripcion": "El año pasado vimos a Git como una herramienta fundamental para ser desarrollador. Este año parece que Docker se está convirtiendo en una herramienta fundamental similar para los desarrolladores profesionales, aumentando del 55 % al 69%. || Fuente: Stack Overflow."
         },
         {
             "id":3,
-            "title":"LAS PROPIEDADES MAS UTILIZADAS EN CSS Y SASS",
-            "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...3"
-        },
-        {
-            "id":4,
-            "title":"LIBROS DE PROGRAMACION QUE PODRIAN SER DE MUCHA AYUDA",
-            "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...3"
+            "title":"Codificación de años",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Al igual que el año pasado, el 50% de los encuestados han estado codificando durante diez años o menos. Los encuestados de los Estados Unidos y el Reino Unido son los más experimentados, con un promedio de 15 años y medio de experiencia en codificación. || Fuente: Stack Overflow."
         }              
     ],
 
     "blog_8_14":[
         {
-            "id":8,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
-            "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...8"
-        },
-        {
-            "id":9,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
+            "id":4,
+            "title":"Años codificando profesionalmente",
             "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...9"
-        },
-        {
-            "id":10,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
-            "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...10"
-        }         
+            "descripcion": "La mayoría de los encuestados (75 %) han estado trabajando durante 14 años o menos como desarrolladores profesionales, lo que significa que nunca han trabajado en un mundo sin Stack Overflow. || Fuente: Stack Overflow."
+        },{
+            "id":5,
+            "title":"Tipo de desarrollador",
+            "imagen":"./img/developer.jpg",
+            "descripcion": "Los desarrolladores full-stack, back-end, front-end y de escritorio continúan representando la mayoría de los encuestados. Preguntamos sobre el ingeniero de infraestructura en la nube por primera vez este año: casi el 9% se clasifica como este tipo de desarrollador. || Fuente: Stack Overflow."
+        }  
     ],
     
     "blog_15_21":[
-        {
-            "id":15,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week1",
-            "imagen":"./img/frontend.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...15"
-        },
-        {
-            "id":16,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week2",
-            "imagen":"./img/developer.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...16"
-        },
-        {
-            "id":17,
-            "title":"Even the Celebrities Wanted to Dress Rather Appropriately This Week3",
-            "imagen":"./img/desarrollando.jpg",
-            "descripcion": "Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...17"
-        }         
+            
     ]    
 
 }

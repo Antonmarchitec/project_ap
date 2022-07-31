@@ -170,12 +170,23 @@
             "id":15,
             "idGit":15,
             "idLive":15,
-            "title":"PROYECTO EN DESARROLLO",
+            "title":"Componente precio unico",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_15.jpg",
+            "descripcion": "Componente básico desarrollado para compras de precio único de servicios y productos"
+        },
+        {
+            "id":16,
+            "idGit":16,
+            "idLive":16,
+            "title":"Componente en construcción",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
-            "descripcion": "Desarrollando componentes... "
+            "descripcion": "Componente en construcción ..."
         } 
     ]
 }
