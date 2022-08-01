@@ -175,18 +175,29 @@
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_15.jpg",
-            "descripcion": "Componente básico desarrollado para compras de precio único de servicios y productos"
+            "descripcion": "Componente básico desarrollado para compras de precio único de servicios y productos."
         },
         {
             "id":16,
             "idGit":16,
             "idLive":16,
+            "title":"Componente de almacenamiento de datos.",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_16.jpg",
+            "descripcion": "Componente básico desarrollado con HTML y CSS, con colores oscuros, para almacenamiento de datos."
+        },
+        {
+            "id":17,
+            "idGit":17,
+            "idLive":17,
             "title":"Componente en construcción",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
             "descripcion": "Componente en construcción ..."
-        } 
+        }  
     ]
 }

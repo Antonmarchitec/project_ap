@@ -202,6 +202,10 @@ const pintarCards13_18 = (dataCard13_18) =>{
             location.href = "https://github.com/Antonmarchitec/ComponentePrecioUnico.git"
         }else if(e.target.dataset.idLive === "15"){
             location.href = "https://antonmarchitec.github.io/ComponentePrecioUnico/"
+        }else if(e.target.dataset.idGit === "16"){
+            location.href = "https://github.com/Antonmarchitec/ComponenteAlmacenamientoDatosfylo.git"
+        }else if(e.target.dataset.idLive === "16"){
+            location.href = "https://antonmarchitec.github.io/ComponenteAlmacenamientoDatosfylo/"
         }
     })
 }
