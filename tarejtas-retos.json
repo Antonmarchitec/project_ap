@@ -196,8 +196,19 @@
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_17.jpg",
+            "descripcion": "Componente en construcción ..."
+        },
+        {
+            "id":18,
+            "idGit":18,
+            "idLive":18,
+            "title":"Componente en construcción",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
             "descripcion": "Componente en construcción ..."
-        }  
+        }    
     ]
 }

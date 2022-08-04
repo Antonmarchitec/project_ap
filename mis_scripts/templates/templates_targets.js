@@ -191,8 +191,7 @@ const pintarCards13_18 = (dataCard13_18) =>{
         }else if(e.target.dataset.idLive === "13"){
             //console.log("me diste en live 1")
             location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
-        }
-        else if(e.target.dataset.idGit === "14"){
+        }else if(e.target.dataset.idGit === "14"){
             //console.log("me diste en live 1")
             location.href = "https://github.com/Antonmarchitec/App_generadora_consejos.git"
         }else if(e.target.dataset.idLive === "14"){
@@ -206,6 +205,10 @@ const pintarCards13_18 = (dataCard13_18) =>{
             location.href = "https://github.com/Antonmarchitec/ComponenteAlmacenamientoDatosfylo.git"
         }else if(e.target.dataset.idLive === "16"){
             location.href = "https://antonmarchitec.github.io/ComponenteAlmacenamientoDatosfylo/"
+        }else if(e.target.dataset.idGit === "17"){
+            location.href = "https://github.com/Antonmarchitec/Pagina_fylo_con_diseno_de_coumnas.git"
+        }else if(e.target.dataset.idLive === "17"){
+            location.href = "https://antonmarchitec.github.io/Pagina_fylo_con_diseno_de_coumnas/"
         }
     })
 }
