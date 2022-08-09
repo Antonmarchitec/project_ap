@@ -181,7 +181,7 @@
             "id":16,
             "idGit":16,
             "idLive":16,
-            "title":"Componente de almacenamiento de datos.",
+            "title":"Componente de almacenamiento.",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
@@ -192,23 +192,48 @@
             "id":17,
             "idGit":17,
             "idLive":17,
-            "title":"Componente en construcción",
+            "title":"PÁGINA DE INICIO DE FYLO CON COLUMNAS",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_17.jpg",
-            "descripcion": "Componente en construcción ..."
+            "descripcion": "Landing page con un diseño básico desarrollado con HTML y CSS, compuesto por un header, secciones y un footer."
         },
         {
             "id":18,
             "idGit":18,
             "idLive":18,
-            "title":"Componente en construcción",
+            "title":"PÁGINA DE INICIO CON SECCIONES CURVAS",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
-            "imagen":"./img/RETOS/CONSTRUCCION.png",
-            "descripcion": "Componente en construcción ..."
+            "imagen":"./img/RETOS/TARGET_18.jpg",
+            "descripcion": "Landing page desarrollado con HTML y CSS, un diseño básico utilizando  pseudoelementos para dar una mejor experiencia de usuario (UX)."
         }    
+    ],
+
+    "retos19_24":[
+        {
+            "id":19,
+            "idGit":19,
+            "idLive":19,
+            "title":"COMPONENTE DE CALIFICACIÓN INTERACTIVO",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_19.jpg",
+            "descripcion": "Componente con 5 seciones desarrolado con HTML, CSS y JS, tambien integrado con CSS GRID. "
+        },
+        {
+            "id":20,
+            "idGit":20,
+            "idLive":20,
+            "title":"Generador de mensajes",
+            "tech_html": "HTML2",
+            "tech_css": "CSS2",
+            "tech_js": "JS2",
+            "imagen":"./img/RETOS/TARGET_14.jpg",
+            "descripcion": "Componente generador de mensajes al hacerle click en el boton, desarroollado con HTML, CSS y JS."
+        }
     ]
 }

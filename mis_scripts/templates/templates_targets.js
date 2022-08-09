@@ -212,3 +212,4 @@ const pintarCards13_18 = (dataCard13_18) =>{
         }
     })
 }
+
