@@ -5,7 +5,7 @@ let fragmentTarjets = document.createDocumentFragment()
 
 
 document.addEventListener("DOMContentLoaded", () =>{
-    dataFechRetos1_6()
+    dataFech()
 })
   
 
@@ -14,29 +14,29 @@ document.addEventListener("DOMContentLoaded", () =>{
 
 //////////////////////////////////////////////////////////////////
 //Llamada para las targetas 1-9///////////////////////////////////
-const dataFechRetos1_6 = async ()=>{
+const dataFech = async ()=>{
     try{
         const resCard1_9 = await fetch("tarejtas-retos.json")
-        const dataCard1_9 = await resCard1_9.json()
-        pintarCards1_6(dataCard1_9)
+        const dataCard = await resCard1_9.json()
+        pintarCards1_6(dataCard)
 
         document.addEventListener("click", (e) =>{
             if(e.target.id === "number1"){
                 console.log("click en uno")
-                contSectionCards.textContent = pintarCards1_6(dataCard1_9)
-                pintarCards1_6(dataCard1_9)
+                contSectionCards.textContent = pintarCards1_6(dataCard)
+                pintarCards1_6(dataCard)
             }else if(e.target.id === "number2"){
                 console.log("click en dos")
-                contSectionCards.textContent = pintarCards7_12(dataCard1_9)
-                pintarCards7_12(dataCard1_9)
+                contSectionCards.textContent = pintarCards7_12(dataCard)
+                pintarCards7_12(dataCard)
             }else if(e.target.id === "number3"){
                 console.log("click en tres")
-                contSectionCards.textContent = pintarCards13_18(dataCard1_9)
-                pintarCards13_18(dataCard1_9)
+                contSectionCards.textContent = pintarCards13_18(dataCard)
+                pintarCards13_18(dataCard)
             }else if(e.target.id === "number4"){
                 console.log("click en cuatro")
-                contSectionCards.textContent = pintarCards19_24(dataCard1_9)
-                pintarCards19_24(dataCard1_9)
+                contSectionCards.textContent = pintarCards19_24(dataCard)
+                pintarCards19_24(dataCard)
             }
         })
        
