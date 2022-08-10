@@ -217,7 +217,7 @@
             "id":19,
             "idGit":19,
             "idLive":19,
-            "title":"COMPONENTE DE CALIFICACIÓN INTERACTIVO",
+            "title":"COMPONENTE INTERACTIVO",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
@@ -228,12 +228,12 @@
             "id":20,
             "idGit":20,
             "idLive":20,
-            "title":"Generador de mensajes",
+            "title":"Componente en desarrollo",
             "tech_html": "HTML2",
             "tech_css": "CSS2",
             "tech_js": "JS2",
-            "imagen":"./img/RETOS/TARGET_14.jpg",
-            "descripcion": "Componente generador de mensajes al hacerle click en el boton, desarroollado con HTML, CSS y JS."
+            "imagen":"./img/RETOS/CONSTRUCCION.png",
+            "descripcion": "Próximo reto en dos días..."
         }
     ]
 }

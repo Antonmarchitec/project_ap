@@ -33,6 +33,10 @@ const dataFechRetos1_6 = async ()=>{
                 console.log("click en tres")
                 contSectionCards.textContent = pintarCards13_18(dataCard1_9)
                 pintarCards13_18(dataCard1_9)
+            }else if(e.target.id === "number4"){
+                console.log("click en cuatro")
+                contSectionCards.textContent = pintarCards19_24(dataCard1_9)
+                pintarCards19_24(dataCard1_9)
             }
         })
        
@@ -209,7 +213,37 @@ const pintarCards13_18 = (dataCard13_18) =>{
             location.href = "https://github.com/Antonmarchitec/Pagina_fylo_con_diseno_de_coumnas.git"
         }else if(e.target.dataset.idLive === "17"){
             location.href = "https://antonmarchitec.github.io/Pagina_fylo_con_diseno_de_coumnas/"
+        }else if(e.target.dataset.idGit === "18"){
+            location.href = "https://github.com/Antonmarchitec/pagina-inicio-con-secciones-curvas.git"
+        }else if(e.target.dataset.idLive === "18"){
+            location.href = "https://antonmarchitec.github.io/pagina-inicio-con-secciones-curvas/"
         }
     })
 }
 
+
+const pintarCards19_24 = (dataCard19_24) =>{
+    //console.log(data.retos10_18)
+    dataCard19_24.retos19_24.forEach( element2 =>{
+        //console.log(element2)
+        template_target.querySelector("#titleTarget").textContent = element2.title
+        template_target.querySelector("#description").textContent = element2.descripcion
+        template_target.querySelector("img").setAttribute("src", element2.imagen)
+        template_target.querySelector("img").setAttribute("alt", element2.title)
+        template_target.querySelector("#git").dataset.idGit = element2.idGit
+        template_target.querySelector("#live").dataset.idLive = element2.idLive
+        
+        let clone2 = template_target.cloneNode(template_target)
+        fragmentTarjets.appendChild(clone2)
+    })
+    contSectionCards.appendChild(fragmentTarjets)
+
+    document.addEventListener("click", (e) =>{
+        if(e.target.dataset.idGit === "19"){
+            //console.log("me diste en live 1")
+            location.href = "https://github.com/Antonmarchitec/Componente_de_calificacion_interactivo.git"
+        }else if(e.target.dataset.idLive === "19"){
+            location.href = "https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/"
+        }
+    })
+}
