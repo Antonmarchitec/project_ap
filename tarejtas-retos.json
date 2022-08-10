@@ -222,7 +222,7 @@
             "tech_css": "CSS2",
             "tech_js": "JS2",
             "imagen":"./img/RETOS/TARGET_19.jpg",
-            "descripcion": "Componente con 5 seciones desarrolado con HTML, CSS y JS, tambien integrado con CSS GRID. "
+            "descripcion": "Un pequeño y entretenido proyecto que ayuda a interactuar con el DOM y actualizarlo, está desarrollado con HTML, CSS y JS."
         },
         {
             "id":20,
