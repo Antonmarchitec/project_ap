@@ -478,6 +478,7 @@ html {
     background: #000000;
     overflow: hidden;
     display: grid;
+    gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px repeat(8, auto);
     grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
@@ -583,25 +584,26 @@ html {
 #cont_descripcion_foto .contBase .contenedor_der {
   width: 40%;
   background: #0c1b32;
-  margin-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#cont_descripcion_foto .contBase .contenedor_der .foto {
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
   width: 400px;
   height: 400px;
-  background-image: url(../img/foto.jpg);
-  background-size: 100% 100%;
-  margin: auto;
   border: 2px solid #56fbd3;
   border-radius: 50%;
   box-shadow: 0px 0px 5px #56fbd3;
   transition: 0.1s all linear;
+  overflow: hidden;
+  background: #56fbd3;
 }
-#cont_descripcion_foto .contBase .contenedor_der .foto:hover {
-  border: none;
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+  mix-blend-mode: multiply;
+}
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+  border: 2px solid #56fbd3;
   box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
 }
 #cont_descripcion_foto .cont_descripcion_foto_gradient {
@@ -745,6 +747,7 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
@@ -816,23 +819,31 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_der {
     width: 50%;
-    margin-right: initial;
-    margin-left: 20px;
-    margin-top: -300px;
+    background: #0c1b32;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  #cont_descripcion_foto .contBase .contenedor_der .foto {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/foto.jpg);
-    background-size: 100% 100%;
-    margin: auto;
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    width: 350px;
+    height: 350px;
     border: 2px solid #56fbd3;
     border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+    border: 2px solid #56fbd3;
+    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     width: 300px;
@@ -861,26 +872,28 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
+    position: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 780px;
+    padding: 10px 15px;
+    height: initial;
     margin-left: initial;
-    position: relative;
+    position: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 500px;
-    height: 400px;
-    margin-top: 10px;
-    margin-left: 20px;
+    width: 80%;
+    height: initial;
+    padding: 30px 0px;
+    margin-top: 0;
+    margin-left: 0px;
     font-size: 130px;
     color: #56fbd3;
     line-height: 120px;
     letter-spacing: -3px;
-    position: absolute;
-    top: 0;
-    left: -500px;
+    position: initial;
+    top: initial;
+    left: initial;
     animation-name: moverTitleAbout;
     animation-duration: 3s;
     animation-fill-mode: both;
@@ -895,11 +908,11 @@ html {
     }
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 48%;
+    width: 100%;
     padding: 10px 0px;
     height: initial;
-    position: absolute;
-    right: 20px;
+    position: initial;
+    right: initial;
     bottom: 0;
     left: initial;
   }
@@ -915,7 +928,7 @@ html {
     padding: 5px 50px;
     background: rgba(12, 27, 50, 0.6980392157);
     color: white;
-    margin-top: 8px;
+    margin-top: 10px;
     float: right;
     border-radius: 10px;
     transition-duration: 0.1s;
@@ -932,26 +945,33 @@ html {
     border: 2px solid #56fbd3;
   }
   #cont_descripcion_foto .contBase .contenedor_der {
-    width: 48%;
-    margin-right: initial;
-    margin-left: initial;
-    margin-top: initial;
+    width: 100%;
+    background: #0c1b32;
+    padding: 10px 0px;
+    position: initial;
+    left: initial;
+    bottom: initial;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 400px;
   }
-  #cont_descripcion_foto .contBase .contenedor_der .foto {
-    width: 230px;
-    height: 230px;
-    background-image: url(../img/foto.jpg);
-    background-size: 100% 100%;
-    margin: auto;
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    width: 300px;
+    height: 300px;
     border: 2px solid #56fbd3;
     border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+    border: 2px solid #56fbd3;
+    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     display: none;
@@ -976,22 +996,24 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 750px;
+    padding: 10px 15px;
+    height: initial;
     margin-left: initial;
-    position: relative;
+    position: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 100%;
+    width: 80%;
     height: initial;
-    margin-top: 40px;
-    margin-left: 10px;
+    padding: 30px 0px;
+    margin-top: 0;
+    margin-left: 0px;
     font-size: 120px;
     color: #56fbd3;
-    line-height: 110px;
+    line-height: 120px;
     letter-spacing: -3px;
-    position: absolute;
-    top: 0;
-    left: -500px;
+    position: initial;
+    top: initial;
+    left: initial;
     animation-name: moverTitleAbout;
     animation-duration: 3s;
     animation-fill-mode: both;
@@ -1007,16 +1029,14 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     height: initial;
-    position: absolute;
-    top: 270px;
+    position: initial;
     right: initial;
-    bottom: initial;
+    bottom: 0;
     left: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    margin-top: 25px;
     text-align: justify;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
@@ -1025,12 +1045,11 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
     width: 100%;
     border: 2px solid #56fbd3;
-    padding: 5px;
+    padding: 5px 50px;
     background: rgba(12, 27, 50, 0.6980392157);
     color: white;
     margin-top: 10px;
-    margin-left: 0px;
-    float: initial;
+    float: right;
     border-radius: 10px;
     transition-duration: 0.1s;
     transition-timing-function: ease;
@@ -1047,23 +1066,32 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_der {
     width: 100%;
-    margin-right: initial;
-    margin-left: initial;
-    margin-top: initial;
+    background: #0c1b32;
+    padding: 10px 0px;
+    position: initial;
+    left: initial;
+    bottom: initial;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  #cont_descripcion_foto .contBase .contenedor_der .foto {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/foto.jpg);
-    background-size: 100% 100%;
-    margin: auto;
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    width: 280px;
+    height: 280px;
     border: 2px solid #56fbd3;
     border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+    border: 2px solid #56fbd3;
+    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     display: none;

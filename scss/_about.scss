@@ -90,28 +90,33 @@
         }
         .contenedor_der{
             width: 40%;
-            background: $colorAzul;
-            margin-right: 50px;
+            //margin-right: 50px;
+            background:$colorAzul;
             display: flex;
             flex-direction: column;    
             justify-content: center;
             align-items: center;
-            .foto{
+            .contenedor_der_image{
                 width: 400px;
                 height: 400px;
-                background-image: url(../img/foto.jpg);
-                background-size: 100% 100%; 
-                margin:auto;
                 border:2px solid $colorVerde;
                 border-radius:50%;
                 box-shadow: 0px 0px 5px $colorVerde;
                 transition: 0.1s all linear;
+                overflow: hidden;
+                background:$colorVerde;
+                .foto{
+                  mix-blend-mode:multiply;    
+                }
+
+                
             }
-            .foto:hover{
+            .contenedor_der_image:hover{
                 //border:5px double $colorVerde;
-                border: none;
+                border:2px solid $colorVerde;
                 box-shadow: 0px 0px 100px $colorVerdeTrans;
-            } 
+            }
+            
         } 
     }
 
@@ -282,6 +287,7 @@
             flex-direction:row;
             flex-wrap: wrap;
             justify-content: space-between;
+            position: relative;
             .contenedor_izq{
                 width:100%;
                 height: 750px;
@@ -355,24 +361,36 @@
                 
             }
             .contenedor_der{
-                width: 50%;
-                margin-right:initial;
-                margin-left: 20px;
-                margin-top: -300px;
+                width:50%;
+                background:$colorAzul;
+                position: absolute;
+                left: 20px;
+                bottom: 50px;
                 display: flex;
+                flex-direction: column;    
                 justify-content: center;
                 align-items: center;
-                .foto{
-                    width: 300px;
-                    height: 300px;
-                    background-image: url(../img/foto.jpg);
-                    background-size: 100% 100%; 
-                    margin:auto;
+                .contenedor_der_image{
+                    width: 350px;
+                    height: 350px;
                     border:2px solid $colorVerde;
                     border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
+                    overflow: hidden;
+                    background:$colorVerde;
+                    .foto{
+                      mix-blend-mode:multiply;    
+                    }
+    
+                    
                 }
+                .contenedor_der_image:hover{
+                    //border:5px double $colorVerde;
+                    border:2px solid $colorVerde;
+                    box-shadow: 0px 0px 100px $colorVerdeTrans;
+                }
+                
             } 
         }
     
@@ -409,24 +427,26 @@
             flex-direction:row;
             flex-wrap: wrap;
             justify-content: space-between;
-            position: relative;
+            position: initial;
             .contenedor_izq{
                 width:100%;
-                height: 780px;
+                padding:10px 15px;
+                height:initial;
                 margin-left: initial;
-                position: relative;
+                position:initial;
                 .titulo_acerca{
-                    width: 500px;
-                    height: 400px;
-                    margin-top: 10px;
-                    margin-left: 20px;
+                    width: 80%;
+                    height:initial;
+                    padding:30px 0px;
+                    margin-top:0;
+                    margin-left: 0px;
                     font-size: 130px;
                     color: $colorVerde ;
                     line-height: 120px;
                     letter-spacing: $letterSpacing; 
-                    position: absolute;
-                    top: 0;
-                    left: -500px;
+                    position:initial;
+                    top: initial;
+                    left:initial;
                     animation-name: moverTitleAbout;
                     animation-duration: 3s;
                     animation-fill-mode:both;
@@ -441,11 +461,11 @@
                 }
                 
                 .contenedorIzq_parrBtn{
-                    width: 48%;
+                    width: 100%;
                     padding: 10px 0px;
                     height: initial;
-                    position: absolute;
-                    right:20px;
+                    position: initial;
+                    right:initial;
                     bottom:0;
                     left: initial;
 
@@ -462,7 +482,7 @@
                         padding: 5px 50px;
                         background: $colorAzulTransparente;
                         color: white;
-                        margin-top: 8px;
+                        margin-top: 10px;
                         float: right;
                         border-radius: 10px;
                         transition-duration: 0.1s;
@@ -483,26 +503,37 @@
                 
             }
             .contenedor_der{
-                width:48%;
-                margin-right:initial;
-                margin-left: initial;
-                margin-top:initial;
+                width:100%;
+                background:$colorAzul;
+                padding: 10px 0px;
+                position: initial;
+                left: initial;
+                bottom: initial;
                 display: flex;
+                flex-direction: column;    
                 justify-content: center;
                 align-items: center;
-                position: absolute;
-                top: 400px;
-                .foto{
-                    width: 230px;
-                    height: 230px;
-                    background-image: url(../img/foto.jpg);
-                    background-size: 100% 100%; 
-                    margin:auto;
+                .contenedor_der_image{
+                    width: 300px;
+                    height: 300px;
                     border:2px solid $colorVerde;
                     border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
+                    overflow: hidden;
+                    background:$colorVerde;
+                    .foto{
+                      mix-blend-mode:multiply;    
+                    }
+    
+                    
                 }
+                .contenedor_der_image:hover{
+                    //border:5px double $colorVerde;
+                    border:2px solid $colorVerde;
+                    box-shadow: 0px 0px 100px $colorVerdeTrans;
+                }
+                
             } 
         }
     
@@ -534,22 +565,23 @@
             justify-content: space-between;
             .contenedor_izq{
                 width:100%;
-                height:750px;
-                //margin-left: 20px;
+                padding:10px 15px;
+                height:initial;
                 margin-left: initial;
-                position: relative;
+                position:initial;
                 .titulo_acerca{
-                    width: 100%;
-                    height: initial;
-                    margin-top: 40px;
-                    margin-left: 10px;
+                    width: 80%;
+                    height:initial;
+                    padding:30px 0px;
+                    margin-top:0;
+                    margin-left: 0px;
                     font-size: 120px;
                     color: $colorVerde ;
-                    line-height: 110px;
+                    line-height: 120px;
                     letter-spacing: $letterSpacing; 
-                    position: absolute;
-                    top: 0;
-                    left: -500px;
+                    position:initial;
+                    top: initial;
+                    left:initial;
                     animation-name: moverTitleAbout;
                     animation-duration: 3s;
                     animation-fill-mode:both;
@@ -565,16 +597,16 @@
                 
                 .contenedorIzq_parrBtn{
                     width: 100%;
-                    padding: 10px;
+                    padding: 10px 0px;
                     height: initial;
-                    position: absolute;
-                    top: 270px;
+                    position: initial;
                     right:initial;
-                    bottom:initial;
+                    bottom:0;
                     left: initial;
+
                     .descripcion_acerca{
-                        margin-top: 25px;
                         text-align: justify;
+                      
                         .formms{
                             color: $colorVerde;
                         }    
@@ -582,12 +614,11 @@
                     .btnAcerca{
                         width: 100%;
                         border:2px solid $colorVerde;
-                        padding: 5px;
+                        padding: 5px 50px;
                         background: $colorAzulTransparente;
                         color: white;
                         margin-top: 10px;
-                        margin-left:0px;
-                        float: initial;
+                        float: right;
                         border-radius: 10px;
                         transition-duration: 0.1s;
                         transition-timing-function: ease;
@@ -607,24 +638,37 @@
                 
             }
             .contenedor_der{
-                width: 100%;
-                margin-right:initial;
-                margin-left: initial;
-                margin-top: initial;
+                width:100%;
+                background:$colorAzul;
+                padding: 10px 0px;
+                position: initial;
+                left: initial;
+                bottom: initial;
                 display: flex;
+                flex-direction: column;    
                 justify-content: center;
                 align-items: center;
-                .foto{
-                    width: 300px;
-                    height: 300px;
-                    background-image: url(../img/foto.jpg);
-                    background-size: 100% 100%; 
-                    margin:auto;
+                .contenedor_der_image{
+                    width: 280px;
+                    height: 280px;
                     border:2px solid $colorVerde;
                     border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
+                    overflow: hidden;
+                    background:$colorVerde;
+                    .foto{
+                      mix-blend-mode:multiply;    
+                    }
+    
+                    
                 }
+                .contenedor_der_image:hover{
+                    //border:5px double $colorVerde;
+                    border:2px solid $colorVerde;
+                    box-shadow: 0px 0px 100px $colorVerdeTrans;
+                }
+                
             } 
         }
     
