@@ -17,25 +17,8 @@
             "title":"Restaurant comida rapida",
             "descripcion":"Landing page para restaurant de comida rapida desarrollado con HTML y CSS.",
             "image": "./img/PLANTILLA4.jpg"
-        },
-        {
-            "id":4,
-            "title":"PROYECTO EN DESARROLLO",
-            "descripcion":"Desarrollando componentes...",
-            "image": "./img/RETOS/CONSTRUCCION.png"
-        },
-        {
-            "id":5,
-            "title":"PROYECTO EN DESARROLLO",
-            "descripcion":"Desarrollando componentes...",
-            "image": "./img/RETOS/CONSTRUCCION.png"
-        },
-        {
-            "id":6,
-            "title":"PROYECTO EN DESARROLLO",
-            "descripcion":"Desarrollando componentes...",
-            "image": "./img/RETOS/CONSTRUCCION.png"
         }
+        
     ],
     
     "landing_10_18":[
