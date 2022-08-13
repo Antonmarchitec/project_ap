@@ -105,16 +105,18 @@
                 transition: 0.1s all linear;
                 overflow: hidden;
                 background:$colorVerde;
+                transition: 1s all;
                 .foto{
-                  mix-blend-mode:multiply;    
-                }
-
-                
+                    mix-blend-mode:multiply;    
+                }    
             }
             .contenedor_der_image:hover{
                 //border:5px double $colorVerde;
                 border:2px solid $colorVerde;
                 box-shadow: 0px 0px 100px $colorVerdeTrans;
+                .foto{
+                    mix-blend-mode:normal;    
+                }   
             }
             
         } 
@@ -233,22 +235,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .foto{
-                    width: 400px;
-                    height: 400px;
-                    background-image: url(../img/foto.jpg);
-                    background-size: 100% 100%; 
-                    margin:auto;
-                    border:2px solid $colorVerde;
-                    border-radius:50%;
-                    box-shadow: 0px 0px 5px $colorVerde;
-                    transition: 0.1s all linear;
-                }
-                .foto:hover{
-                    //border:5px double $colorVerde;
-                    border: none;
-                    box-shadow: 0px 0px 100px $colorVerdeTrans;
-                } 
+                transition: 1s all;
+
+                
             } 
         }
     
@@ -379,17 +368,9 @@
                     transition: 0.1s all linear;
                     overflow: hidden;
                     background:$colorVerde;
-                    .foto{
-                      mix-blend-mode:multiply;    
-                    }
-    
-                    
+                    transition: 1s all;
                 }
-                .contenedor_der_image:hover{
-                    //border:5px double $colorVerde;
-                    border:2px solid $colorVerde;
-                    box-shadow: 0px 0px 100px $colorVerdeTrans;
-                }
+                
                 
             } 
         }
@@ -522,17 +503,11 @@
                     transition: 0.1s all linear;
                     overflow: hidden;
                     background:$colorVerde;
-                    .foto{
-                      mix-blend-mode:multiply;    
-                    }
-    
+                    transition: 1s all;
+
                     
                 }
-                .contenedor_der_image:hover{
-                    //border:5px double $colorVerde;
-                    border:2px solid $colorVerde;
-                    box-shadow: 0px 0px 100px $colorVerdeTrans;
-                }
+                
                 
             } 
         }
@@ -657,16 +632,8 @@
                     transition: 0.1s all linear;
                     overflow: hidden;
                     background:$colorVerde;
-                    .foto{
-                      mix-blend-mode:multiply;    
-                    }
-    
-                    
-                }
-                .contenedor_der_image:hover{
-                    //border:5px double $colorVerde;
-                    border:2px solid $colorVerde;
-                    box-shadow: 0px 0px 100px $colorVerdeTrans;
+                    transition: 1s all;
+
                 }
                 
             } 

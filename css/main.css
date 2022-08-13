@@ -598,6 +598,7 @@ html {
   transition: 0.1s all linear;
   overflow: hidden;
   background: #56fbd3;
+  transition: 1s all;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
   mix-blend-mode: multiply;
@@ -605,6 +606,9 @@ html {
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
   border: 2px solid #56fbd3;
   box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+}
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover .foto {
+  mix-blend-mode: normal;
 }
 #cont_descripcion_foto .cont_descripcion_foto_gradient {
   width: 300px;
@@ -705,21 +709,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .foto {
-    width: 400px;
-    height: 400px;
-    background-image: url(../img/foto.jpg);
-    background-size: 100% 100%;
-    margin: auto;
-    border: 2px solid #56fbd3;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #56fbd3;
-    transition: 0.1s all linear;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .foto:hover {
-    border: none;
-    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+    transition: 1s all;
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     width: 300px;
@@ -837,13 +827,7 @@ html {
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
-    mix-blend-mode: multiply;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
-    border: 2px solid #56fbd3;
-    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+    transition: 1s all;
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     width: 300px;
@@ -965,13 +949,7 @@ html {
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
-    mix-blend-mode: multiply;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
-    border: 2px solid #56fbd3;
-    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+    transition: 1s all;
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     display: none;
@@ -1085,13 +1063,7 @@ html {
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
-    mix-blend-mode: multiply;
-  }
-  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
-    border: 2px solid #56fbd3;
-    box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+    transition: 1s all;
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     display: none;
