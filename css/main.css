@@ -6106,7 +6106,7 @@ html, body {
   margin: auto;
   display: grid;
   background: #0c1b32;
-  grid-template-columns: repeat(2, 1fr) 30%;
+  grid-template-columns: repeat(2, 1fr) 25%;
   grid-template-rows: auto;
   grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
 }
@@ -6795,7 +6795,7 @@ html, body {
 }
 .contBlogSidebar .contBlogSidebar_contPublicidad {
   width: 100%;
-  height: 350px;
+  height: 60%;
   margin-bottom: 10px;
   box-shadow: 0px 0px 6px #96aadb;
 }
@@ -6809,7 +6809,7 @@ html, body {
   align-items: center;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box {
-  width: 90px;
+  width: 75px;
   padding: 10px;
   background: white;
   display: flex;
@@ -6836,7 +6836,7 @@ html, body {
   }
   .contBlogSidebar .contBlogSidebar_contPublicidad {
     width: 100%;
-    height: 250px;
+    height: 50%;
     margin-bottom: 10px;
   }
   .contBlogSidebar .contBlogSidebar_contRedes {
@@ -6849,7 +6849,7 @@ html, body {
     align-items: center;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box {
-    width: 70px;
+    width: 55px;
     padding: 10px;
     background: white;
     display: flex;
@@ -6874,11 +6874,11 @@ html, body {
   }
   .contBlogSidebar .contBlogSidebar_contPublicidad {
     width: 45%;
-    height: 250px;
+    height: 50%;
     margin-bottom: 10px;
   }
   .contBlogSidebar .contBlogSidebar_contRedes {
-    width: 70%;
+    width: 350px;
     padding: 10px 0px;
     display: flex;
     flex-direction: row;
@@ -6887,7 +6887,7 @@ html, body {
     align-items: center;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box {
-    width: 90px;
+    width: 100px;
     padding: 10px;
     background: white;
     display: flex;
@@ -6912,7 +6912,7 @@ html, body {
   }
   .contBlogSidebar .contBlogSidebar_contPublicidad {
     width: 85%;
-    height: 320px;
+    height: 50%;
     margin-bottom: 10px;
   }
   .contBlogSidebar .contBlogSidebar_contRedes {
@@ -7013,9 +7013,9 @@ html, body {
     margin-left: 30px;
   }
   .contBlogFooter .contBlogFooter_articulos {
-    width: 100%;
+    width: 90%;
     padding: 10px 0px;
-    margin-top: 10px;
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7048,9 +7048,10 @@ html, body {
     margin: 20px auto;
   }
   .contBlogFooter .contBlogFooter_pie {
-    width: 100%;
+    width: 90%;
     padding: 20px 0px;
     text-align: center;
+    margin: auto;
   }
   .contBlogFooter .contBlogFooter_pie .contBlogFooter_pie_text {
     color: #56fbd3;

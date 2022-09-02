@@ -83,14 +83,15 @@
         margin-left: 30px;
     }
     .contBlogFooter_articulos{
-        width: 100%;
+        width: 90%;
         padding: 10px 0px;
-        margin-top: 10px;
+        margin: 10px auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+
         .contBlogFooter_articulos_box{
             width: auto;
             padding: 10px 0px;
@@ -121,9 +122,10 @@
         margin:20px auto;
     } 
     .contBlogFooter_pie{
-        width: 100%;
+        width: 90%;
         padding: 20px 0px;
         text-align: center;
+        margin: auto;
         .contBlogFooter_pie_text{
             color: $colorVerde;
             font-weight: 300;

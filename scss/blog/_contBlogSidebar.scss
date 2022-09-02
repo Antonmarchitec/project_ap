@@ -4,10 +4,9 @@
     width: 100%;
     padding: 50px 10px;
     background:$colorAzul;
-
     .contBlogSidebar_contPublicidad{
         width: 100%;
-        height: 350px;
+        height:60%;
         margin-bottom: 10px;
         box-shadow: 0px 0px 6px $colorCelesteOscuro;
 
@@ -20,9 +19,8 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        
         .contBlogSidebar_contRedes_box{
-            width: 90px;
+            width: 75px;
             padding: 10px;
             background: white;
             display: flex;
@@ -52,8 +50,9 @@
         background:$colorAzul;
         .contBlogSidebar_contPublicidad{
             width: 100%;
-            height: 250px;
+            height: 50%;
             margin-bottom: 10px;
+            
         }
         .contBlogSidebar_contRedes{
             width: 100%;
@@ -64,7 +63,7 @@
             justify-content: space-between;
             align-items: center;
             .contBlogSidebar_contRedes_box{
-                width:70px;
+                width:55px;
                 padding: 10px;
                 background: white;
                 display: flex;
@@ -96,11 +95,11 @@
         align-items: center;
         .contBlogSidebar_contPublicidad{
             width: 45%;
-            height: 250px;
+            height: 50%;
             margin-bottom: 10px;
         }
         .contBlogSidebar_contRedes{
-            width: 70%;
+            width: 350px;
             padding: 10px 0px;
             display: flex;
             flex-direction: row;
@@ -108,7 +107,7 @@
             justify-content: space-between;
             align-items: center;
             .contBlogSidebar_contRedes_box{
-                width:90px;
+                width:100px;
                 padding: 10px;
                 background: white;
                 display: flex;
@@ -140,7 +139,7 @@
         align-items: center;
         .contBlogSidebar_contPublicidad{
             width:85%;
-            height: 320px;
+            height: 50%;
             margin-bottom: 10px;
         }
         .contBlogSidebar_contRedes{
