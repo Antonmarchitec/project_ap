@@ -12,8 +12,9 @@ html, body{
     //padding: 20px 0px;
     margin: auto;
     display: grid;
+    background: $colorAzul;
     //gap: 1em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2,1fr) 30%;
     grid-template-rows:auto ;
     grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP"
                          "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU"
@@ -58,4 +59,34 @@ html, body{
                             //background: brown;
                             grid-area:BLOG_BLOCK_FOOTER;
                          }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:769px){
+   .CONTAINER_BLOG{
+     
+      display: grid;
+      background: $colorAzul;
+      //gap: 1em;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows:auto ;
+      grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP"
+                           "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU"
+                           "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER"
+                           "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS"
+                           "BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR"
+                           "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
+   }
 }

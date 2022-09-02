@@ -4,7 +4,7 @@
     width: 100%;
     .contBlogBloggers{
         width: 100%;
-        padding: 10px 0px;
+        padding: 50px 0px;
         background:$colorAzul;
         display: flex;
         flex-direction: row;
@@ -12,14 +12,13 @@
         justify-content: space-around;
         align-items: center;
         .contBlogBloggers_img{
-            width: 280px;
+            width:30%;
             height: 280px;
-            background: teal;
             border-radius: 5px;
             overflow:hidden ;
         }
         .contBlogBloggers_desc{
-            width:500px;
+            width:65%;
             height: 280px;
             padding: 0px 20px;
             .contBloggers_desc_title{
@@ -35,21 +34,50 @@
                 font-weight: 300;
                 color: white;
             }
-            .contBloggers_desc_btn{
+            .contBloggers_desc_IconButton{
+                width: 100%;
+                padding:3px 0px;
                 margin-top: 20px;
-                width: 150px;
-                padding: 5px;
-                cursor: pointer;
-                border: none;
-                color: white;
-                background: transparent;
-                transition: 0.5s;
-                border:2px solid $colorVerde;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                //BLOCK BOTON
+                .contBloggers_desc_btn{
+                    width: 150px;
+                    padding: 5px;
+                    cursor: pointer;
+                    border: none;
+                    color: white;
+                    background: transparent;
+                    transition: 0.2s;
+                    border-radius: 5px;
+                    border:2px solid $colorVerde;
+                }
+                .contBloggers_desc_btn:hover{
+                    background: $colorAzul;
+                    border:2px solid white;
+                    border-radius: 5px;
+
+                }
+
+                //BLOCK ICONS
+                .contBloggers_desc_contIcons{
+                    width: auto;
+                    padding: 2px 0px;
+                    margin-left: 5px;
+                    .blogIcons{
+                        color: $colorVerde;
+                        cursor: pointer;
+                        margin-left: 5px;
+                    }
+                    .campo{
+                        color: white;
+                    }
+                }
             }
-            .contBloggers_desc_btn:hover{
-                background: $colorAzul;
-                transform: translateX(5px);
-            }
+            
         }
 
         .blogSeparador{
@@ -89,4 +117,199 @@
     }
     
 }
+
+
+
+/*@media (min-width:1025px) and (max-width:1200px) 175px diferencia
+* @media (min-width:770px) and (max-width:1024px)  254px diferencias
+* @media (min-width:641px) and (max-width:769px)   728 px diferencia
+* @media (min-width:481px) and (max-width:640px)   159px diferencia
+* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
+
+
+@media (min-width:770px) and (max-width:1024px){
+    .contBlogBloggersBase{
+        width: 100%;
+        .contBlogBloggers{
+            width: 100%;
+            padding: 10px 20px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 10px;
+            .contBlogBloggers_img{
+                width:100%;
+                height: 280px;
+                border-radius: 5px;
+                overflow:hidden ;
+            }
+            .contBlogBloggers_desc{
+                width:100%;
+                height: auto;
+                padding: 10px 20px;
+                .contBloggers_desc_title{
+                    width: 400px;
+                    padding: 5px 0px;
+                    font-weight: 600;
+                    color: $colorVerde;
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+                .contBloggers_desc_parrafo{
+                    margin-top: 10px;
+                    font-weight: 300;
+                    color: white;
+                }
+                .contBloggers_desc_IconButton{
+                    width: 100%;
+                    padding:3px 0px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    //BLOCK BOTON
+                    .contBloggers_desc_btn{
+                        width: 150px;
+                        padding: 5px;
+                        cursor: pointer;
+                        border: none;
+                        color: white;
+                        background: transparent;
+                        transition: 0.2s;
+                        border-radius: 5px;
+                        border:2px solid $colorVerde;
+                    }
+                    .contBloggers_desc_btn:hover{
+                        background: $colorAzul;
+                        border:2px solid white;
+                        border-radius: 5px;
+    
+                    }
+    
+                    //BLOCK ICONS
+                    .contBloggers_desc_contIcons{
+                        width: auto;
+                        padding: 2px 0px;
+                        margin-left: 5px;
+                        .blogIcons{
+                            color: $colorVerde;
+                            cursor: pointer;
+                            margin-left: 5px;
+                        }
+                        .campo{
+                            color: white;
+                        }
+                    }
+                }
+                
+            }
+    
+            .blogSeparador{
+                margin-top:20px;
+                width: 90%;
+                height: 2px;
+                border: none;
+                background: rgba(128, 128, 128, 0.171);
+            }
+        }
+        
+    }
+}
+
+
+@media (min-width:320px) and (max-width:769px){
+    .contBlogBloggersBase{
+        width: 100%;
+        .contBlogBloggers{
+            width: 100%;
+            padding: 10px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 5px;
+            .contBlogBloggers_img{
+                margin-top: 20px;
+                width:100%;
+                height: 280px;
+                border-radius: 5px;
+                overflow:hidden ;
+            }
+            .contBlogBloggers_desc{
+                width:100%;
+                height:auto;
+                padding: 10px 0px;
+                .contBloggers_desc_title{
+                    width: 100%;
+                    padding: 5px 0px;
+                    font-weight: 600;
+                    color: $colorVerde;
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+                .contBloggers_desc_parrafo{
+                    margin-top: 10px;
+                    font-weight: 300;
+                    color: white;
+                }
+                .contBloggers_desc_IconButton{
+                    width: 100%;
+                    padding:3px 0px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    //BLOCK BOTON
+                    .contBloggers_desc_btn{
+                        width: 150px;
+                        padding: 5px;
+                        cursor: pointer;
+                        border: none;
+                        color: white;
+                        background: transparent;
+                        transition: 0.2s;
+                        border-radius: 5px;
+                        border:2px solid $colorVerde;
+                    }
+                    .contBloggers_desc_btn:hover{
+                        background: $colorAzul;
+                        border:2px solid white;
+                        border-radius: 5px;
+    
+                    }
+    
+                    //BLOCK ICONS
+                    .contBloggers_desc_contIcons{
+                        width: auto;
+                        padding: 2px 0px;
+                        margin-left: 5px;
+                        .blogIcons{
+                            color: $colorVerde;
+                            cursor: pointer;
+                            margin-left: 5px;
+                        }
+                        .campo{
+                            color: white;
+                        }
+                    }
+                }
+                
+            }
+
+        }
+        
+    }
+}
+
 

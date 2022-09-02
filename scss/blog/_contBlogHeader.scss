@@ -2,8 +2,7 @@
 
 .contBlogHeader{
     width: 100%;
-    //padding: 10px 0px;
-    background: rgba(238, 130, 238, 0.404);
+    padding: 10px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,7 +13,6 @@
     .contBlogHeader_bannerRight{
         width:60%;
         height: 500px;
-        background: firebrick;
         overflow: hidden;
         position: relative;
         .contBlogHeader_bannerRight_medio{
@@ -84,17 +82,10 @@
 
 
 
-/*@media (min-width:1025px) and (max-width:1200px) 175px diferencia
-* @media (min-width:770px) and (max-width:1024px)  254px diferencias
-* @media (min-width:641px) and (max-width:769px)   728 px diferencia
-* @media (min-width:481px) and (max-width:640px)   159px diferencia
-* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
-
 @media (min-width:320px) and (max-width:640px) {
     .contBlogHeader{
         width: 100%;
         //padding: 10px 0px;
-        background: rgba(238, 130, 238, 0.404);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
