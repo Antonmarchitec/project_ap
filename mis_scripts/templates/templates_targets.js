@@ -54,8 +54,15 @@ const pintarCards1_6 = (dataCard1_9) =>{
         template_target.querySelector("#description").textContent = element.descripcion
         template_target.querySelector("img").setAttribute("src", element.imagen)
         template_target.querySelector("img").setAttribute("alt", element.title)
+
         template_target.querySelector("#git").dataset.idGit = element.idGit
         template_target.querySelector("#live").dataset.idLive = element.idLive
+
+        template_target.querySelector("#techHTML").textContent = element.tech_html
+        template_target.querySelector("#techCSS").textContent = element.tech_css
+        template_target.querySelector("#techJS").textContent = element.tech_js
+
+
 
         let cloneTarget = template_target.cloneNode(true)
         fragmentTarjets.appendChild(cloneTarget)
@@ -119,6 +126,10 @@ const pintarCards7_12 = (dataCard10_18) =>{
         template_target.querySelector("img").setAttribute("alt", element2.title)
         template_target.querySelector("#git").dataset.idGit = element2.idGit
         template_target.querySelector("#live").dataset.idLive = element2.idLive
+
+        template_target.querySelector("#techHTML").textContent = element2.tech_html
+        template_target.querySelector("#techCSS").textContent = element2.tech_css
+        template_target.querySelector("#techJS").textContent = element2.tech_js
         
         let clone2 = template_target.cloneNode(template_target)
         fragmentTarjets.appendChild(clone2)
@@ -182,6 +193,10 @@ const pintarCards13_18 = (dataCard13_18) =>{
         template_target.querySelector("img").setAttribute("alt", element2.title)
         template_target.querySelector("#git").dataset.idGit = element2.idGit
         template_target.querySelector("#live").dataset.idLive = element2.idLive
+
+        template_target.querySelector("#techHTML").textContent = element2.tech_html
+        template_target.querySelector("#techCSS").textContent = element2.tech_css
+        template_target.querySelector("#techJS").textContent = element2.tech_js
         
         let clone2 = template_target.cloneNode(template_target)
         fragmentTarjets.appendChild(clone2)
@@ -232,6 +247,10 @@ const pintarCards19_24 = (dataCard19_24) =>{
         template_target.querySelector("img").setAttribute("alt", element2.title)
         template_target.querySelector("#git").dataset.idGit = element2.idGit
         template_target.querySelector("#live").dataset.idLive = element2.idLive
+
+        template_target.querySelector("#techHTML").textContent = element2.tech_html
+        template_target.querySelector("#techCSS").textContent = element2.tech_css
+        template_target.querySelector("#techJS").textContent = element2.tech_js
         
         let clone2 = template_target.cloneNode(template_target)
         fragmentTarjets.appendChild(clone2)
@@ -244,6 +263,10 @@ const pintarCards19_24 = (dataCard19_24) =>{
             location.href = "https://github.com/Antonmarchitec/Componente_de_calificacion_interactivo.git"
         }else if(e.target.dataset.idLive === "19"){
             location.href = "https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/"
+        }else if(e.target.dataset.idGit === "20"){
+            location.href = "https://github.com/Antonmarchitec/Pagina_inicio_tema_oscuro_fylo.git"
+        }else if (e.target.dataset.idLive === "20"){
+            location.href = "https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/"
         }
     })
 }

@@ -7,9 +7,8 @@
             "title":"Sección de prueba social",
             "urlRepositorio":"https://github.com/Antonmarchitec/Secci-n-de-prueba-social.git",
             "urlVista":"https://antonmarchitec.github.io/Secci-n-de-prueba-social/",
-            "tech_html": "HTML1",
-            "tech_css": "CSS1",
-            "tech_js": "JS1",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
             "imagen":"./img/RETOS/TARGET_1.jpg",
             "descripcion": "Diseño para sección social desarrollado con HTML, CSS con tres campos de valoración."
         },
@@ -18,9 +17,8 @@
             "idGit":2,
             "idLive":2,
             "title":"Sección en función de cuatro cartas",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
             "imagen":"./img/RETOS/TARGET_2.jpg",
             "descripcion": "Sección de cuatro cartas desarrollado en HTML, CSS GRID Y FLEXBOX."
         },
@@ -29,9 +27,8 @@
             "idGit":3,
             "idLive":3,
             "title":"Tarjetas para clientes",
-            "tech_html": "HTML3",
-            "tech_css": "CSS3",
-            "tech_js": "JS3",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
             "imagen":"./img/RETOS/TARGET_3.jpg",
             "descripcion": "Tarjetas básicas para clientes creadas con HTML, CSS, FLEXBOX."
         },
@@ -42,7 +39,6 @@
             "title":"Trageta de vistas de tres columnas.",
             "tech_html": "HTML",
             "tech_css": "CSS",
-            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_4.jpg",
             "descripcion": "Sección diseñada con HTML, CSS Y FLEXBOX, tres columnas."
         },
@@ -53,7 +49,6 @@
             "title":"Pagina de destino, dos columnas",
             "tech_html": "HTML",
             "tech_css": "CSS",
-            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_5.jpg",
             "descripcion": "Sección desarrollada con HTML, CSS GRID y FLEXBOX de dos columnas."
         },
@@ -64,7 +59,6 @@
             "title":"Tarjeta previa de estadísticas",
             "tech_html": "HTML",
             "tech_css": "CSS",
-            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_6.jpg",
             "descripcion": "Tarjeta desarrollada en HTML, CSS para estadísticas en dos columnas."
         } 
@@ -112,9 +106,9 @@
             "title":"Landing page Huddle",
             "urlRepositorio":"https://github.com/Antonmarchitec/Huddle-landing-page.git",
             "urlVista":"https://antonmarchitec.github.io/Huddle-landing-page/",
-            "tech_html": "HTML1",
-            "tech_css": "CSS1",
-            "tech_js": "JS1",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_10.jpg",
             "descripcion": "Landing page Huddle desarrollada con HTML y CSS 4 secciones mas su pie de pagina. "
         },
@@ -123,9 +117,9 @@
             "idGit":11,
             "idLive":11,
             "title":"Landing page Clipboard",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_11.jpg",
             "descripcion": "Diseño básico de una landing page con un header 5 secciones y un footer trabajados con HTML y CSS."
         },
@@ -134,9 +128,9 @@
             "idGit":12,
             "idLive":12,
             "title":"componente card preview",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_12.jpg",
             "descripcion": "Tarjeta previa para ventas desarrollada con HTML y CSS, dos secciones y colores claros "
         }
@@ -149,9 +143,8 @@
             "idGit":13,
             "idLive":13,
             "title":"Seccion cuadricula testimonios",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
             "imagen":"./img/RETOS/TARGET_13.jpg",
             "descripcion": "Componente con 5 seciones desarrolado con HTML, CSS y JS, tambien integrado con CSS GRID. "
         },
@@ -160,9 +153,9 @@
             "idGit":14,
             "idLive":14,
             "title":"Generador de mensajes",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_14.jpg",
             "descripcion": "Componente generador de mensajes al hacerle click en el boton, desarroollado con HTML, CSS y JS."
         },
@@ -171,9 +164,8 @@
             "idGit":15,
             "idLive":15,
             "title":"Componente precio unico",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
             "imagen":"./img/RETOS/TARGET_15.jpg",
             "descripcion": "Componente básico desarrollado para compras de precio único de servicios y productos."
         },
@@ -182,9 +174,9 @@
             "idGit":16,
             "idLive":16,
             "title":"Componente de almacenamiento.",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_16.jpg",
             "descripcion": "Componente básico desarrollado con HTML y CSS, con colores oscuros, para almacenamiento de datos."
         },
@@ -193,9 +185,9 @@
             "idGit":17,
             "idLive":17,
             "title":"PÁGINA DE INICIO DE FYLO CON COLUMNAS",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_17.jpg",
             "descripcion": "Landing page con un diseño básico desarrollado con HTML y CSS, compuesto por un header, secciones y un footer."
         },
@@ -204,9 +196,9 @@
             "idGit":18,
             "idLive":18,
             "title":"PÁGINA DE INICIO CON SECCIONES CURVAS",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_18.jpg",
             "descripcion": "Landing page desarrollado con HTML y CSS, un diseño básico utilizando  pseudoelementos para dar una mejor experiencia de usuario (UX)."
         }    
@@ -218,9 +210,9 @@
             "idGit":19,
             "idLive":19,
             "title":"COMPONENTE INTERACTIVO",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
             "imagen":"./img/RETOS/TARGET_19.jpg",
             "descripcion": "Un pequeño y entretenido proyecto que ayuda a interactuar con el DOM y actualizarlo, está desarrollado con HTML, CSS y JS."
         },
@@ -228,12 +220,23 @@
             "id":20,
             "idGit":20,
             "idLive":20,
+            "title":"Landing page fylo con tema oscuro",
+            "tech_html": "HTML",
+            "tech_css": "CSS",
+            "tech_js": "JS",
+            "imagen":"./img/RETOS/TARGET_20.jpg",
+            "descripcion": "Diseño modo oscuro desarrollado con HTML, CSS y JS cuenta con un header y 4 secciones, aplica evento al botón para validación de correo electrónico."
+        },
+        {
+            "id":21,
+            "idGit":21,
+            "idLive":21,
             "title":"Componente en desarrollo",
-            "tech_html": "HTML2",
-            "tech_css": "CSS2",
-            "tech_js": "JS2",
+            "tech_html": " -- ",
+            "tech_css": " -- ",
+            "tech_js": " -- ",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
-            "descripcion": "Próximo reto en dos días..."
+            "descripcion": "Espearando proximo reto en una semana..."
         }
     ]
 }
