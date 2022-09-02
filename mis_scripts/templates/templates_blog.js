@@ -44,6 +44,7 @@ const pintarArticleBlog_1_7 = (dataArticle)=>{
         //console.log(article.id)
         template_article.querySelector("#titleBlog").textContent = article.title
         template_article.querySelector("#parrafoBlog").textContent = article.descripcion
+        template_article.querySelector("#fuente").textContent = article.fuente
         template_article.querySelector("#imgBlog").setAttribute("src",article.imagen)
         template_article.querySelector("#imgBlog").setAttribute("alt",article.title)
         template_article.querySelector("#btnBlog").dataset.idBlog = article.id

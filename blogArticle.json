@@ -2,9 +2,10 @@
     "blog_1_7":[
         {
             "id":1,
-            "title":"Perfil de desarrollador",
-            "imagen":"./img/developer.jpg",
-            "descripcion": "Aprender a codificar en línea aumentó del 60 % al 70 % año tras año.Es más probable que los encuestados mayores de 45 años hayan aprendido de los libros, mientras que los más jóvenes están aprendiendo en línea. Los encuestados más jóvenes (menores de 18 años) confían más en los recursos en línea y es más probable que hayan aprendido de cursos o certificaciones en línea. || Fuente: Stack Overflow."
+            "title":"El perfil de un desarrollador",
+            "imagen":"./img/BLOG/blog_img_1.jpg",
+            "descripcion": "Aprender a codificar en línea aumentó del 60 % al 70 % año tras año.Es más probable que los encuestados mayores de 45 años hayan aprendido de los libros, mientras que los más jóvenes están aprendiendo en línea. Los encuestados más jóvenes (menores de 18 años) confían más en los recursos en línea y es más probable que hayan aprendido de cursos o certificaciones en línea.",
+            "fuente":" -- Fuente: Stack Overflow. --"
         },
         {
             "id":2,

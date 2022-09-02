@@ -6174,10 +6174,11 @@ html, body {
 }
 .contBlogTop .contBlogTop_banner .contBlogTop_banner_title {
   color: white;
-  font-weight: 300;
+  letter-spacing: -2px;
   font-size: 80px;
   text-align: end;
   line-height: 60px;
+  font-weight: 800;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -6519,31 +6520,36 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_img {
-  width: 30%;
+  width: 280px;
   height: 280px;
   border-radius: 5px;
+  box-shadow: 0px 5px 1px #56fbd3;
+  transition: 0.5s linear;
   overflow: hidden;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc {
-  width: 65%;
-  height: 280px;
-  padding: 0px 20px;
+  width: 60%;
+  padding: 5px;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_title {
   width: 400px;
   padding: 5px 0px;
   font-weight: 600;
   color: #56fbd3;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 30px;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
   margin-top: 10px;
   font-weight: 300;
   color: white;
+}
+.contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_fuente {
+  color: #96aadb;
+  font-weight: 500;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton {
   width: 100%;
@@ -6636,7 +6642,7 @@ html, body {
     margin-bottom: 10px;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_img {
-    width: 100%;
+    width: 92%;
     height: 280px;
     border-radius: 5px;
     overflow: hidden;
@@ -6727,6 +6733,7 @@ html, body {
     height: 280px;
     border-radius: 5px;
     overflow: hidden;
+    padding: 5px 0px;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc {
     width: 100%;
