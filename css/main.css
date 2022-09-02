@@ -6573,12 +6573,12 @@ html, body {
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons {
   width: auto;
   padding: 2px 0px;
-  margin-left: 5px;
+  margin-right: 10px;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .blogIcons {
   color: #56fbd3;
   cursor: pointer;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .campo {
   color: white;
@@ -6603,13 +6603,15 @@ html, body {
 .contBlogNumerador .contBlogNumerador_box {
   width: 45px;
   height: 30px;
-  background: rgb(209, 208, 208);
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s all;
   color: #0c1b32;
+  font-weight: 600;
   font-size: 15px;
+  border-radius: 3px;
 }
 .contBlogNumerador .contBlogNumerador_box:hover {
   background: #0c1b32;
@@ -6617,11 +6619,6 @@ html, body {
   color: white;
 }
 
-/*@media (min-width:1025px) and (max-width:1200px) 175px diferencia
-* @media (min-width:770px) and (max-width:1024px)  254px diferencias
-* @media (min-width:641px) and (max-width:769px)   728 px diferencia
-* @media (min-width:481px) and (max-width:640px)   159px diferencia
-* @media (min-width:320px) and (max-width:480px)   160px diferencia*/
 @media (min-width: 770px) and (max-width: 1024px) {
   .contBlogBloggersBase {
     width: 100%;
