@@ -6392,7 +6392,7 @@ html, body {
 }
 .contBlogHeader {
   width: 100%;
-  padding: 10px 0px;
+  height: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6401,11 +6401,12 @@ html, body {
 }
 .contBlogHeader .contBlogHeader_bannerRight {
   width: 70%;
-  height: 500px;
   overflow: hidden;
   position: relative;
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
+  width: 100%;
+  height: 500px;
   text-align: center;
   transition: 0.5s all;
 }
@@ -6427,18 +6428,15 @@ html, body {
   font-size: 20px;
   font-weight: 300;
   line-height: 25px;
-  font-weight: 700;
 }
 .contBlogHeader .contBlogHeader_boxBanners {
   width: 30%;
   height: 500px;
-  background: rgb(148, 34, 22);
   overflow: hidden;
 }
 .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box {
   width: 100%;
   height: 166.66px;
-  background: tan;
   position: relative;
   transition: 0.5s all;
 }
@@ -6465,7 +6463,7 @@ html, body {
   transform: scale(1.1, 1.1);
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 320px) and (max-width: 850px) {
   .contBlogHeader {
     width: 100%;
     display: flex;
@@ -6477,7 +6475,6 @@ html, body {
   .contBlogHeader .contBlogHeader_bannerRight {
     width: 100%;
     height: 500px;
-    background: firebrick;
     overflow: hidden;
     position: relative;
   }
