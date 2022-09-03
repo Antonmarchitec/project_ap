@@ -6527,7 +6527,6 @@ html, body {
   width: 280px;
   height: 280px;
   border-radius: 5px;
-  box-shadow: 0px 5px 1px #56fbd3;
   transition: 0.5s linear;
   overflow: hidden;
 }
