@@ -20,7 +20,7 @@ const dataFechArticle = async ()=>{
                 contBlogBloggersBase.textContent = pintarArticleBlog_1_7(dataArticle)
                 pintarArticleBlog_1_7(dataArticle)
                 console.log("le diste a uno")
-            }else if(e.target.id === "numBlogdos"){
+            }/*else if(e.target.id === "numBlogdos"){
                 contBlogBloggersBase.textContent = pintarArticleBlog_8_14(dataArticle)
                 pintarArticleBlog_8_14(dataArticle)
                 console.log("le diste a dos")
@@ -28,7 +28,7 @@ const dataFechArticle = async ()=>{
                 contBlogBloggersBase.textContent = pintarArticleBlog_15_21(dataArticle)
                 pintarArticleBlog_15_21(dataArticle)
                 console.log("le diste a tres")
-            }
+            }*/
         })
 
     }catch(error){
@@ -53,6 +53,15 @@ const pintarArticleBlog_1_7 = (dataArticle)=>{
         fragmentArticle.appendChild(cloneBlog)
     });
     contBlogBloggersBase.appendChild(fragmentArticle)
+
+    document.addEventListener("click", (e) =>{
+        if(e.target.dataset.idBlog === "1"){
+            /*window.location.href = "https://www.campusmvp.es/recursos/post/como-son-los-desarrolladores-en-2021-segun-stack-overflow.aspx"*/
+            window.open("https://www.campusmvp.es/recursos/post/como-son-los-desarrolladores-en-2021-segun-stack-overflow.aspx")
+        }else if(e.target.dataset.idBlog === "2"){
+            window.open("https://keepcoding.io/blog/7-tecnologias-para-desarrollo-web/")
+        }
+    })
 
 }
 

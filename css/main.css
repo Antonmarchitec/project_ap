@@ -6400,7 +6400,7 @@ html, body {
   align-items: center;
 }
 .contBlogHeader .contBlogHeader_bannerRight {
-  width: 60%;
+  width: 70%;
   height: 500px;
   overflow: hidden;
   position: relative;
@@ -6408,7 +6408,7 @@ html, body {
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
   width: 100%;
   height: 100%;
-  background-image: url(../img/developer.jpg);
+  background-image: url(/img/BLOG/banner_principal.jpg);
   background-size: 100% 100%;
   text-align: center;
   transition: 0.5s all;
@@ -6418,20 +6418,23 @@ html, body {
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
   width: 300px;
-  padding: 10px 0px;
+  padding: 5px 0px;
   position: absolute;
   bottom: 30px;
   left: calc(50% - 180px);
   text-align: center;
+  background: rgba(12, 27, 50, 0.6980392157);
+  border-radius: 5px 20px;
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
   color: white;
   font-size: 20px;
   font-weight: 300;
   line-height: 25px;
+  font-weight: 700;
 }
 .contBlogHeader .contBlogHeader_boxBanners {
-  width: 40%;
+  width: 30%;
   height: 500px;
   background: rgb(148, 34, 22);
   overflow: hidden;
@@ -6448,17 +6451,19 @@ html, body {
   height: 100%;
 }
 .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle {
-  width: 300px;
+  width: 200px;
   padding: 10px 0px;
   text-align: center;
   position: absolute;
+  border-radius: 5px;
   bottom: 20px;
   line-height: 20px;
   left: calc(50% - 150px);
+  background: rgba(12, 27, 50, 0.6980392157);
 }
 .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
-  color: white;
-  font-weight: 300;
+  color: #96aadb;
+  font-weight: 700;
 }
 .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box:hover {
   transform: scale(1.1, 1.1);
@@ -6483,7 +6488,7 @@ html, body {
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
     width: 100%;
     height: 100%;
-    background-image: url(../img/developer.jpg);
+    background-image: url(/img/BLOG/banner_principal.jpg);
     background-size: 100% 100%;
     text-align: center;
     transition: 0.5s all;
@@ -6653,11 +6658,9 @@ html, body {
     padding: 10px 20px;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_title {
-    width: 400px;
     padding: 5px 0px;
     font-weight: 600;
     color: #56fbd3;
-    font-size: 25px;
     line-height: 30px;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
@@ -6745,7 +6748,6 @@ html, body {
     padding: 5px 0px;
     font-weight: 600;
     color: #56fbd3;
-    font-size: 25px;
     line-height: 30px;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
