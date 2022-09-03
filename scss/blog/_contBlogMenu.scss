@@ -41,10 +41,14 @@
         align-items: center; 
         .iconBlogResponsive{
             font-size: 35px;
-            cursor: pointer;
             color: white;
             transition: 0.2s ease;
             display: none;
+        }
+        .iconBlogResponsive:hover{
+            transform: translateX(10px);
+            cursor: pointer;
+            color: $colorVerde;
         }
     }
 }

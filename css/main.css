@@ -6376,10 +6376,14 @@ html, body {
 }
 .contBlogMenu .contBlogTop_btnResponsive .iconBlogResponsive {
   font-size: 35px;
-  cursor: pointer;
   color: white;
   transition: 0.2s ease;
   display: none;
+}
+.contBlogMenu .contBlogTop_btnResponsive .iconBlogResponsive:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  color: #56fbd3;
 }
 
 @media (min-width: 320px) and (max-width: 770px) {
