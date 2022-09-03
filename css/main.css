@@ -6415,13 +6415,13 @@ html, body {
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
   width: 300px;
-  padding: 5px 0px;
+  padding: 10px 20px;
   position: absolute;
   bottom: 30px;
   left: calc(50% - 180px);
   text-align: center;
   background: rgba(12, 27, 50, 0.6980392157);
-  border-radius: 5px 20px;
+  border-radius: 5px;
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
   color: white;
@@ -6449,7 +6449,6 @@ html, body {
   padding: 10px 0px;
   text-align: center;
   position: absolute;
-  border-radius: 5px;
   bottom: 20px;
   line-height: 20px;
   left: calc(50% - 150px);
@@ -6463,43 +6462,178 @@ html, body {
   transform: scale(1.1, 1.1);
 }
 
-@media (min-width: 320px) and (max-width: 850px) {
+@media (min-width: 770px) and (max-width: 1024px) {
   .contBlogHeader {
     width: 100%;
+    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-arounda;
+    justify-content: space-around;
     align-items: center;
   }
   .contBlogHeader .contBlogHeader_bannerRight {
-    width: 100%;
-    height: 500px;
+    width: 70%;
     overflow: hidden;
     position: relative;
   }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
     width: 100%;
-    height: 100%;
-    background-image: url(/img/BLOG/banner_principal.jpg);
-    background-size: 100% 100%;
+    height: 500px;
     text-align: center;
     transition: 0.5s all;
   }
-  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio:hover {
-    transform: scale(1.1, 1.1);
-  }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
-    width: 250px;
-    padding: 10px 0px;
+    width: 300px;
+    padding: 10px 20px;
     position: absolute;
     bottom: 30px;
-    left: calc(50% - 130px);
+    left: calc(50% - 180px);
     text-align: center;
+    background: rgba(12, 27, 50, 0.6980392157);
+    border-radius: 5px;
   }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
     color: white;
     font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners {
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box {
+    width: 100%;
+    height: 166.66px;
+    position: relative;
+    transition: 0.5s all;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_contImgage {
+    width: 100%;
+    height: 100%;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle {
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    line-height: 20px;
+    left: initial;
+    background: rgba(12, 27, 50, 0.6980392157);
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
+    color: #96aadb;
+    font-weight: 700;
+  }
+}
+@media (min-width: 641px) and (max-width: 769px) {
+  .contBlogHeader {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight {
+    width: 70%;
+    overflow: hidden;
+    position: relative;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
+    width: 300px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 180px);
+    text-align: center;
+    background: rgba(12, 27, 50, 0.6980392157);
+    border-radius: 5px;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners {
+    width: 30%;
+    height: 500px;
+    overflow: hidden;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box {
+    width: 100%;
+    height: 166.66px;
+    position: relative;
+    transition: 0.5s all;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_contImgage {
+    width: 100%;
+    height: 100%;
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle {
+    width: 100%;
+    padding: 5px 0px;
+    text-align: center;
+    position: absolute;
+    border-radius: 0px;
+    bottom: 20px;
+    line-height: 20px;
+    left: initial;
+    background: rgba(12, 27, 50, 0.6980392157);
+  }
+  .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
+    color: #96aadb;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  .contBlogHeader {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background: teal;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_medio {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    transition: 0.5s all;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle {
+    width: 300px;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 150px);
+    text-align: center;
+    background: rgba(12, 27, 50, 0.6980392157);
+    border-radius: 5px;
+  }
+  .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
+    color: white;
+    font-size: 18px;
     font-weight: 300;
     line-height: 25px;
   }
