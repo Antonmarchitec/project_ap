@@ -6,6 +6,24 @@
   font-size: 18px;
 }
 
+body {
+  scroll-behavior: unset;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #56fbd3;
+  border-radius: 20px;
+  height: 100px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
