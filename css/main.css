@@ -3973,10 +3973,10 @@ a {
   padding: 50px 0px;
   background: #000000;
   display: grid;
-  grid-gap: 0;
+  grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "grillaPortfolio_box1    grillaPortfolio_box2    grillaPortfolio_box3" "grillaPortfolio_box4    grillaPortfolio_box5    grillaPortfolio_box6";
+  grid-template-areas: "grillaPortfolio_box1    grillaPortfolio_box2    grillaPortfolio_box3" "grillaPortfolio_box4    grillaPortfolio_box5    grillaPortfolio_box6" "grillaPortfolio_box7    grillaPortfolio_box8    grillaPortfolio_box9";
 }
 .grillaPortfolio .grillaPortfolio_box1 {
   grid-area: grillaPortfolio_box1;
@@ -4659,6 +4659,348 @@ a {
   bottom: 0;
 }
 .grillaPortfolio .grillaPortfolio_box6 .containerBox:hover .subcontainerBox .subcontainerBoxP4 {
+  bottom: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box7 {
+  grid-area: grillaPortfolio_box7;
+  overflow: hidden;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox {
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/image_visual_designer.jpg);
+  background-size: 100% 100%;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: relative;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP1 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP1 .subcontainerBox_text {
+  width: 100px;
+  color: #56fbd3;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP2 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP3 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP4 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  bottom: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox .subcontainerBox .subcontainerBoxP4 .subcontainerBox_text {
+  width: 100px;
+  color: white;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover {
+  transform: scale(1.1, 1.1) rotate(-5deg);
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover .subcontainerBox {
+  background: rgba(20, 20, 20, 0.5254901961);
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover .subcontainerBox .subcontainerBoxP1 {
+  top: 0;
+  left: 0;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover .subcontainerBox .subcontainerBoxP2 {
+  top: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover .subcontainerBox .subcontainerBoxP3 {
+  left: 0;
+  bottom: 0;
+}
+.grillaPortfolio .grillaPortfolio_box7 .containerBox:hover .subcontainerBox .subcontainerBoxP4 {
+  bottom: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box8 {
+  grid-area: grillaPortfolio_box8;
+  overflow: hidden;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/image_petshop.jpg);
+  background-size: 100% 100%;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: relative;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP1 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP1 .subcontainerBox_text {
+  width: 100px;
+  color: #56fbd3;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP2 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP3 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP4 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  bottom: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox .subcontainerBox .subcontainerBoxP4 .subcontainerBox_text {
+  width: 100px;
+  color: white;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover {
+  transform: scale(1.1, 1.1) rotate(-5deg);
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover .subcontainerBox {
+  background: rgba(20, 20, 20, 0.5254901961);
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover .subcontainerBox .subcontainerBoxP1 {
+  top: 0;
+  left: 0;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover .subcontainerBox .subcontainerBoxP2 {
+  top: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover .subcontainerBox .subcontainerBoxP3 {
+  left: 0;
+  bottom: 0;
+}
+.grillaPortfolio .grillaPortfolio_box8 .containerBox:hover .subcontainerBox .subcontainerBoxP4 {
+  bottom: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box9 {
+  grid-area: grillaPortfolio_box9;
+  overflow: hidden;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/image_ionic.jpg);
+  background-size: 100% 100%;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  position: relative;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP1 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  left: 0;
+  top: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP1 .subcontainerBox_text {
+  width: 100px;
+  color: #56fbd3;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP2 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  top: 0;
+  right: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP3 {
+  width: 50%;
+  height: 50%;
+  background: rgba(12, 27, 50, 0.6980392157);
+  position: absolute;
+  left: -50%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon {
+  color: #56fbd3;
+  font-size: 65px;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon:hover {
+  color: white;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP4 {
+  width: 50%;
+  height: 50%;
+  background: #000000;
+  position: absolute;
+  right: 0;
+  bottom: -50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox .subcontainerBox .subcontainerBoxP4 .subcontainerBox_text {
+  width: 100px;
+  color: white;
+  font-size: 45px;
+  line-height: 38px;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover {
+  transform: scale(1.1, 1.1) rotate(-5deg);
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover .subcontainerBox {
+  background: rgba(20, 20, 20, 0.5254901961);
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover .subcontainerBox .subcontainerBoxP1 {
+  top: 0;
+  left: 0;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover .subcontainerBox .subcontainerBoxP2 {
+  top: 0;
+  right: 0;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover .subcontainerBox .subcontainerBoxP3 {
+  left: 0;
+  bottom: 0;
+}
+.grillaPortfolio .grillaPortfolio_box9 .containerBox:hover .subcontainerBox .subcontainerBoxP4 {
   bottom: 0;
   right: 0;
 }
