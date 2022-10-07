@@ -1755,6 +1755,7 @@ a {
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details {
   margin-left: 10px;
+  margin-top: 30px;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja {
   width: auto;
