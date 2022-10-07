@@ -146,6 +146,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 0px 0px;
     margin-right: 0px;
     background: rgba(12, 27, 50, 0.6980392157);
+    background: rgba(12, 27, 50, 0.968627451);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -191,7 +192,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   .contHeader_js {
-    background: rgba(12, 27, 50, 0.6980392157);
+    background: #0c1b32;
     box-shadow: 0px 2px 20px #56fbd3;
   }
 }
@@ -304,7 +305,7 @@ RESPONSIVE DESING OFICIAL
   color: #96aadb;
   font-size: 30px;
   position: absolute;
-  top: 130px;
+  top: 160px;
   font-weight: 300;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
@@ -324,7 +325,7 @@ RESPONSIVE DESING OFICIAL
     color: #96aadb;
     font-size: 28px;
     position: absolute;
-    top: 160px;
+    top: 170px;
   }
 }
 @media (min-width: 641px) and (max-width: 769px) {
@@ -338,7 +339,7 @@ RESPONSIVE DESING OFICIAL
     color: #96aadb;
     font-size: 26px;
     position: absolute;
-    top: 160px;
+    top: 170px;
   }
 }
 @media (min-width: 320px) and (max-width: 640px) {
@@ -349,11 +350,13 @@ RESPONSIVE DESING OFICIAL
     line-height: 42px;
   }
   .contParticulas #particles-js .subtitle {
+    width: 250px;
     text-align: center;
     color: #96aadb;
-    font-size: 25px;
+    font-size: 23px;
+    line-height: 25px;
     position: absolute;
-    top: 160px;
+    top: 190px;
   }
 }
 .contParticulas #particles-js .contFooter {
@@ -1099,116 +1102,75 @@ html {
 }
 .contContact .formulario {
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 50px;
 }
 .contContact .formulario .contDatosPersonales {
   width: 100%;
   padding: 20px 0px;
-  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .contContact .formulario .contDatosPersonales .contCampos {
-  width: 45%;
-  padding: 5px;
+  width: 50%;
 }
-.contContact .formulario .contDatosPersonales .contCampos .contCamposTitle {
-  color: #96aadb;
+.contContact .formulario .contDatosPersonales .contCampos label {
+  color: #56fbd3;
+  font-size: 20px;
 }
-.contContact .formulario .contDatosPersonales .contCampos .campoNombre {
+.contContact .formulario .contDatosPersonales .contCampos .campoInput {
   width: 100%;
-  margin: 15px 0px;
+  margin-bottom: 10px;
 }
-.contContact .formulario .contDatosPersonales .contCampos .campoNombre .input {
+.contContact .formulario .contDatosPersonales .contCampos .campoInput .input {
   width: 100%;
-  padding: 10px;
+  padding: 5px 10px;
+  color: grey;
+  font-size: 16px;
   outline: 1px solid transparent;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
 }
-.contContact .formulario .contDatosPersonales .contCampos .campoNombre .input:focus {
+.contContact .formulario .contDatosPersonales .contCampos .campoInput .input:focus {
   outline: 1px solid #56fbd3;
 }
-.contContact .formulario .contDatosPersonales .contCampos .campoNombre .input[required]:valid {
+.contContact .formulario .contDatosPersonales .contCampos .campoInput .input[required]:valid {
   outline: 1px solid #56fbd3;
 }
-.contContact .formulario .contDatosPersonales .contCampos .campoNombre .input[required]:invalid {
-  outline: 1px solid #0c1b32;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCorreo {
-  width: 100%;
-  margin: 15px 0px;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCorreo .input {
-  width: 100%;
-  padding: 10px;
-  outline: 1px solid transparent;
-  border: none;
-  border-radius: 5px;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCorreo .input:focus {
-  outline: 1px solid #56fbd3;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCorreo .input[required]:valid {
-  outline: 1px solid #56fbd3;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCorreo .input[required]:invalid {
-  outline: 1px solid #0c1b32;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCelular {
-  width: 100%;
-  margin: 15px 0px;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCelular .input {
-  width: 100%;
-  padding: 10px;
-  outline: 1px solid transparent;
-  border: none;
-  border-radius: 5px;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCelular .input:focus {
-  outline: 1px solid #56fbd3;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCelular .input[required]:valid {
-  outline: 1px solid #56fbd3;
-}
-.contContact .formulario .contDatosPersonales .contCampos .campoCelular .input[required]:invalid {
+.contContact .formulario .contDatosPersonales .contCampos .campoInput .input[required]:invalid {
   outline: 1px solid #0c1b32;
 }
 .contContact .formulario .contDatosPersonales .campoTextarea {
   width: 45%;
-  padding: 5px;
   border-radius: 5px;
 }
-.contContact .formulario .contDatosPersonales .campoTextarea .campoTextareaTitle {
-  color: #96aadb;
+.contContact .formulario .contDatosPersonales .campoTextarea label {
+  color: #56fbd3;
+  font-size: 20px;
 }
 .contContact .formulario .contDatosPersonales .campoTextarea .textarea {
-  margin: 12px auto;
-  width: 100%;
   padding: 10px;
   border-radius: 3px;
-  max-width: 100%;
   min-width: 100%;
-  max-height: 150px;
-  min-height: 150px;
+  max-width: 100%;
   resize: none;
   outline: 1px solid transparent;
+  color: grey;
 }
 .contContact .formulario .btnEnviar {
   width: 100%;
   padding: 5px 10px;
   background: rgba(12, 27, 50, 0.6980392157);
   border: 2px solid #56fbd3;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   transition: 0.2s all;
   cursor: pointer;
 }
 
-@media (min-width: 20px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 720px) {
   .contContact {
     width: 100%;
     background: #0c1b32;
@@ -1394,32 +1356,34 @@ html {
   background: #56fbd3;
 }
 
-.texto {
+h2 {
+  /* NOOOOO SE RESPETA LAS CLASE TITLE*/
+  margin-top: -30px;
+  color: rgb(255, 255, 255);
   font-size: 20px;
-  color: #0c1b32;
-}
-
-.class_icon {
-  font-size: 15px;
-}
-
-.class_buttonConfirm {
-  padding: 3px 20px;
-  background: #0c1b32;
-  color: #96aadb;
-  border-radius: 5px;
-  border: 2px solid #56fbd3;
-  margin-right: 5px;
-  color: white;
-}
-
-.footer {
-  color: #96aadb;
-  font-size: 15px;
 }
 
 .class_popup {
-  border-radius: 15px;
+  /* SE RESPETA LAS CLASE POPUP LOS BORDES*/
+  box-shadow: 0px 0px 8px #56fbd3;
+}
+
+.class_buttonConfirm {
+  width: 180px;
+  /*SE RESPETA LAS CLASE DE LA BOTON*/
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 10px;
+  border: 2px solid #56fbd3;
+  background: rgba(12, 27, 50, 0.6980392157);
+  color: white;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+h3 {
+  /*SE RESPETA LAS CLASE DE LA BOTON*/
+  color: rgba(250, 250, 250, 0.872);
 }
 
 .CONTAINER {

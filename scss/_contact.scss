@@ -11,32 +11,33 @@
 
    .formulario{
        width:100%;
-       padding: 20px 10px;
-       //background: grey;
+       padding: 20px 50px;
        .contDatosPersonales{
          width: 100%;
          padding: 20px 0px;
-         margin-top: 20px;
-         //background: violet;
          display: flex;
          flex-direction: row;
          flex-wrap: wrap;
-         justify-content: space-around;
+         justify-content: space-between;
+         align-items: flex-start;
          .contCampos{
-            width: 45%;
-            padding: 5px;
-            .contCamposTitle{
-               color:$colorCelesteOscuro;
+            width: 50%;
+            label{
+               color: $colorVerde;
+               font-size:20px;
             }
-            .campoNombre{
+
+            .campoInput{
                width: 100%;
-               margin: 15px 0px;
+               margin-bottom: 10px;
                .input{
                   width: 100%;
-                  padding: 10px;
+                  padding: 5px 10px;
+                  color: grey;
+                  font-size: 16px;
                   outline: 1px solid transparent;
                   border: none;
-                  border-radius: 5px;
+                  border-radius: 3px;
                }
                .input:focus{
                   outline: 1px solid $colorVerde;
@@ -49,67 +50,25 @@
                   outline: 1px solid $colorRojo;
                }
             }
-            .campoCorreo{
-               width: 100%;
-               margin: 15px 0px;
-               .input{
-                  width: 100%;
-                  padding: 10px;
-                  outline: 1px solid transparent;
-                  border: none;
-                  border-radius: 5px;
-               }
-               .input:focus{
-                  outline: 1px solid $colorVerde;
-               }
-               //ESTOS DOS FUNCIONAN CON EL "recuired"
-               .input[required]:valid{
-                  outline: 1px solid $colorVerde;
-               }
-               .input[required]:invalid{
-                  outline: 1px solid $colorRojo;
-               }
-            }
-            .campoCelular{
-               width: 100%;
-               margin: 15px 0px;
-               .input{
-                  width: 100%;
-                  padding: 10px;
-                  outline: 1px solid transparent;
-                  border: none;
-                  border-radius: 5px;
-               }
-               .input:focus{
-                  outline: 1px solid $colorVerde;
-               }
-               //ESTOS DOS FUNCIONAN CON EL "recuired"
-               .input[required]:valid{
-                  outline: 1px solid $colorVerde;
-               }
-               .input[required]:invalid{
-                  outline: 1px solid $colorRojo;
-               }
-            }
+           
          }
+
+
          .campoTextarea{
             width: 45%;
-            padding: 5px;
             border-radius: 5px;
-            .campoTextareaTitle{
-               color: $colorCelesteOscuro;
+            label{
+               color: $colorVerde;
+               font-size:20px;
             }
             .textarea{
-               margin: 12px auto;
-               width: 100%;
                padding: 10px;
                border-radius: 3px;
-               max-width:100%;
                min-width:100%;
-               max-height:150px;
-               min-height: 150px;
+               max-width:100%;
                resize: none;
                outline:1px solid transparent;
+               color: grey;
             }  
          }
       }
@@ -118,7 +77,7 @@
          padding: 5px 10px;
          background:$colorAzulTransparente;
          border: 2px solid $colorVerde;
-         border-radius: 10px;
+         border-radius: 5px;
          color: white;
          transition: 0.2s all;
          cursor: pointer;
@@ -143,7 +102,7 @@
 
 
 
-@media (min-width:20px) and (max-width:720px) {
+@media (min-width:320px) and (max-width:720px) {
    .contContact{
       width: 100%;
       background: $colorAzul;

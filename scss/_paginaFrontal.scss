@@ -62,10 +62,6 @@ RESPONSIVE DESING OFICIAL
 }
 
 
-
-
-
-
 /////////////////CAJA PARTICULASS/////////////////////////
 
 .contParticulas{
@@ -98,9 +94,8 @@ RESPONSIVE DESING OFICIAL
             color:$colorCelesteOscuro;
             font-size: 30px;
             position: absolute;
-            top: 130px;
+            top: 160px;
             font-weight: 300;
-            //background: green;
             .front_css_js{
                 color: white;
                 font-family: 'Oswald', sans-serif;
@@ -119,7 +114,8 @@ RESPONSIVE DESING OFICIAL
                 color:$colorCelesteOscuro;
                 font-size: 28px;
                 position: absolute;
-                top: 160px;
+                top: 170px;
+
             }
         }
         @media (min-width:641px) and (max-width:769px){
@@ -133,7 +129,8 @@ RESPONSIVE DESING OFICIAL
                 color:$colorCelesteOscuro;
                 font-size: 26px;
                 position: absolute;
-                top: 160px;
+                top: 170px;
+
             }
         }
         @media (min-width:320px) and (max-width:640px){
@@ -145,11 +142,14 @@ RESPONSIVE DESING OFICIAL
               
             }
             .subtitle{
+                width: 250px;
                 text-align: center;
                 color:$colorCelesteOscuro;
-                font-size: 25px;
+                font-size: 23px;
+                line-height: 25px;
                 position: absolute;
-                top: 160px;
+                top: 190px;
+
             }
         }
         

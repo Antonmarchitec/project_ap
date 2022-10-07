@@ -756,32 +756,38 @@
             <form action="enviar.php" method="Post" class="formulario"  onsubmit="return validar();">
              <div class="contDatosPersonales">
                   <div class="contCampos">
-                    <h2 class="contCamposTitle">Datos personales.</h2>
-                    <div class="campoNombre">
-                      <input type="text" name="nombre" placeholder="Nombre completo" 
+
+                    <!--CAMPO NOMBRE-->
+                    <div class="campoInput">
+                      <label for="nombre"> Nombre Completo: </label>
+                      <input type="text" name="nombre" placeholder="Antonio Ponce" 
                              class="input" id="nombre" >
                     </div>
         
-                    <div class="campoCorreo">
-                      <input type="text" name="email" placeholder="Correo electronico" 
+                    <!--CAMPO EMAIL-->
+                    <div class="campoInput">
+                      <label for="nombre"> Email: </label>
+                      <input type="text" name="email" placeholder="example@gmail.com" 
                              class="input" id="correo" >
                     </div>
         
-                    <div class="campoCelular">
-                      <input type="text" name="celular" placeholder="Celular" 
+                    <!--CAMPO CELULAR-->
+                    <div class="campoInput">
+                      <label for="nombre"> Celular: </label>
+                      <input type="text" name="celular" placeholder="524 + 785400012" 
                              class="input" id="celular" >
                     </div>
                   </div>
 
                   <div class="campoTextarea">
-                    <h2 class="campoTextareaTitle">Escribe un comentario. </h2> 
+                    <label for="miText"> Escribe un comentario. </label> 
                     <textarea  name="comentario" placeholder="Coloca un comentario"
-                               cols="50" rows="5" class="textarea" id="miText">
+                               cols="0" rows="6" class="textarea" id="miText">
                         
                     </textarea>
                   </div>     
              </div>
-             <button type="submit" class="btnEnviar" onclick="validar()">Enviar</button> 
+             <button type="submit" class="btnEnviar" onclick="validar()">Enviar comentario</button> 
             </form>
           </div>     
         </div> 
