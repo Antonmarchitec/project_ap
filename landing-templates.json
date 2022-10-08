@@ -1,64 +1,62 @@
 {
-    "landing_1_4":[
+    "landing":[
         {
-            "id":1,
-            "title":"Landing page Restaurant",
-            "descripcion":"Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación, preloader personalizado y botón de subida.",
-            "image": "./img/image_restaurant.jpg",
+            "id_block1":1,
+            "title1":"Restaurante",
+            "descripcion1":"Landing page restaurant dinámico desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación, preloader personalizado y botón de subida.",
+            "image1": "./img/image_restaurant.jpg",
+            "tip1D": "- Proyecto Restaurante.",
+
+
+
+
+            "id_block2":2,
+            "title2":"Veterinaria",
+            "descripcion2":"Landing page dinámico desarrollado para consultorio veterinario, cuenta con un menú de navegación, 4 secciones, footer (pie de página), scroolling personalizado, slader, botón de subida, integración a enlaces externos, formulario de contacto con validación, el proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.",
+            "image2": "./img/image_veterinaria.jpg",
+            "tip2D": "- Proyecto Veterinaria.",
+
+            
+            
             "subtitleResp": "Diseño responsivo:",
             "subtitleProy": "Tipo de proyecto:",
+
             "dis1":"- Desktop: 1440px", 
             "dis2":"- Tablet: 720px",
             "dis3":"- Móvil: 320px",
-            "tip1": "- Página informativa.",
-            "tip2": "- página de aterrizaje.",
-            "tip3": "- landing page.",
-            "tip4": "Proyecto restaurant."
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
         },
+        
         {
-            "id":2,
-            "title":"Landing page Veterinarian",
-            "descripcion":"Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación, preloader personalizado y botón de subida.",
-            "image": "./img/image_veterinaria.jpg",
+            "id_block1":3,
+            "title1":"Pastelería",
+            "descripcion1":"Landing page pastelería estructurada con una base construida con CSS GRID, header (Encabezado), 4 secciones y el footer (pie). El proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.",
+            "image1": "./img/image_pasteleria.jpg",
+            "tip1D": "- Proyecto Pastelería.",
+
+
+
+            "id_block2":4,
+            "title2":"Gamer",
+            "descripcion2":"Landing page Gamer desarrollada para proyecto Gamer (página de videojuegos) totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, integración a enlaces externos, botones, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.",
+            "image2": "./img/image_portal_gamer.jpg",
+            "tip2D": "- Proyecto Gamer.",
+
+
+ 
             "subtitleResp": "Diseño responsivo:",
             "subtitleProy": "Tipo de proyecto:",
+
             "dis1":"- Desktop: 1440px", 
             "dis2":"- Tablet: 720px",
             "dis3":"- Móvil: 320px",
-            "tip1": "- Página informativa.",
-            "tip2": "- página de aterrizaje.",
-            "tip3": "- landing page.",
-            "tip4": "Proyecto restaurant."
-        },
-        {
-            "id":3,
-            "title":"Landing page Reposteria",
-            "descripcion":"Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación, preloader personalizado y botón de subida.",
-            "image": "./img/image_pasteleria.jpg",
-            "subtitleResp": "Diseño responsivo:",
-            "subtitleProy": "Tipo de proyecto:",
-            "dis1":"- Desktop: 1440px", 
-            "dis2":"- Tablet: 720px",
-            "dis3":"- Móvil: 320px",
-            "tip1": "- Página informativa.",
-            "tip2": "- página de aterrizaje.",
-            "tip3": "- landing page.",
-            "tip4": "Proyecto restaurant."
-        },
-        {
-            "id":4,
-            "title":"Landing page Gamer",
-            "descripcion":"Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación, preloader personalizado y botón de subida.",
-            "image": "./img/image_portal_gamer.jpg",
-            "subtitleResp": "Diseño responsivo:",
-            "subtitleProy": "Tipo de proyecto:",
-            "dis1":"- Desktop: 1440px", 
-            "dis2":"- Tablet: 720px",
-            "dis3":"- Móvil: 320px",
-            "tip1": "- Página informativa.",
-            "tip2": "- página de aterrizaje.",
-            "tip3": "- landing page.",
-            "tip4": "Proyecto restaurant."
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
         }
     ],
     

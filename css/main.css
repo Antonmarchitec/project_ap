@@ -2567,30 +2567,41 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
   width: 100%;
   padding: 10px 0px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 100%;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_figture {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_figture {
   width: 350px;
   height: 500px;
+  box-shadow: 15px 30px 0px #56fbd3;
+  transition: 0.5s all;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc {
-  width: 520px;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_figture:hover {
+  box-shadow: -8px 20px 0px #56fbd3;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
+  width: 500px;
   padding: 10px;
   background: #0c1b32;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_title {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
   color: #56fbd3;
-  font-size: 35px;
+  font-size: 45px;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_text {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_text {
   margin-top: 20px;
   color: #96aadb;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block {
   width: 100%;
   padding: 10px 0px;
   margin-top: 10px;
@@ -2600,20 +2611,20 @@ a {
   justify-content: space-between;
   align-items: flex-start;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
   width: 50%;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
   font-size: 20px;
   color: #56fbd3;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
   padding: 10px 0px;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
   color: white;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_btn {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
   margin-top: 5px;
   width: 200px;
   padding: 6px 0px;
@@ -2623,71 +2634,7 @@ a {
   border-radius: 5px;
   transition: 0.5s all;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
-  border: 2px solid white;
-  cursor: pointer;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 {
-  margin-top: 100px;
-  width: 100%;
-  padding: 10px 0px;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_figture {
-  width: 350px;
-  height: 500px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc {
-  width: 520px;
-  padding: 10px;
-  background: #0c1b32;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_title {
-  color: #56fbd3;
-  font-size: 35px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_text {
-  margin-top: 20px;
-  color: #96aadb;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block {
-  width: 100%;
-  padding: 10px 0px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
-  width: 50%;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
-  font-size: 20px;
-  color: #56fbd3;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
-  padding: 10px 0px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
-  color: white;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_btn {
-  margin-top: 5px;
-  width: 200px;
-  padding: 6px 0px;
-  border: 2px solid #56fbd3;
-  background: rgba(12, 27, 50, 0.6980392157);
-  color: white;
-  border-radius: 5px;
-  transition: 0.5s all;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
   border: 2px solid white;
   cursor: pointer;
 }
