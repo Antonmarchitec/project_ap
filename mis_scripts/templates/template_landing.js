@@ -1,108 +1,58 @@
-let contSectionP = document.querySelector("#contSectionP")
-let templateCuadroLanding = document.querySelector("#templateCuadroLanding").content
-let fragmentLanding = document.createDocumentFragment()
+let contTemplateWeb = document.querySelector("#contTemplateWeb")
+let templateWeb = document.querySelector("#templateWeb").content
+let fragmentWeb = document.createDocumentFragment()
 
-document.addEventListener("DOMContentLoaded", () =>{
-    dataFechLanding()
-    //dataFechLanding_10_18()
+
+document.addEventListener("DOMContentLoaded", ()=>{
+    dataFechWeb()
 })
 
 
-//DELEGACION DE EVENTOS PARA NUMERADORES
-/*document.addEventListener("click", (e)=>{
-    if(e.target.id === "lnum1"){
-        contSectionP.textContent = dataFechLanding()        
-    }else if(e.target.id === "lnum2"){
-        contSectionP.textContent = dataFechLanding_10_18()   
-    }
-})*/
-
-
-//FUNCION DATAFECH TARJETAS DEL 1 AL 9
-const dataFechLanding = async () =>{
+const dataFechWeb = async ()=>{
     try{
-        const resLanding = await fetch("landing-templates.json")
-        const dataLanding = await resLanding.json()
-        pintarTargetLanding(dataLanding)
-
-        document.addEventListener("click", (e)=>{
-            if(e.target.id === "lnum1"){
-                contSectionP.textContent = pintarTargetLanding(dataLanding) 
-                pintarTargetLanding(dataLanding) 
-                console.log("diste en numero 1")
-            }     
-        })
-
-
-
+        const resWeb = await fetch("landing-templates.json")
+        const dataWeb = await resWeb.json()
+        pintarlanding(dataWeb)
 
     }catch(error){
-        console.log("error en carga landing")
+        console.log("Error de carga")
     }
 }
 
-const pintarTargetLanding = (dataLanding) =>{
-    //console.log(dataLanding)
+const pintarlanding = (dataWeb) =>{
+    dataWeb.landing_1_4.forEach(element => {
+        console.log(element.title)
+        templateWeb.querySelector("img").setAttribute("src", element.image)
+        templateWeb.querySelector("img").setAttribute("alt", element.title)
 
-    dataLanding.landing_1_9.forEach(element => {
-        //console.log(element)
-        templateCuadroLanding.querySelector("#contSectionPBox_title").textContent = element.title
-        templateCuadroLanding.querySelector("#contSectionPBox_parrafo").textContent = element.descripcion
-        templateCuadroLanding.querySelector("#imageLan").setAttribute("src", element.image)
-        templateCuadroLanding.querySelector("#imageLan").setAttribute("alt", element.title)
-        templateCuadroLanding.querySelector("#btnLanding").dataset.btn = element.id
+        templateWeb.querySelector("#webTitle").textContent = element.title
+
+        templateWeb.querySelector("#webDescription").textContent = element.descripcion
+
+        templateWeb.querySelector("#titleResp").textContent = element.subtitleResp
+        templateWeb.querySelector("#desktop").textContent = element.dis1
+        templateWeb.querySelector("#tablet").textContent = element.dis2
+        templateWeb.querySelector("#movil").textContent = element.dis3
+
+        templateWeb.querySelector("#titleProy").textContent = element.subtitleProy
+        templateWeb.querySelector("#text1").textContent = element.tip1
+        templateWeb.querySelector("#text2").textContent = element.tip2
+        templateWeb.querySelector("#text3").textContent = element.tip3
+        templateWeb.querySelector("#text4").textContent = element.tip4
+
+        templateWeb.querySelector("#btnWeb").dataset.id = element.id
 
 
-        let clone = templateCuadroLanding.cloneNode(true)
-        fragmentLanding.appendChild(clone)
+        const cloneWeb = templateWeb.cloneNode(true)
+        fragmentWeb.appendChild(cloneWeb)
     });
-    contSectionP.appendChild(fragmentLanding)
+    contTemplateWeb.appendChild(fragmentWeb)
 
+
+    //Ejecutar eventos
+    document.addEventListener("click", (e)=>{
+        if(e.target.dataset.id === "1"){
+            window.open("https://antonmarchitec.github.io/landing_restaurant/")
+        }
+    }) 
 }
-
-
-const pintarTargetLanding_10_18 = (dataLanding_10_18) =>{
-    //console.log(dataLanding)
-
-    dataLanding_10_18.landing_10_18.forEach( element => {
-        //console.log(element)
-
-        templateCuadroLanding.querySelector("#contSectionPBox_title").textContent = element.title
-        templateCuadroLanding.querySelector("#contSectionPBox_parrafo").textContent = element.descripcion
-        templateCuadroLanding.querySelector("#imageLan").setAttribute("src", element.image)
-        templateCuadroLanding.querySelector("#imageLan").setAttribute("alt", element.title)
-        templateCuadroLanding.querySelector("#btnLanding").dataset.btn = element.id
-
-        clone_10_18 = templateCuadroLanding.cloneNode(true)
-        fragmentLanding.appendChild(clone_10_18)
-    });
-    contSectionP.appendChild(fragmentLanding)
-
-}
-
-
-//DELEGACION DE EVENTOS PARA BOTONES
-document.addEventListener("click", (e) =>{
-    if(e.target.dataset.btn === "1"){
-        location.href = "https://antonmarchitec.github.io/veterinaria_vip/"
-    }else if(e.target.dataset.btn === "2"){
-        location.href = "https://antonmarchitec.github.io/landing_page_modo_oscuro/"
-    }else if(e.target.dataset.btn === "3"){
-        location.href = "https://antonmarchitec.github.io/landing_restaurant_1/"
-    }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

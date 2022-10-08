@@ -2564,103 +2564,132 @@ a {
   position: absolute;
   bottom: 0;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox {
-  margin-top: 20px;
-  width: 290px;
-  height: 580px;
-  background: linear-gradient(#000000, transparent);
-  padding: 30px 10px;
-  box-shadow: 0px 0px 5px #56fbd3;
-  border: 1px solid #56fbd3;
-  border-radius: 5px;
-  transition: 0.5s ease;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_figture {
+  width: 350px;
+  height: 500px;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_image {
-  width: 100%;
-  height: 250px;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc {
+  width: 520px;
+  padding: 10px;
   background: #0c1b32;
-  border-radius: 10px;
-  overflow: hidden;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_title {
-  width: 200px;
-  margin: auto;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_title {
+  color: #56fbd3;
+  font-size: 35px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_text {
   margin-top: 20px;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  text-transform: uppercase;
-  line-height: 30px;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_parrafo {
-  margin-top: 10px;
-  height: 120px;
-  padding: 0px;
   color: #96aadb;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block {
+  width: 100%;
+  padding: 10px 0px;
   margin-top: 10px;
-  width: 90%;
-  border: 2px solid;
-  background: linear-gradient(#56fbd3, transparent);
-  border: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  transition: 0.5s all;
+  align-items: flex-start;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_text {
-  width: 100%;
-  height: 40px;
-  color: white;
-  font-size: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
+  width: 50%;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon {
-  width: 50px;
-  height: 40px;
-  background: #060f1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn {
-  color: white;
-  animation-name: moverArrow;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  transition: 0.5s all;
-}
-@keyframes moverArrow {
-  from {
-    transform: translateX(-10px);
-  }
-  to {
-    transform: translateX(10);
-  }
-}
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox .contSectionPBox_botom .contSectionPBox_botom_contIcon .iconLearn:hover {
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
+  font-size: 20px;
   color: #56fbd3;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
+  padding: 10px 0px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
+  color: white;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_btn {
+  margin-top: 5px;
+  width: 200px;
+  padding: 6px 0px;
+  border: 2px solid #56fbd3;
+  background: rgba(12, 27, 50, 0.6980392157);
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
+  border: 2px solid white;
   cursor: pointer;
 }
-.CONTAINER_LANDING .SECTION_PROYECTS .contSectionP .contSectionPBox:hover {
-  background: rgba(20, 20, 20, 0.5254901961);
-  transform: scale(1.02, 1.02);
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 {
+  margin-top: 100px;
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_figture {
+  width: 350px;
+  height: 500px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc {
+  width: 520px;
+  padding: 10px;
+  background: #0c1b32;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_title {
+  color: #56fbd3;
+  font-size: 35px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_text {
+  margin-top: 20px;
+  color: #96aadb;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block {
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
+  width: 50%;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
+  font-size: 20px;
+  color: #56fbd3;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
+  padding: 10px 0px;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
+  color: white;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_btn {
+  margin-top: 5px;
+  width: 200px;
+  padding: 6px 0px;
+  border: 2px solid #56fbd3;
+  background: rgba(12, 27, 50, 0.6980392157);
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s all;
+}
+.CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb2 .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
+  border: 2px solid white;
+  cursor: pointer;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
   width: 280px;
