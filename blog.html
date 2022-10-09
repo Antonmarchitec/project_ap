@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/preloader.css">
 
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="css/animate.min.css">
+
     <!------FONT AWESON CDN------------->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
@@ -135,23 +138,27 @@
     
                 <template id="template_article">
                     <article class="contBlogBloggers">
-                        <figure class="contBlogBloggers_img">
+                        <figure class="contBlogBloggers_img
+                        wow animate__animated animate__backInLeft" style="animation-duration:1s;">
                             <img style="width:100%; height:100%;" id="imgBlog">
                         </figure>
         
                         <div class="contBlogBloggers_desc">
                             <h1 class="contBloggers_desc_title" id="titleBlog">EL PERFIL DE UN DESARROLLADOR</h1>   
         
-                            <p class="contBloggers_desc_parrafo" id="parrafoBlog">
+                            <p class="contBloggers_desc_parrafo
+                            wow animate__animated animate__fadeInUp" style="animation-duration:1s;" id="parrafoBlog">
                                 Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...
                                 
                             </p>
 
-                            <p class="contBloggers_desc_fuente" id="fuente">
+                            <p class="contBloggers_desc_fuente
+                            wow animate__animated animate__fadeInUp" style="animation-duration:1.5s;" id="fuente">
                                 texto
                             </p>
         
-                            <div class="contBloggers_desc_IconButton">
+                            <div class="contBloggers_desc_IconButton
+                            wow animate__animated animate__fadeInUp" style="animation-duration:1.7s;"">
                                 <button class="contBloggers_desc_btn" id="btnBlog"> Read More</button>
                                 <div class="contBloggers_desc_contIcons">
                                     <i class="blogIcons fa-solid fa-heart-circle-check"></i>
@@ -296,6 +303,12 @@
     <script src="./mis_scripts/templates/templates_blog.js"></script>
     <script src="./mis_scripts/scriptsBlog/btnBlogResponsive.js"></script>
     <script src="mis_scripts/btnTop.js"></script>
+
+    <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="mis_scripts/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 </html>
