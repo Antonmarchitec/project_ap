@@ -1,13 +1,5 @@
 # DOCUMENTACION  PROYECTO PORTFOLIO ANTONIO PONCE
 
-## RESPONSIVE DESING UTILIZADOS
-- @import (min-width:1025px) and (max-width:1200px){}     175px  //
-- @import (min-width:900px)  and (max-width:1024px){}     124px
-- @import (min-width:770px)  and (max-width:899px){}      129px
-- @import (min-width:641px)  and (max-width:769px){}      128px
-- @import (min-width:481px)  and (max-width:640px){}      159px
-- @import (min-width:320px)  and (max-width:480px){}      160px
-
 ## CONCEPTOS IMPORTANTES
 - HTML (HyperText Markup Language):
 Es un lenguaje de marcado que  nos ayudará a estructurar todo nuestro sitio web.::
