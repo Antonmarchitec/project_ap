@@ -34,9 +34,7 @@
         padding: 10px 0px;
         //background: brown;
         grid-area: HEADER;
-        .contNavigation{
-            //LOS ESTILOS PARA EL MENU ESTAN COMPARTIDOS DESDE MENU RETOS.HTML 
-        }
+        
     }
 
     .BARS_VERTICLE{
@@ -361,21 +359,21 @@
             padding: 10px 0px;
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
-                /*width: 100%;
+                width: 100%;
                 height: 250px;
                 position: relative;
                 background: $colorAzul;
-                overflow: hidden;*/
+                overflow: hidden;
                 .contSectionTitleTop{
-                    /*width: 100%;
+                    width: 100%;
                     height: 250px;
                     background: linear-gradient($colorAzul,transparent);
                     position: absolute;
                     top: 0;
-                    z-index: -10;*/
+                    z-index: -10;
                 }
                 .titleProyectos{
-                    /*width:80%;
+                    width:80%;
                     margin: auto;
                     color: $colorVerde;
                     padding-top: 100px;
@@ -384,14 +382,14 @@
                     line-height: 110px;
                     letter-spacing: -9px;
                     animation-duration: 3s;
-                    z-index: 50;*/
+                    z-index: 50;
                 }
                 .contSectionTitleBottom{
-                    /*width: 100%;
+                    width: 100%;
                     height: 250px;
                     background:linear-gradient(transparent,$colorAzul);
                     position: absolute;
-                    bottom: 0;*/
+                    bottom: 0;
                 }
     
             }
@@ -642,11 +640,11 @@
                     z-index: 50;
                 }
                 .contSectionTitleBottom{
-                    /*width: 100%;
+                    width: 100%;
                     height: 250px;
                     background:linear-gradient(transparent,$colorAzul);
                     position: absolute;
-                    bottom: 0;*/
+                    bottom: 0;
                 }
     
             }
@@ -894,11 +892,11 @@
                     z-index: 50;
                 }
                 .contSectionTitleBottom{
-                    /*width: 100%;
+                    width: 100%;
                     height: 250px;
                     background:linear-gradient(transparent,$colorAzul);
                     position: absolute;
-                    bottom: 0;*/
+                    bottom: 0;
                 }
     
             }
