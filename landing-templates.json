@@ -61,6 +61,34 @@
     ],
     
     "landing2":[
-        
+        {
+            "id_block1":5,
+            "title1":"Visual Designer",
+            "descripcion1":"Proyecto en desarrollo...!",
+            "image1": "./img/image_visual_designer.jpg",
+            "tip1D": "- Proyecto Visual Designer.",
+
+
+
+
+            "id_block2":6,
+            "title2":"Visit Tokio",
+            "descripcion2":"Proyecto en desarrollo...!",
+            "image2": "./img/image_visit_tokio.jpg",
+            "tip2D": "- Proyecto Visit Tokio.",
+
+            
+            
+            "subtitleResp": "Diseño responsivo:",
+            "subtitleProy": "Tipo de proyecto:",
+
+            "dis1":"- Desktop: 1440px", 
+            "dis2":"- Tablet: 720px",
+            "dis3":"- Móvil: 320px",
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
+        }
     ]
 }

@@ -19,8 +19,8 @@ const dataFechWeb = async ()=>{
                 contTemplateWeb.textContent = pintarlanding(dataWeb)
                 pintarlanding(dataWeb)
             }else if(e.target.id === "lnum2"){
-                /*contTemplateWeb.textContent = pintarlanding2(dataWeb)
-                pintarlanding2(dataWeb)*/
+                contTemplateWeb.textContent = pintarlanding2(dataWeb)
+                pintarlanding2(dataWeb)
             }
         })
         
@@ -29,6 +29,8 @@ const dataFechWeb = async ()=>{
     }
 }
 
+
+//FUNCION LANDING
 const pintarlanding = (dataWeb) =>{
     dataWeb.landing.forEach(element => {
         //console.log(element.image1)
@@ -93,7 +95,7 @@ const pintarlanding = (dataWeb) =>{
 }
 
 
-/*
+//FUNCION LANDING 2
 const pintarlanding2 = (dataWeb) =>{
     dataWeb.landing2.forEach(element => {
         //console.log(element.image1)
@@ -144,15 +146,10 @@ const pintarlanding2 = (dataWeb) =>{
 
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
-        if(e.target.dataset.id === "1"){
-            window.open("https://antonmarchitec.github.io/landing_restaurant/")
-        }else if(e.target.dataset.id === "2"){
-            window.open("https://antonmarchitec.github.io/landing_veterinaria_vip/")
-        }else if(e.target.dataset.id === "3"){
-            window.open("https://antonmarchitec.github.io/landing_resposteria/")
-        }else if(e.target.dataset.id === "4"){
-            window.open("https://antonmarchitec.github.io/template_gamer/")
+        if(e.target.dataset.id === "5"){
+            window.open("#")
+        }else if(e.target.dataset.id === "6"){
+            window.open("#")
         }
-        
     }) 
-}*/
+}
