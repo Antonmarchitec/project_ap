@@ -147,9 +147,9 @@ const pintarlanding2 = (dataWeb) =>{
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
         if(e.target.dataset.id === "5"){
-            window.open("#")
+            //window.open("/")
         }else if(e.target.dataset.id === "6"){
-            window.open("#")
+            //window.open("/")
         }
     }) 
 }
