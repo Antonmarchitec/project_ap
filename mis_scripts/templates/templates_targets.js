@@ -74,40 +74,40 @@ const pintarCards1_6 = (dataCard1_9) =>{
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "1"){
             //console.log("me diste en git 1")
-            location.href = "https://github.com/Antonmarchitec/Secci-n-de-prueba-social.git"
+            window.open("https://github.com/Antonmarchitec/Secci-n-de-prueba-social.git")
         }else if(e.target.dataset.idLive === "1"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Secci-n-de-prueba-social/"
+            window.open("https://antonmarchitec.github.io/Secci-n-de-prueba-social/")
         }else if(e.target.dataset.idGit === "2"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/secci-n-de-funciones-de-cuatro-cartas.git"
+            window.open("https://github.com/Antonmarchitec/secci-n-de-funciones-de-cuatro-cartas.git")
         }else if(e.target.dataset.idLive === "2"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/secci-n-de-funciones-de-cuatro-cartas/"
+            window.open("https://antonmarchitec.github.io/secci-n-de-funciones-de-cuatro-cartas/")
         }else if(e.target.dataset.idGit === "3"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Tarjetas_de_presentacion_clientes.git"
+            window.open("https://github.com/Antonmarchitec/Tarjetas_de_presentacion_clientes.git")
         }else if(e.target.dataset.idLive === "3"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Tarjetas_de_presentacion_clientes/"
+            window.open("https://antonmarchitec.github.io/Tarjetas_de_presentacion_clientes/")
         }else if(e.target.dataset.idGit === "4"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Tarjeta_columnas.git"
+            window.open("https://github.com/Antonmarchitec/Tarjeta_columnas.git")
         }else if(e.target.dataset.idLive === "4"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Tarjeta_columnas/"
+            window.open("https://antonmarchitec.github.io/Tarjeta_columnas/")
         }else if(e.target.dataset.idGit === "5"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/P-gina-de-destino-de-Huddle.git"
+            window.open("https://github.com/Antonmarchitec/P-gina-de-destino-de-Huddle.git")
         }else if(e.target.dataset.idLive === "5"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/P-gina-de-destino-de-Huddle/"
+            window.open("https://antonmarchitec.github.io/P-gina-de-destino-de-Huddle/")
         }else if(e.target.dataset.idGit === "6"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/desafio_tarjeta_estadisticas.git"
+            window.open("https://github.com/Antonmarchitec/desafio_tarjeta_estadisticas.git")
         }else if(e.target.dataset.idLive === "6"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/desafio_tarjeta_estadisticas/"
+            window.open("https://antonmarchitec.github.io/desafio_tarjeta_estadisticas/")
         }
         
         
@@ -140,42 +140,42 @@ const pintarCards7_12 = (dataCard10_18) =>{
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "7"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/POKEAPI.git"
+            window.open("https://github.com/Antonmarchitec/POKEAPI.git")
         }else if(e.target.dataset.idLive === "7"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/POKEAPI/"
+            window.open("https://antonmarchitec.github.io/POKEAPI/")
         }else if(e.target.dataset.idGit === "8"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Tablero_de_control_de_tiempo.git"
+            window.open("https://github.com/Antonmarchitec/Tablero_de_control_de_tiempo.git")
         }else if(e.target.dataset.idLive === "8"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Tablero_de_control_de_tiempo/"
+            window.open("https://antonmarchitec.github.io/Tablero_de_control_de_tiempo/")
         }else if(e.target.dataset.idGit === "9"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Turismo_espacial.git"
+            window.open("https://github.com/Antonmarchitec/Turismo_espacial.git")
         }else if(e.target.dataset.idLive === "9"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Turismo_espacial/"
+            window.open("https://antonmarchitec.github.io/Turismo_espacial/")
         }else if(e.target.dataset.idGit === "10"){
             //console.log("me diste en git 1")
-            location.href = "https://github.com/Antonmarchitec/Huddle-landing-page.git"
+            window.open("https://github.com/Antonmarchitec/Huddle-landing-page.git")
         }else if(e.target.dataset.idLive === "10"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Huddle-landing-page/"
+            window.open("https://antonmarchitec.github.io/Huddle-landing-page/")
         }else if(e.target.dataset.idGit === "11"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Clipboard_landing-_page.git"
+            window.open("https://github.com/Antonmarchitec/Clipboard_landing-_page.git")
         }else if(e.target.dataset.idLive === "11"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Clipboard_landing-_page/"
+            window.open("https://antonmarchitec.github.io/Clipboard_landing-_page/")
 
         }else if(e.target.dataset.idGit === "12"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Product_preview_card_component.git"
+            window.open("https://github.com/Antonmarchitec/Product_preview_card_component.git")
 
         }else if(e.target.dataset.idLive === "12"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Product_preview_card_component/"
+            window.open("https://antonmarchitec.github.io/Product_preview_card_component/")
 
         }
         
@@ -206,32 +206,32 @@ const pintarCards13_18 = (dataCard13_18) =>{
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "13"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git"
+            window.open("https://github.com/Antonmarchitec/Seccion_cuadricula_testimonios.git")
         }else if(e.target.dataset.idLive === "13"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/"
+            window.open("https://antonmarchitec.github.io/Seccion_cuadricula_testimonios/")
         }else if(e.target.dataset.idGit === "14"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/App_generadora_consejos.git"
+            window.open("https://github.com/Antonmarchitec/App_generadora_consejos.git")
         }else if(e.target.dataset.idLive === "14"){
             //console.log("me diste en live 1")
-            location.href = "https://antonmarchitec.github.io/App_generadora_consejos/"
+            window.open("https://antonmarchitec.github.io/App_generadora_consejos/")
         }else if(e.target.dataset.idGit === "15"){
-            location.href = "https://github.com/Antonmarchitec/ComponentePrecioUnico.git"
+            window.open("https://github.com/Antonmarchitec/ComponentePrecioUnico.git")
         }else if(e.target.dataset.idLive === "15"){
-            location.href = "https://antonmarchitec.github.io/ComponentePrecioUnico/"
+            window.open("https://antonmarchitec.github.io/ComponentePrecioUnico/")
         }else if(e.target.dataset.idGit === "16"){
-            location.href = "https://github.com/Antonmarchitec/ComponenteAlmacenamientoDatosfylo.git"
+            window.open("https://github.com/Antonmarchitec/ComponenteAlmacenamientoDatosfylo.git")
         }else if(e.target.dataset.idLive === "16"){
-            location.href = "https://antonmarchitec.github.io/ComponenteAlmacenamientoDatosfylo/"
+            window.open("https://antonmarchitec.github.io/ComponenteAlmacenamientoDatosfylo/")
         }else if(e.target.dataset.idGit === "17"){
-            location.href = "https://github.com/Antonmarchitec/Pagina_fylo_con_diseno_de_coumnas.git"
+            window.open("https://github.com/Antonmarchitec/Pagina_fylo_con_diseno_de_coumnas.git")
         }else if(e.target.dataset.idLive === "17"){
-            location.href = "https://antonmarchitec.github.io/Pagina_fylo_con_diseno_de_coumnas/"
+            window.open("https://antonmarchitec.github.io/Pagina_fylo_con_diseno_de_coumnas/")
         }else if(e.target.dataset.idGit === "18"){
-            location.href = "https://github.com/Antonmarchitec/pagina-inicio-con-secciones-curvas.git"
+            window.open("https://github.com/Antonmarchitec/pagina-inicio-con-secciones-curvas.git")
         }else if(e.target.dataset.idLive === "18"){
-            location.href = "https://antonmarchitec.github.io/pagina-inicio-con-secciones-curvas/"
+            window.open("https://antonmarchitec.github.io/pagina-inicio-con-secciones-curvas/")
         }
     })
 }
@@ -260,13 +260,13 @@ const pintarCards19_24 = (dataCard19_24) =>{
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "19"){
             //console.log("me diste en live 1")
-            location.href = "https://github.com/Antonmarchitec/Componente_de_calificacion_interactivo.git"
+            window.open("https://github.com/Antonmarchitec/Componente_de_calificacion_interactivo.git")
         }else if(e.target.dataset.idLive === "19"){
-            location.href = "https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/"
+            window.open("https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/")
         }else if(e.target.dataset.idGit === "20"){
-            location.href = "https://github.com/Antonmarchitec/Pagina_inicio_tema_oscuro_fylo.git"
+            window.open("https://github.com/Antonmarchitec/Pagina_inicio_tema_oscuro_fylo.git")
         }else if (e.target.dataset.idLive === "20"){
-            location.href = "https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/"
+            window.open("https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/")
         }
     })
 }
