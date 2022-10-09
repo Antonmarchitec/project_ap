@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/preloader.css">
 
-    <!--FONT AWESOME-->
-    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>    
+    <!------FONT AWESON CDN------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+    
     <!-------GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +21,7 @@
 </head>
 <body>
 
-    <div class="CONTAINER_BLOG">
+    <div class="CONTAINER_BLOG" id="contB">
         <!--PRELOADER DE LA PAGINA STAR-->
         <div class="loader" id="loader">
             <div class="cssload-thecube">
@@ -282,11 +284,18 @@
                 </footer>
             </div>
         </div>
+
+
+        <div class="contBtnTop" >
+            <a href="#contB"><i class="iconTop fas fa-caret-square-up" id="iconTop"></i></a>
+        </div>
     </div>
 
 
     <script src="./mis_scripts/preloader.js"></script>
     <script src="./mis_scripts/templates/templates_blog.js"></script>
     <script src="./mis_scripts/scriptsBlog/btnBlogResponsive.js"></script>
+    <script src="mis_scripts/btnTop.js"></script>
+
 </body>
 </html>
