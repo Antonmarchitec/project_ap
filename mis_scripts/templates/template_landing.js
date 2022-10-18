@@ -149,7 +149,7 @@ const pintarlanding2 = (dataWeb) =>{
         if(e.target.dataset.id === "5"){
             //window.open("/")
         }else if(e.target.dataset.id === "6"){
-            //window.open("/")
+            window.open("https://antonmarchitec.github.io/template_visit-tokio/")
         }
     }) 
 }
