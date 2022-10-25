@@ -269,12 +269,6 @@ RESPONSIVE DESING OFICIAL
      } 
   }*/
 }
-.headerFrente .header_navFrontal .iconPrinc {
-  font-size: 20px;
-  color: #56fbd3;
-  animation: rotacion 10s infinite alternate ease-out;
-  display: none;
-}
 .headerFrente .header_navFrontal .nom {
   color: white;
   font-size: 18px;

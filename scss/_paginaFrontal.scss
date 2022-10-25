@@ -36,12 +36,7 @@ RESPONSIVE DESING OFICIAL
         display: flex;
         justify-content: space-around;
         align-items: center;
-        .iconPrinc{
-           font-size: 20px;
-           color:$colorVerde;
-           animation: rotacion 10s infinite alternate ease-out; 
-           display: none;
-        }
+        
         .nom{
             color: white;
             font-size: 18px;
