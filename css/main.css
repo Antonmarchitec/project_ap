@@ -249,31 +249,39 @@ RESPONSIVE DESING OFICIAL
   margin-left: 20px;
 }
 .headerFrente .header_navFrontal {
-  margin-right: 30px;
+  width: 200px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*@keyframes rotacion {
+     0%{
+      transform: rotate(0deg);
+     }
+     25%{
+      transform: rotate(50deg);
+     }
+     75%{
+      transform: rotate(180deg);   
+     } 
+     100%{
+      transform: rotate(360deg);   
+     } 
+  }*/
 }
 .headerFrente .header_navFrontal .iconPrinc {
-  font-size: 30px;
+  font-size: 20px;
   color: #56fbd3;
   animation: rotacion 10s infinite alternate ease-out;
+  display: none;
 }
 .headerFrente .header_navFrontal .nom {
   color: white;
   font-size: 18px;
-  margin-left: 8px;
+  margin-left: 3px;
 }
-@keyframes rotacion {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(50deg);
-  }
-  75% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.headerFrente .header_navFrontal .nom:hover {
+  color: #56fbd3;
 }
 
 .contParticulas {
