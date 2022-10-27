@@ -469,9 +469,11 @@ html {
 }
 .CONTENIDO_CONTENT .SERVICES_TITLE {
   grid-area: SERVICES_TITLE;
+  display: none;
 }
 .CONTENIDO_CONTENT .SERVICES_CONTENT {
   grid-area: SERVICES_CONTENT;
+  display: none;
 }
 .CONTENIDO_CONTENT .TILTE_SKILLS {
   grid-area: TILTE_SKILLS;
@@ -3693,15 +3695,15 @@ a {
   }
 }
 .contTemsplatesRetos {
-  width: 100px;
-  height: 150px;
+  width: auto;
+  padding: 5px 0px;
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   bottom: 40px;
-  left: 20px;
+  left: 0px;
   z-index: 500;
   opacity: 0;
   transition: 0.5s all;
@@ -3709,42 +3711,22 @@ a {
 }
 .contTemsplatesRetos .contTemplatesRetos_box {
   width: 70px;
-  height: 70px;
-  border: 2px solid white;
-  border-radius: 50%;
-  box-shadow: 0px 5px 10px #56fbd3;
-  background: rgba(12, 27, 50, 0.6980392157);
+  padding: 5px 0px;
+  background: #0c1b32;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 15px;
-  animation-name: frontMovie;
-  animation-duration: 2s;
-  animation-timing-function: all;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  line-height: 17px;
 }
 .contTemsplatesRetos .contTemplatesRetos_box .contTemplatesRetos_box_text {
-  color: #56fbd3;
-  font-size: 13px;
+  color: white;
+  font-size: 16px;
   transition: 0.3s all;
   font-weight: 100;
 }
-.contTemsplatesRetos .contTemplatesRetos_box:hover {
-  border: 2px solid #56fbd3;
-}
 .contTemsplatesRetos .contTemplatesRetos_box:hover .contTemplatesRetos_box_text {
   color: white;
-}
-@keyframes frontMovie {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-20deg);
-  }
 }
 
 .contTemsplatesRetos_JS {
