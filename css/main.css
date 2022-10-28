@@ -2651,7 +2651,7 @@ a {
   cursor: pointer;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
-  width: 280px;
+  width: 190px;
   margin: auto;
   padding: 10px 0px;
   display: flex;
@@ -2659,8 +2659,8 @@ a {
   align-items: center;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: #56fbd3;
   display: flex;
   justify-content: center;
