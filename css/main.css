@@ -1318,35 +1318,110 @@ html {
     }
 }*/
 .contPie {
-  margin-top: 30px;
+  width: 100%;
+  padding: 30px 0px;
+  background: #000000;
+}
+.contPie .contPie_cont {
   width: 100%;
   padding: 10px 0px;
-  background: #000000;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-.contPie .boxing1 {
+.contPie .contPie_cont .boxing1 {
   width: 100px;
   height: 50px;
   background-image: url(../img/LOGO/loogo.png);
   background-size: 100% 100%;
   margin-left: 20px;
 }
+.contPie .contPie_cont .contPie_ul {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contPie .contPie_cont .contPie_ul .contPie_ul_li {
+  list-style: none;
+  padding: 5px;
+}
+.contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a {
+  color: white;
+}
+.contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a:hover {
+  color: #56fbd3;
+}
 .contPie .boxing2 {
-  width: auto;
-  margin-right: 20px;
+  width: 100%;
+  margin-top: 30px;
 }
 .contPie .boxing2 .contFooter_derechos_text {
-  font-size: 16px;
-  color: #56fbd3;
+  font-size: 14px;
+  color: white;
   text-align: center;
   line-height: 16px;
   font-weight: 100;
 }
+.contPie .boxing2 .contFooter_derechos_text .ap {
+  color: #56fbd3;
+  font-size: 14px;
+}
 
+@media (min-width: 320px) and (max-width: 640px) {
+  .contPie {
+    width: 100%;
+    padding: 30px 0px;
+    background: #000000;
+  }
+  .contPie .contPie_cont {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contPie .contPie_cont .boxing1 {
+    width: 100px;
+    height: 50px;
+    background-image: url(../img/LOGO/loogo.png);
+    background-size: 100% 100%;
+    margin-left: 20px;
+  }
+  .contPie .contPie_cont .contPie_ul {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contPie .contPie_cont .contPie_ul .contPie_ul_li {
+    list-style: none;
+    padding: 0px;
+  }
+  .contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a {
+    color: white;
+    font-size: 14px;
+  }
+  .contPie .boxing2 {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .contPie .boxing2 .contFooter_derechos_text {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 100;
+  }
+  .contPie .boxing2 .contFooter_derechos_text .ap {
+    color: #56fbd3;
+    font-size: 14px;
+  }
+}
 .barras {
   width: 15px;
   padding: 5px 0px;
