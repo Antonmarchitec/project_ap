@@ -427,7 +427,7 @@ RESPONSIVE DESING OFICIAL
     background: transparent;
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 35px;
+    font-size: 32px;
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     color: white;
@@ -1121,7 +1121,7 @@ html {
   width: 50%;
 }
 .contContact .formulario .contDatosPersonales .contCampos label {
-  color: #56fbd3;
+  color: white;
   font-size: 20px;
 }
 .contContact .formulario .contDatosPersonales .contCampos .campoInput {
@@ -1129,12 +1129,14 @@ html {
   margin-bottom: 10px;
 }
 .contContact .formulario .contDatosPersonales .contCampos .campoInput .input {
+  margin-top: 5px;
   width: 100%;
   padding: 5px 10px;
-  color: grey;
+  background: transparent;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   outline: 1px solid transparent;
-  border: none;
+  border: 1px solid #56fbd3;
   border-radius: 3px;
 }
 .contContact .formulario .contDatosPersonales .contCampos .campoInput .input:focus {
@@ -1151,27 +1153,33 @@ html {
   border-radius: 5px;
 }
 .contContact .formulario .contDatosPersonales .campoTextarea label {
-  color: #56fbd3;
+  color: white;
   font-size: 20px;
 }
 .contContact .formulario .contDatosPersonales .campoTextarea .textarea {
-  padding: 10px;
+  margin-top: 5px;
+  padding: 5px 10px;
   border-radius: 3px;
   min-width: 100%;
   max-width: 100%;
+  border: 1px solid #56fbd3;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: transparent;
   resize: none;
-  outline: 1px solid transparent;
-  color: grey;
 }
 .contContact .formulario .btnEnviar {
   width: 100%;
   padding: 5px 10px;
-  background: rgba(12, 27, 50, 0.6980392157);
-  border: 2px solid #56fbd3;
+  background: #0c1b32;
+  border: 1px solid #56fbd3;
   border-radius: 5px;
   color: white;
   transition: 0.2s all;
   cursor: pointer;
+}
+.contContact .formulario .btnEnviar:hover {
+  background: rgba(255, 255, 255, 0.075);
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
@@ -1597,7 +1605,7 @@ a {
     color: #56fbd3;
     text-decoration: none;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 16px;
     transition: 0.5s all;
   }
   .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li:hover {

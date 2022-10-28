@@ -23,7 +23,7 @@
          .contCampos{
             width: 50%;
             label{
-               color: $colorVerde;
+               color: white;
                font-size:20px;
             }
 
@@ -31,12 +31,14 @@
                width: 100%;
                margin-bottom: 10px;
                .input{
+                  margin-top: 5px;
                   width: 100%;
                   padding: 5px 10px;
-                  color: grey;
+                  background: transparent;
+                  color: rgb(255, 255, 255);
                   font-size: 16px;
                   outline: 1px solid transparent;
-                  border: none;
+                  border: 1px solid $colorVerde;
                   border-radius: 3px;
                }
                .input:focus{
@@ -58,29 +60,35 @@
             width: 45%;
             border-radius: 5px;
             label{
-               color: $colorVerde;
+               color: white;
                font-size:20px;
             }
             .textarea{
-               padding: 10px;
+               margin-top: 5px;
+               padding: 5px 10px;
                border-radius: 3px;
                min-width:100%;
                max-width:100%;
+               border:1px solid $colorVerde;
+               outline: none;
+               color: rgb(255, 255, 255);
+               background: transparent;
                resize: none;
-               outline:1px solid transparent;
-               color: grey;
             }  
          }
       }
       .btnEnviar{
          width:100%;
          padding: 5px 10px;
-         background:$colorAzulTransparente;
-         border: 2px solid $colorVerde;
+         background:$colorAzul;
+         border: 1px solid $colorVerde;
          border-radius: 5px;
          color: white;
          transition: 0.2s all;
          cursor: pointer;
+      }
+      .btnEnviar:hover{
+         background: rgba(255, 255, 255, 0.075);
       }
    } 
 }
