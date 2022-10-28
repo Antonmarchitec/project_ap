@@ -25,6 +25,7 @@
         align-items: center;
         text-align: center;
         line-height: 17px;
+        transition: 0.2s all ease;
         .contTemplatesRetos_box_text{
             color: white;
             font-size: 16px;
@@ -33,9 +34,10 @@
         }
     }
     .contTemplatesRetos_box:hover{
-        //border:2px solid $colorVerde;
+        transform: translateX(5px);
+        background: $colorVerde;
         .contTemplatesRetos_box_text{
-            color: white;
+            color: $colorAzul;
         }
     }
 

@@ -615,14 +615,18 @@ html {
   align-items: center;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border: 2px solid #56fbd3;
   border-radius: 50%;
   box-shadow: 0px 0px 5px #56fbd3;
   transition: 0.1s all linear;
   overflow: hidden;
+  background: #56fbd3;
   transition: 1s all;
+}
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+  mix-blend-mode: multiply;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
   border: 2px solid #56fbd3;
@@ -3794,6 +3798,7 @@ a {
   align-items: center;
   text-align: center;
   line-height: 17px;
+  transition: 0.2s all ease;
 }
 .contTemsplatesRetos .contTemplatesRetos_box .contTemplatesRetos_box_text {
   color: white;
@@ -3801,8 +3806,12 @@ a {
   transition: 0.3s all;
   font-weight: 100;
 }
+.contTemsplatesRetos .contTemplatesRetos_box:hover {
+  transform: translateX(5px);
+  background: #56fbd3;
+}
 .contTemsplatesRetos .contTemplatesRetos_box:hover .contTemplatesRetos_box_text {
-  color: white;
+  color: #0c1b32;
 }
 
 .contTemsplatesRetos_JS {

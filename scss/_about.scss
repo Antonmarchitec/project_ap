@@ -97,17 +97,17 @@
             justify-content: center;
             align-items: center;
             .contenedor_der_image{
-                width: 500px;
-                height: 500px;
+                width: 450px;
+                height: 450px;
                 border:2px solid $colorVerde;
                 border-radius:50%;
                 box-shadow: 0px 0px 5px $colorVerde;
                 transition: 0.1s all linear;
                 overflow: hidden;
-                //background:$colorVerde;
+                background:$colorVerde;
                 transition: 1s all;
                 .foto{
-                    //mix-blend-mode:multiply;    
+                    mix-blend-mode:multiply;    
                 }    
             }
             .contenedor_der_image:hover{
