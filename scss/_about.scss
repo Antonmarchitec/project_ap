@@ -16,7 +16,7 @@
         //align-items: center;
         .contenedor_izq{
             width:50%;
-            height: 700px;
+            height: 650px;
             //margin-left: 20px;
             margin-left: 50px;
             position: relative;
@@ -49,7 +49,7 @@
                 height: 270px;
                 position: absolute;
                 left: 100px;
-                bottom:0px;
+                top:250px;
                 .descripcion_acerca{
                     text-align: justify;
                     color:white;
@@ -100,15 +100,15 @@
                 width: 450px;
                 height: 450px;
                 border:2px solid $colorVerde;
-                border-radius:50%;
+                border-radius:50px;
                 box-shadow: 0px 0px 5px $colorVerde;
                 transition: 0.1s all linear;
                 overflow: hidden;
-                background:$colorVerde;
+                //background:$colorVerde;
                 transition: 1s all;
-                .foto{
-                    mix-blend-mode:multiply;    
-                }    
+                /*.foto{
+                    //mix-blend-mode:multiply;    
+                }*/    
             }
             .contenedor_der_image:hover{
                 //border:5px double $colorVerde;
@@ -155,7 +155,7 @@
             flex-direction:row;
             flex-wrap: wrap;
             justify-content: space-between;
-           
+
 
             //align-items: center;
             .contenedor_izq{
@@ -163,7 +163,7 @@
                 height: 700px;
                 //margin-left: 20px;
               
-                margin-left: 50px;
+                margin-left: 30px;
                 position: relative;
                 .titulo_acerca{
                     width: 500px;
@@ -231,7 +231,7 @@
             .contenedor_der{
                 width: 40%;
                 background: $colorAzul;
-                margin-right: 50px;
+                margin-right: 20px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -354,16 +354,16 @@
                 background:$colorAzul;
                 position: absolute;
                 left: 20px;
-                bottom: 50px;
+                top: 300px;
+                bottom:initial;
                 display: flex;
                 flex-direction: column;    
                 justify-content: center;
                 align-items: center;
                 .contenedor_der_image{
-                    width: 350px;
+                    width: 320px;
                     height: 350px;
                     border:2px solid $colorVerde;
-                    border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
                     overflow: hidden;
@@ -497,7 +497,6 @@
                     width: 300px;
                     height: 300px;
                     border:2px solid $colorVerde;
-                    border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
                     overflow: hidden;
@@ -625,7 +624,6 @@
                     width: 280px;
                     height: 280px;
                     border:2px solid $colorVerde;
-                    border-radius:50%;
                     box-shadow: 0px 0px 5px $colorVerde;
                     transition: 0.1s all linear;
                     overflow: hidden;

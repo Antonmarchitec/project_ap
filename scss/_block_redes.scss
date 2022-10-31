@@ -4,11 +4,12 @@
     width: 35px;
     padding: 10px 0px;
     position: fixed;
-    right: 0;
+    right: -40px;
     top: 100px;
     z-index: 100;
     opacity: 0;
     transition: 0.3s all;
+
     .contRedes_box{
         width: 100%;
         padding: 5px;
@@ -42,5 +43,6 @@
 
 
 .contRedes_js{
+    right: 0;
     opacity: 1;
 }

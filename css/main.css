@@ -537,7 +537,7 @@ html {
 }
 #cont_descripcion_foto .contBase .contenedor_izq {
   width: 50%;
-  height: 700px;
+  height: 650px;
   margin-left: 50px;
   position: relative;
 }
@@ -570,7 +570,7 @@ html {
   height: 270px;
   position: absolute;
   left: 100px;
-  bottom: 0px;
+  top: 250px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
   text-align: justify;
@@ -618,15 +618,14 @@ html {
   width: 450px;
   height: 450px;
   border: 2px solid #56fbd3;
-  border-radius: 50%;
+  border-radius: 50px;
   box-shadow: 0px 0px 5px #56fbd3;
   transition: 0.1s all linear;
   overflow: hidden;
-  background: #56fbd3;
   transition: 1s all;
-}
-#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
-  mix-blend-mode: multiply;
+  /*.foto{
+      //mix-blend-mode:multiply;    
+  }*/
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
   border: 2px solid #56fbd3;
@@ -665,7 +664,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 50%;
     height: 700px;
-    margin-left: 50px;
+    margin-left: 30px;
     position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
@@ -730,7 +729,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_der {
     width: 40%;
     background: #0c1b32;
-    margin-right: 50px;
+    margin-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -837,17 +836,17 @@ html {
     background: #0c1b32;
     position: absolute;
     left: 20px;
-    bottom: 50px;
+    top: 300px;
+    bottom: initial;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 350px;
+    width: 320px;
     height: 350px;
     border: 2px solid #56fbd3;
-    border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
     overflow: hidden;
@@ -968,7 +967,6 @@ html {
     width: 300px;
     height: 300px;
     border: 2px solid #56fbd3;
-    border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
     overflow: hidden;
@@ -1081,7 +1079,6 @@ html {
     width: 280px;
     height: 280px;
     border: 2px solid #56fbd3;
-    border-radius: 50%;
     box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.1s all linear;
     overflow: hidden;
@@ -3823,7 +3820,7 @@ a {
   width: 35px;
   padding: 10px 0px;
   position: fixed;
-  right: 0;
+  right: -40px;
   top: 100px;
   z-index: 100;
   opacity: 0;
@@ -3856,6 +3853,7 @@ a {
 }
 
 .contRedes_js {
+  right: 0;
   opacity: 1;
 }
 
