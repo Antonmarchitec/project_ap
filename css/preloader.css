@@ -3,6 +3,7 @@
     height: 100vh;
     background: rgb(2, 20, 51);
     display: flex;
+	flex-direction: column;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -21,6 +22,19 @@
         visibility: hidden;
     }
 }
+
+.text{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
 
 .cssload-thecube {
 	width: 73px;
