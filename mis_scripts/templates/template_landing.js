@@ -147,7 +147,7 @@ const pintarlanding2 = (dataWeb) =>{
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
         if(e.target.dataset.id === "5"){
-            //window.open("/")
+            window.open("https://antonmarchitec.github.io/template_visual_designer/")
         }else if(e.target.dataset.id === "6"){
             window.open("https://antonmarchitec.github.io/template_visit-tokio/")
         }

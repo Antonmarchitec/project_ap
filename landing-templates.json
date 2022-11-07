@@ -64,7 +64,7 @@
         {
             "id_block1":5,
             "title1":"Visual Designer",
-            "descripcion1":"Proyecto en desarrollo...!",
+            "descripcion1":"Témplate visual designer, desarrollado para integrar a un proyecto de tipo portafolio, construida con HTML, CSS GRID, FLEXBOX y JavaScript totalmente personalizada, cuenta con un menú de navegación, integración a enlaces externos, integración a redes sociales, 3 secciones, pie de página, botón de desplazamiento (subida), scroll personalizado y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.",
             "image1": "./img/image_visual_designer.jpg",
             "tip1D": "- Proyecto Visual Designer.",
 
@@ -75,7 +75,7 @@
             "title2":"Visit Tokio",
             "descripcion2":"Plantilla desarrollada para proyecto portafolio, totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, 4 secciones, integración a enlaces externos, botones flotantes, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida, 2 páginas y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.",
             "image2": "./img/image_visit_tokio.jpg",
-            "tip2D": "- Proyecto Visit Tokio.",
+            "tip2D": "- Proyecto Visit Tokio.", 
 
             
             
