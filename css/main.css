@@ -2374,9 +2374,10 @@ a {
   color: #56fbd3;
 }
 
-@media (min-width: 641px) and (max-width: 769px) {
+@media (min-width: 770px) and (max-width: 1200px) {
   .contentFoot {
     width: 100%;
+    margin-top: 50px;
     padding: 10px 0px;
     background: rgba(0, 0, 0, 0.096);
     display: flex;
@@ -2385,7 +2386,7 @@ a {
     align-items: center;
   }
   .contentFoot .contentFoot__cajaLN {
-    width: 250px;
+    width: 100px;
     padding: 5px 0px;
     margin-left: 20px;
     display: flex;
@@ -2398,14 +2399,61 @@ a {
     height: 50px;
   }
   .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
-    text-align: center;
-    line-height: 18px;
+    display: none;
   }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name {
+  .contentFoot .contentFoot__cajaRedes {
+    width: 520px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contentFoot .contentFoot__cajaRedes .cajaSociales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
     color: white;
+    font-size: 30px;
   }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name .nameObj {
+  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
+    margin-left: 2px;
+    color: rgb(199, 199, 199);
+    transition: 0.3s linear;
+    transition-property: transform;
+  }
+  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
     color: #56fbd3;
+  }
+}
+@media (min-width: 320px) and (max-width: 769px) {
+  .contentFoot {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.096);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentFoot .contentFoot__cajaLN {
+    width: 100px;
+    padding: 5px 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
+    width: 90px;
+    height: 50px;
+  }
+  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
+    display: none;
   }
   .contentFoot .contentFoot__cajaRedes {
     width: 200px;
@@ -2422,142 +2470,221 @@ a {
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
     display: none;
-    margin-left: 2px;
-    color: rgb(199, 199, 199);
-    transition: 0.3s linear;
-    transition-property: transform;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
-    color: #56fbd3;
   }
 }
-@media (min-width: 481px) and (max-width: 640px) {
-  .contentFoot {
-    width: 100%;
-    padding: 10px 0px;
-    background: rgba(0, 0, 0, 0.096);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaLN {
-    width: 250px;
-    padding: 5px 0px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-    width: 90px;
-    height: 50px;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
-    text-align: center;
-    line-height: 18px;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name {
-    color: white;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name .nameObj {
-    color: #56fbd3;
-  }
-  .contentFoot .contentFoot__cajaRedes {
-    width: 180px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
-    color: white;
-    font-size: 30px;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
-    display: none;
-    margin-left: 2px;
-    color: rgb(199, 199, 199);
-    transition: 0.3s linear;
-    transition-property: transform;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
-    color: #56fbd3;
-  }
+/*
+@media (min-width:641px) and (max-width:769px){
+    .contentFoot{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgba(0, 0, 0, 0.096);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .contentFoot__cajaLN{
+            width: 250px;
+            padding: 5px 0px;
+            margin-left: 20px;
+            //background: darkcyan;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .contentFoot__cajaLN__logo{
+                width: 90px;
+                height: 50px;
+            }
+            .contentFoot__cajaLN__nombre{
+
+                text-align: center;
+                line-height: 18px;
+                .name{
+                    color: white;
+                    .nameObj{
+                        color: $colorVerde;
+                    }
+                }
+            }
+        }
+
+        .contentFoot__cajaRedes{
+            width: 200px;
+            margin-right: 20px;
+            //background: gold;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSociales{
+                //background: saddlebrown;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .IconSocial{
+                    color: white;
+                    font-size: 30px;  
+                }
+                .nota{
+                    display: none;
+                    margin-left: 2px;
+                    color:rgb(199, 199, 199);
+                    transition: 0.3s linear;
+                    transition-property: transform;
+                }
+                .nota:hover{
+                    color: $colorVerde;
+
+                }
+            }
+        }
+    }
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  .contentFoot {
-    width: 100%;
-    padding: 10px 0px;
-    background: rgba(0, 0, 0, 0.096);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaLN {
-    width: 150px;
-    padding: 5px 0px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-    width: 90px;
-    height: 50px;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
-    display: none;
-    text-align: center;
-    line-height: 18px;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name {
-    color: white;
-  }
-  .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name .nameObj {
-    color: #56fbd3;
-  }
-  .contentFoot .contentFoot__cajaRedes {
-    width: 210px;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
-    color: white;
-    font-size: 30px;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
-    display: none;
-    margin-left: 2px;
-    color: rgb(199, 199, 199);
-    transition: 0.3s linear;
-    transition-property: transform;
-  }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
-    color: #56fbd3;
-  }
+
+@media (min-width:481px) and (max-width:640px){
+    .contentFoot{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgba(0, 0, 0, 0.096);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .contentFoot__cajaLN{
+            width: 250px;
+            padding: 5px 0px;
+            margin-left: 20px;
+            //background: darkcyan;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .contentFoot__cajaLN__logo{
+                width: 90px;
+                height: 50px;
+            }
+            .contentFoot__cajaLN__nombre{
+
+                text-align: center;
+                line-height: 18px;
+                .name{
+                    color: white;
+                    .nameObj{
+                        color: $colorVerde;
+                    }
+                }
+            }
+        }
+
+        .contentFoot__cajaRedes{
+            width: 180px;
+            margin-right: 20px;
+            //background: rgb(20, 116, 139);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSociales{
+                //background: saddlebrown;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .IconSocial{
+                    color: white;
+                    font-size: 30px;  
+                }
+                .nota{
+                    display: none;
+                    margin-left: 2px;
+                    color:rgb(199, 199, 199);
+                    transition: 0.3s linear;
+                    transition-property: transform;
+                }
+                .nota:hover{
+                    color: $colorVerde;
+
+                }
+            }
+        }
+    }
 }
+
+@media (min-width:320px) and (max-width:480px){
+    .contentFoot{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgba(0, 0, 0, 0.096);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .contentFoot__cajaLN{
+            width: 150px;
+            padding: 5px 0px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .contentFoot__cajaLN__logo{
+                width: 90px;
+                height: 50px;
+            }
+            .contentFoot__cajaLN__nombre{
+                display: none;
+                text-align: center;
+                line-height: 18px;
+                .name{
+                    color: white;
+                    .nameObj{
+                        color: $colorVerde;
+                    }
+                }
+            }
+        }
+
+        .contentFoot__cajaRedes{
+            width: 210px;
+            margin-right: 20px;
+            //background: green;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .cajaSociales{
+                //background: saddlebrown;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .IconSocial{
+                    color: white;
+                    font-size: 30px;  
+                }
+                .nota{
+                    display: none;
+                    margin-left: 2px;
+                    color:rgb(199, 199, 199);
+                    transition: 0.3s linear;
+                    transition-property: transform;
+                }
+                .nota:hover{
+                    color: $colorVerde;
+
+                }
+            }
+        }
+    }
+}*/
 * {
   padding: 0;
   margin: 0;
