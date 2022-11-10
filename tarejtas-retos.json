@@ -231,12 +231,23 @@
             "id":21,
             "idGit":21,
             "idLive":21,
-            "title":"Componente en desarrollo",
-            "tech_html": " -- ",
+            "title":"PÁGINA DE INICIO DE NOTICIAS",
+            "tech_html": " HTML ",
+            "tech_css": " CSS ",
+            "tech_js": " -- ",
+            "imagen":"./img/RETOS/TARGET_21.jpg",
+            "descripcion": " Diseño desarrollado con HTML, CSS y JS para la funcionalidad del menú, cuenta con un header, banner y distintas secciones de noticias."
+        },
+        {
+            "id":22,
+            "idGit":22,
+            "idLive":22,
+            "title":" RETO EN CONSTRUCCIÓN ",
+            "tech_html": "  -- ",
             "tech_css": " -- ",
             "tech_js": " -- ",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
-            "descripcion": "Espearando proximo reto en una semana..."
+            "descripcion": " Proximo reto en dos semanas."
         }
     ]
 }

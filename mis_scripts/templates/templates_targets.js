@@ -267,6 +267,10 @@ const pintarCards19_24 = (dataCard19_24) =>{
             window.open("https://github.com/Antonmarchitec/Pagina_inicio_tema_oscuro_fylo.git")
         }else if (e.target.dataset.idLive === "20"){
             window.open("https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/")
+        }else if (e.target.dataset.idGit === "21"){
+            window.open("https://github.com/Antonmarchitec/pagina_inicio_noticias.git")
+        }else if (e.target.dataset.idLive === "21"){
+            window.open("https://antonmarchitec.github.io/pagina_inicio_noticias/")
         }
     })
 }
