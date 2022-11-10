@@ -1791,8 +1791,9 @@ a {
   }
 }
 .contentSection .contentSection__todosCuadros {
+  width: 100%;
   margin-top: 5px;
-  padding: 5px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1863,13 +1864,14 @@ a {
   margin: 10px auto;
   width: 90%;
   color: #96aadb;
+  font-size: 16px;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro:hover {
   transform: scale(1.02, 1.02);
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 250px;
+    width: 300px;
     height: 450px;
     padding: 10px;
     margin: 10px auto;
@@ -1931,7 +1933,7 @@ a {
 }
 @media (min-width: 770px) and (max-width: 1024px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 250px;
+    width: 280px;
     height: 450px;
     padding: 10px;
     margin: 10px auto;
@@ -1993,7 +1995,7 @@ a {
 }
 @media (min-width: 641px) and (max-width: 769px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 250px;
+    width: 280px;
     height: 450px;
     padding: 10px;
     margin: 10px auto;
@@ -2057,7 +2059,7 @@ a {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 220px;
     height: 450px;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 10px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -2131,16 +2133,16 @@ a {
   }
 }
 .contentSection .contentSection_blocks {
-  width: 280px;
+  width: 200px;
   margin: auto;
-  padding: 10px 0px;
+  padding: 5px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .contentSection .contentSection_blocks .contentSection_blocks_number {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background: #56fbd3;
   display: flex;
   justify-content: center;

@@ -259,8 +259,9 @@ a{
 
     //SECCION DE LOS CUADROS FRONTEND//////////////////////////////////
     .contentSection__todosCuadros{
+        width: 100%;
         margin-top: 5px;
-        padding: 5px 0px;
+        padding: 10px 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -330,6 +331,7 @@ a{
                 margin: 10px auto;
                 width: 90%;
                 color:$colorCelesteOscuro;
+                font-size: 16px;
             }
         }
         .contentSection__cuadro:hover{
@@ -337,7 +339,7 @@ a{
         }
         @media (min-width:1025px) and (max-width:1200px){
             .contentSection__cuadro{
-                width: 250px;
+                width: 300px;
                 height: 450px;
                 padding: 10px;
                 margin: 10px auto;
@@ -409,7 +411,7 @@ a{
 
         @media (min-width:770px) and (max-width:1024px){
             .contentSection__cuadro{
-                width: 250px;
+                width: 280px;
                 height: 450px;
                 padding: 10px;
                 margin: 10px auto;
@@ -418,7 +420,7 @@ a{
                 text-align: center;
                 box-shadow: 0px 0px 5px rgb(255, 255, 255);
                 transition: 0.2s all;
-                
+
                 
                 .contentSection__cuadro__sup{
                     width: 100%;
@@ -481,7 +483,7 @@ a{
 
         @media (min-width:641px) and (max-width:769px){
             .contentSection__cuadro{
-                width: 250px;
+                width: 280px;
                 height: 450px;
                 padding: 10px;
                 margin: 10px auto;
@@ -490,7 +492,7 @@ a{
                 text-align: center;
                 box-shadow: 0px 0px 5px rgb(255, 255, 255);
                 transition: 0.2s all;
-                
+
                 
                 .contentSection__cuadro__sup{
                     width: 100%;
@@ -555,14 +557,14 @@ a{
             .contentSection__cuadro{
                 width: 220px;
                 height: 450px;
-                padding: 10px;
+                padding: 20px 10px;
                 margin: 10px auto;
                 overflow: hidden;
                 border-radius: 10px;
                 text-align: center;
                 box-shadow: 0px 0px 5px rgb(255, 255, 255);
                 transition: 0.2s all;
-                
+
                 
                 .contentSection__cuadro__sup{
                     width: 100%;
@@ -644,15 +646,15 @@ a{
  
     //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
     .contentSection_blocks{
-        width: 280px;
+        width: 200px;
         margin: auto;
-        padding: 10px 0px;
+        padding: 5px 0px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         .contentSection_blocks_number{
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             background: $colorVerde;
             display: flex;
             justify-content: center;
