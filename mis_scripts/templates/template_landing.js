@@ -150,6 +150,8 @@ const pintarlanding2 = (dataWeb) =>{
             window.open("https://antonmarchitec.github.io/template_visual_designer/")
         }else if(e.target.dataset.id === "6"){
             window.open("https://antonmarchitec.github.io/template_visit-tokio/")
+        }else if(e.target.dataset.id === "7"){
+            window.open("https://antonmarchitec.github.io/template_halloween/")
         }
     }) 
 }

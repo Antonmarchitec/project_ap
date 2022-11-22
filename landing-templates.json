@@ -89,6 +89,36 @@
             "tip1A": "- Página informativa.",
             "tip1B": "- página de aterrizaje.",
             "tip1C": "- landing page."
+        },
+
+        {
+            "id_block1":7,
+            "title1":"Template Halloween",
+            "descripcion1":"Plantilla informativa con temática de Halloween desarrollada con HTML, CSS y JS. Cuenta con un menú de navegación, botones, video integrado, scrooll personalizado y distintas secciones, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.",
+            "image1": "./img/TEMPLATE-HALLOWEEN.jpg",
+            "tip1D": "- Proyecto Halloween.",
+
+
+
+
+            "id_block2":8,
+            "title2":"Template en desarrollo",
+            "descripcion2":"Proyecto en desarrollo...",
+            "image2": "./img/EN-DESARROLLO.png",
+            "tip2D": " -- ", 
+
+            
+            
+            "subtitleResp": "Diseño responsivo:",
+            "subtitleProy": "Tipo de proyecto:",
+
+            "dis1":"- Desktop: 1440px", 
+            "dis2":"- Tablet: 720px",
+            "dis3":"- Móvil: 320px",
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
         }
     ]
 }
