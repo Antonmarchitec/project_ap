@@ -81,25 +81,38 @@ RESPONSIVE DESING OFICIAL
         justify-content: center;
 
         .titulo_principal{
-            text-align: center;
-            color:$colorVerde;
-            font-size: 70px;
+            width: 600px;
+            padding: 10px 0px;
+            font-size: 180px;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             position: absolute;
-            top: 70px;
-            line-height:50px;
-            letter-spacing: -2px;
+            top: 30px;
+            left: 80px;
+            line-height:130px;
+            letter-spacing: -8px;
+
+            //GRADIENT TEXT
+            background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+            background-image: linear-gradient(white, $colorVerde) ;
+            background-clip: text;
+            -webkit-background-clip:text ;
+            -moz-background-clip:text ;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+            //FIN GRADIENT
+                        
         }
 
         .subtitle{
             text-align: center;
-            color:$colorCelesteOscuro;
+            color:white;
             font-size: 30px;
             position: absolute;
-            top: 160px;
+            top: 360px;
+            right: 150px;
             font-weight: 300;
             .front_css_js{
-                color: white;
+                color: $colorVerde;
                 font-family: 'Oswald', sans-serif;
                 font-style: normal;
                 font-size: 25px;

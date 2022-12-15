@@ -293,25 +293,34 @@ RESPONSIVE DESING OFICIAL
   justify-content: center;
 }
 .contParticulas #particles-js .titulo_principal {
-  text-align: center;
-  color: #56fbd3;
-  font-size: 70px;
+  width: 600px;
+  padding: 10px 0px;
+  font-size: 180px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: absolute;
-  top: 70px;
-  line-height: 50px;
-  letter-spacing: -2px;
+  top: 30px;
+  left: 80px;
+  line-height: 130px;
+  letter-spacing: -8px;
+  background: #56fbd3;
+  background-image: linear-gradient(white, #56fbd3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 .contParticulas #particles-js .subtitle {
   text-align: center;
-  color: #96aadb;
+  color: white;
   font-size: 30px;
   position: absolute;
-  top: 160px;
+  top: 360px;
+  right: 150px;
   font-weight: 300;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
-  color: white;
+  color: #56fbd3;
   font-family: "Oswald", sans-serif;
   font-style: normal;
   font-size: 25px;
