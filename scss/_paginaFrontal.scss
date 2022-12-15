@@ -1,12 +1,3 @@
-/*
-RESPONSIVE DESING OFICIAL
-@import (min-width:1025px) and (max-width:1200px){}
-@import (min-width:770px)  and (max-width:1024px){}
-@import (min-width:641px)  and (max-width:769px){}
-@import (min-width:481px)  and (max-width:640px){}
-@import (min-width:320px)  and (max-width:480px){}
-
-*/
 
 
 .headerFrente{
@@ -118,55 +109,130 @@ RESPONSIVE DESING OFICIAL
                 font-size: 25px;
             }
         }
-        @media (min-width:770px) and (max-width:1024px){
+
+
+        @media (min-width:770px) and (max-width:899px){
             .titulo_principal{
-                margin-top: 30px;
-                font-size: 50px;
-                line-height: 40px;
+                width: 600px;
+                padding: 10px 0px;
+                font-size: 130px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                position: absolute;
+                top: 60px;
+                left: 80px;
+                line-height:100px;
+                letter-spacing: -8px;
+                            
             }
+    
             .subtitle{
                 text-align: center;
-                color:$colorCelesteOscuro;
-                font-size: 28px;
+                color:white;
+                font-size: 30px;
                 position: absolute;
-                top: 170px;
-
-            }
+                top: 360px;
+                right: 150px;
+                font-weight: 300;
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 25px;
+                }
+            } 
         }
+
         @media (min-width:641px) and (max-width:769px){
             .titulo_principal{
-                margin-top: 30px;
-                font-size: 45px;
-                line-height: 40px;
+                width: 70%;
+                padding: 10px 0px;
+                font-size: 130px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                position: absolute;
+                top: 60px;
+                left: 50px;
+                line-height:100px;
+                letter-spacing: -8px;
             }
+    
             .subtitle{
                 text-align: center;
-                color:$colorCelesteOscuro;
-                font-size: 26px;
+                color:white;
+                font-size: 25px;
                 position: absolute;
-                top: 170px;
-
-            }
+                top: 360px;
+                right: 70px;
+                font-weight: 300;
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 25px;
+                }
+            } 
         }
-        @media (min-width:320px) and (max-width:640px){
+
+
+        @media (min-width:481px) and (max-width:640px){
+            .titulo_principal{
+                width: 80%;
+                padding: 10px 0px;
+                font-size: 120px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                position: absolute;
+                top: 60px;
+                left: 50px;
+                line-height:90px;
+                letter-spacing: -8px;
+            }
+    
+            .subtitle{
+                text-align: center;
+                color:white;
+                font-size: 22px;
+                position: absolute;
+                top: 360px;
+                right: 70px;
+                font-weight: 300;
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 22px;
+                }
+            } 
+        }
+
+        @media (min-width:320px) and (max-width:480px){
             .titulo_principal{
                 width: 90%;
-                margin-top: -10px;
-                font-size: 49px;
-                line-height: 42px;
-              
-            }
-            .subtitle{
-                width: 250px;
-                text-align: center;
-                color:$colorCelesteOscuro;
-                font-size: 23px;
-                line-height: 25px;
+                padding: 10px 0px;
+                font-size: 100px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 position: absolute;
-                top: 190px;
-
+                top: 60px;
+                left: 10px;
+                line-height:72px;
+                letter-spacing: -8px;
             }
+    
+            .subtitle{
+                text-align: center;
+                color:white;
+                font-size: 20px;
+                position: absolute;
+                top: 360px;
+                right: 20px;
+                font-weight: 300;
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 20px;
+                }
+            } 
         }
+        
         
 
 
@@ -276,5 +342,13 @@ RESPONSIVE DESING OFICIAL
 
 
 
-
+/**
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+*/
 
