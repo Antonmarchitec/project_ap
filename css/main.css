@@ -314,7 +314,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #56fbd3;
   font-family: "Oswald", sans-serif;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
 }
 @media (min-width: 770px) and (max-width: 899px) {
   .contParticulas #particles-js .titulo_principal {
@@ -341,7 +341,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: #56fbd3;
     font-family: "Oswald", sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 @media (min-width: 641px) and (max-width: 769px) {
