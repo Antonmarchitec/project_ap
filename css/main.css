@@ -417,8 +417,9 @@ body::-webkit-scrollbar-thumb:hover {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 360px;
-    right: 20px;
+    top: 270px;
+    right: initial;
+    left: 20px;
     font-weight: 300;
   }
   .contParticulas #particles-js .subtitle .front_css_js {
