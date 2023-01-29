@@ -120,5 +120,37 @@
             "tip1B": "- página de aterrizaje.",
             "tip1C": "- landing page."
         }
+    ],
+
+    "landing3":[
+        {
+            "id_block1":9,
+            "title1":"En construcción",
+            "descripcion1":"¡Próximo proyecto saldrá en dos semanas!",
+            "image1": "./img/EN-DESARROLLO.png",
+            "tip1D": "",
+
+
+
+            
+            "id_block2":10,
+            "title2":"En construcción",
+            "descripcion2":"¡Próximo proyecto saldrá en un mes!",
+            "image2": "./img/EN-DESARROLLO.png",
+            "tip2D": "", 
+
+            
+            
+            "subtitleResp": "Diseño responsivo:",
+            "subtitleProy": "Tipo de proyecto:",
+
+            "dis1":"- Desktop: 1440px", 
+            "dis2":"- Tablet: 720px",
+            "dis3":"- Móvil: 320px",
+
+            "tip1A": "- Página informativa.",
+            "tip1B": "- página de aterrizaje.",
+            "tip1C": "- landing page."
+        }
     ]
 }
