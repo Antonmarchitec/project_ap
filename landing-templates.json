@@ -102,10 +102,10 @@
 
 
             "id_block2":8,
-            "title2":"Template en desarrollo",
-            "descripcion2":"Proyecto en desarrollo...",
-            "image2": "./img/EN-DESARROLLO.png",
-            "tip2D": " -- ", 
+            "title2":"Template Fashion",
+            "descripcion2":"Página informativa desarrollada para negocios de diseño de modas, cuenta con un menú de navegación, banner principal, imágenes, secciones, slader de productos con sensibilidad touch screen, es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.",
+            "image2": "./img/templateFashion.jpg",
+            "tip2D": "- Proyecto diseño y modas ", 
 
             
             
