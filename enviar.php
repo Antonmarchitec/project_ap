@@ -101,10 +101,10 @@ $mensaje .= "Mensaje: " . $_POST['comentario'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 //$para = 'contacto@antomdeveloper.com';
-$para = 'digitizingaps@gmail.com';
+$para = 'digitizingcode@gmail.com';
 $asunto = 'Mensaje de mi sitio web';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+mail($para, $asunto, $mensaje, $header);
 
-header("Location:enviado.html");   
+header("Location:enviado.html");   //ESTA ES LA CARPETA DONDE DIRECCIONAMOS
 ?>
