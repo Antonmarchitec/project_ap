@@ -650,7 +650,7 @@ html {
   top: 250px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-  text-align: justify;
+  text-align: start;
   color: white;
   font-weight: 300;
   font-size: 18px;
