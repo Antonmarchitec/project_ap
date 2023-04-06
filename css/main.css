@@ -44,6 +44,7 @@ body::-webkit-scrollbar-thumb:hover {
   top: 0;
   right: 0;
   z-index: 1000;
+  background: rebeccapurple;
 }
 .header .header_logo {
   width: 100px;
@@ -81,6 +82,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: -5px;
   font-size: 14px;
   color: #56fbd3;
+  background: red;
 }
 .header .contNavegador .contIcono {
   width: auto;
