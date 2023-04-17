@@ -8,7 +8,7 @@
     transition: 0.5s all;
     width: 100%;
     box-shadow: 0px 2px 10px black;
-    padding: 5px 0px;
+    padding: 10px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,36 +20,31 @@
     right: 0;
     z-index: 1000;
     background: rebeccapurple;
+
+      //BLOCK LOGO
       .header_logo{
         width: 100px;
         height:50px;
         margin-left: 20px;
-        //background: green;
-      }
-      
-      .header_btnResponsive{
-        /*width: 40px;
-        height: 40px;
-        background: rgb(31, 122, 122); */
-        display: none;
+        background: green;
       }
 
+      //BLOCK NAVEGADOR
       .contNavegador{
-        width:auto;
+        width:610px;
         padding: 3px 0px;
         margin-right: 20px;
-        //background: greenyellow;
+        background: rgb(58, 58, 58);
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         text-align: center;
         .contIcono_active{
-          width: auto;
+          width: 100px;
           padding: 5px 20px;
           background:transparent;
-          cursor: pointer;
+          background: brown;
           .IconNombre{
             color: $colorVerde;
             font-size: 20px;
@@ -58,33 +53,68 @@
             margin-top: -5px;
             font-size: 14px;
             color: $colorVerde;
-            background: red;
           }
         }
 
         .contIcono{
-          width: auto;
-          padding: 5px 20px;
-          //background: chocolate;
-          cursor: pointer;
+          width: 100px;
+          padding: 5px 0px;
+          background: chocolate;
+          position: relative;
+
           .IconNombre{
             color: $colorCelesteOscuro;
             font-size: 20px;
+            background: teal;
           }
+
           .contLetras{
             margin-top: -5px;
             font-size: 14px;
             color: $colorVerde;
           }
-        }
 
+          .submenu{
+            width: 600px;
+            background: rgba(165, 42, 42, 0.473);
+            padding: 10px;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            top:50px;
+            right:-300px;
+            .submenu__item{
+              width: 180px;
+              padding: 10px;
+              background: rgb(204, 76, 76);
+              margin: 3px 0px;
+              .submenu__link{
+                text-decoration: none;
+                font-size: 16px;
+                color: white;
+              }
+            }
+          }
+        }
+        /*
         .contIcono:hover{
           background:transparent ;
           .IconNombre{
             color: $colorVerde;
             font-size: 20px;
           }
-        }
+        }*/
+      }
+
+      //BLOCK BTN RESPONSIVE
+      .header_btnResponsive{
+        /*width: 40px;
+        height: 40px;
+        background: rgb(31, 122, 122); */
+        display: none;
       }
 }
 .contHeader_js{

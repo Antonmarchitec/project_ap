@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: 0.5s all;
   width: 100%;
   box-shadow: 0px 2px 10px black;
-  padding: 5px 0px;
+  padding: 10px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -50,29 +50,32 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100px;
   height: 50px;
   margin-left: 20px;
-}
-.header .header_btnResponsive {
-  /*width: 40px;
-  height: 40px;
-  background: rgb(31, 122, 122); */
-  display: none;
+  background: green;
 }
 .header .contNavegador {
-  width: auto;
+  width: 610px;
   padding: 3px 0px;
   margin-right: 20px;
+  background: rgb(58, 58, 58);
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  /*
+  .contIcono:hover{
+    background:transparent ;
+    .IconNombre{
+      color: $colorVerde;
+      font-size: 20px;
+    }
+  }*/
 }
 .header .contNavegador .contIcono_active {
-  width: auto;
+  width: 100px;
   padding: 5px 20px;
   background: transparent;
-  cursor: pointer;
+  background: brown;
 }
 .header .contNavegador .contIcono_active .IconNombre {
   color: #56fbd3;
@@ -82,28 +85,52 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: -5px;
   font-size: 14px;
   color: #56fbd3;
-  background: red;
 }
 .header .contNavegador .contIcono {
-  width: auto;
-  padding: 5px 20px;
-  cursor: pointer;
+  width: 100px;
+  padding: 5px 0px;
+  background: chocolate;
+  position: relative;
 }
 .header .contNavegador .contIcono .IconNombre {
   color: #96aadb;
   font-size: 20px;
+  background: teal;
 }
 .header .contNavegador .contIcono .contLetras {
   margin-top: -5px;
   font-size: 14px;
   color: #56fbd3;
 }
-.header .contNavegador .contIcono:hover {
-  background: transparent;
+.header .contNavegador .contIcono .submenu {
+  width: 600px;
+  background: rgba(165, 42, 42, 0.473);
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: -300px;
 }
-.header .contNavegador .contIcono:hover .IconNombre {
-  color: #56fbd3;
-  font-size: 20px;
+.header .contNavegador .contIcono .submenu .submenu__item {
+  width: 180px;
+  padding: 10px;
+  background: rgb(204, 76, 76);
+  margin: 3px 0px;
+}
+.header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.header .header_btnResponsive {
+  /*width: 40px;
+  height: 40px;
+  background: rgb(31, 122, 122); */
+  display: none;
 }
 
 .contHeader_js {
@@ -526,8 +553,10 @@ html {
 .CONTENIDO_CONTENT {
   width: 100%;
   max-width: 1440px;
+  padding: 30px 0px;
   margin: auto;
   background: #000000;
+  background: yellow;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
