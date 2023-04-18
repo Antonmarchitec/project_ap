@@ -176,7 +176,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 160px;
     padding: 15px 0px;
     margin-right: 0;
-    background: rgba(12, 27, 50, 0.6980392157);
+    background: #060f1d;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -204,6 +204,7 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 15px 20px;
     position: relative;
     background: #0c1b32;
+    transition: 0.5s all;
   }
   .header .contNavegador .contIcono .IconNombre {
     color: #96aadb;
@@ -216,7 +217,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .header .contNavegador .contIcono .submenu {
     width: 150px;
-    background: white;
+    background: #060f1d;
     padding: 10px;
     list-style: none;
     display: flex;
@@ -224,7 +225,7 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: flex-start;
     align-items: center;
     position: absolute;
-    top: -100px;
+    top: -167px;
     right: initial;
     left: 160px;
     opacity: 0;
