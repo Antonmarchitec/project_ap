@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb:hover {
 .header .contNavegador .contIcono .submenu .submenu__item .submenu__img {
   margin-top: 5px;
   width: 100%;
-  height: 100px;
+  height: 130px;
 }
 .header .contNavegador .contIcono .submenu .submenu__item:hover {
   background: #060f1d;
