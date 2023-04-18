@@ -145,7 +145,7 @@
 
 
 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:720px) {
   .header {
     background:$colorAzulOscuro;
     width: 100%;
@@ -157,7 +157,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    left: 0;
+    left:0;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -184,7 +184,9 @@
         text-align: initial;
         position: absolute;
         top: 75px;
-        left: 0;
+        left: initial;
+        transform: translateX(-100%);
+        transition: 0.8s;
         .contIcono_active{
           width: 160px;
           padding: 15px 20px;
@@ -206,6 +208,7 @@
           position: relative;
           background: $colorAzul;
           transition: 0.5s all;
+          z-index: 200;
           .IconNombre{
             color: $colorCelesteOscuro;
             font-size: 20px;
@@ -229,10 +232,10 @@
             position: absolute;
             top:-167px;
             right:initial;
-            left: 160px;
+            left: 150px;
             opacity: 0;
             visibility: hidden;
-            transition: 0.2s linear;
+            transition: 0.5s all;
             z-index: 100;
             .submenu__item{
               width: 100%;
@@ -263,9 +266,9 @@
 
           &:hover{        
               .submenu{
-                opacity: 1;
                 visibility: visible;
-                transform: translateY(5px);
+                transform: translateY(0px);
+                transform: translateX(10px);
               }
           }
           
@@ -278,6 +281,10 @@
             font-size: 20px;
           }
         }
+      }
+
+      .contNavegadorJS{
+        transform: translateX(0px);
       }
 
       //BLOCK BTN RESPONSIVE

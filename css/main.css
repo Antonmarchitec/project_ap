@@ -149,7 +149,7 @@ body::-webkit-scrollbar-thumb:hover {
   box-shadow: 0px 2px 20px #56fbd3;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 720px) {
   .header {
     background: #060f1d;
     width: 100%;
@@ -184,7 +184,9 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: initial;
     position: absolute;
     top: 75px;
-    left: 0;
+    left: initial;
+    transform: translateX(-100%);
+    transition: 0.8s;
   }
   .header .contNavegador .contIcono_active {
     width: 160px;
@@ -205,6 +207,7 @@ body::-webkit-scrollbar-thumb:hover {
     position: relative;
     background: #0c1b32;
     transition: 0.5s all;
+    z-index: 200;
   }
   .header .contNavegador .contIcono .IconNombre {
     color: #96aadb;
@@ -227,10 +230,10 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     top: -167px;
     right: initial;
-    left: 160px;
+    left: 150px;
     opacity: 0;
     visibility: hidden;
-    transition: 0.2s linear;
+    transition: 0.5s all;
     z-index: 100;
   }
   .header .contNavegador .contIcono .submenu .submenu__item {
@@ -257,9 +260,9 @@ body::-webkit-scrollbar-thumb:hover {
     background: #060f1d;
   }
   .header .contNavegador .contIcono:hover .submenu {
-    opacity: 1;
     visibility: visible;
-    transform: translateY(5px);
+    transform: translateY(0px);
+    transform: translateX(10px);
   }
   .header .contNavegador .contIcono:hover {
     background: #060f1d;
@@ -267,6 +270,9 @@ body::-webkit-scrollbar-thumb:hover {
   .header .contNavegador .contIcono:hover .IconNombre {
     color: #56fbd3;
     font-size: 20px;
+  }
+  .header .contNavegadorJS {
+    transform: translateX(0px);
   }
   .header .header_btnResponsive {
     /*width: 40px;

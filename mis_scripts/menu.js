@@ -16,6 +16,9 @@ btnResponsive.addEventListener("click", () =>{
 
 });
 
+
+
+
 window.addEventListener("scroll", () =>{
      let positionElement = contHeader.offsetTop;
      //console.log(positionElement);
