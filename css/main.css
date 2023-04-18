@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-left: 20px;
 }
 .header .contNavegador {
-  width: 650px;
+  width: 570px;
   padding: 3px 0px;
   margin-right: 20px;
   display: flex;
@@ -63,7 +63,6 @@ body::-webkit-scrollbar-thumb:hover {
 .header .contNavegador .contIcono_active {
   width: 100px;
   padding: 5px 20px;
-  background: transparent;
 }
 .header .contNavegador .contIcono_active .IconNombre {
   color: #56fbd3;
@@ -90,7 +89,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .header .contNavegador .contIcono .submenu {
   width: 600px;
-  background: rgba(12, 27, 50, 0.6980392157);
+  background: white;
   padding: 10px;
   list-style: none;
   display: flex;
@@ -98,7 +97,7 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  top: 50px;
+  top: 60px;
   right: -300px;
   opacity: 0;
   visibility: hidden;
@@ -106,22 +105,26 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .header .contNavegador .contIcono .submenu .submenu__item {
   width: 180px;
-  padding: 20px 10px;
-  background: rgb(204, 76, 76);
+  padding: 20px;
+  border-radius: 10px;
+  background: #0c1b32;
   margin: 3px 0px;
+  box-shadow: 0px 0px 2px;
+  transition: 0.2s all;
 }
 .header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
   text-decoration: none;
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
+  color: #56fbd3;
   text-align: start;
-  background: teal;
 }
 .header .contNavegador .contIcono .submenu .submenu__item .submenu__img {
   margin-top: 5px;
   width: 100%;
   height: 100px;
-  background: greenyellow;
+}
+.header .contNavegador .contIcono .submenu .submenu__item:hover {
+  background: #060f1d;
 }
 .header .contNavegador .contIcono:hover .submenu {
   opacity: 1;
@@ -565,7 +568,6 @@ html {
   padding: 30px 0px;
   margin: auto;
   background: #000000;
-  background: yellow;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

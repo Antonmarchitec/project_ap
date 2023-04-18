@@ -29,7 +29,7 @@
 
       //BLOCK NAVEGADOR
       .contNavegador{
-        width:650px;
+        width:570px;
         padding: 3px 0px;
         margin-right: 20px;
         display: flex;
@@ -40,7 +40,6 @@
         .contIcono_active{
           width: 100px;
           padding: 5px 20px;
-          background:transparent;
           .IconNombre{
             color: $colorVerde;
             font-size: 20px;
@@ -69,7 +68,7 @@
 
           .submenu{
             width: 600px;
-            background:$colorAzulTransparente;
+            background:white;
             padding: 10px;
             list-style: none;
             display: flex;
@@ -77,30 +76,35 @@
             justify-content: space-around;
             align-items: center;
             position: absolute;
-            top:50px;
+            top:60px;
             right:-300px;
             opacity: 0;
             visibility: hidden;
             transition: 0.2s linear;
             .submenu__item{
               width: 180px;
-              padding: 20px 10px;
-              background: rgb(204, 76, 76);
+              padding:20px;
+              border-radius: 10px;
+              background: $colorAzul;
               margin: 3px 0px;
+              box-shadow: 0px 0px 2px;
+              transition: 0.2s all;
               .submenu__link{
                 text-decoration: none;
-                font-size: 18px;
-                color: white;
+                font-size: 16px;
+                color: $colorVerde;
                 text-align: start;
-                background: teal;
               }
 
               .submenu__img{
                 margin-top: 5px;
                 width: 100%;
                 height: 100px;
-                background: greenyellow;
               }
+            }
+
+            .submenu__item:hover{
+              background:$colorAzulOscuro;
             }
           }
 
@@ -114,7 +118,6 @@
           
         }
 
-      
         .contIcono:hover{
           background:transparent ;
           .IconNombre{
