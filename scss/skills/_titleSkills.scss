@@ -20,6 +20,8 @@
          left:calc(50% - 250px);
          z-index: 0;
          letter-spacing:$letterSpacing;
+         transform: skewX(-5deg);
+
     }
 
     .containerSkills_blockB{
@@ -60,6 +62,8 @@
              left:calc(50% - 110px);
              z-index: 0;
              letter-spacing:$letterSpacing;
+             transform: skewX(-5deg);
+
         }
     
         .containerSkills_blockB{

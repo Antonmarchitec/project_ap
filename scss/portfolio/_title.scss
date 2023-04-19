@@ -20,7 +20,8 @@
          left:calc(50% - 390px);
          z-index: 0;
          letter-spacing:$letterSpacing;
-         
+         transform: skewX(-5deg);
+
     }
     .containerPortfolio_blockB{
         width: 100%;
@@ -57,6 +58,8 @@
              left:calc(50% - 360px);
              z-index: 0;
              letter-spacing:$letterSpacing;
+             transform: skewX(-5deg);
+
              
         }
         .containerPortfolio_blockB{
@@ -95,7 +98,8 @@
              left:calc(50% - 320px);
              z-index: 0;
              letter-spacing:$letterSpacing;
-             
+             transform: skewX(-5deg);
+
         }
         .containerPortfolio_blockB{
             width: 100%;
@@ -133,7 +137,8 @@
              left:calc(50% - 245px);
              z-index: 0;
              letter-spacing:$letterSpacing;
-             
+             transform: skewX(-5deg);
+
         }
         .containerPortfolio_blockB{
             width: 100%;
@@ -171,7 +176,8 @@
              left:calc(50% - 150px);
              z-index: 0;
              letter-spacing:$letterSpacing;
-             
+             transform: skewX(-5deg);
+
         }
         .containerPortfolio_blockB{
             width: 100%;

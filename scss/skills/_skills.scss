@@ -11,15 +11,10 @@
     background-attachment: fixed;
     .cont_big{
         width: 100%;
-        padding:10px 0px;
-        //background:$colorBlackTransparent;
-        //background: chartreuse;
+        //padding:10px 0px;
+        background:$colorNegro;
         position: relative;
-        .hh{
-            text-align: center;
-            font-size:50px;  
-            color: $colorVerde;
-        }
+
         .cont_cont_cuadros{
             margin: 10px auto; 
             width: 100%;
@@ -28,13 +23,12 @@
             flex-direction: row;
             justify-content: space-around;
             padding: 5px 0px;
-            //background: brown;
+            background:transparent;
             .cont_cuadro_A{
-                width: 600px;
+                width: 80%;
                 padding: 5px 0px;
-
+                //background: rgb(39, 208, 39);
                 .tecnologis{
-                    margin-top: 30px;
                     width: 100%;
                     padding: 5px 0px;
                     //background: rgb(24, 37, 116);
@@ -45,13 +39,16 @@
                     align-items: center;
                     .contcuadro{
                         width: 120px;
-                        //background: rgba(210, 105, 30, 0.733);
+                        background: $colorAzulOscuro;
+                        border-bottom: 2px solid $colorVerde;
+                        border-radius: 10px;
+                        transform: skew(-5deg);
                         padding: 5px 0px;
                         margin:5px ;
                         position: relative;
                         .mi_imagen{
-                            width:100px;
-                            height:100px;
+                            width:90px;
+                            height:90px;
                             margin:auto;   
                             //background: rgba(250, 55, 55, 0.151);
                             border-radius: 10px;
@@ -61,6 +58,7 @@
                         .campoText{
                             text-align: center;
                             color: $colorVerde;
+                            transform: skew(-5deg);
                             //background: chartreuse;
                         }
                        
@@ -85,166 +83,11 @@
                 }
                 
             }
-            .cont_cuadro_B{
-                width: 450px;
-                padding: 20px 0px;
-                background: $colorAzulTransparente;
-                border-radius: 20px;
-                //box-shadow: 0px 0px 10px $colorCelesteOscuro;
-                .title{
-                    color: white;
-                    font-size: 35px;
-                    text-align: center;
-                }
-                .contBaase{
-                    margin-top: 30px;
-                    width: 100%;
-                    padding: 5px 0px;
-                    //background: blueviolet;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    .contBaase__caja__A{
-                        width:250px;
-                        height: 250px;
-                        background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
-                        background-size: 100% 100%;
-                        box-shadow: 0px 0px 10px $colorCelesteOscuro;
-                        border-radius: 5px;
-                    }
-                    .contBaase__caja__B{
-                        margin-top: 20px;
-                        width: 250px;
-                        height: 250px;
-                        background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
-                        background-size: 100% 100%;
-                        box-shadow: 0px 0px 10px $colorCelesteOscuro;
-                        border-radius: 5px;
-                    }
-                }
-              
-            }
+            
             
         }
-        
-
-        @media (min-width:1025px) and (max-width:1200px){
-            .cont_cont_cuadros{
-                //background: rgb(44, 46, 43);
-                .cont_cuadro_A{
-                    width: 500px;
-                }
-                .cont_cuadro_A{
-                    width: 400px;
-                }
-            }
-        }
-
-        @media (min-width:770px) and (max-width:1024px){
-            .cont_cont_cuadros{
-                //background: rgb(19, 119, 165);
-                .cont_cuadro_A{
-                  width: 100%;   
-                }
-                .cont_cuadro_B{
-                    width: 100%;
-                    border-radius: 0;
-                    .contBaase{
-                        .contBaase__caja__B{
-                            margin-top: 0;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (min-width:641px) and (max-width:769px){
-            .cont_cont_cuadros{
-                //background: rgb(22, 170, 59);
-                .cont_cuadro_A{
-                  width: 100%;   
-                  //background: rgb(32, 218, 48);
-                }
-                .cont_cuadro_B{
-                    width: 100%;
-                    border-radius: 0;
-                    //background: rgb(82, 71, 76);
-                    .contBaase{
-                        .contBaase__caja__B{
-                            margin-top: 0;
-                        }
-                    }
-                }
-            }
-        }
-
-        @media (min-width:481px) and (max-width:640px){
-            .cont_cont_cuadros{
-                //background: rgb(160, 212, 15);
-                .cont_cuadro_A{
-                  width: 100%;   
-                  //background: rgb(32, 218, 48);
-                }
-                .cont_cuadro_B{
-                    width: 100%;
-                    border-radius: 0;
-                    //background: rgb(82, 71, 76);
-                    .contBaase{
-                        .contBaase__caja__A{
-                            width: 350px;
-                            height: 350px;
-
-                        }
-                        .contBaase__caja__B{
-                            margin-top: 20px;
-                            width: 350px;
-                            height: 350px;
-                        }
-                    }
-                }
-            }
-        }
-
-        
-        @media (min-width:20px) and (max-width:480px){
-            .cont_cont_cuadros{
-                //background: rgb(36, 6, 117);
-                .cont_cuadro_A{
-                  width: 100%;   
-                  //background: rgb(32, 218, 48);
-                }
-                .cont_cuadro_B{
-                    width: 100%;
-                    border-radius: 0;
-                    //background: rgb(82, 71, 76);
-                    .contBaase{
-                        .contBaase__caja__A{
-                            width: 300px;
-                            height: 300px;
-
-                        }
-                        .contBaase__caja__B{
-                            margin-top: 20px;
-                            width: 300px;
-                            height: 300px;
-                        }
-                    }
-                }
-            }
-
-        }
-       
+    
     }
 
 }
-
-
-     
-   
-   
-    
-    
-    
-    
 

@@ -40,6 +40,7 @@
         .contIcono_active{
           width: 100px;
           padding: 5px 20px;
+          
           .IconNombre{
             color: $colorVerde;
             font-size: 20px;
@@ -48,6 +49,8 @@
             margin-top: -5px;
             font-size: 14px;
             color: $colorVerde;
+            transform: skewX(-5deg);
+
           }
         }
 
@@ -65,6 +68,8 @@
             margin-top: -5px;
             font-size: 14px;
             color: $colorVerde;
+            transform: skewX(-5deg);
+
           }
 
           .submenu{
@@ -97,6 +102,8 @@
                 font-size: 16px;
                 color: $colorVerde;
                 text-align: start;
+                transform: skewX(-5deg);
+
               }
 
               .submenu__img{

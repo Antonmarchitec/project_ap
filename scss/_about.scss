@@ -34,6 +34,8 @@
                 animation-name: moverTitleAbout;
                 animation-duration: 3s;
                 animation-fill-mode:both;
+                transform: skewX(-5deg);
+
             }
             @keyframes moverTitleAbout {
                 from{
@@ -55,6 +57,7 @@
                     color:white;
                     font-weight: 300;
                     font-size: 18px;
+                    
 
                 }
                 .btnAcerca{

@@ -23,6 +23,8 @@
           left:calc(50% - 340px);
           z-index: 0;
           letter-spacing:$letterSpacing;
+          transform: skewX(-5deg);
+
         }
     }
     .conatinerTitle_blockB{
@@ -64,6 +66,8 @@
               left:calc(50% - 290px);
               z-index: 0;
               letter-spacing:$letterSpacing;
+              transform: skewX(-5deg);
+
             }
         }
         .conatinerTitle_blockB{
@@ -106,6 +110,8 @@
               left:calc(50% - 230px);
               z-index: 0;
               letter-spacing:$letterSpacing;
+              transform: skewX(-5deg);
+
             }
         }
         .conatinerTitle_blockB{
@@ -145,6 +151,8 @@
               left:calc(50% - 150px);
               z-index: 0;
               letter-spacing:$letterSpacing;
+              transform: skewX(-5deg);
+
             }
         }
         .conatinerTitle_blockB{
