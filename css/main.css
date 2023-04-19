@@ -883,7 +883,6 @@ html {
   max-width: 1440px;
   padding: 30px 0px;
   margin: auto;
-  background: #000000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -891,6 +890,7 @@ html {
   grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
 }
 .CONTENIDO_CONTENT .MENU_CONTENT {
+  height: 45px;
   grid-area: MENU_CONTENT;
 }
 .CONTENIDO_CONTENT .ABOUT_CONTENT {
@@ -938,7 +938,6 @@ html {
     background: #000000;
     overflow: hidden;
     display: grid;
-    gap: 1em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px repeat(8, auto);
     grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
@@ -1181,7 +1180,6 @@ html {
 @media (min-width: 641px) and (max-width: 1024px) {
   #cont_descripcion_foto {
     width: 100%;
-    padding: 0px 0px;
     background-size: 100% 500px;
     background-repeat: no-repeat;
     position: relative;
