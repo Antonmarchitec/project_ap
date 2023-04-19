@@ -1,0 +1,52 @@
+@import "variables";
+
+.btnWattssap{
+    width: 160px;
+    padding: 5px 0px;
+    background: $colorAzulTransparente;
+    border-bottom:3px solid $colorVerde ;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(-5deg);
+    z-index: 100;
+    .btnWattssap__text{
+        color: white;
+    }
+    .iconWatsap{
+        margin-left: 10px;
+        color:$colorVerde;
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    .btnWattssap{
+        width: 160px;
+        padding: 5px 0px;
+        background: $colorAzulTransparente;
+        border-bottom:3px solid $colorVerde ;
+        position: fixed;
+        bottom: 40px;
+        right: initial;
+        left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: skewX(-5deg);
+        z-index: 100;
+        .btnWattssap__text{
+            color: white;
+        }
+        .iconWatsap{
+            margin-left: 10px;
+            color:$colorVerde;
+            font-size: 26px;
+        }
+    }
+    
+}

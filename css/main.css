@@ -4122,6 +4122,54 @@ a {
     background: #242424;
   }
 }
+.btnWattssap {
+  width: 160px;
+  padding: 5px 0px;
+  background: rgba(5, 11, 32, 0.6901960784);
+  border-bottom: 3px solid #56fbd3;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewX(-5deg);
+  z-index: 100;
+}
+.btnWattssap .btnWattssap__text {
+  color: white;
+}
+.btnWattssap .iconWatsap {
+  margin-left: 10px;
+  color: #56fbd3;
+  font-size: 26px;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .btnWattssap {
+    width: 160px;
+    padding: 5px 0px;
+    background: rgba(5, 11, 32, 0.6901960784);
+    border-bottom: 3px solid #56fbd3;
+    position: fixed;
+    bottom: 40px;
+    right: initial;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(-5deg);
+    z-index: 100;
+  }
+  .btnWattssap .btnWattssap__text {
+    color: white;
+  }
+  .btnWattssap .iconWatsap {
+    margin-left: 10px;
+    color: #56fbd3;
+    font-size: 26px;
+  }
+}
 .contRedes {
   width: 35px;
   padding: 10px 0px;
