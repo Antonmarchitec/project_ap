@@ -38,7 +38,7 @@
                     justify-content: space-around;
                     align-items: center;
                     .contcuadro{
-                        width: 120px;
+                        width: 110px;
                         background: $colorAzulOscuro;
                         border-bottom: 2px solid $colorVerde;
                         border-radius: 10px;
@@ -50,6 +50,8 @@
                             width:90px;
                             height:90px;
                             margin:auto;   
+                            transform: skew(5deg);
+
                             //background: rgba(250, 55, 55, 0.151);
                             border-radius: 10px;
                             cursor: pointer;
