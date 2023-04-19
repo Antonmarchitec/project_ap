@@ -16,6 +16,7 @@
     top: 0;
     left: 0;
     right: 0;*/
+    display: none;
     .header_logoFrontal{
         width: 100px;
         height: 50px;
@@ -59,180 +60,80 @@
 
 .contParticulas{
     width: 100%;
-    height: 87vh;
+    height: 100vh;
+    //padding: 10px 0px;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
+    overflow: hidden;
     //background-attachment: fixed;
     #particles-js{
         width: 100%;
-        height:100%;
-        background: $colorAzulTransparente;
+        height: 100%;
+        padding: 80px 0px;
         position: relative;
         display: flex;
-        justify-content: center;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+        background: $colorAzulTransparente;
+        .titulo__inicial{
+            width: 600px;
+            color: white;
+            font-size: 40px;
+            transform: skewX(-5deg);
+
+        }
 
         .titulo_principal{
             width: 600px;
-            padding: 10px 0px;
+            padding: 15px 0px;
             font-size: 180px;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            position: absolute;
+            text-shadow: 2px 2px 8px $colorVerde;
+            border-top:4px solid $colorVerde;
+            border-bottom:2px solid $colorVerde;
+            transform: skewX(-5deg);
+
+            /*position: absolute;
             top: 30px;
-            left: 80px;
+            left: 80px;*/
             line-height:130px;
             letter-spacing: -8px;
 
-            //GRADIENT TEXT
+            /*GRADIENT TEXT
             background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
             background-image: linear-gradient(white, $colorVerde) ;
             background-clip: text;
+
             -webkit-background-clip:text ;
             -moz-background-clip:text ;
             -webkit-text-fill-color: transparent;
             -moz-text-fill-color: transparent;
-            //FIN GRADIENT
+            //FIN GRADIENT*/
+
+            color: $colorAzulOscuro;
+
                         
         }
 
         .subtitle{
+            margin-top: 15px;
             text-align: center;
             color:white;
-            font-size: 30px;
-            position: absolute;
-            top: 360px;
-            right: 150px;
+            font-size: 25px;
             font-weight: 300;
+            transform: skewX(-5deg);
+
             .front_css_js{
                 color: $colorVerde;
                 font-family: 'Oswald', sans-serif;
                 font-style: normal;
-                font-size: 30px;
-            }
-        }
-
-
-        @media (min-width:770px) and (max-width:899px){
-            .titulo_principal{
-                width: 600px;
-                padding: 10px 0px;
-                font-size: 130px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                position: absolute;
-                top: 60px;
-                left: 80px;
-                line-height:100px;
-                letter-spacing: -8px;
-                            
-            }
-    
-            .subtitle{
-                text-align: center;
-                color:white;
-                font-size: 30px;
-                position: absolute;
-                top: 360px;
-                right: 150px;
-                font-weight: 300;
-                .front_css_js{
-                    color: $colorVerde;
-                    font-family: 'Oswald', sans-serif;
-                    font-style: normal;
-                    font-size: 30px;
-                }
-            } 
-        }
-
-        @media (min-width:641px) and (max-width:769px){
-            .titulo_principal{
-                width: 70%;
-                padding: 10px 0px;
-                font-size: 130px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                position: absolute;
-                top: 60px;
-                left: 50px;
-                line-height:100px;
-                letter-spacing: -8px;
-            }
-    
-            .subtitle{
-                text-align: center;
-                color:white;
                 font-size: 25px;
-                position: absolute;
-                top: 360px;
-                right: 70px;
-                font-weight: 300;
-                .front_css_js{
-                    color: $colorVerde;
-                    font-family: 'Oswald', sans-serif;
-                    font-style: normal;
-                    font-size: 25px;
-                }
-            } 
-        }
-
-
-        @media (min-width:481px) and (max-width:640px){
-            .titulo_principal{
-                width: 80%;
-                padding: 10px 0px;
-                font-size: 120px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                position: absolute;
-                top: 60px;
-                left: 50px;
-                line-height:90px;
-                letter-spacing: -8px;
             }
-    
-            .subtitle{
-                text-align: center;
-                color:white;
-                font-size: 22px;
-                position: absolute;
-                top: 360px;
-                right: 70px;
-                font-weight: 300;
-                .front_css_js{
-                    color: $colorVerde;
-                    font-family: 'Oswald', sans-serif;
-                    font-style: normal;
-                    font-size: 22px;
-                }
-            } 
         }
 
-        @media (min-width:320px) and (max-width:480px){
-            .titulo_principal{
-                width: 90%;
-                padding: 10px 0px;
-                font-size: 100px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                position: absolute;
-                top: 60px;
-                left: 10px;
-                line-height:72px;
-                letter-spacing: -8px;
-            }
-    
-            .subtitle{
-                text-align: center;
-                color:white;
-                font-size: 20px;
-                position: absolute;
-                top: 270px;
-                right: initial;
-                left: 20px;
-                font-weight: 300;
-                .front_css_js{
-                    color: $colorVerde;
-                    font-family: 'Oswald', sans-serif;
-                    font-style: normal;
-                    font-size: 20px;
-                }
-            } 
-        }
+
+       
         
         
 
@@ -271,60 +172,6 @@
                     .caja__parra{
                         color: white;
                     }  
-                }
-            }
-        }
-
-        @media (min-width:770px) and (max-width:1024px){
-           .contFooter{
-               //background: firebrick;
-               .contFooter_cuadroBase{
-                width: 90%;
-
-            }
-           }
-        }
-        @media (min-width:641px) and (max-width:769px){
-            .contFooter{
-                //background: rgb(135, 178, 34);
-                .contFooter_cuadroBase{
-                    width: 90%;
-                }
-            }
-        }
-        @media (min-width:481px) and (max-width:640px){
-            .contFooter{
-                .contFooter_cuadroBase{
-                    width: 95%;
-                    .contFooter_cuadroBase_caja{
-                        background: transparent;
-                        .IconRed{
-                            font-size: 25px;
-                        }
-                        .caja__parra{
-                            color: white;
-                            font-size: 12px;
-                        }  
-                    }
-                }
-            }
-        }
-        @media (min-width:320px) and (max-width:480px){
-            .contFooter{
-                //background: rgb(175, 84, 84);
-                .contFooter_cuadroBase{
-                    width: 70%;
-                    .contFooter_cuadroBase_caja{
-                        background: transparent;
-                        .IconRed{
-                            font-size:32px;
-                        }
-                        .caja__parra{
-                            color: white;
-                            font-size: 12px;
-                            display: none;
-                        }  
-                    }
                 }
             }
         }

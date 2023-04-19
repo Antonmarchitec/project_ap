@@ -10,22 +10,16 @@
 /*******ESTILOS DE LA GRID*****/
 .CONTENT-PRINCIPAL{
     width: 100%;
-    max-width: 1800px;
+    max-width: 1440px;
     margin: auto;
     //padding: 10px 0px;
-    background: rgb(194, 194, 194);
+    //background: rgb(194, 194, 194);
     display: grid;
     //grid-gap:1em;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-rows:70px auto;
-    grid-template-areas: "CONTENT-HEADER      CONTENT-HEADER       CONTENT-HEADER"
-                         "CONTENT-PARTICULAS  CONTENT-PARTICULAS   CONTENT-PARTICULAS";
+    grid-template-columns:100%;
+    grid-template-rows:auto;
+    grid-template-areas: "CONTENT-PARTICULAS";
                         
-                         .CONTENT-HEADER{
-                            //padding: 10px 0px;
-                            //background: rgb(169, 9, 9);
-                            grid-area:CONTENT-HEADER;
-                        }
                         .CONTENT-PARTICULAS{
                             //padding: 10px 0px;
                             //background: brown;
