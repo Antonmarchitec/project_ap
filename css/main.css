@@ -3857,51 +3857,6 @@ a {
     background: #242424;
   }
 }
-.contTemsplatesRetos {
-  width: auto;
-  padding: 5px 0px;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  bottom: 40px;
-  left: 0px;
-  z-index: 500;
-  opacity: 0;
-  transition: 0.5s all;
-  transform: translateX(-100px);
-}
-.contTemsplatesRetos .contTemplatesRetos_box {
-  width: 70px;
-  padding: 5px 0px;
-  background: #0c1b32;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  line-height: 17px;
-  transition: 0.2s all ease;
-}
-.contTemsplatesRetos .contTemplatesRetos_box .contTemplatesRetos_box_text {
-  color: white;
-  font-size: 16px;
-  transition: 0.3s all;
-  font-weight: 100;
-}
-.contTemsplatesRetos .contTemplatesRetos_box:hover {
-  transform: translateX(5px);
-  background: #56fbd3;
-}
-.contTemsplatesRetos .contTemplatesRetos_box:hover .contTemplatesRetos_box_text {
-  color: #0c1b32;
-}
-
-.contTemsplatesRetos_JS {
-  opacity: 1;
-  transform: translateX(0);
-}
-
 .contRedes {
   width: 35px;
   padding: 10px 0px;
