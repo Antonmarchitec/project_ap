@@ -62,17 +62,19 @@
                 }
                 .btnAcerca{
                     width: 200px;
-                    border:2px solid $colorVerde;
+                    border: none;
+                    border: 2px solid transparent;
+                    border-bottom:2px solid $colorVerde;
                     padding: 5px;
                     background: $colorAzulTransparente;
+                    transform: skew(-5deg);
                     color: white;
                     font-size: 18px;
                     font-weight: 300;
                     margin-top: 20px;
                     margin-left: 10px;
                     float: right;
-                    border-radius: 10px;
-                    transition-duration: 0.1s;
+                    transition-duration: 0.3s;
                     transition-timing-function: ease;
                     cursor: pointer;
                     .iconAB{
@@ -103,16 +105,17 @@
                 width: 450px;
                 height: 450px;
                 border:2px solid $colorVerde;
-                border-radius:50px;
+                border-radius:10px;
                 box-shadow: 0px 0px 5px $colorVerde;
                 transition: 0.1s all linear;
                 overflow: hidden;
-                //background:$colorVerde;
                 transition: 1s all;
                 /*.foto{
                     //mix-blend-mode:multiply;    
                 }*/    
             }
+
+
             .contenedor_der_image:hover{
                 //border:5px double $colorVerde;
                 border:2px solid $colorVerde;
@@ -120,6 +123,16 @@
                 .foto{
                     mix-blend-mode:normal;    
                 }   
+            }
+
+            .contenedor_der_name{
+                margin-top: -60px;
+                width: 200px;
+                background: $colorAzulTransparente;
+                padding: 5px 0px;
+                color: $colorVerde;
+                text-align: center;
+                transform: skew(-5deg);
             }
             
         } 
@@ -206,14 +219,20 @@
                         }    
                     }
                     .btnAcerca{
-                        border:2px solid $colorVerde;
-                        padding: 5px 30px;
+                        width: 200px;
+                        border: none;
+                        border: 2px solid transparent;
+                        border-bottom:2px solid $colorVerde;
+                        padding: 5px;
                         background: $colorAzulTransparente;
+                        transform: skew(-5deg);
                         color: white;
+                        font-size: 18px;
+                        font-weight: 300;
                         margin-top: 20px;
+                        margin-left: 10px;
                         float: right;
-                        border-radius: 10px;
-                        transition-duration: 0.1s;
+                        transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
                         .iconAB{
@@ -316,6 +335,7 @@
                     right:20px;
                     bottom:0;
                     left: initial;
+                    z-index: 100;
                     .descripcion_acerca{
                         text-align: justify;
                         
@@ -324,15 +344,20 @@
                         }    
                     }
                     .btnAcerca{
-                        width: 100%;
-                        border:2px solid $colorVerde;
-                        padding: 5px 0px;
+                        width: 300px;
+                        border: none;
+                        border: 2px solid transparent;
+                        border-bottom:2px solid $colorVerde;
+                        padding: 5px;
                         background: $colorAzulTransparente;
+                        transform: skew(-5deg);
                         color: white;
-                        margin-top: 8px;
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin-top: 20px;
+                        margin-left: 10px;
                         float: right;
-                        border-radius: 10px;
-                        transition-duration: 0.1s;
+                        transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
                         .iconAB{
@@ -449,7 +474,6 @@
                     right:initial;
                     bottom:0;
                     left: initial;
-
                     .descripcion_acerca{
                         text-align: justify;
                       
@@ -458,15 +482,21 @@
                         }    
                     }
                     .btnAcerca{
-                        width: 100%;
-                        border:2px solid $colorVerde;
-                        padding: 5px 50px;
+                        width: 200px;
+                        border: none;
+                        border: 2px solid transparent;
+                        border-bottom:2px solid $colorVerde;
+                        padding: 5px;
                         background: $colorAzulTransparente;
+
+                        transform: skew(-5deg);
                         color: white;
-                        margin-top: 10px;
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin-top: 20px;
+                        margin-left: 10px;
                         float: right;
-                        border-radius: 10px;
-                        transition-duration: 0.1s;
+                        transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
                         .iconAB{
@@ -586,14 +616,19 @@
                     }
                     .btnAcerca{
                         width: 100%;
-                        border:2px solid $colorVerde;
-                        padding: 5px 50px;
+                        border: none;
+                        border: 2px solid transparent;
+                        border-bottom:2px solid $colorVerde;
+                        padding: 5px;
                         background: $colorAzulTransparente;
+                        transform: skew(-5deg);
                         color: white;
-                        margin-top: 10px;
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin-top: 20px;
+                        margin-left: 10px;
                         float: right;
-                        border-radius: 10px;
-                        transition-duration: 0.1s;
+                        transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
                         .iconAB{
