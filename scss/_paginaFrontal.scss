@@ -4,29 +4,37 @@
 
 .contParticulas{
     width: 100%;
+    max-width: 1440px;
     height: 100vh;
     margin: auto;
     //padding: 10px 0px;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
-    overflow: hidden;
     //background-attachment: fixed;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
     #particles-js{
         width: 100%;
         height: 100%;
-        padding: 80px 0px;
         display: flex;
         flex-direction:column;
         justify-content: flex-start;
         align-items: center;
         background: $colorAzulTransparente;
+        position: fixed;
+        left: 0;
+        //TITLE INICIAL
         .titulo__inicial{
             width: 600px;
             color: white;
             font-size: 40px;
             transform: skewX(-5deg);
+            position: absolute;
+            top: 70px;
         }
 
+        //TITLE
         .titulo_principal{
             width: 600px;
             padding: 15px 0px;
@@ -54,10 +62,12 @@
             //FIN GRADIENT*/
 
             color: $colorAzulOscuro;
-
+            position: absolute;
+            top: 130px;
                         
         }
 
+        //SUBTITLE
         .subtitle{
             margin-top: 15px;
             text-align: center;
@@ -65,6 +75,8 @@
             font-size: 25px;
             font-weight: 300;
             transform: skewX(-5deg);
+            position: absolute;
+            top: 290px;
             .front_css_js{
                 color: $colorVerde;
                 font-family: 'Oswald', sans-serif;
@@ -78,6 +90,8 @@
             width: 400px;
             padding: 5px 0px;
             margin-top: 30px;
+            position: absolute;
+            top: 340px;
             .particles__ul{
                 padding: 5px 0px;
                 list-style: none;
@@ -104,9 +118,6 @@
             
         }
 
-        
-       
-    
         ////////////////////FOOTER/////////////////////////
         .contFooter{
             width:90%;
@@ -173,33 +184,42 @@ RESPONSIVE DESING OFICIAL NUEVO
 @media (min-width:641px)  and (max-width:769px){
     .contParticulas{
         width: 100%;
+        max-width: 1440px;
         height: 100vh;
         margin: auto;
         //padding: 10px 0px;
         background-image: url(../img/desarrollando.jpg);
         background-size: 100% 100%;
-        overflow: hidden;
         //background-attachment: fixed;
+        overflow: hidden;
+        position: fixed;
+        z-index: -1;
         #particles-js{
             width: 100%;
             height: 100%;
-            padding: 80px 0px;
             display: flex;
             flex-direction:column;
             justify-content: flex-start;
             align-items: center;
             background: $colorAzulTransparente;
+            position: fixed;
+            left: 0;
+            //TITLE INICIAL
             .titulo__inicial{
-                width: 600px;
+                width: 550px;
                 color: white;
                 font-size: 40px;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 70px;
             }
     
+            //TITLE
             .titulo_principal{
-                width: 600px;
+                width: 550px;
                 padding: 15px 0px;
-                font-size: 180px;
+                font-size: 160px;
+                text-align: center;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-shadow: 2px 2px 8px $colorVerde;
                 border-top:4px solid $colorVerde;
@@ -223,22 +243,26 @@ RESPONSIVE DESING OFICIAL NUEVO
                 //FIN GRADIENT*/
     
                 color: $colorAzulOscuro;
-    
+                position: absolute;
+                top: 130px;
                             
             }
     
+            //SUBTITLE
             .subtitle{
                 margin-top: 15px;
                 text-align: center;
                 color:white;
-                font-size: 25px;
+                font-size: 23px;
                 font-weight: 300;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 290px;
                 .front_css_js{
                     color: $colorVerde;
                     font-family: 'Oswald', sans-serif;
                     font-style: normal;
-                    font-size: 25px;
+                    font-size: 23px;
                 }
             }
     
@@ -246,7 +270,9 @@ RESPONSIVE DESING OFICIAL NUEVO
             .particles__menu{
                 width: 400px;
                 padding: 5px 0px;
-                margin-top: 30px;
+                margin-top: 40px;
+                position: absolute;
+                top: 340px;
                 .particles__ul{
                     padding: 5px 0px;
                     list-style: none;
@@ -273,9 +299,6 @@ RESPONSIVE DESING OFICIAL NUEVO
                 
             }
     
-            
-           
-        
             ////////////////////FOOTER/////////////////////////
             .contFooter{
                 width:90%;
@@ -298,7 +321,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                     .contFooter_cuadroBase_caja{
                         background: transparent;
                         .IconRed{
-                            font-size: 30px;
+                            font-size: 28px;
                             color:$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
@@ -327,33 +350,42 @@ RESPONSIVE DESING OFICIAL NUEVO
 @media (min-width:481px)  and (max-width:640px){
     .contParticulas{
         width: 100%;
+        max-width: 1440px;
         height: 100vh;
         margin: auto;
         //padding: 10px 0px;
         background-image: url(../img/desarrollando.jpg);
         background-size: 100% 100%;
-        overflow: hidden;
         //background-attachment: fixed;
+        overflow: hidden;
+        position: fixed;
+        z-index: -1;
         #particles-js{
             width: 100%;
             height: 100%;
-            padding: 50px 0px;
             display: flex;
             flex-direction:column;
             justify-content: flex-start;
             align-items: center;
             background: $colorAzulTransparente;
+            position: fixed;
+            left: 0;
+            //TITLE INICIAL
             .titulo__inicial{
-                width: 90%;
+                width: 420px;
                 color: white;
-                font-size: 30px;
+                font-size: 38px;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 70px;
             }
     
+            //TITLE
             .titulo_principal{
-                width: 90%;
+                width: 420px;
                 padding: 10px 0px;
                 font-size: 140px;
+                text-align: center;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-shadow: 2px 2px 8px $colorVerde;
                 border-top:4px solid $colorVerde;
@@ -364,7 +396,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                 left: 80px;*/
                 line-height:130px;
                 letter-spacing: -8px;
-                text-align: center;
+    
                 /*GRADIENT TEXT
                 background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
                 background-image: linear-gradient(white, $colorVerde) ;
@@ -377,22 +409,26 @@ RESPONSIVE DESING OFICIAL NUEVO
                 //FIN GRADIENT*/
     
                 color: $colorAzulOscuro;
-    
+                position: absolute;
+                top: 130px;
                             
             }
     
+            //SUBTITLE
             .subtitle{
                 margin-top: 15px;
                 text-align: center;
                 color:white;
-                font-size: 25px;
+                font-size: 23px;
                 font-weight: 300;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 290px;
                 .front_css_js{
                     color: $colorVerde;
                     font-family: 'Oswald', sans-serif;
                     font-style: normal;
-                    font-size: 20px;
+                    font-size: 23px;
                 }
             }
     
@@ -400,7 +436,9 @@ RESPONSIVE DESING OFICIAL NUEVO
             .particles__menu{
                 width: 400px;
                 padding: 5px 0px;
-                margin-top: 30px;
+                margin-top: 40px;
+                position: absolute;
+                top: 340px;
                 .particles__ul{
                     padding: 5px 0px;
                     list-style: none;
@@ -427,9 +465,6 @@ RESPONSIVE DESING OFICIAL NUEVO
                 
             }
     
-            
-           
-        
             ////////////////////FOOTER/////////////////////////
             .contFooter{
                 width:90%;
@@ -452,7 +487,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                     .contFooter_cuadroBase_caja{
                         background: transparent;
                         .IconRed{
-                            font-size: 30px;
+                            font-size: 28px;
                             color:$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
@@ -477,36 +512,45 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 
-@media (min-width:320px)  and (max-width:480px){
+@media (min-width:20px)  and (max-width:480px){
     .contParticulas{
         width: 100%;
+        max-width: 1440px;
         height: 100vh;
         margin: auto;
         //padding: 10px 0px;
         background-image: url(../img/desarrollando.jpg);
         background-size: 100% 100%;
-        overflow: hidden;
         //background-attachment: fixed;
+        overflow: hidden;
+        position: fixed;
+        z-index: -1;
         #particles-js{
             width: 100%;
             height: 100%;
-            padding: 50px 0px;
             display: flex;
             flex-direction:column;
             justify-content: flex-start;
             align-items: center;
             background: $colorAzulTransparente;
+            position: fixed;
+            left: 0;
+            //TITLE INICIAL
             .titulo__inicial{
                 width: 90%;
                 color: white;
-                font-size: 30px;
+                font-size: 38px;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 70px;
             }
     
+            //TITLE
             .titulo_principal{
                 width: 90%;
                 padding: 0px 0px;
-                font-size: 100px;
+                font-size: 98px;
+                text-align: center;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-shadow: 2px 2px 8px $colorVerde;
                 border-top:4px solid $colorVerde;
@@ -517,7 +561,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                 left: 80px;*/
                 line-height:130px;
                 letter-spacing: -8px;
-                text-align: center;
+    
                 /*GRADIENT TEXT
                 background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
                 background-image: linear-gradient(white, $colorVerde) ;
@@ -530,17 +574,21 @@ RESPONSIVE DESING OFICIAL NUEVO
                 //FIN GRADIENT*/
     
                 color: $colorAzulOscuro;
-    
+                position: absolute;
+                top: 130px;
                             
             }
     
+            //SUBTITLE
             .subtitle{
-                margin-top: 15px;
+                margin-top: 0px;
                 text-align: center;
                 color:white;
                 font-size: 20px;
                 font-weight: 300;
                 transform: skewX(-5deg);
+                position: absolute;
+                top: 290px;
                 .front_css_js{
                     color: $colorVerde;
                     font-family: 'Oswald', sans-serif;
@@ -553,7 +601,9 @@ RESPONSIVE DESING OFICIAL NUEVO
             .particles__menu{
                 width: 90%;
                 padding: 5px 0px;
-                margin-top: 70px;
+                margin-top: 30px;
+                position: absolute;
+                top: 340px;
                 .particles__ul{
                     padding: 5px 0px;
                     list-style: none;
@@ -562,7 +612,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                     align-items: center;
     
                     .particles__item{
-                        width: 130px;
+                        width: calc(50% - 20px);
                         background:linear-gradient($colorVerde, transparent);
                         padding: 5px 0px;
                         transform: skewX(-5deg);
@@ -572,17 +622,11 @@ RESPONSIVE DESING OFICIAL NUEVO
                         }
                     }
                      
-                    .particles__item:hover{
-                        background:linear-gradient(transparent, $colorVerde); 
-                        cursor: pointer;
-                    }
+                    
                 }
                 
             }
     
-            
-           
-        
             ////////////////////FOOTER/////////////////////////
             .contFooter{
                 width:90%;
@@ -605,7 +649,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                     .contFooter_cuadroBase_caja{
                         background: transparent;
                         .IconRed{
-                            font-size: 30px;
+                            font-size: 28px;
                             color:$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
