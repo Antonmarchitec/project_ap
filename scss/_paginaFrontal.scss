@@ -7,7 +7,7 @@
     height: 100vh;
     margin: auto;
     //padding: 10px 0px;
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
     overflow: hidden;
     //background-attachment: fixed;
@@ -170,3 +170,458 @@ RESPONSIVE DESING OFICIAL NUEVO
 @media (min-width:320px)  and (max-width:480px){}      160px
 */
 
+@media (min-width:641px)  and (max-width:769px){
+    .contParticulas{
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        //padding: 10px 0px;
+        background-image: url(../img/desarrollando.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        //background-attachment: fixed;
+        #particles-js{
+            width: 100%;
+            height: 100%;
+            padding: 80px 0px;
+            display: flex;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            background: $colorAzulTransparente;
+            .titulo__inicial{
+                width: 600px;
+                color: white;
+                font-size: 40px;
+                transform: skewX(-5deg);
+            }
+    
+            .titulo_principal{
+                width: 600px;
+                padding: 15px 0px;
+                font-size: 180px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-shadow: 2px 2px 8px $colorVerde;
+                border-top:4px solid $colorVerde;
+                border-bottom:2px solid $colorVerde;
+                transform: skewX(-5deg);
+                /*position: absolute;
+                top: 30px;
+                left: 80px;*/
+                line-height:130px;
+                letter-spacing: -8px;
+    
+                /*GRADIENT TEXT
+                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, $colorVerde) ;
+                background-clip: text;
+    
+                -webkit-background-clip:text ;
+                -moz-background-clip:text ;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                //FIN GRADIENT*/
+    
+                color: $colorAzulOscuro;
+    
+                            
+            }
+    
+            .subtitle{
+                margin-top: 15px;
+                text-align: center;
+                color:white;
+                font-size: 25px;
+                font-weight: 300;
+                transform: skewX(-5deg);
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 25px;
+                }
+            }
+    
+            //BOTONES
+            .particles__menu{
+                width: 400px;
+                padding: 5px 0px;
+                margin-top: 30px;
+                .particles__ul{
+                    padding: 5px 0px;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+    
+                    .particles__item{
+                        width: 150px;
+                        background:linear-gradient($colorVerde, transparent);
+                        padding: 5px 0px;
+                        transform: skewX(-5deg);
+                        text-align: center;
+                        .particles__link{
+                            color: white;
+                        }
+                    }
+                     
+                    .particles__item:hover{
+                        background:linear-gradient(transparent, $colorVerde); 
+                        cursor: pointer;
+                    }
+                }
+                
+            }
+    
+            
+           
+        
+            ////////////////////FOOTER/////////////////////////
+            .contFooter{
+                width:90%;
+                //padding: 5px 0px;
+                background: $colorAzulTransparente;
+                position: absolute;
+                bottom: 20px;
+                transform: skew(-5deg);
+    
+                .contFooter_cuadroBase{
+                    width: 70%;
+                    margin: auto;
+                    //background: red;
+                    padding: 3px 0px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contFooter_cuadroBase_caja{
+                        background: transparent;
+                        .IconRed{
+                            font-size: 30px;
+                            color:$colorVerde;
+                            transform:  rotateY(25deg);
+                            transition: all 0.2s;
+                        }
+                        .IconRed:hover{
+                            color: $colorCelesteOscuro;
+                            transform: rotate(360deg);
+                            cursor: pointer;
+                        }  
+                        .caja__parra{
+                            color: white;
+                            display: none;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .contParticulas{
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        //padding: 10px 0px;
+        background-image: url(../img/desarrollando.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        //background-attachment: fixed;
+        #particles-js{
+            width: 100%;
+            height: 100%;
+            padding: 50px 0px;
+            display: flex;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            background: $colorAzulTransparente;
+            .titulo__inicial{
+                width: 90%;
+                color: white;
+                font-size: 30px;
+                transform: skewX(-5deg);
+            }
+    
+            .titulo_principal{
+                width: 90%;
+                padding: 10px 0px;
+                font-size: 140px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-shadow: 2px 2px 8px $colorVerde;
+                border-top:4px solid $colorVerde;
+                border-bottom:2px solid $colorVerde;
+                transform: skewX(-5deg);
+                /*position: absolute;
+                top: 30px;
+                left: 80px;*/
+                line-height:130px;
+                letter-spacing: -8px;
+                text-align: center;
+                /*GRADIENT TEXT
+                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, $colorVerde) ;
+                background-clip: text;
+    
+                -webkit-background-clip:text ;
+                -moz-background-clip:text ;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                //FIN GRADIENT*/
+    
+                color: $colorAzulOscuro;
+    
+                            
+            }
+    
+            .subtitle{
+                margin-top: 15px;
+                text-align: center;
+                color:white;
+                font-size: 25px;
+                font-weight: 300;
+                transform: skewX(-5deg);
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 20px;
+                }
+            }
+    
+            //BOTONES
+            .particles__menu{
+                width: 400px;
+                padding: 5px 0px;
+                margin-top: 30px;
+                .particles__ul{
+                    padding: 5px 0px;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+    
+                    .particles__item{
+                        width: 150px;
+                        background:linear-gradient($colorVerde, transparent);
+                        padding: 5px 0px;
+                        transform: skewX(-5deg);
+                        text-align: center;
+                        .particles__link{
+                            color: white;
+                        }
+                    }
+                     
+                    .particles__item:hover{
+                        background:linear-gradient(transparent, $colorVerde); 
+                        cursor: pointer;
+                    }
+                }
+                
+            }
+    
+            
+           
+        
+            ////////////////////FOOTER/////////////////////////
+            .contFooter{
+                width:90%;
+                //padding: 5px 0px;
+                background: $colorAzulTransparente;
+                position: absolute;
+                bottom: 20px;
+                transform: skew(-5deg);
+    
+                .contFooter_cuadroBase{
+                    width: 70%;
+                    margin: auto;
+                    //background: red;
+                    padding: 3px 0px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contFooter_cuadroBase_caja{
+                        background: transparent;
+                        .IconRed{
+                            font-size: 30px;
+                            color:$colorVerde;
+                            transform:  rotateY(25deg);
+                            transition: all 0.2s;
+                        }
+                        .IconRed:hover{
+                            color: $colorCelesteOscuro;
+                            transform: rotate(360deg);
+                            cursor: pointer;
+                        }  
+                        .caja__parra{
+                            color: white;
+                            display: none;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    .contParticulas{
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        //padding: 10px 0px;
+        background-image: url(../img/desarrollando.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+        //background-attachment: fixed;
+        #particles-js{
+            width: 100%;
+            height: 100%;
+            padding: 50px 0px;
+            display: flex;
+            flex-direction:column;
+            justify-content: flex-start;
+            align-items: center;
+            background: $colorAzulTransparente;
+            .titulo__inicial{
+                width: 90%;
+                color: white;
+                font-size: 30px;
+                transform: skewX(-5deg);
+            }
+    
+            .titulo_principal{
+                width: 90%;
+                padding: 0px 0px;
+                font-size: 100px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-shadow: 2px 2px 8px $colorVerde;
+                border-top:4px solid $colorVerde;
+                border-bottom:2px solid $colorVerde;
+                transform: skewX(-5deg);
+                /*position: absolute;
+                top: 30px;
+                left: 80px;*/
+                line-height:130px;
+                letter-spacing: -8px;
+                text-align: center;
+                /*GRADIENT TEXT
+                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, $colorVerde) ;
+                background-clip: text;
+    
+                -webkit-background-clip:text ;
+                -moz-background-clip:text ;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                //FIN GRADIENT*/
+    
+                color: $colorAzulOscuro;
+    
+                            
+            }
+    
+            .subtitle{
+                margin-top: 15px;
+                text-align: center;
+                color:white;
+                font-size: 20px;
+                font-weight: 300;
+                transform: skewX(-5deg);
+                .front_css_js{
+                    color: $colorVerde;
+                    font-family: 'Oswald', sans-serif;
+                    font-style: normal;
+                    font-size: 20px;
+                }
+            }
+    
+            //BOTONES
+            .particles__menu{
+                width: 90%;
+                padding: 5px 0px;
+                margin-top: 70px;
+                .particles__ul{
+                    padding: 5px 0px;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+    
+                    .particles__item{
+                        width: 130px;
+                        background:linear-gradient($colorVerde, transparent);
+                        padding: 5px 0px;
+                        transform: skewX(-5deg);
+                        text-align: center;
+                        .particles__link{
+                            color: white;
+                        }
+                    }
+                     
+                    .particles__item:hover{
+                        background:linear-gradient(transparent, $colorVerde); 
+                        cursor: pointer;
+                    }
+                }
+                
+            }
+    
+            
+           
+        
+            ////////////////////FOOTER/////////////////////////
+            .contFooter{
+                width:90%;
+                //padding: 5px 0px;
+                background: $colorAzulTransparente;
+                position: absolute;
+                bottom: 20px;
+                transform: skew(-5deg);
+    
+                .contFooter_cuadroBase{
+                    width: 70%;
+                    margin: auto;
+                    //background: red;
+                    padding: 3px 0px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contFooter_cuadroBase_caja{
+                        background: transparent;
+                        .IconRed{
+                            font-size: 30px;
+                            color:$colorVerde;
+                            transform:  rotateY(25deg);
+                            transition: all 0.2s;
+                        }
+                        .IconRed:hover{
+                            color: $colorCelesteOscuro;
+                            transform: rotate(360deg);
+                            cursor: pointer;
+                        }  
+                        .caja__parra{
+                            color: white;
+                            display: none;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+}
