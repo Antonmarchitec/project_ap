@@ -77,6 +77,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100px;
   padding: 5px 0px;
   position: relative;
+  z-index: 0;
 }
 .header .contNavegador .contIcono .IconNombre {
   color: #96aadb;
@@ -89,7 +90,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .header .contNavegador .contIcono .submenu {
   width: 600px;
-  background: white;
+  background: #0c1b32;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 5px 5px black;
   padding: 10px;
   list-style: none;
   display: flex;
