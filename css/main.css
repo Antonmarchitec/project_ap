@@ -3187,55 +3187,6 @@ a {
     padding: 10px 0px;
     grid-area: HEADER;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav {
-    width: 100%;
-    padding: 10px 0px;
-    background: #0c1b32;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 5px 5px black;
-    z-index: 500;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_logo {
-    margin-left: 20px;
-    width: 100px;
-    height: 50px;
-    background: url(../img/LOGO/loogo.png);
-    background-size: 100% 100%;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul {
-    margin-right: 20px;
-    width: 150px;
-    padding: 5px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont {
-    width: 50px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu {
-    font-size: 20px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu:hover {
-    color: #56fbd3;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .contHeader_nav_ul_title {
-    font-size: 18px;
-    color: #56fbd3;
-  }
   .CONTAINER_LANDING .BARS_VERTICLE {
     display: none;
   }
@@ -3397,55 +3348,6 @@ a {
     height: 60px;
     padding: 10px 0px;
     grid-area: HEADER;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav {
-    width: 100%;
-    padding: 10px 0px;
-    background: #0c1b32;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 5px 5px black;
-    z-index: 500;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_logo {
-    margin-left: 20px;
-    width: 100px;
-    height: 50px;
-    background: url(../img/LOGO/loogo.png);
-    background-size: 100% 100%;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul {
-    margin-right: 20px;
-    width: 150px;
-    padding: 5px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont {
-    width: 50px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu {
-    font-size: 20px;
-    color: #96aadb;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu:hover {
-    color: #56fbd3;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .contHeader_nav_ul_title {
-    font-size: 18px;
-    color: #56fbd3;
   }
   .CONTAINER_LANDING .BARS_VERTICLE {
     display: none;
@@ -3613,10 +3515,11 @@ a {
     padding: 10px 0px;
     grid-area: HEADER;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav {
+  .CONTAINER_LANDING .HEADER .header {
+    background: #060f1d;
     width: 100%;
+    box-shadow: 0px 2px 10px black;
     padding: 10px 0px;
-    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -3625,42 +3528,125 @@ a {
     position: fixed;
     left: 0;
     top: 0;
-    box-shadow: 0px 5px 5px black;
-    z-index: 500;
+    right: 0;
+    z-index: 1000;
+    transition: 0.5s all;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_logo {
-    margin-left: 20px;
+  .CONTAINER_LANDING .HEADER .header .header_logo {
     width: 100px;
     height: 50px;
-    background: url(../img/LOGO/loogo.png);
-    background-size: 100% 100%;
+    margin-left: 20px;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul {
-    margin-right: 20px;
-    width: 150px;
-    padding: 5px 0px;
+  .CONTAINER_LANDING .HEADER .header .contNavegador {
+    width: 160px;
+    padding: 15px 0px;
+    margin-right: 0;
+    background: #060f1d;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: initial;
+    position: absolute;
+    top: 75px;
+    left: initial;
+    transform: translateX(-100%);
+    transition: 0.8s;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont {
-    width: 50px;
-    text-align: center;
-    line-height: 20px;
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active {
+    width: 160px;
+    padding: 15px 20px;
+    background: #060f1d;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu {
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active .IconNombre {
+    color: #56fbd3;
     font-size: 20px;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active .contLetras {
+    font-size: 14px;
+    color: #56fbd3;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono {
+    width: 160px;
+    padding: 15px 20px;
+    position: relative;
+    background: #0c1b32;
+    transition: 0.5s all;
+    z-index: 200;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .IconNombre {
     color: #96aadb;
+    font-size: 20px;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .iconMenu:hover {
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .contLetras {
+    margin-top: 0px;
+    font-size: 14px;
     color: #56fbd3;
   }
-  .CONTAINER_LANDING .HEADER .contHeader_nav .contHeader_nav_ul .contHeader_nav_ul_cont .contHeader_nav_ul_title {
-    font-size: 18px;
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu {
+    width: 150px;
+    background: #060f1d;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: -167px;
+    right: initial;
+    left: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #0c1b32;
+    margin: 3px 0px;
+    box-shadow: 0px 0px 2px;
+    transition: 0.2s all;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
+    text-decoration: none;
+    font-size: 16px;
     color: #56fbd3;
+    text-align: start;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item .submenu__img {
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item:hover {
+    background: #060f1d;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover .submenu {
+    visibility: visible;
+    transform: translateY(0px);
+    transform: translateX(10px);
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover {
+    background: #060f1d;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover .IconNombre {
+    color: #56fbd3;
+    font-size: 20px;
+  }
+  .CONTAINER_LANDING .HEADER .header .contNavegadorJS {
+    transform: translateX(0px);
+  }
+  .CONTAINER_LANDING .HEADER .header .header_btnResponsive {
+    /*width: 40px;
+    height: 40px;
+    background: rgb(31, 122, 122); */
+    display: block;
+  }
+  .CONTAINER_LANDING .HEADER .contHeader_js {
+    box-shadow: 0px 2px 20px #56fbd3;
   }
   .CONTAINER_LANDING .BARS_VERTICLE {
     display: none;
