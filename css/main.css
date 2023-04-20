@@ -3022,6 +3022,7 @@ a {
   letter-spacing: -9px;
   animation-duration: 3s;
   z-index: 50;
+  transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
   width: 100%;
@@ -3096,14 +3097,15 @@ a {
   margin-top: 5px;
   width: 200px;
   padding: 6px 0px;
-  border: 2px solid #56fbd3;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #56fbd3;
   background: rgba(5, 11, 32, 0.6901960784);
+  transform: skew(-5deg);
   color: white;
-  border-radius: 5px;
   transition: 0.5s all;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
-  border: 2px solid white;
+  border: 2px solid #56fbd3;
   cursor: pointer;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
@@ -3138,6 +3140,7 @@ a {
   color: white;
   letter-spacing: -1px;
   font-size: 40px;
+  transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SIDEBAR .contSidebar {
   width: 100%;
@@ -3157,10 +3160,18 @@ a {
   padding: 10px 0px;
   grid-area: FOOTER;
 }
-.CONTAINER_LANDING .FOOTER .contFooter {
+.CONTAINER_LANDING .FOOTER .contentFoot {
   width: 100%;
-  height: 50px;
-  background: #242424;
+  background: rgba(5, 11, 32, 0.6901960784);
+}
+.CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN {
+  background: transparent;
+}
+.CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes {
+  background: transparent;
+}
+.CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes .cajaSociales {
+  transform: skew(-5deg);
 }
 
 /**RESPONSIVE DESING OFICIAL NUEVO
@@ -3285,20 +3296,6 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
     color: white;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
-    margin-top: 5px;
-    width: 200px;
-    padding: 6px 0px;
-    border: 2px solid #56fbd3;
-    background: rgba(5, 11, 32, 0.6901960784);
-    color: white;
-    border-radius: 5px;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
-    border: 2px solid white;
-    cursor: pointer;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3325,11 +3322,6 @@ a {
   .CONTAINER_LANDING .FOOTER {
     padding: 10px 0px;
     grid-area: FOOTER;
-  }
-  .CONTAINER_LANDING .FOOTER .contFooter {
-    width: 100%;
-    height: 50px;
-    background: #242424;
   }
 }
 @media (min-width: 770px) and (max-width: 899px) {
@@ -3447,20 +3439,6 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
     color: white;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
-    margin-top: 5px;
-    width: 160px;
-    padding: 5px 0px;
-    border: 2px solid #56fbd3;
-    background: rgba(5, 11, 32, 0.6901960784);
-    color: white;
-    border-radius: 5px;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
-    border: 2px solid white;
-    cursor: pointer;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3492,11 +3470,6 @@ a {
     padding: 10px 0px;
     grid-area: FOOTER;
   }
-  .CONTAINER_LANDING .FOOTER .contFooter {
-    width: 100%;
-    height: 50px;
-    background: #242424;
-  }
 }
 @media (min-width: 641px) and (max-width: 769px) {
   .CONTAINER_LANDING {
@@ -3514,139 +3487,6 @@ a {
     height: 60px;
     padding: 10px 0px;
     grid-area: HEADER;
-  }
-  .CONTAINER_LANDING .HEADER .header {
-    background: #060f1d;
-    width: 100%;
-    box-shadow: 0px 2px 10px black;
-    padding: 10px 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    transition: 0.5s all;
-  }
-  .CONTAINER_LANDING .HEADER .header .header_logo {
-    width: 100px;
-    height: 50px;
-    margin-left: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador {
-    width: 160px;
-    padding: 15px 0px;
-    margin-right: 0;
-    background: #060f1d;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: initial;
-    position: absolute;
-    top: 75px;
-    left: initial;
-    transform: translateX(-100%);
-    transition: 0.8s;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active {
-    width: 160px;
-    padding: 15px 20px;
-    background: #060f1d;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active .IconNombre {
-    color: #56fbd3;
-    font-size: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono_active .contLetras {
-    font-size: 14px;
-    color: #56fbd3;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono {
-    width: 160px;
-    padding: 15px 20px;
-    position: relative;
-    background: #0c1b32;
-    transition: 0.5s all;
-    z-index: 200;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .IconNombre {
-    color: #96aadb;
-    font-size: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .contLetras {
-    margin-top: 0px;
-    font-size: 14px;
-    color: #56fbd3;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu {
-    width: 150px;
-    background: #060f1d;
-    padding: 10px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    top: -167px;
-    right: initial;
-    left: 150px;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s all;
-    z-index: 100;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item {
-    width: 100%;
-    padding: 20px;
-    border-radius: 10px;
-    background: #0c1b32;
-    margin: 3px 0px;
-    box-shadow: 0px 0px 2px;
-    transition: 0.2s all;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
-    text-decoration: none;
-    font-size: 16px;
-    color: #56fbd3;
-    text-align: start;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item .submenu__img {
-    margin-top: 5px;
-    width: 100%;
-    height: 70px;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono .submenu .submenu__item:hover {
-    background: #060f1d;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover .submenu {
-    visibility: visible;
-    transform: translateY(0px);
-    transform: translateX(10px);
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover {
-    background: #060f1d;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegador .contIcono:hover .IconNombre {
-    color: #56fbd3;
-    font-size: 20px;
-  }
-  .CONTAINER_LANDING .HEADER .header .contNavegadorJS {
-    transform: translateX(0px);
-  }
-  .CONTAINER_LANDING .HEADER .header .header_btnResponsive {
-    /*width: 40px;
-    height: 40px;
-    background: rgb(31, 122, 122); */
-    display: block;
-  }
-  .CONTAINER_LANDING .HEADER .contHeader_js {
-    box-shadow: 0px 2px 20px #56fbd3;
   }
   .CONTAINER_LANDING .BARS_VERTICLE {
     display: none;
@@ -3749,16 +3589,6 @@ a {
     color: white;
     font-size: 16px;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
-    margin-top: 5px;
-    width: 160px;
-    padding: 5px 0px;
-    border: 2px solid #56fbd3;
-    background: rgba(5, 11, 32, 0.6901960784);
-    color: white;
-    border-radius: 5px;
-    transition: 0.5s all;
-  }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
     grid-area: SIDEBAR;
@@ -3789,11 +3619,6 @@ a {
     margin-top: 40px;
     padding: 10px 0px;
     grid-area: FOOTER;
-  }
-  .CONTAINER_LANDING .FOOTER .contFooter {
-    width: 100%;
-    height: 50px;
-    background: #242424;
   }
 }
 @media (min-width: 481px) and (max-width: 640px) {
@@ -3916,16 +3741,6 @@ a {
     color: white;
     font-size: 16px;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
-    margin-top: 5px;
-    width: 160px;
-    padding: 5px 0px;
-    border: 2px solid #56fbd3;
-    background: rgba(5, 11, 32, 0.6901960784);
-    color: white;
-    border-radius: 5px;
-    transition: 0.5s all;
-  }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb #contSectionWeb_block_AUX {
     display: flex;
     flex-direction: column;
@@ -3963,11 +3778,6 @@ a {
     margin-top: 40px;
     padding: 10px 0px;
     grid-area: FOOTER;
-  }
-  .CONTAINER_LANDING .FOOTER .contFooter {
-    width: 100%;
-    height: 50px;
-    background: #242424;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -4090,16 +3900,6 @@ a {
     color: white;
     font-size: 16px;
   }
-  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
-    margin-top: 5px;
-    width: 160px;
-    padding: 5px 0px;
-    border: 2px solid #56fbd3;
-    background: rgba(5, 11, 32, 0.6901960784);
-    color: white;
-    border-radius: 5px;
-    transition: 0.5s all;
-  }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb #contSectionWeb_block_AUX {
     display: flex;
     flex-direction: column;
@@ -4137,11 +3937,6 @@ a {
     margin-top: 40px;
     padding: 10px 0px;
     grid-area: FOOTER;
-  }
-  .CONTAINER_LANDING .FOOTER .contFooter {
-    width: 100%;
-    height: 50px;
-    background: #242424;
   }
 }
 .btnWattssap {
