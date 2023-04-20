@@ -2031,146 +2031,6 @@ a {
   text-decoration: none;
 }
 
-.contNavigation {
-  width: 100%;
-  height: 80px;
-  background: #0c1b32;
-  position: fixed;
-  left: 0;
-  top: 0;
-  box-shadow: 0px 5px 10px black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 500;
-}
-.contNavigation .contNavigation_logo {
-  margin-left: 20px;
-  width: 100px;
-  height: 50px;
-}
-.contNavigation .contNavigation_enlaces {
-  width: 450px;
-  padding: 5px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul {
-  width: 100%;
-  padding: 10px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li {
-  width: 100px;
-  padding: 5px;
-  text-align: center;
-  list-style: none;
-}
-.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA {
-  color: #56fbd3;
-  text-decoration: none;
-  cursor: pointer;
-  transition: 0.5s all;
-}
-.contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA:hover {
-  color: white;
-}
-.contNavigation .contNavigation_BtnRespon {
-  width: 50px;
-  height: 50px;
-  display: none;
-}
-
-@media (min-width: 320px) and (max-width: 769px) {
-  .contNavigation {
-    width: 100%;
-    height: 80px;
-    background: #0c1b32;
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 5px 10px black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 500;
-  }
-  .contNavigation .contNavigation_enlaces {
-    width: 100%;
-    padding: 5px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background: #0c1b32;
-    position: absolute;
-    transition: 0.5s all;
-    top: 65px;
-    left: -100%;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul {
-    width: 100%;
-    padding: 10px 0px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li {
-    width: 100%;
-    height: 21vh;
-    margin: 0px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    transition: 0.2s all;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li .enlaceA {
-    color: #56fbd3;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: 0.5s all;
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li:hover {
-    background: rgba(20, 20, 20, 0.5254901961);
-  }
-  .contNavigation .contNavigation_enlaces .contNavigation_enlaces_ul .contNavigation_enlaces_ul_li:hover .enlaceA {
-    color: white;
-  }
-  .contNavigation .contNavEnlaces_JS {
-    opacity: 1;
-    left: 0;
-  }
-  .contNavigation .contNavigation_BtnRespon {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-  }
-  .contNavigation .contNavigation_BtnRespon .iconResss {
-    font-size: 40px;
-    color: #56fbd3;
-    transition: 0.5s all;
-  }
-  .contNavigation .contNavigation_BtnRespon .iconResss:hover {
-    transform: translateX(10px);
-    color: white;
-    cursor: pointer;
-  }
-}
 .contentSection {
   width: 100%;
   padding: 10px 15px;
@@ -2181,6 +2041,7 @@ a {
   height: 200px;
   position: relative;
   overflow: hidden;
+  transform: skew(-5deg);
 }
 .contentSection .contentSection_cont .contentSection_contSup {
   width: 100%;
@@ -2643,6 +2504,7 @@ a {
   color: white;
   font-size: 40px;
   margin-left: 10px;
+  transform: skew(-5deg);
 }
 
 .contSidebar {
@@ -2824,6 +2686,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  transform: skew(-5deg);
 }
 .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
   color: white;
@@ -3002,6 +2865,7 @@ a {
   position: relative;
   background: #0c1b32;
   overflow: hidden;
+  transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
   width: 100%;
@@ -3022,7 +2886,6 @@ a {
   letter-spacing: -9px;
   animation-duration: 3s;
   z-index: 50;
-  transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
   width: 100%;

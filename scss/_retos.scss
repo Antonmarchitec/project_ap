@@ -11,156 +11,7 @@ a{
 }
 
 ///////////CONTENEDOR NAVEGACION///////
-.contNavigation{    //ESTILOS DE MENU RETOS.HTML COMPARTIDOS CON MENU LANDING.HTML
-    width: 100%;
-    height: 80px;
-    background: $colorAzul;
-    position: fixed;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 5px 10px black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 500;
-    .contNavigation_logo{
-        margin-left: 20px;
-        width: 100px;
-        height: 50px;
-    }
-
-    .contNavigation_enlaces{
-        width: 450px;
-        padding: 5px 0px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        .contNavigation_enlaces_ul{
-            width: 100%;
-            padding: 10px 0px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            .contNavigation_enlaces_ul_li{
-                width: 100px;
-                padding: 5px;
-                text-align: center;
-                list-style: none;
-                .enlaceA{
-                    color: $colorVerde;
-                    text-decoration: none;
-                    cursor: pointer;
-                    transition: 0.5s all;
-                }
-                .enlaceA:hover{
-                    color: white;
-                }
-            }
-        }
-    }
-
-    .contNavigation_BtnRespon{
-        width: 50px;
-        height: 50px;
-        display: none;
-    }
-    
-}
-
-@media (min-width:320px) and (max-width:769px){
-    .contNavigation{    //ESTILOS DE MENU RETOS.HTML COMPARTIDOS CON MENU LANDING.HTML
-        width: 100%;
-        height: 80px;
-        background: $colorAzul;
-        position: fixed;
-        left: 0;
-        top: 0;
-        box-shadow: 0px 5px 10px black;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 500;
-       
-    
-        .contNavigation_enlaces{
-            width: 100%;
-            padding: 5px 0px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            background: $colorAzul;
-            position: absolute;
-            transition: 0.5s all;
-            top: 65px;
-            left: -100%;
-            .contNavigation_enlaces_ul{
-                width: 100%;
-                padding: 10px 0px;
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content:flex-start;
-                align-items: center;
-                .contNavigation_enlaces_ul_li{
-                    width: 100%;
-                    height: 21vh;
-                    margin: 0px;
-                    text-align: center;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    list-style: none;
-                    transition: 0.2s all;
-                    .enlaceA{
-                        color: $colorVerde;
-                        text-decoration: none;
-                        cursor: pointer;
-                        font-size: 16px;
-                        transition: 0.5s all;
-                    }
-                    
-                }
-                .contNavigation_enlaces_ul_li:hover{
-                    background: $colorBlackTransparent;
-                    .enlaceA{
-                        color: white;
-                    }
-                }
-            }
-        }
-        .contNavEnlaces_JS{
-            opacity: 1;
-            left: 0;
-        }
-    
-        .contNavigation_BtnRespon{
-            width: 50px;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 20px;
-            .iconResss{
-                font-size: 40px;
-                color: $colorVerde;
-                transition: 0.5s all;
-            }
-            .iconResss:hover{
-                transform: translateX(10px);
-                color: white;
-                cursor: pointer;
-            }
-        }
-       
-        
-    }
-}
-
+//ESTOS ESTILOS ESTAN CLONADOS .NAVIGATION
 
 
 
@@ -175,6 +26,8 @@ a{
         height: 200px;
         position: relative;
         overflow: hidden;
+        transform: skew(-5deg);
+
         .contentSection_contSup{
             width: 100%;
             height: 200px;
@@ -697,6 +550,7 @@ a{
     color: white;
     font-size: 40px;
     margin-left: 10px;
+    transform: skew(-5deg);
 }
 
 
@@ -916,11 +770,13 @@ a{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        
         .cajaSociales{
             //background: saddlebrown;
             display: flex;
             flex-direction: row;
             align-items: center;
+            transform: skew(-5deg);
             .IconSocial{
                 color: white;
                 font-size: 30px;  

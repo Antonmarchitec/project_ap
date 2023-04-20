@@ -13,14 +13,16 @@
     <!--ANIMATE CSS-->
     <link rel="stylesheet" href="css/animate.min.css">
 
+    <!------BTN RESPONSIVE HAMBURGUER CDN------------->
+    <link rel="stylesheet" href="./css/hamburgers.css">
+
      <!-------GOOGLE FONTS-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
      
      <!------FONT AWESON CDN------------->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
      
      <title> Portafolio || Retos </title>
 </head>
@@ -48,25 +50,100 @@
    <div class="CONTAINER" id="containerR">
 
      <div class="NAVIGATION">
-       <div class="contNavigation">
-          <div class="contNavigation_logo">
-            <img src="img/LOGO/loogo.png" alt="logo" width="100%" height="100%" class="logo">
-          </div>
+      <header class="header" id="contHeader">
+        <figure class="header_logo">
+          <img src="img/LOGO/loogo.png" alt="logo" style="width:100%;height:100%;" class="logo">
+        </figure>
+        
 
-          <div class="contNavigation_enlaces" id="contNavigation_enlaces">
-            <ul class="contNavigation_enlaces_ul">
-              <li class="contNavigation_enlaces_ul_li"> <a href="index.html" class="enlaceA"> Inicio </a></li>
-              <li class="contNavigation_enlaces_ul_li"> <a href="landing.html" class="enlaceA"> Proyectos </a></li>
-              <li class="contNavigation_enlaces_ul_li"> <a href="contenido.html" class="enlaceA"> Portafolio </a></li>
-              <li class="contNavigation_enlaces_ul_li"> <a href="https://antonmarchitec.github.io/DigitizingCode/" class="enlaceA"> DigitizingCode </a></li>
-           
-            </ul>
-          </div>
+        <div class="contNavegador" id="contNavegador">
 
-          <div class="contNavigation_BtnRespon" id="btnRetos">
-            <i class="iconResss fa-solid fa-bars"></i>
-          </div>
-       </div>   
+            <!--ICONO INICIO-->
+            <a href="index.html" style="text-decoration: none;">
+              <div class="contIcono_active">
+                <i class="IconNombre fas fa-cogs"></i>
+                <h2 class="contLetras">
+                  Inicio
+                </h2>
+              </div>
+            </a>
+
+              <!--ICONO PORTAFOLIO-->
+              <a href="#portafolio" style="text-decoration: none;">
+                <div class="contIcono">
+                  <i class="IconNombre  fas fa-address-card"></i>
+                  <h2 class="contLetras activar__submenu"> Portafolio </h2>
+                  <ul class="submenu">
+                    <div class="submenu__item">
+                      <a href="./landing.html">
+                        <h3 class="submenu__link"> Proyectos </h3>
+                        <figure class="submenu__img">
+                          <img src="./img/menu__proyect.png" alt="imgRetos" style="width:100%;height:100%;">
+                        </figure>
+                      </a>
+                    </div>
+
+                    <div class="submenu__item">
+                      <a href="./retos.html">
+                        <h3 class="submenu__link"> Retos </h3>
+                        <figure class="submenu__img">
+                          <img src="/img/menu__retos.png" alt="imgProyects" style="width:100%;height:100%;">
+                        </figure>
+                      </a>
+                    </div>
+
+                    <div class="submenu__item">
+                      <a href="">
+                        <h3 class="submenu__link"> Diseño </h3>
+                        <figure class="submenu__img">
+                          <img src="/img/menu__diseño.png" alt="imgDesing" style="width:100%;height:100%;">
+                        </figure>
+                      </a>
+                    </div>
+
+
+                    <!--
+                    <li class="submenu__item"><a href="#" class="submenu__link"> RETOS</a></li>
+                    <li class="submenu__item"><a href="#" class="submenu__link"> PROYECTOS </a></li>
+                    <li class="submenu__item"><a href="#" class="submenu__link"> DISEÑO WEB </a></li>
+                    -->
+
+
+                  </ul> 
+                </div>
+              </a>
+
+             <!--ICONO DIGITIZING-->
+             <a href="https://antonmarchitec.github.io/DigitizingCode/" style="text-decoration: none;">
+              <div class="contIcono">
+                <i class="IconNombre fas fa-chalkboard-teacher"></i>
+                <h2 class="contLetras">
+                  DigitizingCode
+                </h2>
+              </div>
+             </a>
+
+             <!--ICONO CONTACTO-->
+             <a href="contenido.html" style="text-decoration: none;">
+              <div class="contIcono">
+                <i class="IconNombre fa-regular fa-hand-point-left"></i>
+                <h2 class="contLetras">
+                  Back
+                </h2>
+              </div>
+             </a>
+        
+        </div>
+  
+  
+        <div class="header_btnResponsive" id="btnResponsive">
+          <button class="hamburger hamburger--emphatic" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>   
+        </div>
+      </header>  
      </div>
 
      <div class="SECTION">
@@ -219,6 +296,10 @@
    <script src="./mis_scripts/btnRetos.js"></script>
    <script src="./mis_scripts/templates/templates_targets.js"></script>
    <script src="mis_scripts/btnTop.js"></script>
+
+   <!--SCRIPT DE BTN HAMBURGUESA-->
+  <script src="mis_scripts/hamburguesa.js"></script>
+  <script src="mis_scripts/menu.js"></script>
 
 
    <!--SCRIPT DE ANIMATION EL SCROLLING-->

@@ -71,6 +71,8 @@
             position: relative;
             background: $colorAzul;
             overflow: hidden;
+            transform: skew(-5deg);
+
             .contSectionTitleTop{
                 width: 100%;
                 height: 250px;
@@ -90,7 +92,6 @@
                 letter-spacing: -9px;
                 animation-duration: 3s;
                 z-index: 50;
-                transform: skew(-5deg);
             }
             .contSectionTitleBottom{
                 width: 100%;
