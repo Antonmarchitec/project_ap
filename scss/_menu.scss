@@ -26,9 +26,10 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-left: 20px;
         .header_logo{
-          width: 100px;
-          height:50px;
+          width: 85px;
+          height:40px;
         }
 
         .header_logo_name{
@@ -188,10 +189,23 @@
 
 
       //BLOCK LOGO
-      .header_logo{
-        width: 100px;
-        height:50px;
+      .header__base{
+        width: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         margin-left: 20px;
+        .header_logo{
+          width: 85px;
+          height:40px;
+        }
+
+        .header_logo_name{
+          color: white;
+          transform: skew(-5deg);
+          font-weight: 600;
+          font-size: 18px;
+        }
       }
 
       //BLOCK NAVEGADOR
