@@ -1838,9 +1838,9 @@ html {
   align-items: center;
 }
 .contPie .contPie_cont .boxing1 {
-  width: 100px;
-  height: 50px;
-  background-image: url(../img/LOGO/loogo.png);
+  width: 85px;
+  height: 40px;
+  background-image: url(../img/LOGO/Nuevo\ Logo.png);
   background-size: 100% 100%;
   margin-left: 20px;
 }
@@ -2710,8 +2710,8 @@ a {
   align-items: center;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-  width: 90px;
-  height: 50px;
+  width: 85px;
+  height: 40px;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
   text-align: center;
@@ -2772,8 +2772,8 @@ a {
     align-items: center;
   }
   .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-    width: 90px;
-    height: 50px;
+    width: 85px;
+    height: 40px;
   }
   .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
     display: none;
@@ -2826,8 +2826,8 @@ a {
     align-items: center;
   }
   .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-    width: 90px;
-    height: 50px;
+    width: 85px;
+    height: 40px;
   }
   .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
     display: none;
@@ -3078,6 +3078,10 @@ a {
 }
 .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN {
   background: transparent;
+}
+.CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
+  width: 85px;
+  height: 40px;
 }
 .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes {
   background: transparent;
