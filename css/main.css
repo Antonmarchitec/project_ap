@@ -2088,7 +2088,7 @@ a {
   height: 200px;
   background: linear-gradient(transparent, #0c1b32);
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
 }
 @media (min-width: 480px) and (max-width: 720px) {
   .contentSection .contentSection_cont {
@@ -2917,7 +2917,7 @@ a {
   height: 250px;
   background: linear-gradient(transparent, #0c1b32);
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
   width: 100%;
@@ -3125,7 +3125,7 @@ a {
     height: 250px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
@@ -3268,7 +3268,7 @@ a {
     height: 250px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
@@ -3415,7 +3415,7 @@ a {
     height: 250px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
@@ -3565,7 +3565,7 @@ a {
     height: 200px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
@@ -3724,7 +3724,7 @@ a {
     height: 200px;
     background: linear-gradient(transparent, #0c1b32);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
