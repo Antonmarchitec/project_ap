@@ -967,7 +967,7 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 #cont_descripcion_foto .contBase .contenedor_izq {
   width: 50%;
@@ -1049,27 +1049,27 @@ html {
   align-items: center;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-  width: 450px;
-  height: 450px;
-  border: 2px solid #56fbd3;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px #56fbd3;
-  transition: 0.1s all linear;
+  width: 380px;
+  height: 380px;
+  border: 1px solid #56fbd3;
+  border-radius: 5px;
+  background: #56fbd3;
+  box-shadow: -18px 18px 1px rgba(86, 251, 210, 0.2274509804);
   overflow: hidden;
-  transition: 1s all;
-  /*.foto{
-      //mix-blend-mode:multiply;    
-  }*/
+  transform: skew(-3deg);
+  transition: 0.1s all linear;
+}
+#cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+  mix-blend-mode: multiply;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
-  border: 2px solid #56fbd3;
-  box-shadow: 0px 0px 100px rgba(86, 251, 210, 0.2274509804);
+  border: 1px solid #56fbd3;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover .foto {
   mix-blend-mode: normal;
 }
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
-  margin-top: -60px;
+  margin: -60px auto;
   width: 200px;
   background: rgba(5, 11, 32, 0.6901960784);
   padding: 5px 0px;
@@ -1209,17 +1209,18 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
+    position: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
-    height: 750px;
+    height: 650px;
+    padding: 10px 0px;
     margin-left: initial;
     position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 500px;
-    height: 400px;
+    width: auto;
+    height: initial;
     margin-top: 30px;
     margin-left: 20px;
     font-size: 150px;
@@ -1227,11 +1228,12 @@ html {
     line-height: 160px;
     letter-spacing: -3px;
     position: absolute;
-    top: 0;
+    top: 20px;
     left: -500px;
     animation-name: moverTitleAbout;
     animation-duration: 3s;
     animation-fill-mode: both;
+    z-index: 100;
   }
   @keyframes moverTitleAbout {
     from {
@@ -1243,16 +1245,18 @@ html {
     }
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 40%;
-    padding: 10px 0px;
+    width: 100%;
+    padding: 10px 20px;
     height: initial;
     position: absolute;
-    right: 20px;
-    bottom: 0;
+    right: initial;
+    bottom: initial;
     left: initial;
     z-index: 100;
+    margin-top: 40px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    width: 100%;
     text-align: justify;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
@@ -1289,8 +1293,9 @@ html {
     width: 50%;
     background: #0c1b32;
     position: absolute;
-    left: 20px;
-    top: 300px;
+    left: initial;
+    right: 0;
+    top: 50px;
     bottom: initial;
     display: flex;
     flex-direction: column;
@@ -1298,13 +1303,33 @@ html {
     align-items: center;
   }
   #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 320px;
-    height: 350px;
-    border: 2px solid #56fbd3;
-    box-shadow: 0px 0px 5px #56fbd3;
-    transition: 0.1s all linear;
+    width: 280px;
+    height: 280px;
+    border: 1px solid #56fbd3;
+    border-radius: 5px;
+    background: #56fbd3;
+    box-shadow: -18px 18px 1px rgba(86, 251, 210, 0.2274509804);
     overflow: hidden;
-    transition: 1s all;
+    transform: skew(-3deg);
+    transition: 0.1s all linear;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+    border: 1px solid #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover .foto {
+    mix-blend-mode: normal;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
+    margin: -60px auto;
+    width: 200px;
+    background: rgba(5, 11, 32, 0.6901960784);
+    padding: 5px 0px;
+    color: #56fbd3;
+    text-align: center;
+    transform: skew(-5deg);
   }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     width: 300px;
