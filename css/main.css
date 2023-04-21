@@ -3922,6 +3922,7 @@ a {
   background: #000000;
   position: relative;
   overflow: hidden;
+  transform: skewX(-5deg);
 }
 .containerPortfolio .containerPortfolio_blockA {
   width: 100%;
@@ -3936,7 +3937,6 @@ a {
   left: calc(50% - 390px);
   z-index: 0;
   letter-spacing: -3px;
-  transform: skewX(-5deg);
 }
 .containerPortfolio .containerPortfolio_blockB {
   width: 100%;
@@ -3954,6 +3954,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
@@ -3968,7 +3969,6 @@ a {
     left: calc(50% - 360px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
@@ -3986,6 +3986,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
@@ -4000,7 +4001,6 @@ a {
     left: calc(50% - 320px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
@@ -4018,6 +4018,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
@@ -4032,7 +4033,6 @@ a {
     left: calc(50% - 245px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
@@ -4050,6 +4050,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
@@ -4064,7 +4065,6 @@ a {
     left: calc(50% - 150px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
@@ -5822,6 +5822,7 @@ a {
   background: #000000;
   position: relative;
   overflow: hidden;
+  transform: skewX(-5deg);
 }
 .containerSkills .containerSkills_blockA {
   width: 100%;
@@ -5836,14 +5837,13 @@ a {
   left: calc(50% - 250px);
   z-index: 0;
   letter-spacing: -3px;
-  transform: skewX(-5deg);
 }
 .containerSkills .containerSkills_blockB {
   width: 100%;
   height: 300px;
   background: linear-gradient(transparent, #000000);
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   z-index: 1;
 }
 
@@ -5854,6 +5854,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .containerSkills .containerSkills_blockA {
     width: 100%;
@@ -5864,19 +5865,17 @@ a {
     color: #56fbd3;
     font-size: 100px;
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     left: calc(50% - 110px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .containerSkills .containerSkills_blockB {
     width: 100%;
     height: 200px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
-    bottom: 0;
-    z-index: 1;
+    bottom: -2px;
   }
 }
 /*
@@ -5969,6 +5968,8 @@ a {
   background: #000000;
   position: relative;
   overflow: hidden;
+  transform: skewX(-5deg);
+  padding: 5px 0px;
 }
 .conatinerTitle .conatinerTitle_blockA {
   width: 100%;
@@ -5986,14 +5987,13 @@ a {
   left: calc(50% - 340px);
   z-index: 0;
   letter-spacing: -3px;
-  transform: skewX(-5deg);
 }
 .conatinerTitle .conatinerTitle_blockB {
   width: 100%;
   height: 300px;
   background: linear-gradient(transparent, #000000);
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   z-index: 1;
 }
 
@@ -6004,6 +6004,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockA {
     width: 100%;
@@ -6021,14 +6022,13 @@ a {
     left: calc(50% - 290px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockB {
     width: 100%;
     height: 300px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     z-index: 1;
   }
 }
@@ -6039,6 +6039,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockA {
     width: 100%;
@@ -6056,14 +6057,13 @@ a {
     left: calc(50% - 230px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockB {
     width: 100%;
     height: 220px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     z-index: 1;
   }
 }
@@ -6074,6 +6074,7 @@ a {
     background: #000000;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockA {
     width: 100%;
@@ -6091,14 +6092,13 @@ a {
     left: calc(50% - 150px);
     z-index: 0;
     letter-spacing: -3px;
-    transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockB {
     width: 100%;
     height: 200px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     z-index: 1;
   }
 }

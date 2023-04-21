@@ -6,6 +6,8 @@
     background: $colorNegro;
     position: relative;
     overflow: hidden;
+    transform: skewX(-5deg);
+
     .containerSkills_blockA{
        width: 100%;
        height: 300px;
@@ -20,7 +22,6 @@
          left:calc(50% - 250px);
          z-index: 0;
          letter-spacing:$letterSpacing;
-         transform: skewX(-5deg);
 
     }
 
@@ -29,7 +30,7 @@
         height: 300px;
         background:linear-gradient( transparent,$colorNegro);
         position: absolute;
-        bottom: 0;
+        bottom: -2px;
         z-index: 1;
     }
 }
@@ -48,9 +49,10 @@
         background: $colorNegro;
         position: relative;
         overflow: hidden;
+        transform: skewX(-5deg);
         .containerSkills_blockA{
            width: 100%;
-           height: 200px;
+           height:200px;
            background:linear-gradient($colorNegro,transparent);
         }
     
@@ -58,12 +60,10 @@
              color: $colorVerde;
              font-size:100px;
              position: absolute;
-             bottom: -20px;
+             bottom: -30px;
              left:calc(50% - 110px);
              z-index: 0;
              letter-spacing:$letterSpacing;
-             transform: skewX(-5deg);
-
         }
     
         .containerSkills_blockB{
@@ -71,8 +71,7 @@
             height: 200px;
             background:linear-gradient( transparent,$colorNegro);
             position: absolute;
-            bottom: 0;
-            z-index: 1;
+            bottom: -2px;
         }
     }
 }
