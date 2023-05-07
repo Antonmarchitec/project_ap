@@ -125,10 +125,10 @@
     "landing3":[
         {
             "id_block1":9,
-            "title1":"En construcción",
-            "descripcion1":"¡Próximo proyecto saldrá en dos semanas!",
-            "image1": "./img/EN-DESARROLLO.png",
-            "tip1D": "",
+            "title1":"Template Financial",
+            "descripcion1":"Página informativa desarrollada para empresa corporativa, cuenta con un menú de navegación, banner principal, imágenes, 2 secciones, slader de productos con sensibilidad touch screen.",
+            "image1": "./img/template-financial.jpg",
+            "tip1D": "- Plantilla corporativa.",
 
 
 
