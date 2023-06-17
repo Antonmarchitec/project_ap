@@ -242,12 +242,39 @@
             "id":22,
             "idGit":22,
             "idLive":22,
+            "title":" COMPONENTE DE RESUMEN ",
+            "tech_html": " HTML ",
+            "tech_css": " CSS ",
+            "tech_js": " -- ",
+            "imagen":"./img/RETOS/TARGET_22.jpg",
+            "descripcion": " Vamos por nuestro reto número 22 completado en la página, una buena práctica que te permitirá ajustar ."
+        }
+    ],
+
+    "retos25_28":[
+        {
+            "id":23,
+            "idGit":23,
+            "idLive":23,
             "title":" RETO EN CONSTRUCCIÓN ",
             "tech_html": "  -- ",
             "tech_css": " -- ",
             "tech_js": " -- ",
             "imagen":"./img/RETOS/CONSTRUCCION.png",
             "descripcion": " Proximo reto en dos semanas."
+        },
+        {
+            "id":24,
+            "idGit":24,
+            "idLive":24,
+            "title":" RETO EN CONSTRUCCIÓN ",
+            "tech_html": "  -- ",
+            "tech_css": " -- ",
+            "tech_js": " -- ",
+            "imagen":"./img/RETOS/CONSTRUCCION.png",
+            "descripcion": " Proximo reto en cuatro semanas."
         }
     ]
 }
+
+
