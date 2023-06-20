@@ -247,7 +247,7 @@
             "tech_css": " CSS ",
             "tech_js": " JS ",
             "imagen":"./img/RETOS/TARGET_22.jpg",
-            "descripcion": " Vamos por nuestro reto número 22 completado en la página, una buena práctica que te permitirá ajustar ."
+            "descripcion": " Componente de modulo animado desarrollado con HTML, CSS y JS con un archivo json para extracion de datos ."
         },
         {
             "id":23,
@@ -258,7 +258,7 @@
             "tech_css": " CSS ",
             "tech_js": " JS ",
             "imagen":"./img/RETOS/TARGET_23.jpg",
-            "descripcion": " Proximo reto en dos semanas."
+            "descripcion": " Componente de tarjeta desarrollada con HTML, CSS y JS y un archivo json para extraccion de datos."
         },
         {
             "id":24,
