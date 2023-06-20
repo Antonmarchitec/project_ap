@@ -280,6 +280,10 @@ const pintarCards19_24 = (dataCard19_24) =>{
             window.open("https://github.com/Antonmarchitec/Results_summary_component.git")
         }else if (e.target.dataset.idLive === "22"){
             window.open("https://antonmarchitec.github.io/Results_summary_component/")
+        }else if (e.target.dataset.idGit === "23"){
+            window.open("https://github.com/Antonmarchitec/Componente_de_tarjeta_NFT.git")
+        }else if (e.target.dataset.idLive === "23"){
+            window.open("https://antonmarchitec.github.io/Componente_de_tarjeta_NFT/")
         }
     })
 }
@@ -306,23 +310,6 @@ const pintarCards25_28 = (dataCard25_28) =>{
     contSectionCards.appendChild(fragmentTarjets)
 
     document.addEventListener("click", (e) =>{
-        if(e.target.dataset.idGit === "19"){
-            //console.log("me diste en live 1")
-            window.open("https://github.com/Antonmarchitec/Componente_de_calificacion_interactivo.git")
-        }else if(e.target.dataset.idLive === "19"){
-            window.open("https://antonmarchitec.github.io/Componente_de_calificacion_interactivo/")
-        }else if(e.target.dataset.idGit === "20"){
-            window.open("https://github.com/Antonmarchitec/Pagina_inicio_tema_oscuro_fylo.git")
-        }else if (e.target.dataset.idLive === "20"){
-            window.open("https://antonmarchitec.github.io/Pagina_inicio_tema_oscuro_fylo/")
-        }else if (e.target.dataset.idGit === "21"){
-            window.open("https://github.com/Antonmarchitec/pagina_inicio_noticias.git")
-        }else if (e.target.dataset.idLive === "21"){
-            window.open("https://antonmarchitec.github.io/pagina_inicio_noticias/")
-        }else if (e.target.dataset.idGit === "22"){
-            window.open("https://github.com/Antonmarchitec/Results_summary_component.git")
-        }else if (e.target.dataset.idLive === "22"){
-            window.open("https://antonmarchitec.github.io/Results_summary_component/")
-        }
+        
     })
 }

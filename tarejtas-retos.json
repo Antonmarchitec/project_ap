@@ -248,14 +248,37 @@
             "tech_js": " JS ",
             "imagen":"./img/RETOS/TARGET_22.jpg",
             "descripcion": " Vamos por nuestro reto número 22 completado en la página, una buena práctica que te permitirá ajustar ."
-        }
-    ],
-
-    "retos25_28":[
+        },
         {
             "id":23,
             "idGit":23,
             "idLive":23,
+            "title":" COMPONENTE DE TARJETA NFT ",
+            "tech_html": " HTML",
+            "tech_css": " CSS ",
+            "tech_js": " JS ",
+            "imagen":"./img/RETOS/TARGET_23.jpg",
+            "descripcion": " Proximo reto en dos semanas."
+        },
+        {
+            "id":24,
+            "idGit":24,
+            "idLive":24,
+            "title":" RETO EN CONSTRUCCIÓN ",
+            "tech_html": "  -- ",
+            "tech_css": " -- ",
+            "tech_js": " -- ",
+            "imagen":"./img/RETOS/CONSTRUCCION.png",
+            "descripcion": " Proximo reto en dos semanas."
+        }
+        
+    ],
+
+    "retos25_28":[
+        {
+            "id":25,
+            "idGit":25,
+            "idLive":25,
             "title":" RETO EN CONSTRUCCIÓN ",
             "tech_html": "  -- ",
             "tech_css": " -- ",
@@ -264,9 +287,9 @@
             "descripcion": " Proximo reto en dos semanas."
         },
         {
-            "id":24,
-            "idGit":24,
-            "idLive":24,
+            "id":26,
+            "idGit":26,
+            "idLive":26,
             "title":" RETO EN CONSTRUCCIÓN ",
             "tech_html": "  -- ",
             "tech_css": " -- ",
