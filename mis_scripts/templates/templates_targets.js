@@ -262,6 +262,7 @@ const pintarCards19_24 = (dataCard19_24) =>{
     })
     contSectionCards.appendChild(fragmentTarjets)
 
+    
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "19"){
             //console.log("me diste en live 1")
