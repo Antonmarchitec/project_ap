@@ -262,7 +262,7 @@ const pintarCards19_24 = (dataCard19_24) =>{
     })
     contSectionCards.appendChild(fragmentTarjets)
 
-    
+
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idGit === "19"){
             //console.log("me diste en live 1")
@@ -285,6 +285,10 @@ const pintarCards19_24 = (dataCard19_24) =>{
             window.open("https://github.com/Antonmarchitec/Componente_de_tarjeta_NFT.git")
         }else if (e.target.dataset.idLive === "23"){
             window.open("https://antonmarchitec.github.io/Componente_de_tarjeta_NFT/")
+        }else if(e.target.dataset.idGit === "24"){
+            window.open("https://github.com/Antonmarchitec/Formulario_de_suscripcion.git")
+        }else if(e.target.dataset.idLive === "24"){
+            window.open("https://antonmarchitec.github.io/Formulario_de_suscripcion/")
         }
     })
 }
