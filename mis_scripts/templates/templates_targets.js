@@ -136,7 +136,7 @@ const pintarCards7_12 = (dataCard10_18) =>{
         template_target.querySelector("#techCSS").textContent = element2.tech_css
         template_target.querySelector("#techJS").textContent = element2.tech_js
         
-        let clone2 = template_target.cloneNode(template_target)
+        let clone2 = template_target.cloneNode(true)
         fragmentTarjets.appendChild(clone2)
     })
     contSectionCards.appendChild(fragmentTarjets)
@@ -203,7 +203,7 @@ const pintarCards13_18 = (dataCard13_18) =>{
         template_target.querySelector("#techCSS").textContent = element2.tech_css
         template_target.querySelector("#techJS").textContent = element2.tech_js
         
-        let clone2 = template_target.cloneNode(template_target)
+        let clone2 = template_target.cloneNode(true)
         fragmentTarjets.appendChild(clone2)
     })
     contSectionCards.appendChild(fragmentTarjets)
@@ -257,7 +257,7 @@ const pintarCards19_24 = (dataCard19_24) =>{
         template_target.querySelector("#techCSS").textContent = element2.tech_css
         template_target.querySelector("#techJS").textContent = element2.tech_js
         
-        let clone2 = template_target.cloneNode(template_target)
+        let clone2 = template_target.cloneNode(true)
         fragmentTarjets.appendChild(clone2)
     })
     contSectionCards.appendChild(fragmentTarjets)
@@ -304,7 +304,7 @@ const pintarCards25_28 = (dataCard25_28) =>{
         template_target.querySelector("#techCSS").textContent = element2.tech_css
         template_target.querySelector("#techJS").textContent = element2.tech_js
         
-        let clone2 = template_target.cloneNode(template_target)
+        let clone2 = template_target.cloneNode(true)
         fragmentTarjets.appendChild(clone2)
     })
     contSectionCards.appendChild(fragmentTarjets)
