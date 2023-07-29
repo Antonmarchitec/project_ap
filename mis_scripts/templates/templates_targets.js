@@ -38,11 +38,11 @@ const dataFech = async ()=>{
                 contSectionCards.textContent = pintarCards19_24(dataCard)
                 pintarCards19_24(dataCard)
             }
-            else if(e.target.id === "number5"){
+            /*else if(e.target.id === "number5"){
                 console.log("click en cuatro")
                 contSectionCards.textContent = pintarCards25_28(dataCard)
                 pintarCards25_28(dataCard)
-            }
+            }*/
         })
        
 
@@ -318,3 +318,4 @@ const pintarCards25_28 = (dataCard25_28) =>{
         
     })
 }
+
