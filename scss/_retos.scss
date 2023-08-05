@@ -34,6 +34,7 @@ a{
             background: linear-gradient($colorAzul, transparent);
             position: absolute;
             top:0;
+            
         }
         .contentSection__title{
             text-align: center;
@@ -505,6 +506,7 @@ a{
         display: flex;
         justify-content: space-around;
         align-items: center;
+
         .contentSection_blocks_number{
             width: 30px;
             height: 30px;
@@ -516,27 +518,11 @@ a{
             font-weight: bold;
             color: $colorAzul;
             transition: 0.3s all;
+
         }
         .contentSection_blocks_number:hover{
             background: $colorAzulOscuro;
             color: $colorVerde;
-        }
-    }
-    @media (min-width:320px) and (max-width:423px){
-        .contentSection_blocks{
-            width: 45px;
-            height: 30%;
-            margin: initial;
-            background: $colorAzulOscuro;
-            padding: 0px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: flex-start;
-            position: fixed;
-            top: 50%;
-            left: 0;
-            transition: 0.5s all;
         }
     }
 }
