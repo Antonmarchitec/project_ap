@@ -150,13 +150,13 @@ const pintarlanding2 = (dataWeb) =>{
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
         if(e.target.dataset.id === "5"){
-            window.open("https://antonmarchitec.github.io/template_visual_designer/")
+            window.open("http://templatevisual.digitizingcode.com/")
         }else if(e.target.dataset.id === "6"){
-            window.open("https://antonmarchitec.github.io/template_visit-tokio/")
+            window.open("http://templatevisittokio.digitizingcode.com/")
         }else if(e.target.dataset.id === "7"){
-            window.open("https://antonmarchitec.github.io/template_halloween/")
+            window.open("http://templatehalloween.digitizingcode.com/")
         }else if(e.target.dataset.id === "8"){
-            window.open("https://antonmarchitec.github.io/fashion__template/")
+            window.open("https://templatefashion.digitizingcode.com/")
         }
     }) 
 }
