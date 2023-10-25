@@ -214,7 +214,7 @@ const pintarlanding3 = (dataWeb) =>{
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
         if(e.target.dataset.id === "9"){
-            window.open("https://antonmarchitec.github.io/template_financial/")
+            window.open("https://templatefinancial.digitizingcode.com/")
         }
     }) 
 }
