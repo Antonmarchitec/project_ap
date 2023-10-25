@@ -85,13 +85,13 @@ const pintarlanding = (dataWeb) =>{
     //Ejecutar eventos
     document.addEventListener("click", (e)=>{
         if(e.target.dataset.id === "1"){
-            window.open("https://antonmarchitec.github.io/landing_restaurant/")
+            window.open("https://templaterestaurant01.digitizingcode.com/")
         }else if(e.target.dataset.id === "2"){
-            window.open("https://antonmarchitec.github.io/landing_veterinaria_vip/")
+            window.open("https://templateveterinariavip.digitizingcode.com/")
         }else if(e.target.dataset.id === "3"){
-            window.open("https://antonmarchitec.github.io/landing_resposteria/")
+            window.open("http://templatereposteria01.digitizingcode.com/")
         }else if(e.target.dataset.id === "4"){
-            window.open("https://antonmarchitec.github.io/template_gamer/")
+            window.open("http://templategamer.digitizingcode.com/")
         }
         
     }) 
