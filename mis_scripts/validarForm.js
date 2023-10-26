@@ -389,7 +389,7 @@ function validar(){
                  
              },
      });
-     return false
+     return true
    }
 }
 
