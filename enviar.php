@@ -101,7 +101,7 @@ $mensaje .= "Mensaje: " . $_POST['comentario'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 //$para = 'contacto@antomdeveloper.com';
-$para = 'contacto@digitizingcode.com';
+$para = 'registros@portafolio.digitizingcode.com';
 $asunto = 'Mensaje de mi sitio web';
 
 mail($para, $asunto, $mensaje, $header);
