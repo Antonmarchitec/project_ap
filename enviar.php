@@ -102,9 +102,10 @@ $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 //$para = 'contacto@antomdeveloper.com';
 $para = 'registros@portafolio.digitizingcode.com';
-$asunto = 'Mensaje de mi sitio web';
+$asunto = 'Nuevo mensaje registrado';
 
 mail($para, $asunto, $mensaje, $header);
 
-header("Location:enviado.html");   //ESTA ES LA CARPETA DONDE DIRECCIONAMOS
+//  header("Location:enviado.html"); 
+header("Location:contenido.html");   //ESTA ES LA CARPETA DONDE DIRECCIONAMOS
 ?>
