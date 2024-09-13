@@ -29,7 +29,7 @@
         .titulo_principal{
             width:auto;
             padding: 15px 0px;
-            font-size: 200px;
+            font-size: 180px;
             font-family: Poppins;
             text-shadow: 2px 2px 8px $colorVerde;
             transform: skewX(-5deg);
@@ -56,7 +56,7 @@
         .subtitle{
             text-align: center;
             color:white;
-            font-size: 25px;
+            font-size: 22px;
             font-weight: 100;
             transform: skewX(-5deg);
             position: absolute;
@@ -67,7 +67,7 @@
                 font-family: poppins;
                 font-weight: 100;
                 font-style: normal;
-                font-size: 25px;
+                font-size: 20px;
             }
         }
 
@@ -92,6 +92,7 @@
                     text-align: center;
                     .particles__link{
                         color: white;
+                        font-size: 16px;
                         font-weight: 100;
                     }
                 }
