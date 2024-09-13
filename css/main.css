@@ -350,7 +350,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: fixed;
   left: 0;
 }
@@ -425,7 +425,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .contParticulas #particles-js .contFooter {
   width: 90%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   bottom: 20px;
   transform: skew(-5deg);
@@ -489,7 +489,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: fixed;
     left: 0;
   }
@@ -568,7 +568,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .contParticulas #particles-js .contFooter {
     width: 90%;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: absolute;
     bottom: 20px;
     transform: skew(-5deg);
@@ -621,7 +621,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: fixed;
     left: 0;
   }
@@ -700,7 +700,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .contParticulas #particles-js .contFooter {
     width: 90%;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: absolute;
     bottom: 20px;
     transform: skew(-5deg);
@@ -753,7 +753,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: fixed;
     left: 0;
   }
@@ -828,7 +828,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .contParticulas #particles-js .contFooter {
     width: 90%;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     position: absolute;
     bottom: 20px;
     transform: skew(-5deg);
@@ -1011,7 +1011,7 @@ html {
   border: 2px solid transparent;
   border-bottom: 2px solid #56fbd3;
   padding: 5px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   transform: skew(-5deg);
   color: white;
   font-size: 18px;
@@ -1063,7 +1063,7 @@ html {
 #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
   margin: -60px auto;
   width: 200px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   padding: 5px 0px;
   color: #56fbd3;
   text-align: center;
@@ -1146,7 +1146,7 @@ html {
     border: 2px solid transparent;
     border-bottom: 2px solid #56fbd3;
     padding: 5px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
     font-size: 18px;
@@ -1260,7 +1260,7 @@ html {
     border: 2px solid transparent;
     border-bottom: 2px solid #56fbd3;
     padding: 5px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
     font-size: 18px;
@@ -1317,7 +1317,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
     margin: -60px auto;
     width: 200px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     padding: 5px 0px;
     color: #56fbd3;
     text-align: center;
@@ -1406,7 +1406,7 @@ html {
     border: 2px solid transparent;
     border-bottom: 2px solid #56fbd3;
     padding: 5px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
     font-size: 18px;
@@ -1523,7 +1523,7 @@ html {
     border: 2px solid transparent;
     border-bottom: 2px solid #56fbd3;
     padding: 5px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
     font-size: 18px;
@@ -1707,7 +1707,7 @@ html {
   .contContact .formulario .btnEnviar {
     width: 100%;
     padding: 5px 10px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     border: 2px solid #56fbd3;
     border-radius: 10px;
     color: white;
@@ -2962,7 +2962,7 @@ a {
   padding: 6px 0px;
   border: 2px solid transparent;
   border-bottom: 2px solid #56fbd3;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   transform: skew(-5deg);
   color: white;
   transition: 0.5s all;
@@ -3025,7 +3025,7 @@ a {
 }
 .CONTAINER_LANDING .FOOTER .contentFoot {
   width: 100%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
 }
 .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN {
   background: transparent;
@@ -3809,7 +3809,7 @@ a {
 .btnWattssap {
   width: 160px;
   padding: 5px 0px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   border-bottom: 3px solid #56fbd3;
   position: fixed;
   bottom: 50px;
@@ -3833,7 +3833,7 @@ a {
   .btnWattssap {
     width: 160px;
     padding: 5px 0px;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     border-bottom: 3px solid #56fbd3;
     position: fixed;
     bottom: 40px;
@@ -3867,7 +3867,7 @@ a {
 .contRedes .contRedes_box {
   width: 100%;
   padding: 5px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -4111,7 +4111,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4130,7 +4130,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4225,7 +4225,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box2 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4244,7 +4244,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box2 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4339,7 +4339,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box3 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4358,7 +4358,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box3 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4453,7 +4453,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box4 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4472,7 +4472,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box4 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4567,7 +4567,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box5 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4586,7 +4586,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box5 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4681,7 +4681,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box6 .containerBox .subcontainerBox .subcontainerBoxP2 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
@@ -4700,7 +4700,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box6 .containerBox .subcontainerBox .subcontainerBoxP3 {
   width: 50%;
   height: 50%;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   left: -50%;
   bottom: 0;
@@ -4935,7 +4935,7 @@ a {
 #contBase .containerBaseCuadros .contCuadro {
   width: 250px;
   height: 250px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   border-radius: 5px;
   box-shadow: 0px 0px 10px #96aadb;
   margin: 10px auto;
@@ -4987,7 +4987,7 @@ a {
   display: none;
   border: 2px solid #56fbd3;
   border-radius: 5px;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   padding: 3px 10px;
   position: relative;
   top: 15px;
@@ -5014,7 +5014,7 @@ a {
   transform: scale(1.1, 1.1);
 }
 #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_descripcion {
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
 }
 #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_descripcion .contCuadro_title {
   color: #56fbd3;
@@ -6459,7 +6459,7 @@ html, body {
   bottom: 30px;
   left: calc(50% - 180px);
   text-align: center;
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
   border-radius: 5px;
 }
 .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
@@ -6491,7 +6491,7 @@ html, body {
   bottom: 20px;
   line-height: 20px;
   left: calc(50% - 150px);
-  background: rgba(5, 11, 32, 0.6901960784);
+  background: rgba(5, 11, 32, 0.7764705882);
 }
 .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
   color: #96aadb;
@@ -6529,7 +6529,7 @@ html, body {
     bottom: 30px;
     left: calc(50% - 180px);
     text-align: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     border-radius: 5px;
   }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
@@ -6561,7 +6561,7 @@ html, body {
     bottom: 20px;
     line-height: 20px;
     left: initial;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
   }
   .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
     color: #96aadb;
@@ -6596,7 +6596,7 @@ html, body {
     bottom: 30px;
     left: calc(50% - 180px);
     text-align: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     border-radius: 5px;
   }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
@@ -6629,7 +6629,7 @@ html, body {
     bottom: 20px;
     line-height: 20px;
     left: initial;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
   }
   .contBlogHeader .contBlogHeader_boxBanners .contBlogHeader_boxBanners_box .contBlogHeader_boxBanners_box_conttitle .contcontBlogHeader_bannerRight_title {
     color: #96aadb;
@@ -6666,7 +6666,7 @@ html, body {
     bottom: 30px;
     left: calc(50% - 150px);
     text-align: center;
-    background: rgba(5, 11, 32, 0.6901960784);
+    background: rgba(5, 11, 32, 0.7764705882);
     border-radius: 5px;
   }
   .contBlogHeader .contBlogHeader_bannerRight .contBlogHeader_bannerRight_contTitle .contBlogHeader_bannerRight_contTitle_text {
