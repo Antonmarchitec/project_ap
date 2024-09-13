@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
+  font-family: poppins;
   font-size: 18px;
 }
 
@@ -348,34 +348,24 @@ body::-webkit-scrollbar-thumb:hover {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background: rgba(5, 11, 32, 0.6901960784);
   position: fixed;
   left: 0;
 }
-.contParticulas #particles-js .titulo__inicial {
-  width: 600px;
-  color: white;
-  font-size: 40px;
-  transform: skewX(-5deg);
-  position: absolute;
-  top: 70px;
-}
 .contParticulas #particles-js .titulo_principal {
-  width: 600px;
+  width: auto;
   padding: 15px 0px;
-  font-size: 180px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 200px;
+  font-family: Poppins;
   text-shadow: 2px 2px 8px #56fbd3;
-  border-top: 4px solid #56fbd3;
-  border-bottom: 2px solid #56fbd3;
   transform: skewX(-5deg);
-  /*position: absolute;
-  top: 30px;
-  left: 80px;*/
+  letter-spacing: -6px;
   line-height: 130px;
-  letter-spacing: -8px;
+  color: #060f1d;
+  position: absolute;
+  top: 80px;
   /*GRADIENT TEXT
   background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
   background-image: linear-gradient(white, $colorVerde) ;
@@ -386,32 +376,29 @@ body::-webkit-scrollbar-thumb:hover {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   //FIN GRADIENT*/
-  color: #060f1d;
-  position: absolute;
-  top: 130px;
 }
 .contParticulas #particles-js .subtitle {
-  margin-top: 15px;
   text-align: center;
   color: white;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 100;
   transform: skewX(-5deg);
   position: absolute;
-  top: 290px;
+  top: 270px;
+  font-family: poppins;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
   color: #56fbd3;
-  font-family: "Oswald", sans-serif;
+  font-family: poppins;
+  font-weight: 100;
   font-style: normal;
   font-size: 25px;
 }
 .contParticulas #particles-js .particles__menu {
   width: 400px;
   padding: 5px 0px;
-  margin-top: 30px;
   position: absolute;
-  top: 340px;
+  top: 310px;
 }
 .contParticulas #particles-js .particles__menu .particles__ul {
   padding: 5px 0px;
@@ -429,6 +416,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
   color: white;
+  font-weight: 100;
 }
 .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
   background: linear-gradient(transparent, #56fbd3);
@@ -466,7 +454,10 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
 }
 .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+  font-size: 14px;
   color: white;
+  font-weight: 100;
+  margin-left: 5px;
 }
 
 /**
@@ -500,14 +491,6 @@ RESPONSIVE DESING OFICIAL NUEVO
     background: rgba(5, 11, 32, 0.6901960784);
     position: fixed;
     left: 0;
-  }
-  .contParticulas #particles-js .titulo__inicial {
-    width: 550px;
-    color: white;
-    font-size: 40px;
-    transform: skewX(-5deg);
-    position: absolute;
-    top: 70px;
   }
   .contParticulas #particles-js .titulo_principal {
     width: 550px;
@@ -641,14 +624,6 @@ RESPONSIVE DESING OFICIAL NUEVO
     position: fixed;
     left: 0;
   }
-  .contParticulas #particles-js .titulo__inicial {
-    width: 420px;
-    color: white;
-    font-size: 38px;
-    transform: skewX(-5deg);
-    position: absolute;
-    top: 70px;
-  }
   .contParticulas #particles-js .titulo_principal {
     width: 420px;
     padding: 10px 0px;
@@ -780,14 +755,6 @@ RESPONSIVE DESING OFICIAL NUEVO
     background: rgba(5, 11, 32, 0.6901960784);
     position: fixed;
     left: 0;
-  }
-  .contParticulas #particles-js .titulo__inicial {
-    width: 90%;
-    color: white;
-    font-size: 38px;
-    transform: skewX(-5deg);
-    position: absolute;
-    top: 70px;
   }
   .contParticulas #particles-js .titulo_principal {
     width: 90%;
