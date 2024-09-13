@@ -431,7 +431,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: skew(-5deg);
 }
 .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-  width: 70%;
+  width: 60%;
   margin: auto;
   padding: 3px 0px;
   display: flex;
@@ -444,7 +444,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
 .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-  font-size: 30px;
+  font-size: 25px;
   color: #56fbd3;
   transform: rotateY(25deg);
   transition: all 0.2s;

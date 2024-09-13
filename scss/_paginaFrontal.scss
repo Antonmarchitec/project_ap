@@ -115,7 +115,7 @@
             transform: skew(-5deg);
 
             .contFooter_cuadroBase{
-                width: 70%;
+                width: 60%;
                 margin: auto;
                 //background: red;
                 padding: 3px 0px;
@@ -126,9 +126,8 @@
                 align-items: center;
                 .contFooter_cuadroBase_caja{
                     background: transparent;
-                    
                     .IconRed{
-                        font-size: 30px;
+                        font-size: 25px;
                         color:$colorVerde;
                         transform:  rotateY(25deg);
                         transition: all 0.2s;
