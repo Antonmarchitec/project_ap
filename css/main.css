@@ -365,7 +365,7 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 130px;
   color: #060f1d;
   position: absolute;
-  top: 80px;
+  top: 100px;
   /*GRADIENT TEXT
   background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
   background-image: linear-gradient(white, $colorVerde) ;
@@ -384,7 +384,7 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 100;
   transform: skewX(-5deg);
   position: absolute;
-  top: 270px;
+  top: 280px;
   font-family: poppins;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
@@ -396,12 +396,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .contParticulas #particles-js .particles__menu {
   width: 400px;
-  padding: 5px 0px;
+  padding: 0px;
   position: absolute;
-  top: 310px;
+  top: 330px;
 }
 .contParticulas #particles-js .particles__menu .particles__ul {
-  padding: 5px 0px;
+  padding: 4px 0px;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -411,7 +411,6 @@ body::-webkit-scrollbar-thumb:hover {
   width: 150px;
   background: linear-gradient(#56fbd3, transparent);
   padding: 5px 0px;
-  transform: skewX(-5deg);
   text-align: center;
 }
 .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
@@ -427,8 +426,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 90%;
   background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
-  bottom: 20px;
-  transform: skew(-5deg);
+  bottom: 15px;
 }
 .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
   width: 60%;
