@@ -593,7 +593,8 @@ RESPONSIVE DESING OFICIAL NUEVO
     display: none;
   }
 }
-@media (min-width: 481px) and (max-width: 640px) {
+/******************************************************************************/
+@media (min-width: 641px) and (max-width: 769px) {
   .contParticulas {
     width: 100%;
     max-width: 1440px;
@@ -610,27 +611,24 @@ RESPONSIVE DESING OFICIAL NUEVO
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background: rgba(5, 11, 32, 0.7764705882);
     position: fixed;
     left: 0;
   }
   .contParticulas #particles-js .titulo_principal {
-    width: 420px;
-    padding: 10px 0px;
-    font-size: 140px;
-    text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    width: auto;
+    padding: 15px 0px;
+    font-size: 180px;
+    font-family: Poppins;
     text-shadow: 2px 2px 8px #56fbd3;
-    border-top: 4px solid #56fbd3;
-    border-bottom: 2px solid #56fbd3;
     transform: skewX(-5deg);
-    /*position: absolute;
-    top: 30px;
-    left: 80px;*/
+    letter-spacing: -6px;
     line-height: 130px;
-    letter-spacing: -8px;
+    color: #060f1d;
+    position: absolute;
+    top: 100px;
     /*GRADIENT TEXT
     background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
     background-image: linear-gradient(white, $colorVerde) ;
@@ -641,35 +639,32 @@ RESPONSIVE DESING OFICIAL NUEVO
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     //FIN GRADIENT*/
-    color: #060f1d;
-    position: absolute;
-    top: 130px;
   }
   .contParticulas #particles-js .subtitle {
-    margin-top: 15px;
     text-align: center;
     color: white;
-    font-size: 23px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 100;
     transform: skewX(-5deg);
     position: absolute;
-    top: 290px;
+    top: 280px;
+    font-family: poppins;
   }
   .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
-    font-family: "Oswald", sans-serif;
+    font-family: poppins;
+    font-weight: 100;
     font-style: normal;
-    font-size: 23px;
+    font-size: 20px;
   }
   .contParticulas #particles-js .particles__menu {
     width: 400px;
-    padding: 5px 0px;
-    margin-top: 40px;
+    padding: 0px;
     position: absolute;
-    top: 340px;
+    top: 330px;
   }
   .contParticulas #particles-js .particles__menu .particles__ul {
-    padding: 5px 0px;
+    padding: 4px 0px;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -679,25 +674,21 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 150px;
     background: linear-gradient(#56fbd3, transparent);
     padding: 5px 0px;
-    transform: skewX(-5deg);
     text-align: center;
   }
   .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
     color: white;
-  }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
-    background: linear-gradient(transparent, #56fbd3);
-    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
   }
   .contParticulas #particles-js .contFooter {
-    width: 90%;
-    background: rgba(5, 11, 32, 0.7764705882);
+    width: 100%;
+    background: transparent;
     position: absolute;
-    bottom: 20px;
-    transform: skew(-5deg);
+    bottom: 15px;
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-    width: 70%;
+    width: 32%;
     margin: auto;
     padding: 3px 0px;
     display: flex;
@@ -708,148 +699,19 @@ RESPONSIVE DESING OFICIAL NUEVO
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
     background: transparent;
+    padding: 0px 3px;
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 28px;
+    font-size: 25px;
     color: #56fbd3;
     transform: rotateY(25deg);
     transition: all 0.2s;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed:hover {
-    color: #96aadb;
-    transform: rotate(360deg);
-    cursor: pointer;
-  }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+    font-size: 14px;
     color: white;
-    display: none;
-  }
-}
-@media (min-width: 20px) and (max-width: 480px) {
-  .contParticulas {
-    width: 100%;
-    max-width: 1440px;
-    height: 100vh;
-    margin: auto;
-    background-image: url(../img/desarrollando.jpg);
-    background-size: 100% 100%;
-    overflow: hidden;
-    position: fixed;
-    z-index: -1;
-  }
-  .contParticulas #particles-js {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background: rgba(5, 11, 32, 0.7764705882);
-    position: fixed;
-    left: 0;
-  }
-  .contParticulas #particles-js .titulo_principal {
-    width: 90%;
-    padding: 0px 0px;
-    font-size: 98px;
-    text-align: center;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    text-shadow: 2px 2px 8px #56fbd3;
-    border-top: 4px solid #56fbd3;
-    border-bottom: 2px solid #56fbd3;
-    transform: skewX(-5deg);
-    /*position: absolute;
-    top: 30px;
-    left: 80px;*/
-    line-height: 130px;
-    letter-spacing: -8px;
-    /*GRADIENT TEXT
-    background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-    background-image: linear-gradient(white, $colorVerde) ;
-    background-clip: text;
-
-    -webkit-background-clip:text ;
-    -moz-background-clip:text ;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    //FIN GRADIENT*/
-    color: #060f1d;
-    position: absolute;
-    top: 130px;
-  }
-  .contParticulas #particles-js .subtitle {
-    margin-top: 0px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
-    transform: skewX(-5deg);
-    position: absolute;
-    top: 290px;
-  }
-  .contParticulas #particles-js .subtitle .front_css_js {
-    color: #56fbd3;
-    font-family: "Oswald", sans-serif;
-    font-style: normal;
-    font-size: 20px;
-  }
-  .contParticulas #particles-js .particles__menu {
-    width: 90%;
-    padding: 5px 0px;
-    margin-top: 30px;
-    position: absolute;
-    top: 340px;
-  }
-  .contParticulas #particles-js .particles__menu .particles__ul {
-    padding: 5px 0px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
-    width: calc(50% - 20px);
-    background: linear-gradient(#56fbd3, transparent);
-    padding: 5px 0px;
-    transform: skewX(-5deg);
-    text-align: center;
-  }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
-    color: white;
-  }
-  .contParticulas #particles-js .contFooter {
-    width: 90%;
-    background: rgba(5, 11, 32, 0.7764705882);
-    position: absolute;
-    bottom: 20px;
-    transform: skew(-5deg);
-  }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-    width: 70%;
-    margin: auto;
-    padding: 3px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
-    background: transparent;
-  }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 28px;
-    color: #56fbd3;
-    transform: rotateY(25deg);
-    transition: all 0.2s;
-  }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed:hover {
-    color: #96aadb;
-    transform: rotate(360deg);
-    cursor: pointer;
-  }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
-    color: white;
+    font-weight: 100;
+    margin-left: 5px;
     display: none;
   }
 }
