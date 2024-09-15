@@ -1086,7 +1086,7 @@ html {
   top: 0;
   left: -500px;
   animation-name: moverTitleAbout;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: both;
   transform: skewX(-5deg);
 }
@@ -1094,23 +1094,25 @@ html {
   from {
     left: -500px;
     opacity: 0;
+    visibility: hidden;
   }
   to {
     left: 0;
+    visibility: visible;
   }
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
   width: 500px;
   height: 270px;
   position: absolute;
-  left: 100px;
+  left: 120px;
   top: 250px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
   text-align: start;
   color: white;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
   width: 200px;
@@ -1121,7 +1123,7 @@ html {
   background: rgba(5, 11, 32, 0.7764705882);
   transform: skew(-5deg);
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   margin-top: 20px;
   margin-left: 10px;
@@ -1186,6 +1188,8 @@ html {
   background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
 }
 
+/*********************************************************
+*************---------------------------------------/*/
 @media (min-width: 1025px) and (max-width: 1200px) {
   #cont_descripcion_foto {
     width: 100%;
@@ -1213,7 +1217,7 @@ html {
     width: 500px;
     height: 400px;
     margin-top: 30px;
-    font-size: 200px;
+    font-size: 150px;
     color: #56fbd3;
     line-height: 180px;
     letter-spacing: -3px;
@@ -1224,25 +1228,18 @@ html {
     animation-duration: 3s;
     animation-fill-mode: both;
   }
-  @keyframes moverTitleAbout {
-    from {
-      left: -500px;
-      opacity: 0;
-    }
-    to {
-      left: 0;
-    }
-  }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 83%;
-    height: 270px;
+    height: 550px;
     position: absolute;
     left: 100px;
-    bottom: 0px;
+    bottom: initial;
+    top: 220px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1256,7 +1253,7 @@ html {
     background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     margin-top: 20px;
     margin-left: 10px;
@@ -1283,6 +1280,35 @@ html {
     align-items: center;
     transition: 1s all;
   }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #56fbd3;
+    border-radius: 5px;
+    background: #56fbd3;
+    box-shadow: -18px 18px 1px rgba(86, 251, 210, 0.2274509804);
+    overflow: hidden;
+    transform: skew(-3deg);
+    transition: 0.1s all linear;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover {
+    border: 1px solid #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image:hover .foto {
+    mix-blend-mode: normal;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
+    margin: -60px auto;
+    width: 200px;
+    background: rgba(5, 11, 32, 0.7764705882);
+    padding: 5px 0px;
+    color: #56fbd3;
+    text-align: center;
+    transform: skew(-5deg);
+  }
   #cont_descripcion_foto .cont_descripcion_foto_gradient {
     width: 300px;
     height: 100%;
@@ -1293,6 +1319,8 @@ html {
     background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
   }
 }
+/*********************************************************
+*************---------------------------------------/*/
 @media (min-width: 641px) and (max-width: 1024px) {
   #cont_descripcion_foto {
     width: 100%;
@@ -1441,6 +1469,8 @@ html {
     display: none;
   }
 }
+/*********************************************************
+*************---------------------------------------/*/
 @media (min-width: 481px) and (max-width: 640px) {
   #cont_descripcion_foto {
     width: 100%;
@@ -1559,6 +1589,8 @@ html {
     display: none;
   }
 }
+/*********************************************************
+*************---------------------------------------/*/
 @media (min-width: 320px) and (max-width: 480px) {
   #cont_descripcion_foto {
     width: 100%;

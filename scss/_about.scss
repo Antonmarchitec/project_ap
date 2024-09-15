@@ -32,7 +32,7 @@
                 top: 0;
                 left: -500px;
                 animation-name: moverTitleAbout;
-                animation-duration: 3s;
+                animation-duration:2s;
                 animation-fill-mode:both;
                 transform: skewX(-5deg);
 
@@ -41,8 +41,11 @@
                 from{
                    left: -500px;
                    opacity: 0;
+                   visibility: hidden;
+
                 }to{
                    left: 0;
+                   visibility: visible;
                 }
             }
             
@@ -50,13 +53,13 @@
                 width: 500px;
                 height: 270px;
                 position: absolute;
-                left: 100px;
+                left: 120px;
                 top:250px;
                 .descripcion_acerca{
                     text-align:start;
                     color:white;
                     font-weight: 300;
-                    font-size: 18px;
+                    font-size: 16px;
                     
 
                 }
@@ -69,7 +72,7 @@
                     background: $colorAzulTransparente;
                     transform: skew(-5deg);
                     color: white;
-                    font-size: 18px;
+                    font-size: 16px;
                     font-weight: 300;
                     margin-top: 20px;
                     margin-left: 10px;
@@ -150,7 +153,8 @@
 }
     
 
-
+/*********************************************************
+*************---------------------------------------/*/
 
 
 
@@ -175,15 +179,13 @@
             .contenedor_izq{
                 width:50%;
                 height: 700px;
-                //margin-left: 20px;
-              
                 margin-left: 30px;
                 position: relative;
                 .titulo_acerca{
                     width: 500px;
                     height: 400px;
                     margin-top: 30px    ;
-                    font-size: $fuenteTitles;
+                    font-size: 150px;
                     color: $colorVerde ; 
                     line-height: 180px;
                     letter-spacing: $letterSpacing; 
@@ -194,25 +196,20 @@
                     animation-duration: 3s;
                     animation-fill-mode:both;
                 }
-                @keyframes moverTitleAbout {
-                    from{
-                       left: -500px;
-                       opacity: 0;
-                    }to{
-                       left: 0;
-                    }
-                }
+                
                 
                 .contenedorIzq_parrBtn{
                     width: 83%;
-                    height: 270px;
+                    height: 550px;
                     position: absolute;
                     left: 100px;
-                    bottom:0px;
+                    bottom:initial;
+                    top: 220px;
                  
                     .descripcion_acerca{
                         text-align: justify;
-                        color: white;
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
                         .formms{
                             color: $colorVerde;
                         }    
@@ -226,7 +223,7 @@
                         background: $colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
-                        font-size: 18px;
+                        font-size: 14px;
                         font-weight: 300;
                         margin-top: 20px;
                         margin-left: 10px;
@@ -256,8 +253,39 @@
                 justify-content: center;
                 align-items: center;
                 transition: 1s all;
-
-                
+                .contenedor_der_image{
+                    width: 350px;
+                    height: 350px;
+                    border:1px solid $colorVerde;
+                    border-radius:5px;
+                    background: $colorVerde;
+                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    overflow: hidden;
+                    transform: skew(-3deg);
+                    transition: 0.1s all linear;
+    
+    
+                    .foto{
+                        mix-blend-mode:multiply;
+                        
+                    }    
+                }
+                .contenedor_der_image:hover{
+                    //border:5px double $colorVerde;
+                    border:1px solid $colorVerde;
+                    .foto{
+                        mix-blend-mode:normal;    
+                    }   
+                }
+                .contenedor_der_name{
+                    margin: -60px auto;
+                    width: 200px;
+                    background: $colorAzulTransparente;
+                    padding: 5px 0px;
+                    color: $colorVerde;
+                    text-align: center;
+                    transform: skew(-5deg);
+                }
             } 
         }
     
@@ -275,9 +303,8 @@
 }
 
 
-
-
-
+/*********************************************************
+*************---------------------------------------/*/
 
 
 @media (min-width:641px) and (max-width:1024px){
@@ -441,6 +468,8 @@
 }
 
 
+/*********************************************************
+*************---------------------------------------/*/
 
 
 @media (min-width:481px) and (max-width:640px){
@@ -575,6 +604,8 @@
 }
 
 
+/*********************************************************
+*************---------------------------------------/*/
 
 
 @media (min-width:320px) and (max-width:480px){
