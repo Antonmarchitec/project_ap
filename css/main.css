@@ -842,6 +842,133 @@ RESPONSIVE DESING OFICIAL NUEVO
     display: none;
   }
 }
+/*****************************************************************************
+-----------------------------------------------------------*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .contParticulas {
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    background-image: url(../img/desarrollando.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+  }
+  .contParticulas #particles-js {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: fixed;
+    left: 0;
+  }
+  .contParticulas #particles-js .titulo_principal {
+    width: auto;
+    padding: 15px 0px;
+    font-size: 100px;
+    font-family: Poppins;
+    text-shadow: 2px 2px 8px #56fbd3;
+    transform: skewX(-5deg);
+    letter-spacing: -6px;
+    line-height: 130px;
+    color: #060f1d;
+    position: absolute;
+    top: 50px;
+    /*GRADIENT TEXT
+    background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+    background-image: linear-gradient(white, $colorVerde) ;
+    background-clip: text;
+
+    -webkit-background-clip:text ;
+    -moz-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    //FIN GRADIENT*/
+  }
+  .contParticulas #particles-js .subtitle {
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    transform: skewX(-5deg);
+    position: absolute;
+    top: 210px;
+    font-family: poppins;
+  }
+  .contParticulas #particles-js .subtitle .front_css_js {
+    color: #56fbd3;
+    font-family: poppins;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .contParticulas #particles-js .particles__menu {
+    width: 200px;
+    padding: 0px;
+    position: absolute;
+    top: 330px;
+  }
+  .contParticulas #particles-js .particles__menu .particles__ul {
+    padding: 4px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
+    width: 150px;
+    background: linear-gradient(#56fbd3, transparent);
+    padding: 5px 0px;
+    text-align: center;
+    margin: 8px 0px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .contParticulas #particles-js .contFooter {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    bottom: 15px;
+  }
+  .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
+    width: 50%;
+    margin: auto;
+    padding: 3px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
+    background: transparent;
+    padding: 0px 3px;
+  }
+  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
+    font-size: 25px;
+    color: #56fbd3;
+    transform: rotateY(25deg);
+    transition: all 0.2s;
+  }
+  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    margin-left: 5px;
+    display: none;
+  }
+}
 body {
   background: #000000;
 }
