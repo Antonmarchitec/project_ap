@@ -736,7 +736,7 @@
         position: relative;
         .contBase{
             width: 100%;
-            padding:20px 0px;
+            padding:10px 0px;
             background:$colorAzul;
             display: flex;
             flex-direction:row;
@@ -751,7 +751,7 @@
                 .titulo_acerca{
                     width: 100%;
                     height: auto;
-                    margin-top:initial;
+                    margin-top:0px;
                     font-size: 100px;
                     color: $colorVerde ; 
                     line-height: 180px;
@@ -767,7 +767,7 @@
                 
                 .contenedorIzq_parrBtn{
                     width: 100%;
-                    margin: 10px auto;
+                    margin: 0px auto;
                     height: auto;
                     position: relative;
                     left: initial;
@@ -863,10 +863,6 @@
        
     } 
 }
-
-
-
-
 
 
 
