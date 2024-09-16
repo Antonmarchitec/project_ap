@@ -1717,14 +1717,14 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq {
     width: 90%;
     height: auto;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 10px 0px;
     position: relative;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
     width: 100%;
     height: auto;
-    margin-top: 0px;
+    margin-top: -15px;
     font-size: 100px;
     color: #56fbd3;
     line-height: 180px;
@@ -1739,6 +1739,8 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 100%;
     margin: 0px auto;
+    margin-top: -15px;
+    margin-bottom: 20px;
     height: auto;
     position: relative;
     left: initial;
@@ -1746,7 +1748,7 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
+    text-align: start;
     color: rgb(255, 255, 255);
     font-size: 14px;
   }
