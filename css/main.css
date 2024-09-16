@@ -1580,6 +1580,132 @@ RESPONSIVE DESING OFICIAL NUEVO
     display: none;
   }
 }
+/*********************************************************
+*************---------------------------------------/*/
+@media (min-width: 481px) and (max-width: 640px) {
+  #cont_descripcion_foto {
+    width: 100%;
+    padding: 0px 0px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  #cont_descripcion_foto .contBase {
+    width: 100%;
+    padding: 50px 0px;
+    background: #0c1b32;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0px;
+    position: relative;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
+    width: 100%;
+    height: auto;
+    margin-top: initial;
+    font-size: 100px;
+    color: #56fbd3;
+    line-height: 180px;
+    letter-spacing: -3px;
+    position: initial;
+    top: initial;
+    left: initial;
+    animation-name: moverTitleAbout;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+    position: relative;
+    left: initial;
+    bottom: initial;
+    top: initial;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
+    color: #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 180px;
+    border: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #56fbd3;
+    padding: 5px;
+    background: rgba(5, 11, 32, 0.7764705882);
+    transform: skew(-5deg);
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: initial;
+    margin-left: initial;
+    float: right;
+    position: absolute;
+    bottom: -180px;
+    right: 10px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
+    margin-left: 5px;
+    font-size: 25px;
+    color: #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
+    background: rgba(255, 255, 255, 0.075);
+    border: 2px solid #56fbd3;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der {
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    width: 200px;
+    height: 200px;
+    margin-left: calc(10% - 240px);
+    border: 1px solid #56fbd3;
+    border-radius: 5px;
+    background: #56fbd3;
+    box-shadow: -18px 18px 1px rgba(86, 251, 210, 0.2274509804);
+    overflow: hidden;
+    transform: skew(-2deg);
+    transition: 0.1s all linear;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    mix-blend-mode: multiply;
+  }
+  #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_name {
+    margin: -60px auto;
+    width: 100%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    padding: 5px 0px;
+    color: #56fbd3;
+    text-align: center;
+    transform: skew(-5deg);
+    font-size: 14px;
+  }
+  #cont_descripcion_foto .cont_descripcion_foto_gradient {
+    display: none;
+  }
+}
 .contContact {
   width: 100%;
   background: #0c1b32;
