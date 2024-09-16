@@ -895,7 +895,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     text-align: center;
     color: white;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
     top: 210px;
@@ -923,7 +923,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     align-items: center;
   }
   .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
-    width: 150px;
+    width: 200px;
     background: linear-gradient(#56fbd3, transparent);
     padding: 5px 0px;
     text-align: center;
@@ -933,7 +933,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
     color: white;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
   }
   .contParticulas #particles-js .contFooter {
     width: 100%;
@@ -956,7 +956,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 0px 3px;
   }
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 25px;
+    font-size: 28px;
     color: #56fbd3;
     transform: rotateY(25deg);
     transition: all 0.2s;

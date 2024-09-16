@@ -664,7 +664,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                 text-align: center;
                 color:white;
                 font-size: 18px;
-                font-weight: 100;
+                font-weight: 300;
                 transform: skewX(-5deg);
                 position: absolute;
                 top: 210px;
@@ -692,7 +692,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                     justify-content: space-around;
                     align-items: center;
                     .particles__item{
-                        width: 150px;
+                        width: 200px;
                         background:linear-gradient($colorVerde, transparent);
                         padding: 5px 0px;
                         text-align: center;
@@ -701,7 +701,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                         .particles__link{
                             color: white;
                             font-size: 14px;
-                            font-weight: 100;
+                            font-weight: 300;
                         }
                     }
                 }
@@ -727,7 +727,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                         background: transparent;
                         padding: 0px 3px ;
                         .IconRed{
-                            font-size: 25px;
+                            font-size: 28px;
                             color:$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
