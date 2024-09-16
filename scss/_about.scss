@@ -736,6 +736,149 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 
+/*********************************************************
+*************---------------------------------------/*/
+
+@media (min-width:423px) and (max-width:480px){
+    #cont_descripcion_foto{
+        width: 100%;
+        padding: 0px 0px;
+        background-size:100% 500px;
+        background-repeat:no-repeat ;
+        position: relative;
+        .contBase{
+            width: 100%;
+            padding:20px 0px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .contenedor_izq{
+                width:90%;
+                height: auto;
+                margin: 10px auto;
+                padding: 10px 0px;
+                position: relative;
+                .titulo_acerca{
+                    width: 100%;
+                    height: auto;
+                    margin-top:initial;
+                    font-size: 100px;
+                    color: $colorVerde ; 
+                    line-height: 180px;
+                    letter-spacing: $letterSpacing; 
+                    position: initial;
+                    top: initial;
+                    left: initial;
+                    animation-name: moverTitleAbout;
+                    animation-duration: 3s;
+                    animation-fill-mode:both;
+                }
+                
+                
+                .contenedorIzq_parrBtn{
+                    width: 100%;
+                    margin: 10px auto;
+                    height: auto;
+                    position: relative;
+                    left: initial;
+                    bottom:initial;
+                    top: initial;
+                    .descripcion_acerca{
+                        text-align: justify;
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
+
+                        .formms{
+                            color: $colorVerde;
+                        }    
+                    }
+
+                    .btnAcerca{
+                        width: 180px;
+                        border: none;
+                        border: 2px solid transparent;
+                        border-bottom:2px solid $colorVerde;
+                        padding: 5px;
+                        background: $colorAzulTransparente;
+                        transform: skew(-5deg);
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 300;
+                        margin-top: initial;
+                        margin-left: initial;
+                        float: right;
+                        position: absolute;
+                        bottom: -320px;
+                        right: calc(50% - 90px);
+                        transition-duration: 0.3s;
+                        transition-timing-function: ease;
+                        cursor: pointer;
+                        .iconAB{
+                            margin-left: 5px;
+                            font-size: 25px;
+                            color: $colorVerde;
+                        }
+                    }
+                    .btnAcerca:hover{
+                        background:rgba(255, 255, 255, 0.075);
+                        border: 2px solid $colorVerde;
+                        //color: $colorBlack;
+                    }
+                }
+                
+            }
+            .contenedor_der{
+                width:100%;
+                padding-top: 10px;
+                padding-bottom: 80px;
+                margin:5px auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                transition: 1s all;
+                .contenedor_der_image{
+                    width: 200px;
+                    height: 200px;
+                    margin-left: calc(55% - 240px);
+                    border:1px solid $colorVerde;
+                    border-radius:5px;
+                    background: $colorVerde;
+                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    overflow: hidden;
+                    transform: skew(-2deg);
+                    transition: 0.1s all linear;
+    
+                    .foto{
+                        mix-blend-mode:multiply;
+                        
+                    }    
+                }
+
+                .contenedor_der_name{
+                    margin: -60px auto;
+                    width: 100%;
+                    background: $colorAzulTransparente;
+                    padding: 5px 0px;
+                    color: $colorVerde;
+                    text-align: center;
+                    transform: skew(-5deg);
+                    font-size: 14px;
+                }
+            } 
+        }
+    
+        .cont_descripcion_foto_gradient{
+            display: none;
+        }
+       
+    } 
+}
+
+
+
+
 
 
 
