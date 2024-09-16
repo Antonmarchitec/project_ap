@@ -156,9 +156,6 @@
 /*********************************************************
 *************---------------------------------------/*/
 
-
-
-
 @media (min-width:1025px) and (max-width:1200px){
     #cont_descripcion_foto{
         width: 100%;
@@ -303,13 +300,25 @@
 }
 
 
+/*******
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:423px)  and (max-width:480px){}      160px
+
+**************************************************
+*************---------------------------------------/*/
+
 /*********************************************************
 *************---------------------------------------/*/
 
-
-@media (min-width:641px) and (max-width:1024px){
+@media (min-width:770px) and (max-width:1024px){
     #cont_descripcion_foto{
         width: 100%;
+        padding: 0px 0px;
         background-size:100% 500px;
         background-repeat:no-repeat ;
         position: relative;
@@ -321,218 +330,43 @@
             flex-direction:row;
             flex-wrap: wrap;
             justify-content: space-between;
-            position: initial;
+            //align-items: center;
             .contenedor_izq{
-                width:100%;
-                height: 650px;
+                width:90%;
+                height: auto;
+                margin: 10px auto;
                 padding: 10px 0px;
-                //margin-left: 20px;
-                margin-left: initial;
                 position: relative;
                 .titulo_acerca{
-                    width:auto;
-                    height:initial;
-                    margin-top: 30px;
-                    margin-left: 20px;
-                    font-size: 150px;
-                    color: $colorVerde ;
-                    line-height: 160px;
+                    width: auto;
+                    height: auto;
+                    margin-top: initial;
+                    font-size: 120px;
+                    color: $colorVerde ; 
+                    line-height: 180px;
                     letter-spacing: $letterSpacing; 
-                    position: absolute;
-                    top: 20px;
-                    left: -500px;
-                    animation-name: moverTitleAbout;
-                    animation-duration: 3s;
-                    animation-fill-mode:both;
-                    z-index: 100;
-                }
-                @keyframes moverTitleAbout {
-                    from{
-                       left: -500px;
-                       opacity: 0;
-                    }to{
-                       left: 0;
-                    }
-                }
-                
-                .contenedorIzq_parrBtn{
-                    width: 100%;
-                    padding: 10px 20px;
-                    height: initial;
-                    position: absolute;
-                    right:initial;
-                    bottom:initial;
-                    left: initial;
-                    z-index: 100;
-                    margin-top: 40px;
-                    .descripcion_acerca{
-                        width: 100%;
-                        text-align: justify;
-                        .formms{
-                            color: $colorVerde;
-                        }    
-                    }
-                    .btnAcerca{
-                        width: 300px;
-                        border: none;
-                        border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
-                        padding: 5px;
-                        background: $colorAzulTransparente;
-                        transform: skew(-5deg);
-                        color: white;
-                        font-size: 18px;
-                        font-weight: 300;
-                        margin-top: 20px;
-                        margin-left: 10px;
-                        float: right;
-                        transition-duration: 0.3s;
-                        transition-timing-function: ease;
-                        cursor: pointer;
-                        .iconAB{
-                            margin-left: 5px;
-                            font-size: 25px;
-                            color: $colorVerde;
-                        }
-                    }
-                    .btnAcerca:hover{
-                        background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
-                        //color: $colorBlack;
-                    }
-                }
-                
-            }
-            .contenedor_der{
-                width:50%;
-                background:$colorAzul;
-                position: absolute;
-                left:initial;
-                right: 0;
-                top:50px;
-                bottom:initial;
-                display: flex;
-                flex-direction: column;    
-                justify-content: center;
-                align-items: center;
-                .contenedor_der_image{
-                    width: 280px;
-                    height: 280px;
-                    border:1px solid $colorVerde;
-                    border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
-                    overflow: hidden;
-                    transform: skew(-3deg);
-                    transition: 0.1s all linear;
-    
-    
-                    .foto{
-                        mix-blend-mode:multiply;
-                        
-                    }    
-                }
-                .contenedor_der_image:hover{
-                    //border:5px double $colorVerde;
-                    border:1px solid $colorVerde;
-                    .foto{
-                        mix-blend-mode:normal;    
-                    }   
-                }
-                .contenedor_der_name{
-                    margin: -60px auto;
-                    width: 200px;
-                    background: $colorAzulTransparente;
-                    padding: 5px 0px;
-                    color: $colorVerde;
-                    text-align: center;
-                    transform: skew(-5deg);
-                }
-                
-                
-            } 
-        }
-    
-        .cont_descripcion_foto_gradient{
-            width: 300px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: rgb(2,0,36);
-            background: linear-gradient(90deg, $colorAzul 0%, $colorAzul 15%,transparent);
-            display: none;
-        }
-       
-    } 
-}
-
-
-/*********************************************************
-*************---------------------------------------/*/
-
-
-@media (min-width:481px) and (max-width:640px){
-    #cont_descripcion_foto{
-        width: 100%;
-        //background:$colorAzul;
-        padding:0px 0px;
-        background-size:100% 500px;
-        background-repeat:no-repeat ;
-        position: relative;
-
-        .contBase{
-            width: 100%;
-            padding:50px 0px;
-            background:$colorAzul;
-            display: flex;
-            flex-direction:row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            position: initial;
-            .contenedor_izq{
-                width:100%;
-                padding:10px 15px;
-                height:initial;
-                margin-left: initial;
-                position:initial;
-                .titulo_acerca{
-                    width: 80%;
-                    height:initial;
-                    padding:30px 0px;
-                    margin-top:0;
-                    margin-left: 0px;
-                    font-size: 130px;
-                    color: $colorVerde ;
-                    line-height: 120px;
-                    letter-spacing: $letterSpacing; 
-                    position:initial;
-                    top: initial;
-                    left:initial;
-                    animation-name: moverTitleAbout;
-                    animation-duration: 3s;
-                    animation-fill-mode:both;
-                }
-                @keyframes moverTitleAbout {
-                    from{
-                       left: -500px;
-                       opacity: 0;
-                    }to{
-                       left: 0;
-                    }
-                }
-                
-                .contenedorIzq_parrBtn{
-                    width: 100%;
-                    padding: 10px 0px;
-                    height: initial;
                     position: initial;
-                    right:initial;
-                    bottom:0;
+                    top: initial;
                     left: initial;
+                    animation-name: moverTitleAbout;
+                    animation-duration: 3s;
+                    animation-fill-mode:both;
+                }
+                
+                
+                .contenedorIzq_parrBtn{
+                    width: 90%;
+                    margin: 20px auto;
+                    height: auto;
+                    position: relative;
+                    left: initial;
+                    bottom:initial;
+                    top: initial;
+                 
                     .descripcion_acerca{
                         text-align: justify;
-                      
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
                         .formms{
                             color: $colorVerde;
                         }    
@@ -544,14 +378,16 @@
                         border-bottom:2px solid $colorVerde;
                         padding: 5px;
                         background: $colorAzulTransparente;
-
                         transform: skew(-5deg);
                         color: white;
-                        font-size: 18px;
+                        font-size: 14px;
                         font-weight: 300;
-                        margin-top: 20px;
-                        margin-left: 10px;
+                        margin-top: initial;
+                        margin-left: initial;
                         float: right;
+                        position: absolute;
+                        bottom: -180px;
+                        right: 80px;
                         transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
@@ -570,29 +406,40 @@
                 
             }
             .contenedor_der{
-                width:100%;
-                background:$colorAzul;
-                padding: 10px 0px;
-                position: initial;
-                left: initial;
-                bottom: initial;
+                width:auto;
+                padding: 10px;
+                background:transparent;
+                margin-left:calc(40% - 180px);
                 display: flex;
-                flex-direction: column;    
                 justify-content: center;
                 align-items: center;
+                transition: 1s all;
                 .contenedor_der_image{
-                    width: 300px;
-                    height: 300px;
-                    border:2px solid $colorVerde;
-                    box-shadow: 0px 0px 5px $colorVerde;
-                    transition: 0.1s all linear;
+                    width: 250px;
+                    height: 250px;
+                    border:1px solid $colorVerde;
+                    border-radius:5px;
+                    background: $colorVerde;
+                    box-shadow: -18px 18px 1px $colorVerdeTrans;
                     overflow: hidden;
-                    transition: 1s all;
-
-                    
+                    transform: skew(-2deg);
+                    transition: 0.1s all linear;
+    
+                    .foto{
+                        mix-blend-mode:multiply;
+                        
+                    }    
                 }
-                
-                
+
+                .contenedor_der_name{
+                    margin: -60px auto;
+                    width: 200px;
+                    background: $colorAzulTransparente;
+                    padding: 5px 0px;
+                    color: $colorVerde;
+                    text-align: center;
+                    transform: skew(-5deg);
+                }
             } 
         }
     
@@ -604,76 +451,68 @@
 }
 
 
+
 /*********************************************************
 *************---------------------------------------/*/
 
-
-@media (min-width:320px) and (max-width:480px){
+@media (min-width:641px) and (max-width:769px){
     #cont_descripcion_foto{
         width: 100%;
-        //background:$colorAzul;
-        padding:0px 0px;
+        padding: 0px 0px;
         background-size:100% 500px;
         background-repeat:no-repeat ;
         position: relative;
         .contBase{
             width: 100%;
-            padding:initial;
+            padding:50px 0px;
             background:$colorAzul;
             display: flex;
-            flex-direction:column;
+            flex-direction:row;
             flex-wrap: wrap;
             justify-content: space-between;
+            //align-items: center;
             .contenedor_izq{
-                width:100%;
-                padding:10px 15px;
-                height:initial;
-                margin-left: initial;
-                position:initial;
+                width:90%;
+                height: auto;
+                margin: 10px auto;
+                padding: 10px 0px;
+                position: relative;
                 .titulo_acerca{
-                    width: 80%;
-                    height:initial;
-                    padding:30px 0px;
-                    margin-top:0;
-                    margin-left: 0px;
+                    width: auto;
+                    height: auto;
+                    margin-top: initial;
                     font-size: 120px;
-                    color: $colorVerde ;
-                    line-height: 120px;
+                    color: $colorVerde ; 
+                    line-height: 180px;
                     letter-spacing: $letterSpacing; 
-                    position:initial;
+                    position: initial;
                     top: initial;
-                    left:initial;
+                    left: initial;
                     animation-name: moverTitleAbout;
                     animation-duration: 3s;
                     animation-fill-mode:both;
                 }
-                @keyframes moverTitleAbout {
-                    from{
-                       left: -500px;
-                       opacity: 0;
-                    }to{
-                       left: 0;
-                    }
-                }
+                
                 
                 .contenedorIzq_parrBtn{
-                    width: 100%;
-                    padding: 10px 0px;
-                    height: initial;
-                    position: initial;
-                    right:initial;
-                    bottom:0;
+                    width: 90%;
+                    margin: 20px auto;
+                    height: auto;
+                    position: relative;
                     left: initial;
-
+                    bottom:initial;
+                    top: initial;
+                 
                     .descripcion_acerca{
                         text-align: justify;
-                      
+                        color: rgb(255, 255, 255);
+                        font-size: 14px;
                         .formms{
                             color: $colorVerde;
                         }    
                     }
                     .btnAcerca{
-                        width: 100%;
+                        width: 200px;
                         border: none;
                         border: 2px solid transparent;
                         border-bottom:2px solid $colorVerde;
@@ -681,11 +520,14 @@
                         background: $colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
-                        font-size: 18px;
+                        font-size: 14px;
                         font-weight: 300;
-                        margin-top: 20px;
-                        margin-left: 10px;
+                        margin-top: initial;
+                        margin-left: initial;
                         float: right;
+                        position: absolute;
+                        bottom: -180px;
+                        right: 20px;
                         transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
@@ -704,27 +546,40 @@
                 
             }
             .contenedor_der{
-                width:100%;
-                background:$colorAzul;
-                padding: 10px 0px;
-                position: initial;
-                left: initial;
-                bottom: initial;
+                width:auto;
+                padding: 10px;
+                background:transparent;
+                margin-left:calc(40% - 180px);
                 display: flex;
-                flex-direction: column;    
                 justify-content: center;
                 align-items: center;
+                transition: 1s all;
                 .contenedor_der_image{
-                    width: 280px;
-                    height: 280px;
-                    border:2px solid $colorVerde;
-                    box-shadow: 0px 0px 5px $colorVerde;
-                    transition: 0.1s all linear;
+                    width: 230px;
+                    height: 230px;
+                    border:1px solid $colorVerde;
+                    border-radius:5px;
+                    background: $colorVerde;
+                    box-shadow: -18px 18px 1px $colorVerdeTrans;
                     overflow: hidden;
-                    transition: 1s all;
-
+                    transform: skew(-2deg);
+                    transition: 0.1s all linear;
+    
+                    .foto{
+                        mix-blend-mode:multiply;
+                        
+                    }    
                 }
-                
+
+                .contenedor_der_name{
+                    margin: -60px auto;
+                    width: 200px;
+                    background: $colorAzulTransparente;
+                    padding: 5px 0px;
+                    color: $colorVerde;
+                    text-align: center;
+                    transform: skew(-5deg);
+                }
             } 
         }
     
@@ -734,6 +589,9 @@
        
     } 
 }
+
+
+
 
 
 
