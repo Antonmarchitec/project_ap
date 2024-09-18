@@ -982,11 +982,13 @@ html {
   max-width: 1440px;
   padding: 30px 0px;
   margin: auto;
+  background: rgb(0, 138, 71);
   overflow: hidden;
   display: grid;
+  gap: 1em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px repeat(8, auto);
-  grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
+  grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTAFOLIO_NEW      PORTAFOLIO_NEW      PORTAFOLIO_NEW" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
 }
 .CONTENIDO_CONTENT .MENU_CONTENT {
   height: 45px;
@@ -1000,6 +1002,12 @@ html {
 }
 .CONTENIDO_CONTENT .PORTFOLIO_CONTAINER {
   grid-area: PORTFOLIO_CONTAINER;
+  display: none;
+}
+.CONTENIDO_CONTENT .PORTAFOLIO_NEW {
+  padding: 10px 0px;
+  background: brown;
+  grid-area: PORTAFOLIO_NEW;
 }
 .CONTENIDO_CONTENT .SERVICES_TITLE {
   grid-area: SERVICES_TITLE;
@@ -4321,6 +4329,7 @@ a {
   margin: 10px auto;
   padding: 50px 0px;
   background: #000000;
+  background: orange;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -4328,15 +4337,21 @@ a {
   grid-template-areas: "grillaPortfolio_box1    grillaPortfolio_box2    grillaPortfolio_box3" "grillaPortfolio_box4    grillaPortfolio_box5    grillaPortfolio_box6";
 }
 .grillaPortfolio .grillaPortfolio_box1 {
+  padding: 10px;
   grid-area: grillaPortfolio_box1;
-  overflow: hidden;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox {
-  width: 100%;
-  height: 600px;
+  width: 80%;
+  height: 400px;
+  margin: auto;
   background-image: url(../img/image_portal_gamer.jpg);
   background-size: 100% 100%;
   transition: 0.5s all;
+  overflow: hidden;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox {
   width: 100%;
@@ -4360,7 +4375,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP1 .subcontainerBox_text {
   width: 100px;
   color: #56fbd3;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 38px;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP2 {
@@ -4377,7 +4392,7 @@ a {
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon {
   color: #56fbd3;
-  font-size: 65px;
+  font-size: 55px;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP2 .subcontainerIcon:hover {
   color: white;
@@ -4396,7 +4411,7 @@ a {
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon {
   color: #56fbd3;
-  font-size: 65px;
+  font-size: 55px;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP3 .subcontainerIcon:hover {
   color: white;
@@ -4416,7 +4431,7 @@ a {
 .grillaPortfolio .grillaPortfolio_box1 .containerBox .subcontainerBox .subcontainerBoxP4 .subcontainerBox_text {
   width: 100px;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 38px;
 }
 .grillaPortfolio .grillaPortfolio_box1 .containerBox:hover {
@@ -5036,6 +5051,95 @@ a {
     grid-template-areas: "grillaPortfolio_box1" "grillaPortfolio_box2" "grillaPortfolio_box3" "grillaPortfolio_box4" "grillaPortfolio_box5" "grillaPortfolio_box6";
   }
 }
+.containerNew {
+  width: 80%;
+  padding: 10px 0px;
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.containerNew .newBaseCuadro {
+  width: 300px;
+  margin-bottom: 28px;
+  background: rgb(78, 78, 78);
+  position: relative;
+}
+.containerNew .newBaseCuadro .containerNew_figure {
+  width: 300px;
+  height: 400px;
+  transition-duration: 1s;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase {
+  width: 300px;
+  height: 400px;
+  background: rgba(222, 237, 55, 0.404);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 {
+  width: 50%;
+  height: 50%;
+  background: rgba(255, 0, 0, 0.605);
+  position: absolute;
+  top: -50%;
+  left: 0;
+  transition-duration: 1s;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
+  width: 50%;
+  height: 50%;
+  background: rgba(255, 255, 0, 0.529);
+  position: absolute;
+  top: 0;
+  right: -50%;
+  transition-duration: 1s;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 {
+  width: 50%;
+  height: 50%;
+  background: rgba(0, 128, 0, 0.468);
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  transition-duration: 1s;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
+  width: 50%;
+  height: 50%;
+  background: rgba(0, 0, 255, 0.463);
+  position: absolute;
+  bottom: -50%;
+  right: 0;
+  transition-duration: 1s;
+}
+.containerNew:hover {
+  cursor: pointer;
+}
+.containerNew:hover .containerNew_figure {
+  transform: rotate(2deg);
+}
+.containerNew:hover .containerNew_cuadroBase .caja1 {
+  top: 0;
+  left: 0;
+}
+.containerNew:hover .containerNew_cuadroBase .caja2 {
+  top: 0;
+  right: 0;
+}
+.containerNew:hover .containerNew_cuadroBase .caja3 {
+  bottom: 0;
+  left: 0;
+}
+.containerNew:hover .containerNew_cuadroBase .caja4 {
+  bottom: 0;
+  right: 0;
+}
+
 .containerServices {
   width: 100%;
   height: 300px;

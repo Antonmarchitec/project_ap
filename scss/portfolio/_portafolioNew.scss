@@ -1,0 +1,107 @@
+@import "../variables";
+
+.containerNew{
+    width:80%;
+    padding: 10px 0px;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    margin: auto;
+
+    //BASE CAJA PEQUEÑA
+    .newBaseCuadro{
+        width: 300px;
+        margin-bottom: 28px;
+        background:rgb(78, 78, 78);
+        position: relative;
+        
+
+        .containerNew_figure{
+            width: 300px;
+            height: 400px;
+            transition-duration: 1s;
+
+        }
+        .containerNew_cuadroBase{
+            width: 300px;
+            height: 400px;
+            background: rgba(222, 237, 55, 0.404);
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            .caja1{
+                width: 50%;
+                height: 50%;
+                background: rgba(255, 0, 0, 0.605);
+                position: absolute;
+                top: -50%;
+                left: 0;
+                transition-duration: 1s;
+
+            }
+            .caja2{
+                width: 50%;
+                height: 50%;
+                background:rgba(255, 255, 0, 0.529) ;
+                position: absolute;
+                top: 0;
+                right:-50%;
+                transition-duration: 1s;
+
+            }
+            .caja3{
+                width: 50%;
+                height: 50%;
+                background:rgba(0, 128, 0, 0.468) ;
+                position: absolute;
+                bottom: 0;
+                left:-50%;
+                transition-duration: 1s;
+
+            }
+            .caja4{
+                width: 50%;
+                height: 50%;
+                background: rgba(0, 0, 255, 0.463);
+                position: absolute;
+                bottom: -50%;
+                right:0;
+                transition-duration: 1s;
+
+            }
+           
+           
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+
+        .containerNew_figure{
+            transform:rotate(2deg);
+        }
+
+        .containerNew_cuadroBase{
+            .caja1{
+                top: 0;
+                left: 0;
+            }
+            .caja2{
+                top:0;
+                right:0;
+            }
+            .caja3{
+                bottom: 0;
+                left:0;
+            }
+            .caja4{
+                bottom: 0;
+                right:0;
+            }
+        }
+    }
+    
+}
