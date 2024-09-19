@@ -9,43 +9,43 @@
     },   
     {
         "id":2,
-        "title1":"Landing Gamer",
+        "title1":"Landing Financial",
         "title2":"GitHub",
         "dataImage":"d-Image",
         "dataGitHub":"d-GitHub",
-        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+        "imagenFondo":"./img/IMG_TEMPLATES/FINANCIAL_TEMPLATE.jpg"
     },
     {
         "id":3,
-        "title1":"Landing Gamer",
+        "title1":"Landing Restaurant",
         "title2":"GitHub",
         "dataImage":"d-Image",
         "dataGitHub":"d-GitHub",
-        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+        "imagenFondo":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE.jpg"
     },
     {
         "id":4,
-        "title1":"Landing Gamer",
+        "title1":"Landing Fashion",
         "title2":"GitHub",
         "dataImage":"d-Image",
         "dataGitHub":"d-GitHub",
-        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+        "imagenFondo":"./img/IMG_TEMPLATES/TIENDA_ROPA.jpg"
     },
     {
         "id":5,
-        "title1":"Landing Gamer",
+        "title1":"Landing VisitTokio",
         "title2":"GitHub",
         "dataImage":"d-Image",
         "dataGitHub":"d-GitHub",
-        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+        "imagenFondo":"./img/IMG_TEMPLATES/VISITTOKIO-TEMPLATE.jpg"
     },
     {
         "id":6,
-        "title1":"Landing Gamer",
+        "title1":"Landing Restaurant Two",
         "title2":"GitHub",
         "dataImage":"d-Image",
         "dataGitHub":"d-GitHub",
-        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+        "imagenFondo":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg"
     }
 ]  
 
