@@ -5112,6 +5112,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 .IconFigure {
+  color: rgb(66, 220, 195);
+  font-size: 50px;
+}
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 {
   width: 50%;
   height: 50%;
@@ -5124,6 +5128,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 .IconFigure {
+  color: rgb(66, 220, 195);
+  font-size: 60px;
+}
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
   width: 50%;
   height: 50%;
@@ -5135,6 +5143,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
 }
 .containerNew .newBaseCuadro:hover {
   cursor: pointer;
