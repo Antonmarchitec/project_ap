@@ -1,0 +1,55 @@
+[
+    {
+        "id":1,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    },   
+    {
+        "id":2,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    },
+    {
+        "id":3,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    },
+    {
+        "id":4,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    },
+    {
+        "id":5,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    },
+    {
+        "id":6,
+        "title1":"Landing Gamer",
+        "title2":"GitHub",
+        "dataImage":"d-Image",
+        "dataGitHub":"d-GitHub",
+        "imagenFondo":"./img/IMG_TEMPLATES/template_game.jpg"
+    }
+]  
+
+
+
+    
+  

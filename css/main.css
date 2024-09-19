@@ -5091,9 +5091,9 @@ a {
   align-items: center;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
-  color: white;
-  font-size: 30px;
-  line-height: 30px;
+  color: rgb(40, 182, 47);
+  font-size: 26px;
+  line-height: 26px;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
   width: 50%;
@@ -5140,8 +5140,8 @@ a {
   align-items: center;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
-  color: white;
-  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
   line-height: 30px;
 }
 .containerNew .newBaseCuadro:hover {
