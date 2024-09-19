@@ -15,61 +15,79 @@
     .newBaseCuadro{
         width: 300px;
         margin-bottom: 28px;
-        background:rgb(78, 78, 78);
+        //background:rgb(78, 78, 78);
         position: relative;
-        
-
         .containerNew_figure{
             width: 300px;
             height: 400px;
-            transition-duration: 1s;
-
+            transition-duration: 0.5s;
+            background: transparent;
+            
         }
         .containerNew_cuadroBase{
             width: 300px;
             height: 400px;
-            background: tra;
             overflow: hidden;
             position: absolute;
             top: 0;
+            transition-property: transform;
+            transition-duration: 0.5s;
             .caja1{
                 width: 50%;
                 height: 50%;
+                padding: 20px;
                 background: $colorAzulTransparente;
                 position: absolute;
                 top: -50%;
                 left: 0;
-                transition-duration: 1s;
+                transition-duration: 0.5s;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                .box-dos_texto{                    
+                    color: white;
+                    font-size: 30px;
+                    line-height: 30px;
+                }
 
             }
             .caja2{
                 width: 50%;
                 height: 50%;
-                background:rgba(255, 255, 0, 0.529) ;
+                background:$colorAzulTransparente;
                 position: absolute;
                 top: 0;
                 right:-50%;
-                transition-duration: 1s;
+                transition-duration: 0.5s;
+                display:flex;
+                justify-content: center;
+                align-items: center;
 
             }
             .caja3{
                 width: 50%;
                 height: 50%;
-                background:$colorVerde;
+                background:$colorAzulTransparente;
                 position: absolute;
                 bottom: 0;
                 left:-50%;
-                transition-duration: 1s;
+                transition-duration: 0.5s;
+                display:flex;
+                justify-content: center;
+                align-items: center;
 
             }
             .caja4{
                 width: 50%;
                 height: 50%;
-                background:$colorAzulTransparente ;
+                background:$colorAzulTransparente;
                 position: absolute;
                 bottom: -50%;
                 right:0;
-                transition-duration: 1s;
+                transition-duration: 0.5s;
+                display:flex;
+                justify-content: center;
+                align-items: center;
 
             }
            
@@ -79,27 +97,36 @@
             cursor: pointer;
     
             .containerNew_figure{
-                transform:rotate(2deg);
+                transform:rotate(-5deg);
             }
     
             .containerNew_cuadroBase{
+                padding: 20px;
+                transform:rotate(-5deg);
+    
                 .caja1{
                     top: 0;
                     left: 0;
+    
+                    
                 }
                 .caja2{
                     top:0;
                     right:0;
+    
                 }
                 .caja3{
                     bottom: 0;
                     left:0;
+    
                 }
                 .caja4{
                     bottom: 0;
                     right:0;
+    
                 }
             }
         }
     }
+    
 }

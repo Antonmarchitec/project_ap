@@ -1002,7 +1002,7 @@ html {
 }
 .CONTENIDO_CONTENT .PORTFOLIO_CONTAINER {
   grid-area: PORTFOLIO_CONTAINER;
-  display: none;
+  display: block;
 }
 .CONTENIDO_CONTENT .PORTAFOLIO_NEW {
   padding: 10px 0px;
@@ -5065,48 +5065,64 @@ a {
 .containerNew .newBaseCuadro {
   width: 300px;
   margin-bottom: 28px;
-  background: rgb(78, 78, 78);
   position: relative;
 }
 .containerNew .newBaseCuadro .containerNew_figure {
   width: 300px;
   height: 400px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  background: transparent;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase {
   width: 300px;
   height: 400px;
-  background: tra;
   overflow: hidden;
   position: absolute;
   top: 0;
+  transition-property: transform;
+  transition-duration: 0.5s;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 {
   width: 50%;
   height: 50%;
+  padding: 20px;
   background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: -50%;
   left: 0;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
   width: 50%;
   height: 50%;
-  background: rgba(255, 255, 0, 0.529);
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   top: 0;
   right: -50%;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 {
   width: 50%;
   height: 50%;
-  background: #56fbd3;
+  background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
   bottom: 0;
   left: -50%;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
   width: 50%;
@@ -5115,13 +5131,20 @@ a {
   position: absolute;
   bottom: -50%;
   right: 0;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .containerNew .newBaseCuadro:hover {
   cursor: pointer;
 }
 .containerNew .newBaseCuadro:hover .containerNew_figure {
-  transform: rotate(2deg);
+  transform: rotate(-5deg);
+}
+.containerNew .newBaseCuadro:hover .containerNew_cuadroBase {
+  padding: 20px;
+  transform: rotate(-5deg);
 }
 .containerNew .newBaseCuadro:hover .containerNew_cuadroBase .caja1 {
   top: 0;
