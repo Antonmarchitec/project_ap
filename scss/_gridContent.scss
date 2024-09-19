@@ -11,10 +11,10 @@ html{
     max-width: 1440px;
     padding: 30px 0px;
     margin: auto;
-    background: rgb(0, 138, 71);
+    //background: rgb(0, 138, 71);
     overflow: hidden;   
     display: grid;
-    gap:1em;
+    //gap:1em;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 50px repeat(8,auto);
     grid-template-areas:"MENU_CONTENT        MENU_CONTENT        MENU_CONTENT"
@@ -60,11 +60,11 @@ html{
                             //padding: 5px 0px;
                             //background:brown;
                             grid-area: PORTFOLIO_CONTAINER;
-                            display:block;
+                            display:none;
                         }   
                         .PORTAFOLIO_NEW{
-                            padding: 10px 0px;
-                            background: brown;
+                            //padding: 10px 0px;
+                            //background: brown;
                             grid-area: PORTAFOLIO_NEW;
                         }
 

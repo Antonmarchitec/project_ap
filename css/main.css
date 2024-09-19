@@ -982,10 +982,8 @@ html {
   max-width: 1440px;
   padding: 30px 0px;
   margin: auto;
-  background: rgb(0, 138, 71);
   overflow: hidden;
   display: grid;
-  gap: 1em;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 50px repeat(8, auto);
   grid-template-areas: "MENU_CONTENT        MENU_CONTENT        MENU_CONTENT" "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT" "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO" "PORTAFOLIO_NEW      PORTAFOLIO_NEW      PORTAFOLIO_NEW" "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER" "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE" "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT" "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS" "SKILLS_CONTAINER    SKILLS_CONTAINER    SKILLS_CONTAINER" "SKILLS_CONTENT      SKILLS_CONTENT      SKILLS_CONTENT" "CONTACT_TITLE       CONTACT_TITLE       CONTACT_TITLE" "CONTACT_CONTENT     CONTACT_CONTENT     CONTACT_CONTENT" "PIE_CONTENT         PIE_CONTENT         PIE_CONTENT";
@@ -1002,11 +1000,9 @@ html {
 }
 .CONTENIDO_CONTENT .PORTFOLIO_CONTAINER {
   grid-area: PORTFOLIO_CONTAINER;
-  display: block;
+  display: none;
 }
 .CONTENIDO_CONTENT .PORTAFOLIO_NEW {
-  padding: 10px 0px;
-  background: brown;
   grid-area: PORTAFOLIO_NEW;
 }
 .CONTENIDO_CONTENT .SERVICES_TITLE {
@@ -5054,7 +5050,6 @@ a {
 .containerNew {
   width: 80%;
   padding: 10px 0px;
-  background: grey;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -43,3 +43,162 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 **************************************************
 *************---------------------------------------/*/
+
+
+
+
+
+
+
+
+<!-------------------->
+            <div class="newBaseCuadro">
+              <!--Bloque imagen fondo-->
+              <figure class="containerNew_figure">
+                <img src="./img/IMG_TEMPLATES/VISITTOKIO-TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
+              </figure>
+
+              <!--Bloque cuadro contenido-->
+              <section class="containerNew_cuadroBase">
+                <div class="caja1">
+                  <h2 class="box-dos_texto"> look image </h2>
+                </div>
+
+                <figure class="caja2">
+                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
+                  <i class="IconFigure fa-solid fa-image"></i></a>
+                </figure>
+
+                <div class="caja3">
+                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
+                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                </div>
+
+                <figure class="caja4">
+                  <h2 class="box-dos_texto"> look project </h2>
+                </figure>
+                
+              </section>
+            </div>
+
+            <!-------------------->
+            <div class="newBaseCuadro">
+              <!--Bloque imagen fondo-->
+              <figure class="containerNew_figure">
+                <img src="./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
+              </figure>
+
+              <!--Bloque cuadro contenido-->
+              <section class="containerNew_cuadroBase">
+                <div class="caja1">
+                  <h2 class="box-dos_texto"> look image </h2>
+                </div>
+
+                <figure class="caja2">
+                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
+                  <i class="IconFigure fa-solid fa-image"></i></a>
+                </figure>
+
+                <div class="caja3">
+                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
+                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                </div>
+
+                <figure class="caja4">
+                  <h2 class="box-dos_texto"> look project </h2>
+                </figure>
+                
+              </section>
+            </div>
+
+            <!-------------------->
+            <div class="newBaseCuadro">
+              <!--Bloque imagen fondo-->
+              <figure class="containerNew_figure">
+                <img src="./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
+              </figure>
+
+              <!--Bloque cuadro contenido-->
+              <section class="containerNew_cuadroBase">
+                <div class="caja1">
+                  <h2 class="box-dos_texto"> look image </h2>
+                </div>
+
+                <figure class="caja2">
+                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
+                  <i class="IconFigure fa-solid fa-image"></i></a>
+                </figure>
+
+                <div class="caja3">
+                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
+                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                </div>
+
+                <figure class="caja4">
+                  <h2 class="box-dos_texto"> look project </h2>
+                </figure>
+                
+              </section>
+            </div>
+
+            <!-------------------->
+            <div class="newBaseCuadro">
+              <!--Bloque imagen fondo-->
+              <figure class="containerNew_figure">
+                <img src="./img/IMG_TEMPLATES/FINANCIAL_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
+              </figure>
+
+              <!--Bloque cuadro contenido-->
+              <section class="containerNew_cuadroBase">
+                <div class="caja1">
+                  <h2 class="box-dos_texto"> look image </h2>
+                </div>
+
+                <figure class="caja2">
+                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
+                  <i class="IconFigure fa-solid fa-image"></i></a>
+                </figure>
+
+                <div class="caja3">
+                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
+                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                </div>
+
+                <figure class="caja4">
+                  <h2 class="box-dos_texto"> look project </h2>
+                </figure>
+                
+              </section>
+            </div>
+
+            <!-------------------->
+            <div class="newBaseCuadro">
+              <!--Bloque imagen fondo-->
+              <figure class="containerNew_figure">
+                <img src="./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
+              </figure>
+
+              <!--Bloque cuadro contenido-->
+              <section class="containerNew_cuadroBase">
+                <div class="caja1">
+                  <h2 class="box-dos_texto"> look image </h2>
+                </div>
+
+                <figure class="caja2">
+                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
+                  <i class="IconFigure fa-solid fa-image"></i></a>
+                </figure>
+
+                <div class="caja3">
+                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
+                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                </div>
+
+                <figure class="caja4">
+                  <h2 class="box-dos_texto"> look project </h2>
+                </figure>
+                
+              </section>
+            </div>
+
+            
