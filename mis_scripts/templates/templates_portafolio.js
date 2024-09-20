@@ -26,7 +26,7 @@ const dataFechPortafolio = async ()=>{
 const pintarPortafolio = (dataPortafolio)=>{
     //console.log(dataPortafolio)
     dataPortafolio.forEach(element => {
-        console.log(element.title1)
+        //console.log(element.title1)
         templatePortafolio.querySelector("#title1").textContent = element.title1
         templatePortafolio.querySelector("#title2").textContent = element.title2
 
@@ -41,6 +41,16 @@ const pintarPortafolio = (dataPortafolio)=>{
         fragmentPortafolio.appendChild(clonarPortafolio)
     });
     basePortafolio.appendChild(fragmentPortafolio)
+
+
+    document.addEventListener("click", (e) =>{
+        //console.log(e.target)
+        if(e.target.dataset.idOjo === dataImage1){
+            console.log("le diste al ojo 1")
+        }else if(e.target.dataset.idPhoto === dataGitHub1){
+            console.log("le diste github 1")
+        }
+    })
 }
 
 //FUNCION LANDING
