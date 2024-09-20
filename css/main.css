@@ -5091,7 +5091,6 @@ a {
   align-items: center;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
-  color: rgb(40, 182, 47);
   font-size: 26px;
   line-height: 26px;
 }
@@ -5107,7 +5106,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 .IconFigure {
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 .imageIconos {
   color: rgb(66, 220, 195);
   font-size: 50px;
 }
@@ -5123,9 +5122,9 @@ a {
   justify-content: center;
   align-items: center;
 }
-.containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 .IconFigure {
+.containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 .imageIconos {
   color: rgb(66, 220, 195);
-  font-size: 60px;
+  font-size: 50px;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
   width: 50%;
@@ -5142,7 +5141,7 @@ a {
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
   color: rgb(255, 255, 255);
   font-size: 26px;
-  line-height: 30px;
+  line-height: 60px;
 }
 .containerNew .newBaseCuadro:hover {
   cursor: pointer;

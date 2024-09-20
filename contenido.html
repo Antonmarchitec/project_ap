@@ -386,30 +386,24 @@
         </div>
 
         <div class="PORTAFOLIO_NEW">
-          <div class="containerNew">
-
-
-            <!-------------------->
+          <div class="containerNew" id="baseContainerNew">
+            <!-------------------
             <div class="newBaseCuadro" id="newBaseCuadro">
-              <!--Bloque imagen fondo-->
               <figure class="containerNew_figure">
                 <img src="./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
               </figure>
 
-              <!--Bloque cuadro contenido-->
               <section class="containerNew_cuadroBase">
                 <div class="caja1">
                   <h2 class="box-dos_texto"> Landing Page </h2>
                 </div>
 
                 <figure class="caja2">
-                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
-                  <i class="IconFigure fa-solid fa-image"></i></a>
+                  <i class="imageIconos fa-regular fa-eye"></i>
                 </figure>
 
                 <div class="caja3">
-                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
-                  <i class="IconFigure fa-solid fa-eye"></i></a>
+                  <i class="imageIconos fa-regular fa-images"></i>
                 </div>
 
                 <figure class="caja4">
@@ -418,108 +412,42 @@
                 
               </section>
             </div>
+            --->
+            
+          </div>
 
-            <!-------------------->
-            <div class="newBaseCuadro" id="newBaseCuadro">
-              <!--Bloque imagen fondo-->
-              <figure class="containerNew_figure">
-                <img src="./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
-              </figure>
-
-              <!--Bloque cuadro contenido-->
-              <section class="containerNew_cuadroBase">
-                <div class="caja1">
-                  <h2 class="box-dos_texto"> Landing Page </h2>
-                </div>
-
-                <figure class="caja2">
-                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
-                  <i class="IconFigure fa-solid fa-image"></i></a>
-                </figure>
-
-                <div class="caja3">
-                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
-                  <i class="IconFigure fa-solid fa-eye"></i></a>
-                </div>
-
-                <figure class="caja4">
-                  <h2 class="box-dos_texto"> GitHub </h2>
-                </figure>
-                
-              </section>
-            </div>
-
-            <!-------------------->
-            <div class="newBaseCuadro" id="newBaseCuadro">
-              <!--Bloque imagen fondo-->
-              <figure class="containerNew_figure">
-                <img src="./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure">
-              </figure>
-
-              <!--Bloque cuadro contenido-->
-              <section class="containerNew_cuadroBase">
-                <div class="caja1">
-                  <h2 class="box-dos_texto"> Landing Page </h2>
-                </div>
-
-                <figure class="caja2">
-                  <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
-                  <i class="IconFigure fa-solid fa-image"></i></a>
-                </figure>
-
-                <div class="caja3">
-                  <a href="http://templategamer.digitizingcode.com/" target="_blank">
-                  <i class="IconFigure fa-solid fa-eye"></i></a>
-                </div>
-
-                <figure class="caja4">
-                  <h2 class="box-dos_texto"> GitHub </h2>
-                </figure>
-                
-              </section>
-            </div>
-
-             <!-------TEMPLATE PROYECTOS PORTAFOLIO------------->
-             <template id="templatePortafolio">
+          <template id="templatePortafolio">
+            <div class="baseTemplate" id="baseTemplate">
+              <!-------------------->
               <div class="newBaseCuadro" id="newBaseCuadro">
                 <!--Bloque imagen fondo-->
                 <figure class="containerNew_figure">
-                  <img src="./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg" alt="image_one" style="width: 100%;height:100%;" class="newFigure" id="newFigure">
+                  <img src="" alt="" style="width: 100%;height:100%;" id="newFigureFondo">
                 </figure>
   
                 <!--Bloque cuadro contenido-->
                 <section class="containerNew_cuadroBase">
                   <div class="caja1">
-                    <h2 class="box-dos_texto" id="texto1"> look image </h2>
+                    <h2 class="box-dos_texto" id="title1"> Landing Page </h2>
                   </div>
   
                   <figure class="caja2">
-                    <a href="./img/IMG_TEMPLATES/template_game.jpg" target="_blank">
-                    <i class="IconFigure fa-solid fa-image"></i></a>
+                    <i class="imageIconos fa-regular fa-eye" id="iconOjo"></i>
                   </figure>
   
                   <div class="caja3">
-                    <a href="http://templategamer.digitizingcode.com/" target="_blank">
-                    <i class="IconFigure fa-solid fa-eye"></i></a>
+                    <i class="imageIconos fa-brands fa-github" id="iconPhoto"></i>
                   </div>
   
                   <figure class="caja4">
-                    <h2 class="box-dos_texto" id="texto2"> look project </h2>
+                    <h2 class="box-dos_texto" id="title2"> GitHub </h2>
                   </figure>
                   
                 </section>
               </div>
-             </template>
-
-            
-
-            
-        
-
-            
-
-          
-          </div>
+              
+            </div>
+          </template>
         </div>
 
 
@@ -984,6 +912,7 @@
     <script src="mis_scripts/galeria_mentor.js"></script>
     <script src="./mis_scripts/titleMovi.js"></script>
     <script src="./mis_scripts/templates/templates_services.js"></script>
+    <script src="./mis_scripts/templates/templates_portafolio.js"></script>
     <script src="./mis_scripts/Blog.js"></script>
     <script src="./mis_scripts/block_redes.js"></script>
     <script src="mis_scripts/validarForm.js"></script>

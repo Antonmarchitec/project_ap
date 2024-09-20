@@ -1,5 +1,6 @@
 
-let basePortafolio = document.querySelector("#newBaseCuadro")
+
+let basePortafolio = document.querySelector("#baseContainerNew")
 let templatePortafolio = document.querySelector("#templatePortafolio").content
 let fragmentPortafolio = document.createDocumentFragment()
 
@@ -14,7 +15,7 @@ const dataFechPortafolio = async ()=>{
         const resPortafolio = await fetch("portafolio.json")
         const dataPortafolio = await resPortafolio.json()
         pintarPortafolio(dataPortafolio)
-
+        //console.log(dataPortafolio)
         
     }catch(error){
         console.log("Error de carga")
@@ -22,34 +23,27 @@ const dataFechPortafolio = async ()=>{
 }
 
 
-//FUNCION LANDING
-const pintarPortafolio = (dataPortafolio) =>{
+const pintarPortafolio = (dataPortafolio)=>{
+    //console.log(dataPortafolio)
     dataPortafolio.forEach(element => {
-        //console.log(element)
-        templatePortafolio.querySelector("#texto1").textContent = element.title1
-        templatePortafolio.querySelector("#texto2").textContent = element.title2
+        console.log(element.title1)
+        templatePortafolio.querySelector("#title1").textContent = element.title1
+        templatePortafolio.querySelector("#title2").textContent = element.title2
 
-        let clonePortafolio = templatePortafolio.cloneNode(true)
-        fragmentPortafolio.appendChild(clonePortafolio)
+        templatePortafolio.querySelector("#newFigureFondo").setAttribute("src",element.imagenFondo)
+        templatePortafolio.querySelector("#newFigureFondo").setAttribute("alt",element.title1)
+
+        templatePortafolio.querySelector("#iconOjo").dataset.idOjo = element.dataImage
+        templatePortafolio.querySelector("#iconPhoto").dataset.idPhoto = element.dataGitHub
+
+
+        const clonarPortafolio = templatePortafolio.cloneNode(true)
+        fragmentPortafolio.appendChild(clonarPortafolio)
     });
     basePortafolio.appendChild(fragmentPortafolio)
-   
-
-
-    //Ejecutar eventos
-    document.addEventListener("click", (e)=>{
-        /*if(e.target.dataset.id === "1"){
-            window.open("https://templaterestaurant01.digitizingcode.com/")
-        }else if(e.target.dataset.id === "2"){
-            window.open("https://templateveterinariavip.digitizingcode.com/")
-        }else if(e.target.dataset.id === "3"){
-            window.open("http://templatereposteria01.digitizingcode.com/")
-        }else if(e.target.dataset.id === "4"){
-            window.open("http://templategamer.digitizingcode.com/")
-        }*/
-        
-    }) 
 }
+
+//FUNCION LANDING
 
 
 
@@ -89,6 +83,5 @@ const pintarPortafolio = (dataPortafolio) =>{
         templateWeb.querySelector("#text2D").textContent = element.tip2D
 
 
-        templateWeb.querySelector("#btnWeb1").dataset.id = element.id_block1
-        templateWeb.querySelector("#btnWeb2").dataset.id = element.id_block2
+        
             */
