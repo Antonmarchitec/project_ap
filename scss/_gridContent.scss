@@ -55,6 +55,7 @@ html{
                             //padding: 10px 0px;
                             //background: brown;
                             grid-area: TITLE_PORTFOLIO;
+                            display: none;
                         }
                         .PORTFOLIO_CONTAINER{
                             //padding: 5px 0px;
@@ -66,6 +67,7 @@ html{
                             //padding: 10px 0px;
                             //background: brown;
                             grid-area: PORTAFOLIO_NEW;
+                            display: none;
                         }
 
 
@@ -93,14 +95,14 @@ html{
                             //padding: 5px 0px;
                             //background: rgba(122, 165, 42, 0.788);
                             grid-area: TILTE_SKILLS;
-                        
+                            display: none;
                         }
 
                         .SKILLS_CONTAINER{
                             //padding: 5px 0px;
                             //background: brown;
                             grid-area: SKILLS_CONTAINER;
-                            
+                            display: none;
                         }
                         .SKILLS_CONTENT{
                             //padding: 5px 0px;
@@ -116,11 +118,13 @@ html{
                             //padding: 10px 0px;
                             //background: brown;
                             grid-area: CONTACT_TITLE;
+                            display: none;
                         }
                         .CONTACT_CONTENT{
                             //padding: 5px 0px;
                             //background: rgb(70, 70, 70);
                             grid-area: CONTACT_CONTENT;
+                            display: none;
                         }
 
 
@@ -129,6 +133,7 @@ html{
                             //padding: 5px 0px;
                             //background: rgb(70, 70, 70);
                             grid-area: PIE_CONTENT;
+                            display: none;
                         }
 }
 
@@ -167,6 +172,7 @@ html{
                                 //padding: 5px 0px;
                                 //background: rgba(122, 165, 42, 0.788);
                                 grid-area: TILTE_SKILLS;
+                                display: none;
                             
                             }
     
@@ -181,6 +187,7 @@ html{
                                 //background: rgb(70, 70, 70);
                                 grid-area: SKILLS_CONTENT;
                                 display: block;
+                                display: none;
                             }
     
     
