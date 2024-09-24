@@ -43,10 +43,35 @@ const pintarPortafolio = (dataPortafolio)=>{
 
     document.addEventListener("click", (e) =>{
         //console.log(e.target)
-        if(e.target.dataset.idOjo === dataImage1){
-            console.log("le diste al ojo 1")
-        }else if(e.target.dataset.idPhoto === dataGitHub1){
-            console.log("le diste github 1")
+        if(e.target.dataset.idOjo === "dataImage1"){
+            window.open("./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub1"){
+            window.open("https://github.com/Antonmarchitec/template_gamer.git")
+
+        }else if(e.target.dataset.idOjo === "dataImage2"){
+            window.open("./img/IMG_TEMPLATES/FINANCIAL_TEMPLATE.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub2"){
+            window.open("https://github.com/Antonmarchitec/template_financial.git")
+            
+        }else if(e.target.dataset.idOjo === "dataImage3"){
+            window.open("./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub3"){
+            window.open("https://github.com/Antonmarchitec/landing_resposteria.git")
+
+        }else if(e.target.dataset.idOjo === "dataImage4"){
+            window.open("./img/IMG_TEMPLATES/TIENDA_ROPA.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub4"){
+            window.open("https://github.com/Antonmarchitec/fashion__template.git")
+
+        }else if(e.target.dataset.idOjo === "dataImage5"){
+            window.open("./img/IMG_TEMPLATES/VISITTOKIO-TEMPLATE.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub5"){
+            window.open("https://github.com/Antonmarchitec/template_visit-tokio.git")
+
+        }else if(e.target.dataset.idOjo === "dataImage6"){
+            window.open("./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg")
+        }else if(e.target.dataset.idPhoto === "dataGitHub6"){
+            window.open("https://github.com/Antonmarchitec/landing_restaurant.git")
         }
     })
 }
