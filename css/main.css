@@ -4180,7 +4180,7 @@ a {
   font-size: 140px;
   position: absolute;
   bottom: -40px;
-  left: 120px;
+  left: 100px;
   z-index: 0;
   letter-spacing: -3px;
 }
@@ -4196,30 +4196,61 @@ a {
 @media (min-width: 900px) and (max-width: 1024px) {
   .containerPortfolio {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: #000000;
     position: relative;
     overflow: hidden;
     transform: skewX(-5deg);
-    background: orange;
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(#000000, transparent);
   }
   .containerPortfolio .containerPortfolio_title {
     color: #56fbd3;
-    font-size: 200px;
+    font-size: 120px;
     position: absolute;
-    bottom: -55px;
-    left: calc(50% - 360px);
+    bottom: -40px;
+    left: 100px;
     z-index: 0;
     letter-spacing: -3px;
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
-    height: 300px;
+    height: 250px;
+    background: linear-gradient(transparent, #000000);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+@media (min-width: 770px) and (max-width: 899px) {
+  .containerPortfolio {
+    width: 100%;
+    height: 250px;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+    transform: skewX(-5deg);
+  }
+  .containerPortfolio .containerPortfolio_blockA {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(#000000, transparent);
+  }
+  .containerPortfolio .containerPortfolio_title {
+    color: #56fbd3;
+    font-size: 120px;
+    position: absolute;
+    bottom: -40px;
+    left: 80px;
+    z-index: 0;
+    letter-spacing: -3px;
+  }
+  .containerPortfolio .containerPortfolio_blockB {
+    width: 100%;
+    height: 250px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
     bottom: 0;
@@ -4229,7 +4260,7 @@ a {
 @media (min-width: 641px) and (max-width: 769px) {
   .containerPortfolio {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: #000000;
     position: relative;
     overflow: hidden;
@@ -4237,21 +4268,21 @@ a {
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(#000000, transparent);
   }
   .containerPortfolio .containerPortfolio_title {
     color: #56fbd3;
-    font-size: 180px;
+    font-size: 120px;
     position: absolute;
-    bottom: -55px;
-    left: calc(50% - 320px);
+    bottom: -40px;
+    left: 60px;
     z-index: 0;
     letter-spacing: -3px;
   }
   .containerPortfolio .containerPortfolio_blockB {
     width: 100%;
-    height: 300px;
+    height: 250px;
     background: linear-gradient(transparent, #000000);
     position: absolute;
     bottom: 0;
@@ -4274,10 +4305,10 @@ a {
   }
   .containerPortfolio .containerPortfolio_title {
     color: #56fbd3;
-    font-size: 140px;
+    font-size: 100px;
     position: absolute;
-    bottom: -55px;
-    left: calc(50% - 245px);
+    bottom: -10px;
+    left: 50px;
     z-index: 0;
     letter-spacing: -3px;
   }
@@ -4306,9 +4337,9 @@ a {
   }
   .containerPortfolio .containerPortfolio_title {
     color: #56fbd3;
-    font-size: 90px;
+    font-size: 75px;
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     left: calc(50% - 150px);
     z-index: 0;
     letter-spacing: -3px;
