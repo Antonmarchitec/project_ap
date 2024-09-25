@@ -1004,6 +1004,7 @@ html {
 }
 .CONTENIDO_CONTENT .PORTAFOLIO_NEW {
   grid-area: PORTAFOLIO_NEW;
+  display: none;
 }
 .CONTENIDO_CONTENT .SERVICES_TITLE {
   grid-area: SERVICES_TITLE;
@@ -1089,7 +1090,7 @@ html {
   width: 500px;
   height: 400px;
   margin-top: 30px;
-  font-size: 200px;
+  font-size: 140px;
   color: #56fbd3;
   line-height: 180px;
   letter-spacing: -3px;
@@ -4163,7 +4164,7 @@ a {
 
 .containerPortfolio {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: #000000;
   position: relative;
   overflow: hidden;
@@ -4171,28 +4172,28 @@ a {
 }
 .containerPortfolio .containerPortfolio_blockA {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(#000000, transparent);
 }
 .containerPortfolio .containerPortfolio_title {
   color: #56fbd3;
-  font-size: 200px;
+  font-size: 140px;
   position: absolute;
-  bottom: -55px;
-  left: calc(50% - 390px);
+  bottom: -40px;
+  left: 120px;
   z-index: 0;
   letter-spacing: -3px;
 }
 .containerPortfolio .containerPortfolio_blockB {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(transparent, #000000);
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
 
-@media (min-width: 770px) and (max-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1024px) {
   .containerPortfolio {
     width: 100%;
     height: 300px;
@@ -4200,6 +4201,7 @@ a {
     position: relative;
     overflow: hidden;
     transform: skewX(-5deg);
+    background: orange;
   }
   .containerPortfolio .containerPortfolio_blockA {
     width: 100%;
@@ -4467,7 +4469,7 @@ a {
 }
 .containerServices .containerServices_title {
   color: #56fbd3;
-  font-size: 200px;
+  font-size: 140px;
   position: absolute;
   bottom: -55px;
   left: calc(50% - 360px);
@@ -5479,7 +5481,7 @@ a {
 }
 .containerSkills .containerSkills_title {
   color: #56fbd3;
-  font-size: 200px;
+  font-size: 140px;
   position: absolute;
   bottom: -55px;
   left: calc(50% - 250px);
@@ -5629,7 +5631,7 @@ a {
 }
 .conatinerTitle .conatinerTitle_nameBig .nameBig {
   color: #56fbd3;
-  font-size: 200px;
+  font-size: 140px;
   position: absolute;
   bottom: -55px;
   left: calc(50% - 340px);
