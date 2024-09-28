@@ -4359,6 +4359,17 @@ a {
 @media (max-width:481px) and (min-width:640px)
 @media (max-width:320px) and (min-width:480px)
 */
+/*******
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:423px)  and (max-width:480px){}      160px
+
+**************************************************
+*************---------------------------------------/*/
 .containerNew {
   width: 80%;
   padding: 10px 0px;
@@ -4482,6 +4493,207 @@ a {
   right: 0;
 }
 
+@media (min-width: 770px) and (max-width: 899px) {
+  .containerNew {
+    width: 100%;
+  }
+}
+@media (min-width: 641px) and (max-width: 769px) {
+  .containerNew {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+  }
+  .containerNew .newBaseCuadro {
+    width: 280px;
+    margin-bottom: 28px;
+    position: relative;
+  }
+  .containerNew .newBaseCuadro .containerNew_figure {
+    width: 280px;
+    height: 380px;
+    transition-duration: 0.5s;
+    background: transparent;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase {
+    width: 280px;
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    top: 0;
+    right: -50%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 .imageIconos {
+    color: rgb(66, 220, 195);
+    font-size: 50px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 .imageIconos {
+    color: rgb(66, 220, 195);
+    font-size: 50px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    line-height: 60px;
+  }
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  .containerNew {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .containerNew .newBaseCuadro {
+    width: 280px;
+    margin-bottom: 28px;
+    position: relative;
+  }
+  .containerNew .newBaseCuadro .containerNew_figure {
+    width: 280px;
+    height: 380px;
+    transition-duration: 0.5s;
+    background: transparent;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase {
+    width: 280px;
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    top: 0;
+    right: -50%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 .imageIconos {
+    color: rgb(66, 220, 195);
+    font-size: 50px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja3 .imageIconos {
+    color: rgb(66, 220, 195);
+    font-size: 50px;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 {
+    width: 50%;
+    height: 50%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    line-height: 60px;
+  }
+}
 .containerServices {
   width: 100%;
   height: 300px;

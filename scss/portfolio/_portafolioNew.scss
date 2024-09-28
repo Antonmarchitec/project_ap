@@ -1,5 +1,20 @@
 @import "../variables";
 
+
+/*******
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:423px)  and (max-width:480px){}      160px
+
+**************************************************
+*************---------------------------------------/*/
+
+
+
 .containerNew{
     width:80%;
     padding: 10px 0px;
@@ -141,4 +156,237 @@
         }
     }
     
+}
+
+
+
+@media (min-width:770px) and (max-width:899px){
+    .containerNew{
+        width:100%;
+    }
+}
+
+
+
+@media (min-width:641px) and (max-width:769px){
+    .containerNew{
+        width:100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 50px auto;
+        //BASE CAJA PEQUEÑA
+        .newBaseCuadro{
+            width: 280px;
+            margin-bottom: 28px;
+            //background:rgb(255, 4, 4);
+            //padding: 20px 0px;
+            position: relative;
+            .containerNew_figure{
+                width: 280px;
+                height: 380px;
+                transition-duration: 0.5s;
+                background: transparent;
+                
+            }
+            .containerNew_cuadroBase{
+                width: 280px;
+                height: 380px;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                transition-property: transform;
+                transition-duration: 0.5s;
+                .caja1{
+                    width: 50%;
+                    height: 50%;
+                    padding: 20px;
+                    background: $colorAzulTransparente;
+                    position: absolute;
+                    top: -50%;
+                    left: 0;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .box-dos_texto{                    
+                        font-size: 26px;
+                        line-height: 26px;
+                    }
+    
+                }
+                .caja2{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    top: 0;
+                    right:-50%;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imageIconos{
+                        color: rgb(66, 220, 195);
+                        font-size: 50px;
+                    }
+    
+                }
+                .caja3{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    bottom: 0;
+                    left:-50%;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imageIconos{
+                        color: rgb(66, 220, 195);
+                        font-size: 50px;
+                    }
+    
+                }
+                .caja4{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    bottom: -50%;
+                    right:0;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .box-dos_texto{                    
+                        color: rgb(255, 255, 255);
+                        font-size: 26px;
+                        line-height: 60px;
+                    }
+    
+                }
+               
+               
+            }
+            
+        }
+        
+    }
+}
+
+
+@media (min-width:320px) and (max-width:640px){
+    .containerNew{
+        width:100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items:center;
+        margin: 30px auto;
+        //BASE CAJA PEQUEÑA
+        .newBaseCuadro{
+            width: 280px;
+            margin-bottom: 28px;
+            //background:rgb(255, 4, 4);
+            //padding: 20px 0px;
+            position: relative;
+            .containerNew_figure{
+                width: 280px;
+                height: 380px;
+                transition-duration: 0.5s;
+                background: transparent;
+                
+            }
+            .containerNew_cuadroBase{
+                width: 280px;
+                height: 380px;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                transition-property: transform;
+                transition-duration: 0.5s;
+                .caja1{
+                    width: 50%;
+                    height: 50%;
+                    padding: 20px;
+                    background: $colorAzulTransparente;
+                    position: absolute;
+                    top: -50%;
+                    left: 0;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .box-dos_texto{                    
+                        font-size: 26px;
+                        line-height: 26px;
+                    }
+    
+                }
+                .caja2{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    top: 0;
+                    right:-50%;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imageIconos{
+                        color: rgb(66, 220, 195);
+                        font-size: 50px;
+                    }
+    
+                }
+                .caja3{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    bottom: 0;
+                    left:-50%;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imageIconos{
+                        color: rgb(66, 220, 195);
+                        font-size: 50px;
+                    }
+    
+                }
+                .caja4{
+                    width: 50%;
+                    height: 50%;
+                    background:$colorAzulTransparente;
+                    position: absolute;
+                    bottom: -50%;
+                    right:0;
+                    transition-duration: 0.5s;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .box-dos_texto{                    
+                        color: rgb(255, 255, 255);
+                        font-size: 26px;
+                        line-height: 60px;
+                    }
+    
+                }
+               
+               
+            }
+            
+        }
+        
+    }
 }
