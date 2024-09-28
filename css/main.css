@@ -1015,7 +1015,6 @@ html {
 }
 .CONTENIDO_CONTENT .TILTE_SKILLS {
   grid-area: TILTE_SKILLS;
-  display: none;
 }
 .CONTENIDO_CONTENT .SKILLS_CONTAINER {
   grid-area: SKILLS_CONTAINER;
@@ -1052,7 +1051,6 @@ html {
   }
   .CONTENIDO_CONTENT .TILTE_SKILLS {
     grid-area: TILTE_SKILLS;
-    display: none;
   }
   .CONTENIDO_CONTENT .SKILLS_CONTAINER {
     grid-area: SKILLS_CONTAINER;
@@ -4685,14 +4683,14 @@ a {
 }
 .containerServices {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: #000000;
   position: relative;
   overflow: hidden;
 }
 .containerServices .containerServices_blockA {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(#000000, transparent);
   position: absolute;
   top: 0;
@@ -4702,14 +4700,15 @@ a {
   color: #56fbd3;
   font-size: 140px;
   position: absolute;
-  bottom: -55px;
+  bottom: 0px;
+  color: orange;
   left: calc(50% - 360px);
   z-index: 0;
   letter-spacing: -3px;
 }
 .containerServices .containerServices_blockB {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(transparent, #000000);
   position: absolute;
   bottom: 0;
@@ -5697,9 +5696,20 @@ a {
 @media (max-width:320px) and (min-width:480px)
 
 */
+/*******
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:423px)  and (max-width:480px){}      160px
+
+**************************************************
+*************---------------------------------------/*/
 .containerSkills {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: #000000;
   position: relative;
   overflow: hidden;
@@ -5707,28 +5717,60 @@ a {
 }
 .containerSkills .containerSkills_blockA {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(#000000, transparent);
 }
 .containerSkills .containerSkills_title {
   color: #56fbd3;
   font-size: 140px;
   position: absolute;
-  bottom: -55px;
-  left: calc(50% - 250px);
+  bottom: -30px;
+  left: 100px;
   z-index: 0;
   letter-spacing: -3px;
 }
 .containerSkills .containerSkills_blockB {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background: linear-gradient(transparent, #000000);
   position: absolute;
   bottom: -2px;
   z-index: 1;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 641px) and (max-width: 769px) {
+  .containerSkills {
+    width: 100%;
+    height: 250px;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+    transform: skewX(-5deg);
+  }
+  .containerSkills .containerSkills_blockA {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(#000000, transparent);
+  }
+  .containerSkills .containerSkills_title {
+    color: #56fbd3;
+    font-size: 140px;
+    position: absolute;
+    bottom: -30px;
+    left: 60px;
+    z-index: 0;
+    letter-spacing: -3px;
+  }
+  .containerSkills .containerSkills_blockB {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(transparent, #000000);
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
   .containerSkills {
     width: 100%;
     height: 200px;
@@ -5744,10 +5786,42 @@ a {
   }
   .containerSkills .containerSkills_title {
     color: #56fbd3;
-    font-size: 100px;
+    font-size: 120px;
     position: absolute;
     bottom: -30px;
-    left: calc(50% - 110px);
+    left: 60px;
+    z-index: 0;
+    letter-spacing: -3px;
+  }
+  .containerSkills .containerSkills_blockB {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(transparent, #000000);
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .containerSkills {
+    width: 100%;
+    height: 200px;
+    background: #000000;
+    position: relative;
+    overflow: hidden;
+    transform: skewX(-5deg);
+  }
+  .containerSkills .containerSkills_blockA {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(#000000, transparent);
+  }
+  .containerSkills .containerSkills_title {
+    color: #56fbd3;
+    font-size: 75px;
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 150px);
     z-index: 0;
     letter-spacing: -3px;
   }
@@ -5759,14 +5833,6 @@ a {
     bottom: -2px;
   }
 }
-/*
-* Responsive Desing 
-* 
-* @media (max-width:770px) and (min-width:1024px)
-* @media (max-width:641px) and (min-width:769px)
-* @media (max-width:481px) and (min-width:640px)
-* @media (max-width:320px) and (min-width:480px)
-*/
 /*************CONTENEDOR CUARTA SECCION HABILIDADES*****************************/
 /******************************************/
 /******************************************/
