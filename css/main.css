@@ -1018,7 +1018,6 @@ html {
 }
 .CONTENIDO_CONTENT .SKILLS_CONTAINER {
   grid-area: SKILLS_CONTAINER;
-  display: none;
 }
 .CONTENIDO_CONTENT .SKILLS_CONTENT {
   grid-area: SKILLS_CONTENT;
@@ -1059,7 +1058,6 @@ html {
   .CONTENIDO_CONTENT .SKILLS_CONTENT {
     grid-area: SKILLS_CONTENT;
     display: block;
-    display: none;
   }
 }
 #cont_descripcion_foto {
