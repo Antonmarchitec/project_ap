@@ -5806,6 +5806,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     position: relative;
     overflow: hidden;
     transform: skewX(-5deg);
+    margin-top: -60px;
   }
   .containerSkills .containerSkills_blockA {
     width: 100%;
