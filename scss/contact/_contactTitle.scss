@@ -93,7 +93,6 @@
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
-
         .conatinerTitle_blockA{
              width: 100%;
              height: 200px;
@@ -130,7 +129,7 @@
 @media (min-width:320px) and (max-width:480px) {
     .conatinerTitle{
         width: 100%;
-        height: 200px;
+        height: 150px;
         background:$colorNegro;
         position: relative;
         overflow: hidden;
@@ -138,31 +137,33 @@
 
         .conatinerTitle_blockA{
              width: 100%;
-             height: 200px;
+             height: 150px;
              background:linear-gradient($colorNegro,transparent);
              position: absolute;
              top: 0;
              z-index: 1;
+
         }
         .conatinerTitle_nameBig{
             .nameBig{
               color: $colorVerde;
-              font-size: 100px;
+              font-size: 75px;
               position: absolute;
-              bottom: -20px;
+              bottom: 0px;
               left:calc(50% - 150px);
               z-index: 0;
-              letter-spacing:$letterSpacing;
+              letter-spacing:-3px;
 
             }
         }
         .conatinerTitle_blockB{
             width: 100%;
-            height: 200px;
+            height: 150px;
             background:linear-gradient( transparent,$colorNegro);
             position: absolute;
             bottom: -2px;
             z-index: 1;
+
         }
     }
 }
