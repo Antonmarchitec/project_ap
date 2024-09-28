@@ -100,7 +100,7 @@ body::-webkit-scrollbar-thumb:hover {
 .header .contNavegador .contIcono .contLetras {
   margin-top: -5px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
   color: #56fbd3;
   transform: skewX(-5deg);
 }
@@ -134,7 +134,7 @@ body::-webkit-scrollbar-thumb:hover {
 .header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
   text-decoration: none;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   color: #56fbd3;
   text-align: start;
   transform: skewX(-5deg);
@@ -233,6 +233,7 @@ body::-webkit-scrollbar-thumb:hover {
   .header .contNavegador .contIcono_active .contLetras {
     font-size: 14px;
     color: #56fbd3;
+    font-weight: 300;
   }
   .header .contNavegador .contIcono {
     width: 160px;
@@ -281,6 +282,7 @@ body::-webkit-scrollbar-thumb:hover {
   .header .contNavegador .contIcono .submenu .submenu__item .submenu__link {
     text-decoration: none;
     font-size: 16px;
+    font-weight: 300;
     color: #56fbd3;
     text-align: start;
   }

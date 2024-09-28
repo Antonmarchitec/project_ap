@@ -82,7 +82,7 @@
           .contLetras{
             margin-top: -5px;
             font-size: 14px;
-            font-weight: 100;
+            font-weight: 300;
             color: $colorVerde;
             transform: skewX(-5deg);
 
@@ -116,11 +116,10 @@
               .submenu__link{
                 text-decoration: none;
                 font-size: 16px;
-                font-weight: 100;
+                font-weight: 300;
                 color: $colorVerde;
                 text-align: start;
                 transform: skewX(-5deg);
-
               }
 
               .submenu__img{
@@ -238,7 +237,7 @@
           .contLetras{
             font-size: 14px;
             color: $colorVerde;
-            
+            font-weight: 300;
           }
         }
 
@@ -288,6 +287,7 @@
               .submenu__link{
                 text-decoration: none;
                 font-size: 16px;
+                font-weight: 300;
                 color: $colorVerde;
                 text-align: start;
               }
