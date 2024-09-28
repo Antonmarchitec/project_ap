@@ -4178,7 +4178,7 @@ a {
   color: #56fbd3;
   font-size: 140px;
   position: absolute;
-  bottom: -40px;
+  bottom: -30px;
   left: 100px;
   z-index: 0;
   letter-spacing: -3px;
@@ -4210,7 +4210,7 @@ a {
     color: #56fbd3;
     font-size: 120px;
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     left: 100px;
     z-index: 0;
     letter-spacing: -3px;
@@ -4242,7 +4242,7 @@ a {
     color: #56fbd3;
     font-size: 120px;
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     left: 80px;
     z-index: 0;
     letter-spacing: -3px;
@@ -4274,7 +4274,7 @@ a {
     color: #56fbd3;
     font-size: 120px;
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     left: 60px;
     z-index: 0;
     letter-spacing: -3px;
@@ -4306,7 +4306,7 @@ a {
     color: #56fbd3;
     font-size: 100px;
     position: absolute;
-    bottom: -10px;
+    bottom: 0px;
     left: 50px;
     z-index: 0;
     letter-spacing: -3px;
@@ -4359,17 +4359,6 @@ a {
 @media (max-width:481px) and (min-width:640px)
 @media (max-width:320px) and (min-width:480px)
 */
-/*******
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:423px)  and (max-width:480px){}      160px
-
-**************************************************
-*************---------------------------------------/*/
 .containerNew {
   width: 80%;
   padding: 10px 0px;
