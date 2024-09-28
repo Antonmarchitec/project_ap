@@ -4338,7 +4338,7 @@ a {
     color: #56fbd3;
     font-size: 75px;
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     left: calc(50% - 150px);
     z-index: 0;
     letter-spacing: -3px;
