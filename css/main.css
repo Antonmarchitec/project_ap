@@ -1031,7 +1031,6 @@ html {
 }
 .CONTENIDO_CONTENT .PIE_CONTENT {
   grid-area: PIE_CONTENT;
-  display: none;
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
@@ -2082,7 +2081,7 @@ html {
   margin-left: 20px;
 }
 .contPie .contPie_cont .contPie_ul {
-  width: 400px;
+  width: 380px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -2090,29 +2089,32 @@ html {
 }
 .contPie .contPie_cont .contPie_ul .contPie_ul_li {
   list-style: none;
-  padding: 5px;
+  padding: 2px;
   transform: skew(-5deg);
 }
 .contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a {
   color: white;
+  font-weight: 100;
+  font-size: 14px;
 }
 .contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a:hover {
   color: #56fbd3;
 }
-.contPie .boxing2 {
+.contPie .caja_pie {
   width: 100%;
-  margin-top: 30px;
+  height: 50px;
+  margin-top: 20px;
 }
-.contPie .boxing2 .contFooter_derechos_text {
+.contPie .caja_pie .caja_pie_derechos_text {
   font-size: 14px;
   color: white;
   text-align: center;
   line-height: 16px;
   font-weight: 100;
 }
-.contPie .boxing2 .contFooter_derechos_text .ap {
+.contPie .caja_pie .caja_pie_derechos_text .ap {
   color: #56fbd3;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
@@ -2137,7 +2139,7 @@ html {
     margin-left: 20px;
   }
   .contPie .contPie_cont .contPie_ul {
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -2146,10 +2148,11 @@ html {
   .contPie .contPie_cont .contPie_ul .contPie_ul_li {
     list-style: none;
     padding: 0px;
+    line-height: 20px;
   }
   .contPie .contPie_cont .contPie_ul .contPie_ul_li .contPie_ul_li_a {
     color: white;
-    font-size: 14px;
+    font-size: 12px;
   }
   .contPie .boxing2 {
     width: 100%;
@@ -2164,7 +2167,7 @@ html {
   }
   .contPie .boxing2 .contFooter_derechos_text .ap {
     color: #56fbd3;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .barras {
