@@ -5835,6 +5835,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 /******************************************/
 /******************************************/
 .contImgBig {
+  margin-top: -20px;
   width: 100%;
   background-image: url(../img/developer.jpg);
   background-size: 100% 100%;
