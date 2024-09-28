@@ -161,11 +161,11 @@
             width:100%;
             font-weight: 100;
             padding: 5px 10px;
-            background:white;
-            border: 1px solid transparent;
+            background:$colorAzul;
+            border: 1px solid $colorVerde;
             border-radius: 2px;
             margin-left:0;
-            color: $colorAzul;
+            color: white;
             transition: 0.2s all;
             cursor: pointer;
          }
