@@ -10,8 +10,10 @@
    }
 
    .formulario{
-       width:100%;
-       padding: 20px 50px;
+       width:80%;
+       margin: auto;
+       padding: 20px 0px;
+
        .contDatosPersonales{
          width: 100%;
          padding: 20px 0px;
@@ -24,7 +26,8 @@
             width: 50%;
             label{
                color: white;
-               font-size:20px;
+               font-weight:300 ;
+               font-size:18px;
             }
 
             .campoInput{
@@ -37,9 +40,10 @@
                   background: transparent;
                   color: rgb(255, 255, 255);
                   font-size: 16px;
+                  font-weight: 100;
                   outline: 1px solid transparent;
                   border: 1px solid $colorVerde;
-                  border-radius: 3px;
+                  border-radius: 2px;
                }
                .input:focus{
                   outline: 1px solid $colorVerde;
@@ -58,10 +62,11 @@
 
          .campoTextarea{
             width: 45%;
-            border-radius: 5px;
+            border-radius: 2px;
             label{
                color: white;
                font-size:20px;
+               font-weight: 300;
             }
             .textarea{
                margin-top: 5px;
@@ -72,37 +77,32 @@
                border:1px solid $colorVerde;
                outline: none;
                color: rgb(255, 255, 255);
+               font-weight: 100;
                background: transparent;
                resize: none;
             }  
          }
       }
       .btnEnviar{
-         width:100%;
+         width:280px;
+         font-weight: 100;
          padding: 5px 10px;
-         background:$colorAzul;
-         border: 1px solid $colorVerde;
-         border-radius: 5px;
-         color: white;
+         background:white;
+         border: 1px solid transparent;
+         border-radius: 2px;
+         margin-left: calc(80% - 180px);
+         color: $colorAzul;
          transition: 0.2s all;
          cursor: pointer;
       }
       .btnEnviar:hover{
-         background: rgba(255, 255, 255, 0.075);
+         background: $colorAzul;
+         color: white;
+         border: 1px solid white;
+
       }
    } 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -124,7 +124,7 @@
       .formulario{
           width:100%;
           padding: 0px 20px;
-          .contDatosPersonales{
+         .contDatosPersonales{
             width: 100%;
             padding: 20px 0px;
             margin-top: 20px;
@@ -141,6 +141,7 @@
             .campoTextarea{
                width: 100%;
                padding: 5px 0px;
+               
                .campoTextareaTitle{
                   color: $colorCelesteOscuro;
                }
@@ -148,26 +149,27 @@
                   margin: 10px auto;
                   width: 100%;
                   padding: 10px;
-                  border-radius: 3px;
                   max-width:100%;
                   min-width:100%;
                   max-height:150px;
                   min-height: 150px;
                   resize: none;
-                  outline:1px solid $colorVerde;
                }  
             }
          }
          .btnEnviar{
             width:100%;
+            font-weight: 100;
             padding: 5px 10px;
-            background:$colorAzulTransparente;
-            border: 2px solid $colorVerde;
-            border-radius: 10px;
-            color: white;
+            background:white;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            margin-left:0;
+            color: $colorAzul;
             transition: 0.2s all;
             cursor: pointer;
          }
+   
       }
       
    }
