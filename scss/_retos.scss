@@ -23,14 +23,14 @@ a{
     //TITULO RETOS FRONTEND////////////////////////////////////////////
     .contentSection_cont{
         width: 100%;
-        height: 200px;
+        height: 180px;
         position: relative;
         overflow: hidden;
         transform: skew(-5deg);
 
         .contentSection_contSup{
             width: 100%;
-            height: 200px;
+            height: 180px;
             background: linear-gradient($colorAzul, transparent);
             position: absolute;
             top:0;
@@ -38,16 +38,17 @@ a{
         }
         .contentSection__title{
             text-align: center;
-            font-size: 120px;
+            font-size: 70px;
+            font-weight: 700;
             color: $colorVerde;
-            padding-top: 50px;
+            padding-top: 70px;
             animation-duration: 2s;
             letter-spacing: -5px;
-       }
-      
+
+        }
         .contentSection_contInf{
             width: 100%;
-            height: 200px;
+            height: 180px;
             background: linear-gradient(transparent , $colorAzul);
             position: absolute;
             bottom: -2px;
@@ -58,27 +59,28 @@ a{
         .contentSection_cont{
             margin: auto;
             width: 90%;
-            height: 250px;
+            height: 180px;
+
             .contentSection_contSup{
                 width: 100%;
-                height: 250px;
+                height: 180px;
             }
             .contentSection__title{
-                width: 80%;
+                width: 50%;
                 margin: auto;
                 text-align: center;
-                font-size: 100px;
+                font-size: 60px;
+                line-height: 50px;
                 color: $colorVerde;
-                padding-top: 20px;
+                padding-top: 40px;
                 animation-duration: 2s;
                 letter-spacing: -5px;
-                line-height: 90px;
 
             }
           
             .contentSection_contInf{
                 width: 100%;
-                height: 250px;
+                height: 180px;
             }
         }
     }
@@ -95,12 +97,12 @@ a{
                 width: 90%;
                 margin: auto;
                 text-align: center;
-                font-size: 80px;
+                font-size: 60px;
+                line-height: 50px;
                 color: $colorVerde;
-                padding-top: 10px;
+                padding-top: 40px;
                 animation-duration: 2s;
                 letter-spacing: -5px;
-                line-height: 70px;
            }
           
             .contentSection_contInf{
