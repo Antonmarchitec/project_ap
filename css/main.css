@@ -2420,20 +2420,30 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  /*******
+  RESPONSIVE DESING OFICIAL NUEVO
+  @media (min-width:1025px) and (max-width:1200px){}     175px
+  @media (min-width:900px)  and (max-width:1024px){}     124px
+  @media (min-width:770px)  and (max-width:899px){}      129px
+  @media (min-width:641px)  and (max-width:769px){}      128px
+  @media (min-width:481px)  and (max-width:640px){}      159px
+  @media (min-width:423px)  and (max-width:480px){}      160px
+
+  **************************************************
+  *************---------------------------------------/*/
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro {
   width: 285px;
   height: 420px;
   background: #060f1d;
   padding: 10px;
-  margin: 10px auto;
+  margin: 22px auto;
   overflow: hidden;
   border: 2px solid #56fbd3;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0px 0px 5px #56fbd3;
   transition: 0.2s all;
-  border: 1px solid greenyellow;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
   width: 90%;
@@ -2494,29 +2504,36 @@ a {
 .contentSection .contentSection__todosCuadros .contentSection__cuadro:hover {
   transform: scale(1.02, 1.02);
 }
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 423px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 300px;
-    height: 450px;
+    width: 285px;
+    height: 420px;
+    background: #060f1d;
     padding: 10px;
-    margin: 10px auto;
+    margin: 22px auto;
     overflow: hidden;
+    border: 2px solid #56fbd3;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #56fbd3;
     transition: 0.2s all;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
-    width: 100%;
-    height: 180px;
+    width: 90%;
+    height: 160px;
+    margin: auto;
     border-radius: 10px;
     overflow: hidden;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-    line-height: 25px;
-    color: white;
+    width: 200px;
+    margin: auto;
+    line-height: 18px;
+    color: #56fbd3;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
     margin-top: 10px;
@@ -2527,6 +2544,7 @@ a {
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details {
     margin-left: 10px;
+    margin-top: 30px;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja {
     width: auto;
@@ -2536,7 +2554,8 @@ a {
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja .sub {
     margin-left: 8px;
-    font-size: 17px;
+    font-size: 14px;
+    font-weight: 500;
     color: #56fbd3;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 {
@@ -2550,215 +2569,14 @@ a {
     color: white;
   }
   .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    color: #96aadb;
-  }
-}
-@media (min-width: 770px) and (max-width: 1024px) {
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 280px;
-    height: 450px;
-    padding: 10px;
-    margin: 10px auto;
-    overflow: hidden;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
-    transition: 0.2s all;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
-    width: 100%;
-    height: 180px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-    line-height: 25px;
-    color: white;
-    margin-top: 20px;
-    font-size: 22px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details {
-    margin-left: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja .sub {
-    margin-left: 8px;
-    font-size: 17px;
-    color: #56fbd3;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 {
-    width: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 .icon {
-    font-size: 20px;
-    color: white;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    color: #96aadb;
-  }
-}
-@media (min-width: 641px) and (max-width: 769px) {
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 280px;
-    height: 450px;
-    padding: 10px;
-    margin: 10px auto;
-    overflow: hidden;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
-    transition: 0.2s all;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
-    width: 100%;
-    height: 180px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-    line-height: 25px;
-    color: white;
-    margin-top: 20px;
-    font-size: 22px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details {
-    margin-left: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja .sub {
-    margin-left: 8px;
-    font-size: 17px;
-    color: #56fbd3;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 {
-    width: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 .icon {
-    font-size: 20px;
-    color: white;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    color: #96aadb;
-  }
-}
-@media (min-width: 481px) and (max-width: 640px) {
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro {
-    width: 220px;
-    height: 450px;
-    padding: 20px 10px;
-    margin: 10px auto;
-    overflow: hidden;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 5px rgb(255, 255, 255);
-    transition: 0.2s all;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
-    width: 100%;
-    height: 150px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-    line-height: 25px;
-    color: white;
-    margin-top: 20px;
-    font-size: 22px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details {
-    margin-left: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja {
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja .sub {
-    margin-left: 8px;
-    font-size: 17px;
-    color: #56fbd3;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 {
-    width: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 .icon {
-    font-size: 20px;
-    color: white;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-    color: #96aadb;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro {
+    margin: 5px auto;
     width: 95%;
-    height: 480px;
-    padding: 30px 30px;
-  }
-  .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
-    width: 80%;
-    margin: auto;
-    line-height: 25px;
-    color: white;
-    margin-top: 20px;
-    font-size: 22px;
+    color: #96aadb;
+    font-size: 14px;
   }
 }
 .contentSection .contentSection_blocks {
-  width: 200px;
+  width: 180px;
   margin: auto;
   padding: 5px 0px;
   display: flex;
@@ -2766,8 +2584,8 @@ a {
   align-items: center;
 }
 .contentSection .contentSection_blocks .contentSection_blocks_number {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   background: #56fbd3;
   display: flex;
   justify-content: center;

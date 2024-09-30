@@ -128,14 +128,13 @@ a{
             height: 420px;
             background:$colorAzulOscuro;
             padding: 10px;
-            margin: 10px auto;
+            margin: 22px auto;
             overflow: hidden;
             border: 2px solid $colorVerde;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0px 0px 5px $colorVerde;
             transition: 0.2s all;
-            border:1px solid greenyellow;
 
             .contentSection__cuadro__sup{
                 width: 90%;
@@ -199,62 +198,78 @@ a{
         .contentSection__cuadro:hover{
             transform: scale(1.02,1.02);
         }
-        @media (min-width:1025px) and (max-width:1200px){
+        /*******
+        RESPONSIVE DESING OFICIAL NUEVO
+        @media (min-width:1025px) and (max-width:1200px){}     175px
+        @media (min-width:900px)  and (max-width:1024px){}     124px
+        @media (min-width:770px)  and (max-width:899px){}      129px
+        @media (min-width:641px)  and (max-width:769px){}      128px
+        @media (min-width:481px)  and (max-width:640px){}      159px
+        @media (min-width:423px)  and (max-width:480px){}      160px
+
+        **************************************************
+        *************---------------------------------------/*/
+
+        @media (min-width:423px)  and (max-width:480px){
             .contentSection__cuadro{
-                width: 300px;
-                height: 450px;
+                width: 285px;
+                height: 420px;
+                background:$colorAzulOscuro;
                 padding: 10px;
-                margin: 10px auto;
+                margin: 22px auto;
                 overflow: hidden;
+                border: 2px solid $colorVerde;
                 border-radius: 10px;
                 text-align: center;
-                box-shadow: 0px 0px 5px rgb(255, 255, 255);
+                box-shadow: 0px 0px 5px $colorVerde;
                 transition: 0.2s all;
-
-                
+    
                 .contentSection__cuadro__sup{
-                    width: 100%;
-                    height: 180px;
-                    //background: floralwhite;
+                    width: 90%;
+                    height: 160px;
+                    margin: auto;
                     border-radius: 10px;
                     overflow: hidden;
                    
                 }
                 .contentSection__cuadro__title{
-                    line-height: 25px;
-                    color:white;
+                    width: 200px;
+                    margin: auto;
+                    line-height: 18px;
+                    color:$colorVerde;
                     margin-top: 20px;
-                    font-size: 22px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-transform: uppercase;
                 }
                 .contentSection__cuadro__box{
                      margin-top: 10px;
-                     //background: yellow;
                      display: flex;
                      flex-direction: row;
                      justify-content: space-between;
                      align-items: center;
                      .contentSection__cuadro__box__details{
                          margin-left: 10px;
-                         //background: green;
+                         margin-top: 30px;
                          .caja{
                              width: auto;
-                             //background: fuchsia;
                              display: flex;
                              justify-content: space-between;
                              align-items: center;
                              .sub{
                                  margin-left: 8px;
-                                 font-size: 17px;
+                                 font-size: 14px;
+                                 font-weight: 500;
                                  color: $colorVerde;
                              }
                          }
                      }
                      .contentSection__cuadro__box__details2{
                          width: 50px;
-                         //background: darkslateblue;
                          display: flex;
                          justify-content: space-between;
                          margin-right: 10px;
+    
                          .icon{
                              font-size: 20px;
                              color: white;
@@ -262,244 +277,10 @@ a{
                      }
                 }
                 .contentSection__cuadro__box__description{
-                    width: 90%;
-                    margin: auto;
-                    //background: fuchsia;
-                    margin-top: 10px;
+                    margin: 5px auto;
+                    width: 95%;
                     color:$colorCelesteOscuro;
-                }
-            }
-        }
-
-        @media (min-width:770px) and (max-width:1024px){
-            .contentSection__cuadro{
-                width: 280px;
-                height: 450px;
-                padding: 10px;
-                margin: 10px auto;
-                overflow: hidden;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 0px 0px 5px rgb(255, 255, 255);
-                transition: 0.2s all;
-
-                
-                .contentSection__cuadro__sup{
-                    width: 100%;
-                    height: 180px;
-                    //background: floralwhite;
-                    border-radius: 10px;
-                    overflow: hidden;
-                   
-                }
-                .contentSection__cuadro__title{
-                    line-height: 25px;
-                    color:white;
-                    margin-top: 20px;
-                    font-size: 22px;
-                }
-                .contentSection__cuadro__box{
-                     margin-top: 10px;
-                     //background: yellow;
-                     display: flex;
-                     flex-direction: row;
-                     justify-content: space-between;
-                     align-items: center;
-                     .contentSection__cuadro__box__details{
-                         margin-left: 10px;
-                         //background: green;
-                         .caja{
-                             width: auto;
-                             //background: fuchsia;
-                             display: flex;
-                             justify-content: space-between;
-                             align-items: center;
-                             .sub{
-                                 margin-left: 8px;
-                                 font-size: 17px;
-                                 color: $colorVerde;
-                             }
-                         }
-                     }
-                     .contentSection__cuadro__box__details2{
-                         width: 50px;
-                         //background: darkslateblue;
-                         display: flex;
-                         justify-content: space-between;
-                         margin-right: 10px;
-                         .icon{
-                             font-size: 20px;
-                             color: white;
-                         }
-                     }
-                }
-                .contentSection__cuadro__box__description{
-                    width: 90%;
-                    margin: auto;
-                    //background: fuchsia;
-                    margin-top: 10px;
-                    color:$colorCelesteOscuro;
-                }
-            }
-        }
-
-        @media (min-width:641px) and (max-width:769px){
-            .contentSection__cuadro{
-                width: 280px;
-                height: 450px;
-                padding: 10px;
-                margin: 10px auto;
-                overflow: hidden;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 0px 0px 5px rgb(255, 255, 255);
-                transition: 0.2s all;
-
-                
-                .contentSection__cuadro__sup{
-                    width: 100%;
-                    height: 180px;
-                    //background: floralwhite;
-                    border-radius: 10px;
-                    overflow: hidden;
-                   
-                }
-                .contentSection__cuadro__title{
-                    line-height: 25px;
-                    color:white;
-                    margin-top: 20px;
-                    font-size: 22px;
-                }
-                .contentSection__cuadro__box{
-                     margin-top: 10px;
-                     //background: yellow;
-                     display: flex;
-                     flex-direction: row;
-                     justify-content: space-between;
-                     align-items: center;
-                     .contentSection__cuadro__box__details{
-                         margin-left: 10px;
-                         //background: green;
-                         .caja{
-                             width: auto;
-                             //background: fuchsia;
-                             display: flex;
-                             justify-content: space-between;
-                             align-items: center;
-                             .sub{
-                                 margin-left: 8px;
-                                 font-size: 17px;
-                                 color: $colorVerde;
-                             }
-                         }
-                     }
-                     .contentSection__cuadro__box__details2{
-                         width: 50px;
-                         //background: darkslateblue;
-                         display: flex;
-                         justify-content: space-between;
-                         margin-right: 10px;
-                         .icon{
-                             font-size: 20px;
-                             color: white;
-                         }
-                     }
-                }
-                .contentSection__cuadro__box__description{
-                    width: 90%;
-                    margin: auto;
-                    //background: fuchsia;
-                    margin-top: 10px;
-                    color:$colorCelesteOscuro;
-                }
-            }
-        }
-
-        @media (min-width:481px) and (max-width:640px){
-            .contentSection__cuadro{
-                width: 220px;
-                height: 450px;
-                padding: 20px 10px;
-                margin: 10px auto;
-                overflow: hidden;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 0px 0px 5px rgb(255, 255, 255);
-                transition: 0.2s all;
-
-                
-                .contentSection__cuadro__sup{
-                    width: 100%;
-                    height: 150px;
-                    //background: floralwhite;
-                    border-radius: 10px;
-                    overflow: hidden;
-                   
-                }
-                .contentSection__cuadro__title{
-                    line-height: 25px;
-                    color:white;
-                    margin-top: 20px;
-                    font-size: 22px;
-                }
-                .contentSection__cuadro__box{
-                     margin-top: 10px;
-                     //background: yellow;
-                     display: flex;
-                     flex-direction: row;
-                     justify-content: space-between;
-                     align-items: center;
-                     .contentSection__cuadro__box__details{
-                         margin-left: 10px;
-                         //background: green;
-                         .caja{
-                             width: auto;
-                             //background: fuchsia;
-                             display: flex;
-                             justify-content: space-between;
-                             align-items: center;
-                             .sub{
-                                 margin-left: 8px;
-                                 font-size: 17px;
-                                 color: $colorVerde;
-                             }
-                         }
-                     }
-                     .contentSection__cuadro__box__details2{
-                         width: 50px;
-                         //background: darkslateblue;
-                         display: flex;
-                         justify-content: space-between;
-                         margin-right: 10px;
-                         .icon{
-                             font-size: 20px;
-                             color: white;
-                         }
-                     }
-                }
-                .contentSection__cuadro__box__description{
-                    width: 90%;
-                    margin: auto;
-                    //background: fuchsia;
-                    margin-top: 10px;
-                    color:$colorCelesteOscuro;
-                }
-            }
-        }
-
-        @media (min-width:320px) and (max-width:480px){
-            .contentSection__cuadro{
-                width:95%;
-                height: 480px;
-                padding: 30px 30px;
-                .contentSection__cuadro__title{
-                    width: 80%;
-                    margin: auto;
-                    line-height: 25px;
-                    color:white;
-                    margin-top: 20px;
-                    font-size: 22px;
-
+                    font-size: 14px;
                 }
             }
         }
@@ -508,7 +289,7 @@ a{
  
     //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
     .contentSection_blocks{
-        width: 200px;
+        width: 180px;
         margin: auto;
         padding: 5px 0px;
         display: flex;
@@ -516,8 +297,8 @@ a{
         align-items: center;
 
         .contentSection_blocks_number{
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
             background: $colorVerde;
             display: flex;
             justify-content: center;
