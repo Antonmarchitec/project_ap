@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 .header {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   transition: 0.5s all;
   width: 100%;
   box-shadow: 0px 2px 10px black;
@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .header .contNavegador .contIcono .submenu {
   width: 600px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 5px 5px black;
   padding: 10px;
@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 180px;
   padding: 20px;
   border-radius: 10px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   margin: 3px 0px;
   box-shadow: 0px 0px 2px;
   transition: 0.2s all;
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 160px;
     padding: 15px 20px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     transition: 0.5s all;
     z-index: 200;
   }
@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     margin: 3px 0px;
     box-shadow: 0px 0px 2px;
     transition: 0.2s all;
@@ -1071,7 +1071,7 @@ html {
 #cont_descripcion_foto .contBase {
   width: 100%;
   padding: 50px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1152,7 +1152,7 @@ html {
 }
 #cont_descripcion_foto .contBase .contenedor_der {
   width: 40%;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1194,7 +1194,7 @@ html {
   top: 0;
   left: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
+  background: linear-gradient(90deg, hsl(216deg, 61%, 12%) 0%, hsl(216deg, 61%, 12%) 15%, transparent);
 }
 
 /*********************************************************
@@ -1210,7 +1210,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1282,7 +1282,7 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_der {
     width: 40%;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     margin-right: 20px;
     display: flex;
     justify-content: center;
@@ -1325,7 +1325,7 @@ html {
     top: 0;
     left: 0;
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
+    background: linear-gradient(90deg, hsl(216deg, 61%, 12%) 0%, hsl(216deg, 61%, 12%) 15%, transparent);
   }
 }
 /*********************************************************
@@ -1341,7 +1341,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1466,7 +1466,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1591,7 +1591,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1717,7 +1717,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 10px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1835,7 +1835,7 @@ html {
 }
 .contContact {
   width: 100%;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   padding-bottom: 50px;
 }
 .contContact .contContact_gradient {
@@ -1920,12 +1920,12 @@ html {
   border: 1px solid transparent;
   border-radius: 2px;
   margin-left: calc(80% - 180px);
-  color: #0c1b32;
+  color: hsl(216deg, 61%, 12%);
   transition: 0.2s all;
   cursor: pointer;
 }
 .contContact .formulario .btnEnviar:hover {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   color: white;
   border: 1px solid white;
 }
@@ -1933,7 +1933,7 @@ html {
 @media (min-width: 320px) and (max-width: 720px) {
   .contContact {
     width: 100%;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding-bottom: 50px;
   }
   .contContact .contContact_gradient {
@@ -1979,7 +1979,7 @@ html {
     width: 100%;
     font-weight: 100;
     padding: 5px 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     border: 1px solid #56fbd3;
     border-radius: 2px;
     margin-left: 0;
@@ -2230,7 +2230,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
   padding: 10px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   margin: auto;
   display: grid;
   overflow: hidden;
@@ -2328,7 +2328,7 @@ a {
 .contentSection {
   width: 100%;
   padding: 10px 15px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
 }
 .contentSection .contentSection_cont {
   width: 100%;
@@ -2340,7 +2340,7 @@ a {
 .contentSection .contentSection_cont .contentSection_contSup {
   width: 100%;
   height: 180px;
-  background: linear-gradient(#0c1b32, transparent);
+  background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
   position: absolute;
   top: 0;
 }
@@ -2356,7 +2356,7 @@ a {
 .contentSection .contentSection_cont .contentSection_contInf {
   width: 100%;
   height: 180px;
-  background: linear-gradient(transparent, #0c1b32);
+  background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
   position: absolute;
   bottom: -2px;
 }
@@ -2504,7 +2504,7 @@ a {
 .contentSection .contentSection__todosCuadros .contentSection__cuadro:hover {
   transform: scale(1.02, 1.02);
 }
-@media (min-width: 400px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .contentSection .contentSection__todosCuadros .contentSection__cuadro {
     width: 320px;
     height: 420px;
@@ -2593,7 +2593,7 @@ a {
   align-items: center;
   cursor: pointer;
   font-weight: bold;
-  color: #0c1b32;
+  color: hsl(216deg, 61%, 12%);
   transition: 0.3s all;
 }
 .contentSection .contentSection_blocks .contentSection_blocks_number:hover {
@@ -2601,22 +2601,20 @@ a {
   color: #56fbd3;
 }
 
-.title__sidebar {
-  color: white;
-  font-size: 40px;
-  margin-left: 10px;
-  transform: skew(-5deg);
-}
-
 .contSidebar {
-  margin-top: 10px;
+  margin-top: -10px;
   width: 100%;
   height: 95%;
-  padding: 10px 20px 10px 10px;
-  background: white;
+  padding: 40px 20px;
+  background: #0f223f;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.contSidebar .title__sidebar {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 300;
 }
 .contSidebar .anuncio1 {
   margin: 10px auto;
@@ -2631,118 +2629,10 @@ a {
   height: 280px;
   background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
   background-size: 100% 100%;
+  display: none;
+  visibility: hidden;
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .contSidebar {
-    /*width: 100%;
-    height: 100%;
-    padding: 10px 20px 10px 10px;
-    background: white;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contSidebar .anuncio1 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-  .contSidebar .anuncio2 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-}
-@media (min-width: 770px) and (max-width: 1024px) {
-  .contSidebar {
-    /*width: 100%;
-    height: 100%;
-    padding: 10px 20px 10px 10px;
-    background: white;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contSidebar .anuncio1 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-  .contSidebar .anuncio2 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-}
-@media (min-width: 641px) and (max-width: 769px) {
-  .contSidebar {
-    /*width: 100%;
-    height: 100%;
-    padding: 10px 20px 10px 10px;
-    background: white;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contSidebar .anuncio1 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-  .contSidebar .anuncio2 {
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
-  }
-}
-@media (min-width: 481px) and (max-width: 640px) {
-  .contSidebar {
-    /*width: 100%;
-    height: 100%;
-    padding: 10px 20px 10px 10px;
-    background: white;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contSidebar .anuncio1 {
-    margin: 10px auto;
-    width: 220px;
-    height: 220px;
-  }
-  .contSidebar .anuncio2 {
-    margin: 10px auto;
-    width: 220px;
-    height: 220px;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .contSidebar {
-    /*width: 100%;
-    height: 100%;
-    padding: 10px 20px 10px 10px;
-    background: white;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contSidebar .anuncio1 {
-    margin: 10px auto;
-    width: 300px;
-    height: 300px;
-  }
-  .contSidebar .anuncio2 {
-    margin: 10px auto;
-    width: 300px;
-    height: 300px;
-  }
-}
 .contentFoot {
   width: 100%;
   padding: 10px 0px;
@@ -2914,7 +2804,7 @@ a {
 .CONTAINER_LANDING {
   width: 100%;
   max-width: 1300px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   padding: 20px 0px;
   margin: auto;
   display: grid;
@@ -2940,7 +2830,7 @@ a {
 .CONTAINER_LANDING .BARS_VERTICLE .contBars {
   width: 100%;
   padding: 5px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   text-align: center;
 }
 .CONTAINER_LANDING .BARS_VERTICLE .contBars .contBars_barra {
@@ -2964,14 +2854,14 @@ a {
   width: 100%;
   height: 250px;
   position: relative;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   overflow: hidden;
   transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
   width: 100%;
   height: 250px;
-  background: linear-gradient(#0c1b32, transparent);
+  background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
   position: absolute;
   top: 0;
   z-index: -10;
@@ -2991,7 +2881,7 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
   width: 100%;
   height: 250px;
-  background: linear-gradient(transparent, #0c1b32);
+  background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
   position: absolute;
   bottom: -2px;
 }
@@ -3022,7 +2912,7 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
   width: 500px;
   padding: 10px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
   color: #56fbd3;
@@ -3089,7 +2979,7 @@ a {
   align-items: center;
   cursor: pointer;
   font-weight: bold;
-  color: #0c1b32;
+  color: hsl(216deg, 61%, 12%);
   transition: 0.3s all;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
@@ -3153,7 +3043,7 @@ a {
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3177,13 +3067,13 @@ a {
     width: 100%;
     height: 250px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(#0c1b32, transparent);
+    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3203,7 +3093,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, #0c1b32);
+    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
     position: absolute;
     bottom: -2px;
   }
@@ -3231,7 +3121,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3296,7 +3186,7 @@ a {
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3320,13 +3210,13 @@ a {
     width: 100%;
     height: 250px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(#0c1b32, transparent);
+    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3346,7 +3236,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, #0c1b32);
+    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
     position: absolute;
     bottom: -2px;
   }
@@ -3374,7 +3264,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3443,7 +3333,7 @@ a {
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3467,13 +3357,13 @@ a {
     width: 100%;
     height: 250px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(#0c1b32, transparent);
+    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3493,7 +3383,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, #0c1b32);
+    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
     position: absolute;
     bottom: -2px;
   }
@@ -3521,7 +3411,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3593,7 +3483,7 @@ a {
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3617,13 +3507,13 @@ a {
     width: 100%;
     height: 200px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 200px;
-    background: linear-gradient(#0c1b32, transparent);
+    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3643,7 +3533,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 200px;
-    background: linear-gradient(transparent, #0c1b32);
+    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
     position: absolute;
     bottom: -2px;
   }
@@ -3673,7 +3563,7 @@ a {
     margin-top: 0px;
     width: 100%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3752,7 +3642,7 @@ a {
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     padding: 30px 0px;
     margin: auto;
     display: grid;
@@ -3776,13 +3666,13 @@ a {
     width: 100%;
     height: 200px;
     position: relative;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 200px;
-    background: linear-gradient(#0c1b32, transparent);
+    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3802,7 +3692,7 @@ a {
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 200px;
-    background: linear-gradient(transparent, #0c1b32);
+    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
     position: absolute;
     bottom: -2px;
   }
@@ -3832,7 +3722,7 @@ a {
     margin-top: 0px;
     width: 100%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -4658,7 +4548,7 @@ a {
 /******************************************/
 /******************************************/
 #contBase {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
 }
 #contBase .containerBaseCuadros {
   margin-top: -150px;
@@ -4940,7 +4830,7 @@ a {
 
 @media (min-width: 641px) and (max-width: 1200px) {
   #contBase {
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   #contBase .containerBaseCuadros {
     margin-top: -100px;
@@ -4953,7 +4843,7 @@ a {
 }
 @media (min-width: 320px) and (max-width: 640px) {
   #contBase {
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   #contBase .containerBaseCuadros {
     margin-top: -50px;
@@ -5897,7 +5787,7 @@ html, body {
   max-width: 1440px;
   margin: auto;
   display: grid;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   grid-template-columns: repeat(2, 1fr) 25%;
   grid-template-rows: auto;
   grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
@@ -5924,7 +5814,7 @@ html, body {
 @media (min-width: 320px) and (max-width: 769px) {
   .CONTAINER_BLOG {
     display: grid;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS" "BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
@@ -5941,7 +5831,7 @@ html, body {
 .contBlogTop {
   width: 100%;
   padding: 10px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -5990,7 +5880,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6039,7 +5929,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6086,7 +5976,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6129,7 +6019,7 @@ html, body {
 .contBlogMenu {
   width: 100%;
   padding: 10px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6182,7 +6072,7 @@ html, body {
   .contBlogMenu {
     width: 100%;
     padding: 10px 0px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6198,7 +6088,7 @@ html, body {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     top: -220px;
     opacity: 1;
     transition: 0.2s linear;
@@ -6492,7 +6382,7 @@ html, body {
 .contBlogBloggersBase .contBlogBloggers {
   width: 100%;
   padding: 50px 0px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6548,7 +6438,7 @@ html, body {
   border: 2px solid #56fbd3;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   border: 2px solid white;
   border-radius: 5px;
 }
@@ -6590,13 +6480,13 @@ html, body {
   justify-content: center;
   align-items: center;
   transition: 0.2s all;
-  color: #0c1b32;
+  color: hsl(216deg, 61%, 12%);
   font-weight: 600;
   font-size: 15px;
   border-radius: 3px;
 }
 .contBlogNumerador .contBlogNumerador_box:hover {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
   cursor: pointer;
   color: white;
 }
@@ -6608,7 +6498,7 @@ html, body {
   .contBlogBloggersBase .contBlogBloggers {
     width: 100%;
     padding: 10px 20px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
@@ -6660,7 +6550,7 @@ html, body {
     border: 2px solid #56fbd3;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     border: 2px solid white;
     border-radius: 5px;
   }
@@ -6692,7 +6582,7 @@ html, body {
   .contBlogBloggersBase .contBlogBloggers {
     width: 100%;
     padding: 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
@@ -6747,7 +6637,7 @@ html, body {
     border: 2px solid #56fbd3;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     border: 2px solid white;
     border-radius: 5px;
   }
@@ -6768,7 +6658,7 @@ html, body {
 .contBlogSidebar {
   width: 100%;
   padding: 50px 10px;
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
 }
 .contBlogSidebar .contBlogSidebar_contPublicidad {
   width: 100%;
@@ -6795,11 +6685,11 @@ html, body {
   transition: 0.2s linear;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-  color: #0c1b32;
+  color: hsl(216deg, 61%, 12%);
   transition: 0.2s linear;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover {
-  background: #0c1b32;
+  background: hsl(216deg, 61%, 12%);
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover .iconBlog {
   color: white;
@@ -6809,7 +6699,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 50px 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
   }
   .contBlogSidebar .contBlogSidebar_contPublicidad {
     width: 100%;
@@ -6835,7 +6725,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: #0c1b32;
+    color: hsl(216deg, 61%, 12%);
     transition: 0.2s linear;
   }
 }
@@ -6843,7 +6733,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 20px 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -6873,7 +6763,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: #0c1b32;
+    color: hsl(216deg, 61%, 12%);
     transition: 0.2s linear;
   }
 }
@@ -6881,7 +6771,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 20px 10px;
-    background: #0c1b32;
+    background: hsl(216deg, 61%, 12%);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -6911,7 +6801,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: #0c1b32;
+    color: hsl(216deg, 61%, 12%);
     transition: 0.2s linear;
   }
 }
