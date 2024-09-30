@@ -2423,7 +2423,7 @@ a {
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro {
   width: 285px;
-  height: 450px;
+  height: 420px;
   background: #060f1d;
   padding: 10px;
   margin: 10px auto;
@@ -2433,6 +2433,7 @@ a {
   text-align: center;
   box-shadow: 0px 0px 5px #56fbd3;
   transition: 0.2s all;
+  border: 1px solid greenyellow;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__sup {
   width: 100%;
@@ -2443,10 +2444,11 @@ a {
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__title {
   width: 200px;
   margin: auto;
-  line-height: 25px;
+  line-height: 18px;
   color: #56fbd3;
   margin-top: 20px;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box {
@@ -2468,7 +2470,8 @@ a {
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details .caja .sub {
   margin-left: 8px;
-  font-size: 17px;
+  font-size: 14px;
+  font-weight: 500;
   color: #56fbd3;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box .contentSection__cuadro__box__details2 {
@@ -2482,10 +2485,10 @@ a {
   color: white;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro .contentSection__cuadro__box__description {
-  margin: 10px auto;
-  width: 90%;
+  margin: 5px auto;
+  width: 95%;
   color: #96aadb;
-  font-size: 16px;
+  font-size: 14px;
 }
 .contentSection .contentSection__todosCuadros .contentSection__cuadro:hover {
   transform: scale(1.02, 1.02);
