@@ -15,7 +15,7 @@
     display: grid;
     //grid-gap: 1em;
     overflow: hidden;
-    grid-template-columns: 50px repeat(2,1fr) 280px;
+    grid-template-columns: 50px repeat(2,1fr) 320px;
     grid-template-rows: auto;
     grid-template-areas: "HEADER                 HEADER                HEADER               HEADER"
                          "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
@@ -233,28 +233,10 @@
         padding: 10px 0px;
         //background: brown;
         grid-area:SIDEBAR;
-        .sidebarTitle{
-            color: white;
-            letter-spacing: -1px;
-            font-size: 40px;
-            transform: skew(-5deg);
-            
-        }
-        .contSidebar{
-            width: 100%;
-            height: 95%;
-            background:rgb(255, 255, 255);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            border-radius: 5px;
-            .contSidebar_bloque{
-               width: 100%;
-               //background: orange;
-               margin: 10px auto;
-            }
-        }
+        
+        /*****************************************
+        LOS ESTILOS ESTAN SIENDO DUPLICADOS DESDE _retos.scss a travez del main.scss
+        ******************************************/
     }
 
     .FOOTER{
