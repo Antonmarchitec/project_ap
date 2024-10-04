@@ -67,38 +67,35 @@
         grid-area:SECTION_PROYECTS;
         .contSectionTitle{
             width: 100%;
-            height: 250px;
+            height: 180px;
             position: relative;
             background: $colorAzul;
             overflow: hidden;
             transform: skew(-5deg);
-
             .contSectionTitleTop{
                 width: 100%;
-                height: 250px;
-                background: linear-gradient($colorAzul,transparent);
+                height: 180px;
+                background: linear-gradient(#0c1b32, transparent);
                 position: absolute;
                 top: 0;
-                z-index: -10;
+
             }
             .titleProyectos{
-                width:80%;
-                margin: auto;
-                color: $colorVerde;
-                padding-top: 100px;
-                font-size: 120px;
                 text-align: center;
-                line-height: 110px;
-                letter-spacing: -9px;
-                animation-duration: 3s;
-                z-index: 50;
+                font-size: 70px;
+                font-weight: 700;
+                color: #56fbd3;
+                padding-top: 70px;
+                animation-duration: 2s;
+                letter-spacing: -5px;
             }
             .contSectionTitleBottom{
                 width: 100%;
-                height: 250px;
-                background:linear-gradient(transparent,$colorAzul);
+                height: 180px;
+                background: linear-gradient(transparent, #0c1b32);
                 position: absolute;
                 bottom: -2px;
+
             }
 
         }
@@ -107,7 +104,7 @@
         .contSectionWeb{
             width: 100%;
             padding: 10px 0px;
-            
+            border: 1px solid greenyellow;
             .contSectionWeb_block{
                 margin-top: 20px;
                 margin-bottom: 60px;
@@ -133,12 +130,15 @@
                     background:$colorAzul;
                     .contSectionWeb_desc_title{
                         color: $colorVerde;
-                        font-size: 45px;
+                        font-size: 40px;
+                        font-weight: 500;
                     }
     
                     .contSectionWeb_desc_text{
-                        margin-top: 20px;
+                        margin-top: 10px;
                         color: $colorCelesteOscuro;
+                        font-size: 14px;
+
                     }
     
                     .contSectionWeb_desc_block{
@@ -148,21 +148,28 @@
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
-                        justify-content: space-between;
+                        justify-content: space-evenly;
                         align-items: flex-start;
 
                         .contSectionWeb_desc_block_box{
                             width: 50%;
                             padding: 10px 0px;
+
                             .contSectionWeb_desc_block_box_subtitle{
-                                font-size: 20px;
+                                font-size: 18px;
+                                font-weight: 500;
                                 color: $colorVerde;
+
                             }
                             .contSectionWeb_desc_block_box_desc{
                                 margin-top: 5px;
+                                border: 1px solid red;
                                 .text{
                                     color:white;
-                                    margin: 0;
+                                    margin: 1px auto;
+                                    font-size: 14px;
+                                    font-weight: 300;
+
                                 }
                             }
                         }
@@ -194,22 +201,23 @@
 
         //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
         .contentSection_blocks{
-            width: 190px;
-            margin: auto;
-            padding: 10px 0px;
+            width: 180px;
+            margin: 30px auto;
+            padding: 5px 0px;
             display: flex;
             justify-content: space-around;
             align-items: center;
+
             .contentSection_blocks_number{
-                width: 30px;
-                height: 30px;
-                background: $colorVerde;
+                width: 25px;
+                height: 25px;
+                background: #56fbd3;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
                 font-weight: bold;
-                color: $colorAzul;
+                color: #0c1b32;
                 transition: 0.3s all;
             }
             .contentSection_blocks_number:hover{
