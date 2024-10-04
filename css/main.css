@@ -2955,7 +2955,6 @@ RESPONSIVE DESING OFICIAL NUEVO
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
   width: 100%;
   padding: 10px 0px;
-  border: 1px solid greenyellow;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block {
   margin-top: 20px;
@@ -3013,7 +3012,6 @@ RESPONSIVE DESING OFICIAL NUEVO
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
   margin-top: 5px;
-  border: 1px solid red;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
   color: white;
@@ -3028,8 +3026,9 @@ RESPONSIVE DESING OFICIAL NUEVO
   border: 2px solid transparent;
   border-bottom: 2px solid #56fbd3;
   background: rgba(5, 11, 32, 0.7764705882);
-  transform: skew(-5deg);
   color: white;
+  font-size: 14px;
+  font-weight: 500;
   transition: 0.5s all;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {

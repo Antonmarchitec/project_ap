@@ -104,7 +104,6 @@
         .contSectionWeb{
             width: 100%;
             padding: 10px 0px;
-            border: 1px solid greenyellow;
             .contSectionWeb_block{
                 margin-top: 20px;
                 margin-bottom: 60px;
@@ -163,7 +162,6 @@
                             }
                             .contSectionWeb_desc_block_box_desc{
                                 margin-top: 5px;
-                                border: 1px solid red;
                                 .text{
                                     color:white;
                                     margin: 1px auto;
@@ -184,9 +182,11 @@
                         border: 2px solid transparent;
                         border-bottom: 2px solid $colorVerde;
                         background: $colorAzulTransparente;
-                        transform: skew(-5deg);
                         color: white;
+                        font-size: 14px;
+                        font-weight: 500;
                         transition: 0.5s all;
+
                     }
                     .contSectionWeb_desc_btn:hover{
                         border: 2px solid $colorVerde;
@@ -207,7 +207,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-
+            
             .contentSection_blocks_number{
                 width: 25px;
                 height: 25px;
