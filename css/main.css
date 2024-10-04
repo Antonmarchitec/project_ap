@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 .header {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   transition: 0.5s all;
   width: 100%;
   box-shadow: 0px 2px 10px black;
@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .header .contNavegador .contIcono .submenu {
   width: 600px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 5px 5px black;
   padding: 10px;
@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 180px;
   padding: 20px;
   border-radius: 10px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   margin: 3px 0px;
   box-shadow: 0px 0px 2px;
   transition: 0.2s all;
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 160px;
     padding: 15px 20px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     transition: 0.5s all;
     z-index: 200;
   }
@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb:hover {
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     margin: 3px 0px;
     box-shadow: 0px 0px 2px;
     transition: 0.2s all;
@@ -1071,7 +1071,7 @@ html {
 #cont_descripcion_foto .contBase {
   width: 100%;
   padding: 50px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1152,7 +1152,7 @@ html {
 }
 #cont_descripcion_foto .contBase .contenedor_der {
   width: 40%;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1194,7 +1194,7 @@ html {
   top: 0;
   left: 0;
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, hsl(216deg, 61%, 12%) 0%, hsl(216deg, 61%, 12%) 15%, transparent);
+  background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
 }
 
 /*********************************************************
@@ -1210,7 +1210,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1282,7 +1282,7 @@ html {
   }
   #cont_descripcion_foto .contBase .contenedor_der {
     width: 40%;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     margin-right: 20px;
     display: flex;
     justify-content: center;
@@ -1325,7 +1325,7 @@ html {
     top: 0;
     left: 0;
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, hsl(216deg, 61%, 12%) 0%, hsl(216deg, 61%, 12%) 15%, transparent);
+    background: linear-gradient(90deg, #0c1b32 0%, #0c1b32 15%, transparent);
   }
 }
 /*********************************************************
@@ -1341,7 +1341,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1466,7 +1466,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1591,7 +1591,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 50px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1717,7 +1717,7 @@ html {
   #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 10px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1755,11 +1755,12 @@ html {
     left: initial;
     bottom: initial;
     top: initial;
+    border: 1px solid green;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: start;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1835,7 +1836,7 @@ html {
 }
 .contContact {
   width: 100%;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   padding-bottom: 50px;
 }
 .contContact .contContact_gradient {
@@ -1920,12 +1921,12 @@ html {
   border: 1px solid transparent;
   border-radius: 2px;
   margin-left: calc(80% - 180px);
-  color: hsl(216deg, 61%, 12%);
+  color: #0c1b32;
   transition: 0.2s all;
   cursor: pointer;
 }
 .contContact .formulario .btnEnviar:hover {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   color: white;
   border: 1px solid white;
 }
@@ -1933,7 +1934,7 @@ html {
 @media (min-width: 320px) and (max-width: 720px) {
   .contContact {
     width: 100%;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding-bottom: 50px;
   }
   .contContact .contContact_gradient {
@@ -1979,7 +1980,7 @@ html {
     width: 100%;
     font-weight: 100;
     padding: 5px 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     border: 1px solid #56fbd3;
     border-radius: 2px;
     margin-left: 0;
@@ -2230,7 +2231,7 @@ h3 {
   width: 100%;
   max-width: 1440px;
   padding: 10px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   margin: auto;
   display: grid;
   overflow: hidden;
@@ -2328,7 +2329,7 @@ a {
 .contentSection {
   width: 100%;
   padding: 10px 15px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
 }
 .contentSection .contentSection_cont {
   width: 100%;
@@ -2340,7 +2341,7 @@ a {
 .contentSection .contentSection_cont .contentSection_contSup {
   width: 100%;
   height: 180px;
-  background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+  background: linear-gradient(#0c1b32, transparent);
   position: absolute;
   top: 0;
 }
@@ -2356,7 +2357,7 @@ a {
 .contentSection .contentSection_cont .contentSection_contInf {
   width: 100%;
   height: 180px;
-  background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+  background: linear-gradient(transparent, #0c1b32);
   position: absolute;
   bottom: -2px;
 }
@@ -2593,7 +2594,7 @@ a {
   align-items: center;
   cursor: pointer;
   font-weight: bold;
-  color: hsl(216deg, 61%, 12%);
+  color: #0c1b32;
   transition: 0.3s all;
 }
 .contentSection .contentSection_blocks .contentSection_blocks_number:hover {
@@ -2815,7 +2816,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 .CONTAINER_LANDING {
   width: 100%;
   max-width: 1300px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   padding: 20px 0px;
   margin: auto;
   display: grid;
@@ -2841,7 +2842,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 .CONTAINER_LANDING .BARS_VERTICLE .contBars {
   width: 100%;
   padding: 5px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   text-align: center;
 }
 .CONTAINER_LANDING .BARS_VERTICLE .contBars .contBars_barra {
@@ -2865,14 +2866,14 @@ RESPONSIVE DESING OFICIAL NUEVO
   width: 100%;
   height: 250px;
   position: relative;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   overflow: hidden;
   transform: skew(-5deg);
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
   width: 100%;
   height: 250px;
-  background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+  background: linear-gradient(#0c1b32, transparent);
   position: absolute;
   top: 0;
   z-index: -10;
@@ -2892,7 +2893,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
   width: 100%;
   height: 250px;
-  background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+  background: linear-gradient(transparent, #0c1b32);
   position: absolute;
   bottom: -2px;
 }
@@ -2923,7 +2924,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
   width: 500px;
   padding: 10px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
   color: #56fbd3;
@@ -2990,7 +2991,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   align-items: center;
   cursor: pointer;
   font-weight: bold;
-  color: hsl(216deg, 61%, 12%);
+  color: #0c1b32;
   transition: 0.3s all;
 }
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
@@ -3054,7 +3055,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3078,13 +3079,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     height: 250px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+    background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3104,7 +3105,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+    background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: -2px;
   }
@@ -3132,7 +3133,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3197,7 +3198,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3221,13 +3222,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     height: 250px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+    background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3247,7 +3248,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+    background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: -2px;
   }
@@ -3275,7 +3276,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3344,7 +3345,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3368,13 +3369,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     height: 250px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 250px;
-    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+    background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3394,7 +3395,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 250px;
-    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+    background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: -2px;
   }
@@ -3422,7 +3423,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
     width: 50%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3494,7 +3495,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -3518,13 +3519,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     height: 200px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 200px;
-    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+    background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3544,7 +3545,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 200px;
-    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+    background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: -2px;
   }
@@ -3574,7 +3575,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin-top: 0px;
     width: 100%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -3653,7 +3654,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING {
     width: 100%;
     max-width: 1300px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     padding: 30px 0px;
     margin: auto;
     display: grid;
@@ -3677,13 +3678,13 @@ RESPONSIVE DESING OFICIAL NUEVO
     width: 100%;
     height: 200px;
     position: relative;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     overflow: hidden;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
     height: 200px;
-    background: linear-gradient(hsl(216deg, 61%, 12%), transparent);
+    background: linear-gradient(#0c1b32, transparent);
     position: absolute;
     top: 0;
     z-index: -10;
@@ -3703,7 +3704,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
     height: 200px;
-    background: linear-gradient(transparent, hsl(216deg, 61%, 12%));
+    background: linear-gradient(transparent, #0c1b32);
     position: absolute;
     bottom: -2px;
   }
@@ -3733,7 +3734,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin-top: 0px;
     width: 100%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
@@ -4559,7 +4560,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 /******************************************/
 /******************************************/
 #contBase {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
 }
 #contBase .containerBaseCuadros {
   margin-top: -150px;
@@ -4841,7 +4842,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 @media (min-width: 641px) and (max-width: 1200px) {
   #contBase {
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   #contBase .containerBaseCuadros {
     margin-top: -100px;
@@ -4854,7 +4855,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 }
 @media (min-width: 320px) and (max-width: 640px) {
   #contBase {
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   #contBase .containerBaseCuadros {
     margin-top: -50px;
@@ -5798,7 +5799,7 @@ html, body {
   max-width: 1440px;
   margin: auto;
   display: grid;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   grid-template-columns: repeat(2, 1fr) 25%;
   grid-template-rows: auto;
   grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
@@ -5825,7 +5826,7 @@ html, body {
 @media (min-width: 320px) and (max-width: 769px) {
   .CONTAINER_BLOG {
     display: grid;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "BLOG_BLOCK_TOP       BLOG_BLOCK_TOP       BLOG_BLOCK_TOP" "BLOG_BLOCK_MENU      BLOG_BLOCK_MENU      BLOG_BLOCK_MENU" "BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER    BLOG_BLOCK_HEADER" "BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS  BLOG_BLOCK_BLOGGERS" "BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR   BLOG_BLOCK_SIDEBAR" "BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER    BLOG_BLOCK_FOOTER";
@@ -5842,7 +5843,7 @@ html, body {
 .contBlogTop {
   width: 100%;
   padding: 10px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -5891,7 +5892,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -5940,7 +5941,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -5987,7 +5988,7 @@ html, body {
   .contBlogTop {
     width: 100%;
     padding: 10px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6030,7 +6031,7 @@ html, body {
 .contBlogMenu {
   width: 100%;
   padding: 10px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -6083,7 +6084,7 @@ html, body {
   .contBlogMenu {
     width: 100%;
     padding: 10px 0px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6099,7 +6100,7 @@ html, body {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     top: -220px;
     opacity: 1;
     transition: 0.2s linear;
@@ -6393,7 +6394,7 @@ html, body {
 .contBlogBloggersBase .contBlogBloggers {
   width: 100%;
   padding: 50px 0px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6449,7 +6450,7 @@ html, body {
   border: 2px solid #56fbd3;
 }
 .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   border: 2px solid white;
   border-radius: 5px;
 }
@@ -6491,13 +6492,13 @@ html, body {
   justify-content: center;
   align-items: center;
   transition: 0.2s all;
-  color: hsl(216deg, 61%, 12%);
+  color: #0c1b32;
   font-weight: 600;
   font-size: 15px;
   border-radius: 3px;
 }
 .contBlogNumerador .contBlogNumerador_box:hover {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
   cursor: pointer;
   color: white;
 }
@@ -6509,7 +6510,7 @@ html, body {
   .contBlogBloggersBase .contBlogBloggers {
     width: 100%;
     padding: 10px 20px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
@@ -6561,7 +6562,7 @@ html, body {
     border: 2px solid #56fbd3;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     border: 2px solid white;
     border-radius: 5px;
   }
@@ -6593,7 +6594,7 @@ html, body {
   .contBlogBloggersBase .contBlogBloggers {
     width: 100%;
     padding: 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
@@ -6648,7 +6649,7 @@ html, body {
     border: 2px solid #56fbd3;
   }
   .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     border: 2px solid white;
     border-radius: 5px;
   }
@@ -6669,7 +6670,7 @@ html, body {
 .contBlogSidebar {
   width: 100%;
   padding: 50px 10px;
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
 }
 .contBlogSidebar .contBlogSidebar_contPublicidad {
   width: 100%;
@@ -6696,11 +6697,11 @@ html, body {
   transition: 0.2s linear;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-  color: hsl(216deg, 61%, 12%);
+  color: #0c1b32;
   transition: 0.2s linear;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover {
-  background: hsl(216deg, 61%, 12%);
+  background: #0c1b32;
 }
 .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box:hover .iconBlog {
   color: white;
@@ -6710,7 +6711,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 50px 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
   }
   .contBlogSidebar .contBlogSidebar_contPublicidad {
     width: 100%;
@@ -6736,7 +6737,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: hsl(216deg, 61%, 12%);
+    color: #0c1b32;
     transition: 0.2s linear;
   }
 }
@@ -6744,7 +6745,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 20px 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -6774,7 +6775,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: hsl(216deg, 61%, 12%);
+    color: #0c1b32;
     transition: 0.2s linear;
   }
 }
@@ -6782,7 +6783,7 @@ html, body {
   .contBlogSidebar {
     width: 100%;
     padding: 20px 10px;
-    background: hsl(216deg, 61%, 12%);
+    background: #0c1b32;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -6812,7 +6813,7 @@ html, body {
     transition: 0.2s linear;
   }
   .contBlogSidebar .contBlogSidebar_contRedes .contBlogSidebar_contRedes_box .iconBlog {
-    color: hsl(216deg, 61%, 12%);
+    color: #0c1b32;
     transition: 0.2s linear;
   }
 }

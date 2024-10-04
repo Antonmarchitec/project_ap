@@ -776,10 +776,11 @@
                     left: initial;
                     bottom:initial;
                     top: initial;
+                    border: 1px solid green;
                     .descripcion_acerca{
                         text-align:start;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
 
                         .formms{
                             color: $colorVerde;
