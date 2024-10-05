@@ -6,6 +6,8 @@
 
 }
 
+
+
 .CONTAINER_LANDING{
     width: 100%;
     max-width: 1300px;
@@ -15,13 +17,14 @@
     display: grid;
     //grid-gap: 1em;
     overflow: hidden;
-    grid-template-columns: 50px repeat(2,1fr) 320px;
+    grid-template-columns: 50px 1fr 300px;
     grid-template-rows: auto;
-    grid-template-areas: "HEADER                 HEADER                HEADER               HEADER"
-                         "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                         "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                         "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                         "FOOTER                 FOOTER                FOOTER               FOOTER";
+    grid-template-areas: "HEADER                 HEADER               HEADER"
+                         "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING"
+                         "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING"
+                         "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING"
+                         "SIDEBAR                SIDEBAR              SIDEBAR_LANDING"
+                         "FOOTER                 FOOTER               FOOTER";
     
     .contDowload{
         width: 100%;
@@ -48,7 +51,7 @@
             text-align: center;
             .contBars_barra{
                 width: 2px;
-                height: 150px;
+                height: 400px;
                 background: $colorVerde;
                 margin: auto;
                 border-radius: 1000px;
@@ -57,6 +60,7 @@
             .contBars_tHTML{
                 color: $colorVerde;
                 font-size:20px;
+                font-weight: 500;
                 height: 50px;
             }
         }
@@ -82,7 +86,7 @@
             }
             .titleProyectos{
                 text-align: center;
-                font-size: 70px;
+                font-size: 80px;
                 font-weight: 700;
                 color: #56fbd3;
                 padding-top: 70px;
@@ -104,6 +108,7 @@
         .contSectionWeb{
             width: 100%;
             padding: 10px 0px;
+
             .contSectionWeb_block{
                 margin-top: 20px;
                 margin-bottom: 60px;
@@ -229,14 +234,51 @@
         
     }
 
+
+    /**ESTA OCULTO*/
     .SIDEBAR{
         padding: 10px 0px;
         //background: brown;
         grid-area:SIDEBAR;
-        
-        /*****************************************
-        LOS ESTILOS ESTAN SIENDO DUPLICADOS DESDE _retos.scss a travez del main.scss
-        ******************************************/
+        display: none;
+    }
+
+    .SIDEBAR_LANDING{
+        padding: 10px 0px;
+        //background: brown;
+        grid-area:SIDEBAR_LANDING;
+        .contSidebarLanding{
+            margin-top: -10px;
+            width: 100%;
+            height: 95%;
+            padding: 40px 20px;
+            background: #0e1f39;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            .title__sidebarLanding{
+                color: rgb(255, 255, 255);
+                font-size: 14px;
+                font-weight: 300;
+            }
+           
+            .anuncio1{
+                margin: 30px auto;
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                background-size: 100% 100%;
+            }
+            .anuncio2{
+                margin: 10px auto;
+                width: 100%;
+                height: 280px;
+                background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                background-size: 100% 100%;
+                display: none;
+                visibility: hidden;
+            }
+        }
     }
 
     .FOOTER{
@@ -247,17 +289,40 @@
             width: 100%;
             background: $colorAzulTransparente;
             .contentFoot__cajaLN{
+                width: auto;
                 background:transparent;
+
                 .contentFoot__cajaLN__logo{
                     width: 85px;
                     height: 40px;
 
                 }
+                .contentFoot__cajaLN__nombre{
+                    width: 180px;
+                    padding: 5px;
+
+                    .name{
+                        font-size: 14px;
+                        font-weight: 300;
+                        .nameObj{
+                            font-size: 14px;
+                            font-weight: 300;
+                        }
+                    }
+                }
             }
             .contentFoot__cajaRedes{
-                background:transparent;
+                width: 18%;
                 .cajaSociales{
                     transform: skew(-5deg);
+                    .IconSocial{
+                        color:$colorVerde;
+                        font-size: 28px;
+                    }
+                    .nota{
+                        display: none;
+                        visibility: hidden;
+                    }
                 }
             }
         }
@@ -266,18 +331,6 @@
 
 
 
-
-/**RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px*/
-
-
-////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////
 
 @media (min-width:900px) and (max-width:1200px){
     .CONTAINER_LANDING{
@@ -288,13 +341,12 @@
         margin: auto;
         display: grid;
         //grid-gap: 1em;
-        grid-template-columns: 0px repeat(2,1fr) 250px;
+        grid-template-columns: 50px 1fr 300px;
         grid-template-rows: auto;
-        grid-template-areas: "HEADER                 HEADER                HEADER               HEADER"
-                             "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                             "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                             "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS     SIDEBAR"
-                             "FOOTER                 FOOTER                FOOTER               FOOTER";
+        grid-template-areas: "HEADER                 HEADER                HEADER"
+                             "BARS_VERTICLE          SECTION_PROYECTS      SECTION_PROYECTS"
+                             "BARS_VERTICLE          SIDEBAR_LANDING       SIDEBAR_LANDING"
+                             "FOOTER                 FOOTER                FOOTER";
         
     
         .HEADER{      ////////////////////////////////////////////////////GRILLA
@@ -306,7 +358,7 @@
         }
     
         .BARS_VERTICLE{
-            display: none;
+            display: block;
         }
     
         .SECTION_PROYECTS{
@@ -314,36 +366,35 @@
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
                 width: 100%;
-                height: 250px;
+                height: 180px;
                 position: relative;
                 background: $colorAzul;
                 overflow: hidden;
+                transform: skew(-5deg);
                 .contSectionTitleTop{
                     width: 100%;
-                    height: 250px;
-                    background: linear-gradient($colorAzul,transparent);
+                    height: 180px;
+                    background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
-                    z-index: -10;
+    
                 }
                 .titleProyectos{
-                    width:80%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 100px;
-                    font-size: 120px;
                     text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
+                    font-size: 80px;
+                    font-weight: 700;
+                    color: #56fbd3;
+                    padding-top: 70px;
+                    animation-duration: 2s;
+                    letter-spacing: -5px;
                 }
                 .contSectionTitleBottom{
                     width: 100%;
-                    height: 250px;
-                    background:linear-gradient(transparent,$colorAzul);
+                    height: 180px;
+                    background: linear-gradient(transparent, #0c1b32);
                     position: absolute;
                     bottom: -2px;
+    
                 }
     
             }
@@ -352,10 +403,9 @@
             .contSectionWeb{
                 width: 100%;
                 padding: 10px 0px;
-                
+
                 .contSectionWeb_block{
-                    margin-top: 20px;
-                    margin-bottom: 60px;
+                    margin: 20px auto;
                     width: 100%;
                     padding: 10px 0px;
                     display: flex;
@@ -363,25 +413,31 @@
                     flex-wrap: wrap;
                     justify-content: space-around;
                     align-items: flex-start;
+
                     .contSectionWeb_figture{
-                        width:45%;
+                        width: 350px;
                         height: 500px;
                         box-shadow: 15px 30px 0px $colorVerde;
                         transition: 0.5s all;
                     }
-                
+                    .contSectionWeb_figture:hover{
+                        box-shadow: -8px 20px 0px $colorVerde;
+                    }
                     .contSectionWeb_desc{
-                        width: 50%;
+                        width: 400px;
                         padding: 10px;
                         background:$colorAzul;
                         .contSectionWeb_desc_title{
                             color: $colorVerde;
-                            font-size: 45px;
+                            font-size: 40px;
+                            font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
-                            margin-top: 20px;
+                            margin-top: 10px;
                             color: $colorCelesteOscuro;
+                            font-size: 14px;
+    
                         }
         
                         .contSectionWeb_desc_block{
@@ -391,18 +447,27 @@
                             display: flex;
                             flex-direction: row;
                             flex-wrap: wrap;
-                            justify-content: space-between;
+                            justify-content: space-evenly;
                             align-items: flex-start;
+    
                             .contSectionWeb_desc_block_box{
                                 width: 50%;
+                                padding: 10px 0px;
+    
                                 .contSectionWeb_desc_block_box_subtitle{
-                                    font-size: 20px;
+                                    font-size: 18px;
+                                    font-weight: 500;
                                     color: $colorVerde;
+    
                                 }
                                 .contSectionWeb_desc_block_box_desc{
-                                    padding: 10px 0px;
+                                    margin-top: 5px;
                                     .text{
                                         color:white;
+                                        margin: 1px auto;
+                                        font-size: 14px;
+                                        font-weight: 300;
+    
                                     }
                                 }
                             }
@@ -410,45 +475,151 @@
         
                         
         
+                        .contSectionWeb_desc_btn{
+                            margin-top: 5px;
+                            width: 200px;
+                            padding: 6px 0px;
+                            border: 2px solid transparent;
+                            border-bottom: 2px solid $colorVerde;
+                            background: $colorAzulTransparente;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            transition: 0.5s all;
+    
+                        }
+                        .contSectionWeb_desc_btn:hover{
+                            border: 2px solid $colorVerde;
+                            cursor: pointer;
+        
+                        }
         
                     }
                 }
                 
             }
-            
+    
+            //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
+            .contentSection_blocks{
+                width: 180px;
+                margin: 50px auto;
+                padding: 5px 0px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .contentSection_blocks_number{
+                    width: 25px;
+                    height: 25px;
+                    background: #56fbd3;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: #0c1b32;
+                    transition: 0.3s all;
+                }
+                .contentSection_blocks_number:hover{
+                    background: $colorAzulOscuro;
+                    color: $colorVerde;
+                }
+            }
         }
     
         .SIDEBAR{
             padding: 10px 0px;
             //background: brown;
             grid-area:SIDEBAR;
-            .sidebarTitle{
-                color: white;
-                letter-spacing: -1px;
-                font-size: 40px;
-                
-            }
-            .contSidebar{
+            display: none
+        }
+
+        .SIDEBAR_LANDING{
+            padding: 10px 0px;
+            //background: brown;
+            grid-area:SIDEBAR_LANDING;
+            .contSidebarLanding{
+                margin:auto;
                 width: 100%;
-                height: 95%;
-                background:rgb(255, 255, 255);
+                height: auto;
+                padding: 40px 20px;
+                background: #0e1f39;
                 display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
+                flex-direction: row;
+                justify-content: space-evenly;
                 align-items: center;
-                border-radius: 5px;
-                .contSidebar_bloque{
-                   width: 100%;
-                   //background: orange;
-                   margin: 10px auto;
+                .title__sidebarLanding{
+                    width: calc(70% - 150px);
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+               
+                .anuncio1{
+                    margin: 30px auto;
+                    width: 280px;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                    background-size: 100% 100%;
+                }
+                .anuncio2{
+                    margin: 10px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                    background-size: 100% 100%;
+                    display: none;
+                    visibility: hidden;
                 }
             }
+
         }
     
         .FOOTER{
             padding: 10px 0px;
             //background: brown;
             grid-area:FOOTER;
+            .contentFoot{
+                width: 100%;
+                background: $colorAzulTransparente;
+                .contentFoot__cajaLN{
+                    width: auto;
+                    background:transparent;
+    
+                    .contentFoot__cajaLN__logo{
+                        width: 85px;
+                        height: 40px;
+    
+                    }
+                    .contentFoot__cajaLN__nombre{
+                        width: 180px;
+                        padding: 5px;
+    
+                        .name{
+                            font-size: 14px;
+                            font-weight: 300;
+                            .nameObj{
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                .contentFoot__cajaRedes{
+                    width: 20%;
+                    .cajaSociales{
+                        transform: skew(-5deg);
+                        .IconSocial{
+                            color:$colorVerde;
+                            font-size: 28px;
+                        }
+                        .nota{
+                            display: none;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
             
         }
     }
@@ -478,6 +649,7 @@
         grid-template-areas: "HEADER                 HEADER                HEADER"
                              "SECTION_PROYECTS       SECTION_PROYECTS      SECTION_PROYECTS"
                              "SIDEBAR                SIDEBAR               SIDEBAR"
+                             "SIDEBAR_LANDING        SIDEBAR_LANDING       SIDEBAR_LANDING"
                              "FOOTER                 FOOTER                FOOTER";
                              
         
@@ -499,36 +671,35 @@
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
                 width: 100%;
-                height: 250px;
+                height: 180px;
                 position: relative;
                 background: $colorAzul;
                 overflow: hidden;
+                transform: skew(-5deg);
                 .contSectionTitleTop{
                     width: 100%;
-                    height: 250px;
-                    background: linear-gradient($colorAzul,transparent);
+                    height: 180px;
+                    background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
-                    z-index: -10;
+    
                 }
                 .titleProyectos{
-                    width:80%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 100px;
-                    font-size: 120px;
                     text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
+                    font-size: 80px;
+                    font-weight: 700;
+                    color: #56fbd3;
+                    padding-top: 70px;
+                    animation-duration: 2s;
+                    letter-spacing: -5px;
                 }
                 .contSectionTitleBottom{
                     width: 100%;
-                    height: 250px;
-                    background:linear-gradient(transparent,$colorAzul);
+                    height: 180px;
+                    background: linear-gradient(transparent, #0c1b32);
                     position: absolute;
                     bottom: -2px;
+    
                 }
     
             }
@@ -537,10 +708,9 @@
             .contSectionWeb{
                 width: 100%;
                 padding: 10px 0px;
-                
+
                 .contSectionWeb_block{
-                    margin-top: 20px;
-                    margin-bottom: 60px;
+                    margin: 20px auto;
                     width: 100%;
                     padding: 10px 0px;
                     display: flex;
@@ -548,25 +718,31 @@
                     flex-wrap: wrap;
                     justify-content: space-around;
                     align-items: flex-start;
+
                     .contSectionWeb_figture{
-                        width:45%;
+                        width: 350px;
                         height: 500px;
                         box-shadow: 15px 30px 0px $colorVerde;
                         transition: 0.5s all;
                     }
-                
+                    .contSectionWeb_figture:hover{
+                        box-shadow: -8px 20px 0px $colorVerde;
+                    }
                     .contSectionWeb_desc{
-                        width: 50%;
+                        width: calc(60% - 80px);
                         padding: 10px;
                         background:$colorAzul;
                         .contSectionWeb_desc_title{
                             color: $colorVerde;
-                            font-size: 45px;
+                            font-size: 40px;
+                            font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
-                            margin-top: 20px;
+                            margin-top: 10px;
                             color: $colorCelesteOscuro;
+                            font-size: 14px;
+    
                         }
         
                         .contSectionWeb_desc_block{
@@ -576,27 +752,83 @@
                             display: flex;
                             flex-direction: row;
                             flex-wrap: wrap;
-                            justify-content: space-between;
+                            justify-content: space-evenly;
                             align-items: flex-start;
+    
                             .contSectionWeb_desc_block_box{
                                 width: 50%;
+                                padding: 10px 0px;
+    
                                 .contSectionWeb_desc_block_box_subtitle{
-                                    font-size: 20px;
+                                    font-size: 18px;
+                                    font-weight: 500;
                                     color: $colorVerde;
+    
                                 }
                                 .contSectionWeb_desc_block_box_desc{
-                                    padding: 10px 0px;
+                                    margin-top: 5px;
                                     .text{
                                         color:white;
+                                        margin: 1px auto;
+                                        font-size: 14px;
+                                        font-weight: 300;
+    
                                     }
                                 }
                             }
                         }
+        
+                        
+        
+                        .contSectionWeb_desc_btn{
+                            margin-top: 5px;
+                            width: 200px;
+                            padding: 6px 0px;
+                            border: 2px solid transparent;
+                            border-bottom: 2px solid $colorVerde;
+                            background: $colorAzulTransparente;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            transition: 0.5s all;
     
+                        }
+                        .contSectionWeb_desc_btn:hover{
+                            border: 2px solid $colorVerde;
+                            cursor: pointer;
+        
+                        }
         
                     }
                 }
                 
+            }
+    
+            //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
+            .contentSection_blocks{
+                width: 180px;
+                margin: 50px auto;
+                padding: 5px 0px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .contentSection_blocks_number{
+                    width: 25px;
+                    height: 25px;
+                    background: #56fbd3;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: #0c1b32;
+                    transition: 0.3s all;
+                }
+                .contentSection_blocks_number:hover{
+                    background: $colorAzulOscuro;
+                    color: $colorVerde;
+                }
             }
             
         }
@@ -604,36 +836,96 @@
         .SIDEBAR{
             padding: 10px 0px;
             grid-area:SIDEBAR;
-            .sidebarTitle{
-                color: white;
-                letter-spacing: -1px;
-                font-size: 40px;
-                margin-left: 10px;
-                
-            }
-            .contSidebar{
+            display: none;
+        }
+
+
+        .SIDEBAR_LANDING{
+            padding: 10px 0px;
+            //background: brown;
+            grid-area:SIDEBAR_LANDING;
+            .contSidebarLanding{
+                margin:auto;
                 width: 100%;
-                height: 95%;
-                background:rgb(255, 255, 255);
+                height: auto;
+                padding: 40px 20px;
+                background: #0e1f39;
                 display: flex;
                 flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: center;
-                border-radius: 5px;
-                .contSidebar_bloque{
-                   width: 30%;
-                   padding: 10px;
-                   margin: 10px auto;
+                .title__sidebarLanding{
+                    width: calc(70% - 150px);
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+               
+                .anuncio1{
+                    margin: 30px auto;
+                    width: 280px;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                    background-size: 100% 100%;
+                }
+                .anuncio2{
+                    margin: 10px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                    background-size: 100% 100%;
+                    display: none;
+                    visibility: hidden;
                 }
             }
+            
         }
     
         .FOOTER{
             margin-top: 40px;
             padding: 10px 0px;
             grid-area:FOOTER;
-           
+            .contentFoot{
+                width: 100%;
+                background: $colorAzulTransparente;
+                .contentFoot__cajaLN{
+                    width: auto;
+                    background:transparent;
+    
+                    .contentFoot__cajaLN__logo{
+                        width: 85px;
+                        height: 40px;
+    
+                    }
+                    .contentFoot__cajaLN__nombre{
+                        width: 180px;
+                        padding: 5px;
+    
+                        .name{
+                            font-size: 14px;
+                            font-weight: 300;
+                            .nameObj{
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                .contentFoot__cajaRedes{
+                    width: 28%;
+                    .cajaSociales{
+                        transform: skew(-5deg);
+                        .IconSocial{
+                            color:$colorVerde;
+                            font-size: 28px;
+                        }
+                        .nota{
+                            display: none;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -652,12 +944,14 @@
         padding: 20px 0px;
         margin: auto;
         display: grid;
+
         //grid-gap: 1em;
         grid-template-columns: repeat(2,1fr) 250px;
         grid-template-rows: auto;
         grid-template-areas: "HEADER                 HEADER                HEADER"
                              "SECTION_PROYECTS       SECTION_PROYECTS      SECTION_PROYECTS"
                              "SIDEBAR                SIDEBAR               SIDEBAR"
+                             "SIDEBAR_LANDING        SIDEBAR_LANDING       SIDEBAR_LANDING"
                              "FOOTER                 FOOTER                FOOTER";
                              
         
@@ -679,36 +973,35 @@
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
                 width: 100%;
-                height: 250px;
+                height: 180px;
                 position: relative;
                 background: $colorAzul;
                 overflow: hidden;
+                transform: skew(-5deg);
                 .contSectionTitleTop{
                     width: 100%;
-                    height: 250px;
-                    background: linear-gradient($colorAzul,transparent);
+                    height: 180px;
+                    background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
-                    z-index: -10;
+    
                 }
                 .titleProyectos{
-                    width:80%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 100px;
-                    font-size: 120px;
                     text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
+                    font-size: 80px;
+                    font-weight: 700;
+                    color: #56fbd3;
+                    padding-top: 70px;
+                    animation-duration: 2s;
+                    letter-spacing: -5px;
                 }
                 .contSectionTitleBottom{
                     width: 100%;
-                    height: 250px;
-                    background:linear-gradient(transparent,$colorAzul);
+                    height: 180px;
+                    background: linear-gradient(transparent, #0c1b32);
                     position: absolute;
                     bottom: -2px;
+    
                 }
     
             }
@@ -717,37 +1010,43 @@
             .contSectionWeb{
                 width: 100%;
                 padding: 10px 0px;
-                
+
                 .contSectionWeb_block{
-                    margin-top: 20px;
-                    margin-bottom: 60px;
+                    margin: 0px auto;
                     width: 100%;
                     padding: 10px 0px;
                     display: flex;
                     flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: flex-start;
+                    flex-wrap: initial;
+                    flex-direction: column-reverse;
+                    justify-content: flex-start;
+                    align-items: center;
+                    border: 1px solid orange;
                     .contSectionWeb_figture{
-                        width:45%;
+                        margin: 20px auto;
+                        width: 350px;
                         height: 500px;
                         box-shadow: 15px 30px 0px $colorVerde;
                         transition: 0.5s all;
                     }
-                
+                    .contSectionWeb_figture:hover{
+                        box-shadow: -8px 20px 0px $colorVerde;
+                    }
                     .contSectionWeb_desc{
-                        width: 50%;
+                        width:90%;
                         padding: 10px;
                         background:$colorAzul;
                         .contSectionWeb_desc_title{
                             color: $colorVerde;
                             font-size: 40px;
+                            font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
-                            margin-top: 20px;
+                            margin-top: 10px;
                             color: $colorCelesteOscuro;
-                            font-size: 16px;
+                            font-size: 14px;
+    
                         }
         
                         .contSectionWeb_desc_block{
@@ -757,29 +1056,91 @@
                             display: flex;
                             flex-direction: row;
                             flex-wrap: wrap;
-                            justify-content: space-between;
+                            justify-content: space-evenly;
                             align-items: flex-start;
+    
                             .contSectionWeb_desc_block_box{
                                 width: 50%;
+                                padding: 10px 0px;
+    
                                 .contSectionWeb_desc_block_box_subtitle{
-                                    font-size: 20px;
+                                    font-size: 18px;
+                                    font-weight: 500;
                                     color: $colorVerde;
-                                    line-height: 20px;
+    
                                 }
                                 .contSectionWeb_desc_block_box_desc{
-                                    padding: 10px 0px;
+                                    margin-top: 5px;
                                     .text{
                                         color:white;
-                                        font-size: 16px;
+                                        margin: 1px auto;
+                                        font-size: 14px;
+                                        font-weight: 300;
+    
                                     }
                                 }
                             }
                         }
         
+                        
+        
+                        .contSectionWeb_desc_btn{
+                            margin-top: 5px;
+                            width: 200px;
+                            padding: 6px 0px;
+                            border: 2px solid transparent;
+                            border-bottom: 2px solid $colorVerde;
+                            background: $colorAzulTransparente;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            transition: 0.5s all;
     
+                        }
+                        .contSectionWeb_desc_btn:hover{
+                            border: 2px solid $colorVerde;
+                            cursor: pointer;
+        
+                        }
+        
                     }
                 }
+
+                #contSectionWeb_block_AUX{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: initial;
+                    justify-content: space-around;
+                    align-items: center;
+                }
                 
+            }
+    
+            //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
+            .contentSection_blocks{
+                width: 180px;
+                margin: 50px auto;
+                padding: 5px 0px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .contentSection_blocks_number{
+                    width: 25px;
+                    height: 25px;
+                    background: #56fbd3;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: #0c1b32;
+                    transition: 0.3s all;
+                }
+                .contentSection_blocks_number:hover{
+                    background: $colorAzulOscuro;
+                    color: $colorVerde;
+                }
             }
             
         }
@@ -787,36 +1148,96 @@
         .SIDEBAR{
             padding: 10px 0px;
             grid-area:SIDEBAR;
-            .sidebarTitle{
-                color: white;
-                letter-spacing: -1px;
-                font-size: 35px;
-                margin-left: 10px;
-                
-            }
-            .contSidebar{
+            display: none;
+        }
+
+
+        .SIDEBAR_LANDING{
+            padding: 10px 0px;
+            //background: brown;
+            grid-area:SIDEBAR_LANDING;
+            .contSidebarLanding{
+                margin:auto;
                 width: 100%;
-                height: 95%;
-                background:rgb(255, 255, 255);
+                height: auto;
+                padding: 40px 20px;
+                background: #0e1f39;
                 display: flex;
                 flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: space-evenly;
                 align-items: center;
-                border-radius: 5px;
-                .contSidebar_bloque{
-                   width: 40%;
-                   padding: 10px;
-                   margin: 10px auto;
+                .title__sidebarLanding{
+                    width: calc(70% - 150px);
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+               
+                .anuncio1{
+                    margin: 30px auto;
+                    width: 280px;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                    background-size: 100% 100%;
+                }
+                .anuncio2{
+                    margin: 10px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                    background-size: 100% 100%;
+                    display: none;
+                    visibility: hidden;
                 }
             }
+            
         }
     
         .FOOTER{
             margin-top: 40px;
             padding: 10px 0px;
             grid-area:FOOTER;
-            
+            .contentFoot{
+                width: 100%;
+                background: $colorAzulTransparente;
+                .contentFoot__cajaLN{
+                    width: auto;
+                    background:transparent;
+    
+                    .contentFoot__cajaLN__logo{
+                        width: 85px;
+                        height: 40px;
+    
+                    }
+                    .contentFoot__cajaLN__nombre{
+                        width: 180px;
+                        padding: 5px;
+    
+                        .name{
+                            font-size: 14px;
+                            font-weight: 300;
+                            .nameObj{
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                .contentFoot__cajaRedes{
+                    width: 28%;
+                    .cajaSociales{
+                        transform: skew(-5deg);
+                        .IconSocial{
+                            color:$colorVerde;
+                            font-size: 28px;
+                        }
+                        .nota{
+                            display: none;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -843,6 +1264,7 @@
         grid-template-areas: "HEADER                 HEADER                HEADER"
                              "SECTION_PROYECTS       SECTION_PROYECTS      SECTION_PROYECTS"
                              "SIDEBAR                SIDEBAR               SIDEBAR"
+                             "SIDEBAR_LANDING        SIDEBAR_LANDING       SIDEBAR_LANDING"
                              "FOOTER                 FOOTER                FOOTER";
                              
         
@@ -864,36 +1286,35 @@
             grid-area:SECTION_PROYECTS;
             .contSectionTitle{
                 width: 100%;
-                height: 200px;
+                height: 180px;
                 position: relative;
                 background: $colorAzul;
                 overflow: hidden;
+                transform: skew(-5deg);
                 .contSectionTitleTop{
                     width: 100%;
-                    height: 200px;
-                    background: linear-gradient($colorAzul,transparent);
+                    height: 180px;
+                    background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
-                    z-index: -10;
+    
                 }
                 .titleProyectos{
-                    width:100%;
-                    margin: auto;
-                    color: $colorVerde;
-                    padding-top: 60px;
-                    font-size: 100px;
                     text-align: center;
-                    line-height: 110px;
-                    letter-spacing: -9px;
-                    animation-duration: 3s;
-                    z-index: 50;
+                    font-size: 80px;
+                    font-weight: 700;
+                    color: #56fbd3;
+                    padding-top: 70px;
+                    animation-duration: 2s;
+                    letter-spacing: -5px;
                 }
                 .contSectionTitleBottom{
                     width: 100%;
-                    height: 200px;
-                    background:linear-gradient(transparent,$colorAzul);
+                    height: 180px;
+                    background: linear-gradient(transparent, #0c1b32);
                     position: absolute;
                     bottom: -2px;
+    
                 }
     
             }
@@ -901,39 +1322,43 @@
             //SECTION BLOCK
             .contSectionWeb{
                 width: 100%;
-                padding: 0px;
+                padding: 10px 0px;
+
                 .contSectionWeb_block{
-                    margin-top: 0px;
-                    margin-bottom: 60px;
+                    margin: 0px auto;
                     width: 100%;
-                    padding: 0px 10px;
+                    padding: 10px 0px;
                     display: flex;
-                    flex-direction: column-reverse;
+                    flex-direction: row;
                     flex-wrap: initial;
-                    justify-content: space-around;
+                    flex-direction: column-reverse;
+                    justify-content: flex-start;
                     align-items: center;
                     .contSectionWeb_figture{
-                        margin-top: 10px;
-                        width:70%;
+                        margin: 20px auto;
+                        width: 350px;
                         height: 500px;
                         box-shadow: 15px 30px 0px $colorVerde;
                         transition: 0.5s all;
                     }
-                
+                    .contSectionWeb_figture:hover{
+                        box-shadow: -8px 20px 0px $colorVerde;
+                    }
                     .contSectionWeb_desc{
-                        margin-top: 0px;
-                        width: 100%;
+                        width:90%;
                         padding: 10px;
                         background:$colorAzul;
                         .contSectionWeb_desc_title{
                             color: $colorVerde;
                             font-size: 40px;
+                            font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
                             color: $colorCelesteOscuro;
-                            font-size: 16px;
+                            font-size: 14px;
+    
                         }
         
                         .contSectionWeb_desc_block{
@@ -943,25 +1368,52 @@
                             display: flex;
                             flex-direction: row;
                             flex-wrap: wrap;
-                            justify-content: space-between;
+                            justify-content: space-evenly;
                             align-items: flex-start;
+    
                             .contSectionWeb_desc_block_box{
                                 width: 50%;
+                                padding: 10px 0px;
+    
                                 .contSectionWeb_desc_block_box_subtitle{
-                                    font-size: 20px;
+                                    font-size: 18px;
+                                    font-weight: 500;
                                     color: $colorVerde;
-                                    line-height: 20px;
+    
                                 }
                                 .contSectionWeb_desc_block_box_desc{
-                                    padding: 10px 0px;
+                                    margin-top: 5px;
                                     .text{
                                         color:white;
-                                        font-size: 16px;
+                                        margin: 1px auto;
+                                        font-size: 14px;
+                                        font-weight: 300;
+    
                                     }
                                 }
                             }
                         }
         
+                        
+        
+                        .contSectionWeb_desc_btn{
+                            margin-top: 5px;
+                            width: 200px;
+                            padding: 6px 0px;
+                            border: 2px solid transparent;
+                            border-bottom: 2px solid $colorVerde;
+                            background: $colorAzulTransparente;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            transition: 0.5s all;
+    
+                        }
+                        .contSectionWeb_desc_btn:hover{
+                            border: 2px solid $colorVerde;
+                            cursor: pointer;
+        
+                        }
         
                     }
                 }
@@ -975,42 +1427,129 @@
                 }
                 
             }
+    
+            //BLOQUE DE LOS NUMERADORES////////////////////////////////////////
+            .contentSection_blocks{
+                width: 180px;
+                margin: 50px auto;
+                padding: 5px 0px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .contentSection_blocks_number{
+                    width: 25px;
+                    height: 25px;
+                    background: #56fbd3;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    font-weight: bold;
+                    color: #0c1b32;
+                    transition: 0.3s all;
+                }
+                .contentSection_blocks_number:hover{
+                    background: $colorAzulOscuro;
+                    color: $colorVerde;
+                }
+            }
             
         }
     
         .SIDEBAR{
             padding: 10px 0px;
             grid-area:SIDEBAR;
-            .sidebarTitle{
-                color: white;
-                letter-spacing: -1px;
-                font-size: 35px;
-                margin-left: 10px;
-                
-            }
-            .contSidebar{
+            display: none;
+        }
+
+
+        .SIDEBAR_LANDING{
+            padding: 10px 0px;
+            //background: brown;
+            grid-area:SIDEBAR_LANDING;
+            .contSidebarLanding{
+                margin:auto;
                 width: 100%;
-                height: 95%;
-                background:rgb(255, 255, 255);
+                height: auto;
+                padding: 40px 20px;
+                background: #0e1f39;
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
+                flex-direction: column;
+                justify-content: flex-start;
                 align-items: center;
-                border-radius: 5px;
-                .contSidebar_bloque{
-                   width: 50%;
-                   padding: 10px;
-                   margin: 10px auto;
+                .title__sidebarLanding{
+                    width: 90%;
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+               
+                .anuncio1{
+                    margin: 30px auto;
+                    width: 280px;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                    background-size: 100% 100%;
+                }
+                .anuncio2{
+                    margin: 10px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                    background-size: 100% 100%;
+                    display: none;
+                    visibility: hidden;
                 }
             }
+            
         }
     
         .FOOTER{
             margin-top: 40px;
             padding: 10px 0px;
             grid-area:FOOTER;
-            
+            .contentFoot{
+                width: 100%;
+                background: $colorAzulTransparente;
+                .contentFoot__cajaLN{
+                    width: auto;
+                    background:transparent;
+    
+                    .contentFoot__cajaLN__logo{
+                        width: 85px;
+                        height: 40px;
+    
+                    }
+                    .contentFoot__cajaLN__nombre{
+                        width: 180px;
+                        padding: 5px;
+    
+                        .name{
+                            font-size: 14px;
+                            font-weight: 300;
+                            .nameObj{
+                                font-size: 14px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                .contentFoot__cajaRedes{
+                    width: 42%;
+                    .cajaSociales{
+                        transform: skew(-5deg);
+                        .IconSocial{
+                            color:$colorVerde;
+                            font-size: 28px;
+                        }
+                        .nota{
+                            display: none;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -1031,12 +1570,14 @@
         padding: 30px 0px;
         margin: auto;
         display: grid;
+        border: 1px solid green;
         //grid-gap: 2em;
         grid-template-columns: repeat(2,1fr) 250px;
         grid-template-rows: auto;
         grid-template-areas: "HEADER                 HEADER                HEADER"
                              "SECTION_PROYECTS       SECTION_PROYECTS      SECTION_PROYECTS"
                              "SIDEBAR                SIDEBAR               SIDEBAR"
+                             "SIDEBAR_LANDING        SIDEBAR_LANDING       SIDEBAR_LANDING"
                              "FOOTER                 FOOTER                FOOTER";
                              
         
@@ -1175,27 +1716,43 @@
         .SIDEBAR{
             padding: 10px 0px;
             grid-area:SIDEBAR;
-            .sidebarTitle{
-                color: white;
-                letter-spacing: -1px;
-                font-size: 35px;
-                margin-left: 10px;
-                
-            }
-            .contSidebar{
+            display: none;
+        }
+
+        .SIDEBAR_LANDING{
+            padding: 10px 0px;
+            //background: brown;
+            grid-area:SIDEBAR_LANDING;
+            .contSidebarLanding{
+                margin-top: -10px;
                 width: 100%;
                 height: 95%;
-                background:rgb(255, 255, 255);
+                padding: 40px 20px;
+                background: #0e1f39;
                 display: flex;
                 flex-direction: column;
-                flex-wrap: initial;
-                justify-content: space-around;
-                align-items: center;
-                border-radius: 0px;
-                .contSidebar_bloque{
-                   width: 90%;
-                   padding: 10px;
-                   margin: 0px auto;
+                justify-content: flex-start;
+                .title__sidebarLanding{
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+               
+                .anuncio1{
+                    margin: 30px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
+                    background-size: 100% 100%;
+                }
+                .anuncio2{
+                    margin: 10px auto;
+                    width: 100%;
+                    height: 280px;
+                    background-image: url(../img/publicity/PROPAGANDA_GAME.jpg);
+                    background-size: 100% 100%;
+                    display: none;
+                    visibility: hidden;
                 }
             }
         }
