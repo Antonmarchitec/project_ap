@@ -3695,7 +3695,6 @@ a {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid orange;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_figture {
     margin: 20px auto;
@@ -4147,7 +4146,6 @@ a {
     padding: 30px 0px;
     margin: auto;
     display: grid;
-    border: 1px solid green;
     grid-template-columns: repeat(2, 1fr) 250px;
     grid-template-rows: auto;
     grid-template-areas: "HEADER                 HEADER                HEADER" "SECTION_PROYECTS       SECTION_PROYECTS      SECTION_PROYECTS" "SIDEBAR                SIDEBAR               SIDEBAR" "SIDEBAR_LANDING        SIDEBAR_LANDING       SIDEBAR_LANDING" "FOOTER                 FOOTER                FOOTER";
@@ -4165,75 +4163,72 @@ a {
     grid-area: SECTION_PROYECTS;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle {
-    width: 100%;
-    height: 200px;
-    position: relative;
-    background: #0c1b32;
-    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    line-height: 50px;
+    color: #56fbd3;
+    padding-top: 40px;
+    animation-duration: 2s;
+    letter-spacing: -5px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleTop {
     width: 100%;
-    height: 200px;
-    background: linear-gradient(#0c1b32, transparent);
-    position: absolute;
-    top: 0;
-    z-index: -10;
+    height: 180px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .titleProyectos {
-    width: 100%;
-    margin: auto;
-    color: #56fbd3;
-    padding-top: 60px;
-    font-size: 100px;
     text-align: center;
-    line-height: 110px;
-    letter-spacing: -9px;
-    animation-duration: 3s;
-    z-index: 50;
+    font-size: 60px;
+    font-weight: 700;
+    color: #56fbd3;
+    padding-top: 70px;
+    animation-duration: 2s;
+    letter-spacing: -5px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionTitle .contSectionTitleBottom {
     width: 100%;
-    height: 200px;
-    background: linear-gradient(transparent, #0c1b32);
-    position: absolute;
-    bottom: -2px;
+    height: 180px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb {
     width: 100%;
-    padding: 0px;
+    padding: 10px 0px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block {
-    margin-top: 0px;
-    margin-bottom: 60px;
+    margin: 0px auto;
     width: 100%;
-    padding: 0px 10px;
+    padding: 10px 0px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     flex-wrap: initial;
-    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
     align-items: center;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_figture {
-    margin-top: 10px;
-    width: 90%;
+    margin: 20px auto;
+    width: 350px;
     height: 500px;
     box-shadow: 15px 30px 0px #56fbd3;
     transition: 0.5s all;
   }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_figture:hover {
+    box-shadow: -8px 20px 0px #56fbd3;
+  }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc {
-    margin-top: 0px;
-    width: 100%;
+    width: 90%;
     padding: 10px;
     background: #0c1b32;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_title {
     color: #56fbd3;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 500;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_text {
     margin-top: 10px;
     color: #96aadb;
-    font-size: 16px;
+    font-size: 14px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block {
     width: 100%;
@@ -4242,23 +4237,44 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box {
     width: 50%;
+    padding: 10px 0px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_subtitle {
-    font-size: 20px;
-    color: #56fbd3;
+    width: 100px;
+    font-size: 18px;
     line-height: 20px;
+    font-weight: 500;
+    color: #56fbd3;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc {
-    padding: 10px 0px;
+    margin-top: 5px;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_block .contSectionWeb_desc_block_box .contSectionWeb_desc_block_box_desc .text {
     color: white;
-    font-size: 16px;
+    margin: 1px auto;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn {
+    margin-top: 5px;
+    width: 200px;
+    padding: 6px 0px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #56fbd3;
+    background: rgba(5, 11, 32, 0.7764705882);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.5s all;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb .contSectionWeb_block .contSectionWeb_desc .contSectionWeb_desc_btn:hover {
+    border: 2px solid #56fbd3;
+    cursor: pointer;
   }
   .CONTAINER_LANDING .SECTION_PROYECTS .contSectionWeb #contSectionWeb_block_AUX {
     display: flex;
@@ -4266,6 +4282,30 @@ a {
     flex-wrap: initial;
     justify-content: space-around;
     align-items: center;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks {
+    width: 180px;
+    margin: auto;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number {
+    width: 25px;
+    height: 25px;
+    background: #56fbd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: #0c1b32;
+    transition: 0.3s all;
+  }
+  .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
+    background: #060f1d;
+    color: #56fbd3;
   }
   .CONTAINER_LANDING .SIDEBAR {
     padding: 10px 0px;
@@ -4277,23 +4317,25 @@ a {
     grid-area: SIDEBAR_LANDING;
   }
   .CONTAINER_LANDING .SIDEBAR_LANDING .contSidebarLanding {
-    margin-top: -10px;
+    margin: auto;
     width: 100%;
-    height: 95%;
+    height: auto;
     padding: 40px 20px;
-    background: #0e1f39;
+    background: transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
   }
   .CONTAINER_LANDING .SIDEBAR_LANDING .contSidebarLanding .title__sidebarLanding {
+    width: 100%;
     color: rgb(255, 255, 255);
     font-size: 14px;
     font-weight: 300;
   }
   .CONTAINER_LANDING .SIDEBAR_LANDING .contSidebarLanding .anuncio1 {
     margin: 30px auto;
-    width: 100%;
+    width: 280px;
     height: 280px;
     background-image: url(../img/publicity/PROPAGANDA_DIGITIZING.jpg);
     background-size: 100% 100%;
@@ -4311,6 +4353,44 @@ a {
     margin-top: 40px;
     padding: 10px 0px;
     grid-area: FOOTER;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot {
+    width: 100%;
+    background: rgba(5, 11, 32, 0.7764705882);
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN {
+    width: auto;
+    background: transparent;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
+    width: 85px;
+    height: 40px;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
+    width: 180px;
+    padding: 5px;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name .nameObj {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes {
+    width: 50%;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes .cajaSociales {
+    transform: skew(-5deg);
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
+    color: #56fbd3;
+    font-size: 28px;
+  }
+  .CONTAINER_LANDING .FOOTER .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
+    display: none;
+    visibility: hidden;
   }
 }
 .btnWattssap {
