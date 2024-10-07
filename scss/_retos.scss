@@ -27,23 +27,24 @@ a{
         position: relative;
         overflow: hidden;
         transform: skew(-5deg);
-
         .contentSection_contSup{
             width: 100%;
             height: 180px;
-            background: linear-gradient($colorAzul, transparent);
+            //background: linear-gradient($colorAzul, transparent);
             position: absolute;
             top:0;
             
         }
         .contentSection__title{
             text-align: center;
-            font-size: 70px;
+            font-size: 100px;
             font-weight: 700;
             color: $colorVerde;
-            padding-top: 70px;
+            padding-top: 30px;
             animation-duration: 2s;
             letter-spacing: -5px;
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
 
         }
         .contentSection_contInf{
@@ -58,29 +59,29 @@ a{
     @media (min-width:480px) and (max-width:720px){
         .contentSection_cont{
             margin: auto;
-            width: 90%;
-            height: 180px;
-
+            width: 70%;
+            height: 200px;
             .contentSection_contSup{
                 width: 100%;
-                height: 180px;
+                height: 200px;
             }
             .contentSection__title{
-                width: 50%;
+                width: 90%;
                 margin: auto;
                 text-align: center;
-                font-size: 60px;
-                line-height: 50px;
+                font-size: 90px;
+                line-height: 80px;
                 color: $colorVerde;
-                padding-top: 40px;
+                padding-top: 5px;
                 animation-duration: 2s;
                 letter-spacing: -5px;
+
 
             }
           
             .contentSection_contInf{
                 width: 100%;
-                height: 180px;
+                height: 200px;
             }
         }
     }
@@ -97,12 +98,12 @@ a{
                 width: 90%;
                 margin: auto;
                 text-align: center;
-                font-size: 60px;
-                line-height: 50px;
+                font-size: 80px;
+                line-height: 70px;
                 color: $colorVerde;
-                padding-top: 40px;
+                padding-top: 5px;
                 animation-duration: 2s;
-                letter-spacing: -5px;
+                letter-spacing: 0px;
            }
           
             .contentSection_contInf{
@@ -198,17 +199,7 @@ a{
         .contentSection__cuadro:hover{
             transform: scale(1.02,1.02);
         }
-        /*******
-        RESPONSIVE DESING OFICIAL NUEVO
-        @media (min-width:1025px) and (max-width:1200px){}     175px
-        @media (min-width:900px)  and (max-width:1024px){}     124px
-        @media (min-width:770px)  and (max-width:899px){}      129px
-        @media (min-width:641px)  and (max-width:769px){}      128px
-        @media (min-width:481px)  and (max-width:640px){}      159px
-        @media (min-width:423px)  and (max-width:480px){}      160px
 
-        **************************************************
-        *************---------------------------------------/*/
 
         @media (min-width:320px)  and (max-width:480px){
             .contentSection__cuadro{
