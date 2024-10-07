@@ -2487,7 +2487,7 @@ a {
 }
 .contSidebar .title__sidebar {
   color: rgb(255, 255, 255);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
 }
 .contSidebar .anuncio1 {
@@ -2522,7 +2522,6 @@ a {
   .contSidebar .title__sidebar {
     width: calc(70% - 100px);
     color: rgb(255, 255, 255);
-    font-size: 14px;
     font-weight: 300;
   }
   .contSidebar .anuncio1 {
@@ -2552,7 +2551,6 @@ a {
   .contSidebar .title__sidebar {
     width: 100%;
     color: rgb(255, 255, 255);
-    font-size: 14px;
     font-weight: 300;
   }
   .contSidebar .anuncio1 {
@@ -2586,7 +2584,7 @@ a {
   align-items: center;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__logo {
-  width: 85px;
+  width: auto;
   height: 40px;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre {
@@ -2594,14 +2592,18 @@ a {
   line-height: 18px;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name {
+  font-size: 14px;
   color: white;
+  font-weight: 300px;
 }
 .contentFoot .contentFoot__cajaLN .contentFoot__cajaLN__nombre .name .nameObj {
   color: #56fbd3;
+  font-size: 14px;
+  font-weight: 300px;
 }
 .contentFoot .contentFoot__cajaRedes {
-  width: 600px;
-  margin-right: 20px;
+  width: 15%;
+  margin-right: 110px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -2615,15 +2617,17 @@ a {
 }
 .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
   color: white;
-  font-size: 30px;
+  font-size: 26px;
 }
 .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
   margin-left: 2px;
   color: rgb(199, 199, 199);
   transition: 0.3s linear;
   transition-property: transform;
+  display: none;
+  visibility: hidden;
 }
-.contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
+.contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial:hover {
   color: #56fbd3;
 }
 
@@ -2655,8 +2659,8 @@ a {
     display: none;
   }
   .contentFoot .contentFoot__cajaRedes {
-    width: 520px;
-    margin-right: 20px;
+    width: 20%;
+    margin-right: 110px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -2666,18 +2670,21 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    transform: skew(-5deg);
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
     color: white;
-    font-size: 30px;
+    font-size: 26px;
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
     margin-left: 2px;
     color: rgb(199, 199, 199);
     transition: 0.3s linear;
     transition-property: transform;
+    display: none;
+    visibility: hidden;
   }
-  .contentFoot .contentFoot__cajaRedes .cajaSociales .nota:hover {
+  .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial:hover {
     color: #56fbd3;
   }
 }
@@ -2709,8 +2716,8 @@ a {
     display: none;
   }
   .contentFoot .contentFoot__cajaRedes {
-    width: 200px;
-    margin-right: 20px;
+    width: calc(25% + 80px);
+    margin-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -2720,13 +2727,22 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    transform: skew(-5deg);
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial {
     color: white;
-    font-size: 25px;
+    font-size: 26px;
   }
   .contentFoot .contentFoot__cajaRedes .cajaSociales .nota {
+    margin-left: 2px;
+    color: rgb(199, 199, 199);
+    transition: 0.3s linear;
+    transition-property: transform;
     display: none;
+    visibility: hidden;
+  }
+  .contentFoot .contentFoot__cajaRedes .cajaSociales .IconSocial:hover {
+    color: #56fbd3;
   }
 }
 * {
