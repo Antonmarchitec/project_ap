@@ -76,20 +76,23 @@
             background: $colorAzul;
             overflow: hidden;
             transform: skew(-5deg);
+
             .contSectionTitleTop{
                 width: 100%;
                 height: 180px;
-                background: linear-gradient(#0c1b32, transparent);
+                //background: linear-gradient(#0c1b32, transparent);
                 position: absolute;
                 top: 0;
+                font-family: "Oswald", sans-serif;
+                font-optical-sizing: auto;
 
             }
             .titleProyectos{
                 text-align: center;
-                font-size: 80px;
+                font-size: 100px;
                 font-weight: 700;
                 color: #56fbd3;
-                padding-top: 70px;
+                padding-top: 30px;
                 animation-duration: 2s;
                 letter-spacing: -5px;
             }
@@ -374,17 +377,17 @@
                 .contSectionTitleTop{
                     width: 100%;
                     height: 180px;
-                    background: linear-gradient(#0c1b32, transparent);
+                    //background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
     
                 }
                 .titleProyectos{
                     text-align: center;
-                    font-size: 80px;
+                    font-size: 100px;
                     font-weight: 700;
                     color: #56fbd3;
-                    padding-top: 70px;
+                    padding-top: 20px;
                     animation-duration: 2s;
                     letter-spacing: -5px;
                 }
@@ -676,20 +679,21 @@
                 background: $colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
+
                 .contSectionTitleTop{
                     width: 100%;
                     height: 180px;
-                    background: linear-gradient(#0c1b32, transparent);
+                    //background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
     
                 }
                 .titleProyectos{
                     text-align: center;
-                    font-size: 80px;
+                    font-size: 100px;
                     font-weight: 700;
                     color: #56fbd3;
-                    padding-top: 70px;
+                    padding-top: 18px;
                     animation-duration: 2s;
                     letter-spacing: -5px;
                 }
@@ -978,20 +982,21 @@
                 background: $colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
+
                 .contSectionTitleTop{
                     width: 100%;
                     height: 180px;
-                    background: linear-gradient(#0c1b32, transparent);
+                    //background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
     
                 }
                 .titleProyectos{
                     text-align: center;
-                    font-size: 80px;
+                    font-size: 100px;
                     font-weight: 700;
                     color: #56fbd3;
-                    padding-top: 70px;
+                    padding-top: 20px;
                     animation-duration: 2s;
                     letter-spacing: -5px;
                 }
@@ -1290,20 +1295,21 @@
                 background: $colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
+
                 .contSectionTitleTop{
                     width: 100%;
                     height: 180px;
-                    background: linear-gradient(#0c1b32, transparent);
+                    //background: linear-gradient(#0c1b32, transparent);
                     position: absolute;
                     top: 0;
     
                 }
                 .titleProyectos{
                     text-align: center;
-                    font-size: 80px;
+                    font-size: 90px;
                     font-weight: 700;
                     color: #56fbd3;
-                    padding-top: 70px;
+                    padding-top: 20px;
                     animation-duration: 2s;
                     letter-spacing: -5px;
                 }
@@ -1605,6 +1611,7 @@
                 padding-top: 40px;
                 animation-duration: 2s;
                 letter-spacing: -5px;
+
                 .contSectionTitleTop{
                     width: 100%;
                     height: 180px;
@@ -1614,10 +1621,10 @@
                 }
                 .titleProyectos{
                     text-align: center;
-                    font-size: 60px;
+                    font-size: 80px;
                     font-weight: 700;
                     color: #56fbd3;
-                    padding-top: 70px;
+                    padding-top: 30px;
                     animation-duration: 2s;
                     letter-spacing: -5px;
                 }
