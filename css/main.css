@@ -369,7 +369,6 @@ body::-webkit-scrollbar-thumb:hover {
   width: auto;
   padding: 15px 0px;
   font-size: 220px;
-  text-shadow: 2px 6px 4px white;
   transform: skewX(-5deg);
   line-height: 130px;
   color: #060f1d;
@@ -377,6 +376,9 @@ body::-webkit-scrollbar-thumb:hover {
   top: 100px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
+  text-shadow: 1px 4px 1px rgb(255, 255, 255);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
   /*GRADIENT TEXT
   background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
   background-image: linear-gradient(white, $colorVerde) ;
@@ -498,7 +500,6 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 15px 0px;
     font-size: 220px;
     font-family: Poppins;
-    text-shadow: 2px 6px 4px white;
     transform: skewX(-5deg);
     letter-spacing: -6px;
     line-height: 130px;
@@ -507,6 +508,9 @@ body::-webkit-scrollbar-thumb:hover {
     top: 100px;
     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     /*GRADIENT TEXT
     background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
     background-image: linear-gradient(white, $colorVerde) ;
@@ -628,13 +632,15 @@ body::-webkit-scrollbar-thumb:hover {
     width: auto;
     padding: 15px 0px;
     font-size: 160px;
-    text-shadow: 2px 6px 4px white;
     transform: skewX(-5deg);
     letter-spacing: -6px;
     line-height: 130px;
     color: #060f1d;
     position: absolute;
     top: 100px;
+    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     /*GRADIENT TEXT
     background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
     background-image: linear-gradient(white, $colorVerde) ;
@@ -752,13 +758,15 @@ body::-webkit-scrollbar-thumb:hover {
     width: auto;
     padding: 15px 0px;
     font-size: 130px;
-    text-shadow: 2px 6px 4px white;
     transform: skewX(-5deg);
     letter-spacing: -6px;
     line-height: 130px;
     color: #060f1d;
     position: absolute;
     top: 80px;
+    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     /*GRADIENT TEXT
     background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
     background-image: linear-gradient(white, $colorVerde) ;
