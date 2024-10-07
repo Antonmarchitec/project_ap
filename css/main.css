@@ -780,10 +780,11 @@ RESPONSIVE DESING OFICIAL NUEVO
     //FIN GRADIENT*/
   }
   .contParticulas #particles-js .subtitle {
-    width: 95%;
+    width: 85%;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 23px;
     font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
