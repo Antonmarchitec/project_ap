@@ -23,6 +23,7 @@
             .titulo_acerca{
                 width: 500px;
                 height: 400px;
+                font-family: "Oswald", sans-serif;
                 margin-top: 30px    ;
                 font-size: $fuenteTitles;
                 color: $colorVerde ; 
@@ -56,7 +57,7 @@
                 left: 120px;
                 top:250px;
                 .descripcion_acerca{
-                    text-align:start;
+                    text-align:justify;
                     color:white;
                     font-weight: 300;
                     font-size: 16px;
@@ -181,7 +182,7 @@
                 .titulo_acerca{
                     width: 500px;
                     height: 400px;
-                    margin-top: 30px    ;
+                    margin-top: 30px;
                     font-size: 150px;
                     color: $colorVerde ; 
                     line-height: 180px;
@@ -206,7 +207,7 @@
                     .descripcion_acerca{
                         text-align: justify;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
                         .formms{
                             color: $colorVerde;
                         }    
@@ -355,7 +356,7 @@
                     .descripcion_acerca{
                         text-align: justify;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
                         .formms{
                             color: $colorVerde;
                         }    
@@ -495,7 +496,7 @@
                     .descripcion_acerca{
                         text-align: justify;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
                         .formms{
                             color: $colorVerde;
                         }    
@@ -635,7 +636,7 @@
                     .descripcion_acerca{
                         text-align: justify;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
 
                         .formms{
                             color: $colorVerde;
@@ -777,9 +778,9 @@
                     bottom:initial;
                     top: initial;
                     .descripcion_acerca{
-                        text-align:start;
+                        text-align:justify;
                         color: rgb(255, 255, 255);
-                        font-size: 14px;
+                        font-size: 16px;
 
                         .formms{
                             color: $colorVerde;
@@ -795,7 +796,7 @@
                         background: $colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
-                        font-size: 14px;
+                        font-size: 16px;
                         font-weight: 300;
                         margin-top: initial;
                         margin-left: initial;

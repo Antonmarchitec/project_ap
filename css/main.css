@@ -969,6 +969,7 @@ html {
 #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
   width: 500px;
   height: 400px;
+  font-family: "Oswald", sans-serif;
   margin-top: 30px;
   font-size: 140px;
   color: #56fbd3;
@@ -1001,7 +1002,7 @@ html {
   top: 250px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-  text-align: start;
+  text-align: justify;
   color: white;
   font-weight: 300;
   font-size: 16px;
@@ -1131,7 +1132,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1264,7 +1265,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1389,7 +1390,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1514,7 +1515,7 @@ html {
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1640,9 +1641,9 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: start;
+    text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1656,7 +1657,7 @@ html {
     background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: initial;
     margin-left: initial;
