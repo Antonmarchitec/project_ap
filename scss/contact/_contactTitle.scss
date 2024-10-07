@@ -25,6 +25,8 @@
           left:100px;
           z-index: 0;
           letter-spacing:-3px;
+          font-family: "Oswald", sans-serif;
+          font-optical-sizing: auto;
 
         }
     }
@@ -136,12 +138,7 @@
         transform: skewX(-5deg);
 
         .conatinerTitle_blockA{
-             width: 100%;
-             height: 150px;
-             background:linear-gradient($colorNegro,transparent);
-             position: absolute;
-             top: 0;
-             z-index: 1;
+             display: none;
 
         }
         .conatinerTitle_nameBig{
@@ -157,12 +154,7 @@
             }
         }
         .conatinerTitle_blockB{
-            width: 100%;
-            height: 150px;
-            background:linear-gradient( transparent,$colorNegro);
-            position: absolute;
-            bottom: -2px;
-            z-index: 1;
+            display: none;
 
         }
     }

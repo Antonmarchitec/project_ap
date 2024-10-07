@@ -4387,6 +4387,8 @@ a {
   left: 100px;
   z-index: 0;
   letter-spacing: -3px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
 }
 .containerPortfolio .containerPortfolio_blockB {
   width: 100%;
@@ -4538,6 +4540,7 @@ a {
     width: 100%;
     height: 150px;
     background: linear-gradient(#000000, transparent);
+    display: none;
   }
   .containerPortfolio .containerPortfolio_title {
     color: #56fbd3;
@@ -4552,18 +4555,12 @@ a {
     width: 100%;
     height: 150px;
     background: linear-gradient(transparent, #000000);
+    display: none;
     position: absolute;
     bottom: 0;
     z-index: 1;
   }
 }
-/*
-@media (max-width:1025px) and (min-width:1200px) 
-@media (max-width:770px) and (min-width:1024px)
-@media (max-width:641px) and (min-width:769px)
-@media (max-width:481px) and (min-width:640px)
-@media (max-width:320px) and (min-width:480px)
-*/
 .containerNew {
   width: 80%;
   padding: 10px 0px;
@@ -5903,17 +5900,6 @@ a {
 @media (max-width:320px) and (min-width:480px)
 
 */
-/*******
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:423px)  and (max-width:480px){}      160px
-
-**************************************************
-*************---------------------------------------/*/
 .containerSkills {
   width: 100%;
   height: 250px;
@@ -5935,6 +5921,8 @@ RESPONSIVE DESING OFICIAL NUEVO
   left: 100px;
   z-index: 0;
   letter-spacing: -3px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
 }
 .containerSkills .containerSkills_blockB {
   width: 100%;
@@ -6020,9 +6008,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     margin-top: -60px;
   }
   .containerSkills .containerSkills_blockA {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(#000000, transparent);
+    display: none;
   }
   .containerSkills .containerSkills_title {
     color: #56fbd3;
@@ -6034,11 +6020,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     letter-spacing: -3px;
   }
   .containerSkills .containerSkills_blockB {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(transparent, #000000);
-    position: absolute;
-    bottom: -2px;
+    display: none;
   }
 }
 /*************CONTENEDOR CUARTA SECCION HABILIDADES*****************************/
@@ -6143,6 +6125,8 @@ RESPONSIVE DESING OFICIAL NUEVO
   left: 100px;
   z-index: 0;
   letter-spacing: -3px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
 }
 .conatinerTitle .conatinerTitle_blockB {
   width: 100%;
@@ -6233,12 +6217,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     transform: skewX(-5deg);
   }
   .conatinerTitle .conatinerTitle_blockA {
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(#000000, transparent);
-    position: absolute;
-    top: 0;
-    z-index: 1;
+    display: none;
   }
   .conatinerTitle .conatinerTitle_nameBig .nameBig {
     color: #56fbd3;
@@ -6250,12 +6229,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     letter-spacing: -3px;
   }
   .conatinerTitle .conatinerTitle_blockB {
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(transparent, #000000);
-    position: absolute;
-    bottom: -2px;
-    z-index: 1;
+    display: none;
   }
 }
 html, body {
