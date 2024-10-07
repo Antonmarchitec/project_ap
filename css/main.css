@@ -401,7 +401,7 @@ body::-webkit-scrollbar-thumb:hover {
 .contParticulas #particles-js .subtitle .front_css_js {
   color: #56fbd3;
   font-family: poppins;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
   font-size: 20px;
 }
@@ -540,7 +540,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     font-size: 20px;
   }
@@ -668,7 +668,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     font-size: 20px;
   }
@@ -794,15 +794,15 @@ RESPONSIVE DESING OFICIAL NUEVO
   .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
   }
   .contParticulas #particles-js .particles__menu {
     width: 200px;
     padding: 0px;
     position: absolute;
-    top: 330px;
+    top: 350px;
   }
   .contParticulas #particles-js .particles__menu .particles__ul {
     padding: 4px 0px;
