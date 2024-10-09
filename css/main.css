@@ -2786,7 +2786,7 @@ a {
 }
 .CONTAINER_LANDING .BARS_VERTICLE .contBars .contBars_barra {
   width: 2px;
-  height: 400px;
+  height: 180px;
   background: #56fbd3;
   margin: auto;
   border-radius: 1000px;
