@@ -27,10 +27,14 @@
 }
 
 .text{
-	width: 100px;
 	margin-top: 15px;
 	color: rgb(255, 255, 255);
 	font-size: 16px;
+}
+.codex{
+	color: #56fbd3;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 
