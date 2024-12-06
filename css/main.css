@@ -328,7 +328,6 @@ body::-webkit-scrollbar-thumb:hover {
     background: rgb(31, 122, 122); */
     display: block;
   }
-
   .contHeader_js {
     box-shadow: 0px 2px 20px #56fbd3;
   }
@@ -773,17 +772,16 @@ body::-webkit-scrollbar-thumb:hover {
     top: 80px;
     text-shadow: 1px 4px 1px rgb(255, 255, 255);
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-    /*GRADIENT TEXT
-    background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-    background-image: linear-gradient(white, $colorVerde) ;
-    background-clip: text;
+    -webkit-text-stroke-color: rgb(255, 255, 255); /*GRADIENT TEXT
+background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+background-image: linear-gradient(white, $colorVerde) ;
+background-clip: text;
 
-    -webkit-background-clip:text ;
-    -moz-background-clip:text ;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    //FIN GRADIENT*/
+-webkit-background-clip:text ;
+-moz-background-clip:text ;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+//FIN GRADIENT*/
   }
   .contParticulas #particles-js .subtitle {
     width: 85%;
@@ -2087,21 +2085,18 @@ html {
   background: #56fbd3;
 }
 
-h2 {
-  /* NOOOOO SE RESPETA LAS CLASE TITLE*/
+h2 { /* NOOOOO SE RESPETA LAS CLASE TITLE*/
   margin-top: -30px;
   color: rgb(255, 255, 255);
   font-size: 20px;
 }
 
-.class_popup {
-  /* SE RESPETA LAS CLASE POPUP LOS BORDES*/
+.class_popup { /* SE RESPETA LAS CLASE POPUP LOS BORDES*/
   box-shadow: 0px 0px 8px #56fbd3;
 }
 
 .class_buttonConfirm {
-  width: 180px;
-  /*SE RESPETA LAS CLASE DE LA BOTON*/
+  width: 180px; /*SE RESPETA LAS CLASE DE LA BOTON*/
   padding: 6px;
   border: 1px solid white;
   border-radius: 10px;
@@ -2112,8 +2107,7 @@ h2 {
 }
 
 /*FOOTER*/
-h3 {
-  /*SE RESPETA LAS CLASE DE LA BOTON*/
+h3 { /*SE RESPETA LAS CLASE DE LA BOTON*/
   color: rgba(250, 250, 250, 0.872);
 }
 
