@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 /*************CONTENEDOR CUARTA SECCION HABILIDADES*****************************/
 /******************************************/
@@ -13,7 +13,7 @@
     .cont_big{
         width: 100%;
         //padding:10px 0px;
-        background:$colorNegro;
+        background:variables.$colorNegro;
         position: relative;
 
         .cont_cont_cuadros{
@@ -40,8 +40,8 @@
                     align-items: center;
                     .contcuadro{
                         width: 110px;
-                        background: $colorAzulOscuro;
-                        border-bottom: 2px solid $colorVerde;
+                        background: variables.$colorAzulOscuro;
+                        border-bottom: 2px solid variables.$colorVerde;
                         border-radius: 10px;
                         transform: skew(-5deg);
                         padding: 5px 0px;
@@ -60,7 +60,7 @@
                         }
                         .campoText{
                             text-align: center;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             transform: skew(-5deg);
                             //background: chartreuse;
                         }

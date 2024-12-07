@@ -1,8 +1,8 @@
-@import "variables";
+@use "variables";
 .contPie{
     width: 100%;
     padding: 30px 0px;
-    background:$colorNegro;
+    background:variables.$colorNegro;
     .contPie_cont{
         width: 100%;
         padding: 10px 0px;
@@ -37,7 +37,7 @@
                     font-size: 14px;
                 }
                 .contPie_ul_li_a:hover{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                 }
             }
         }
@@ -57,7 +57,7 @@
           font-weight: 100;
 
           .ap{
-            color: $colorVerde;
+            color: variables.$colorVerde;
             font-size: 12px;
 
           }
@@ -72,7 +72,7 @@
     .contPie{
         width: 100%;
         padding: 30px 0px;
-        background:$colorNegro;
+        background:variables.$colorNegro;
         .contPie_cont{
             width: 100%;
             padding: 10px 0px;
@@ -120,7 +120,7 @@
               line-height: 16px;
               font-weight: 100;
               .ap{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size: 12px;
     
               }

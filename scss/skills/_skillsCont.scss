@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 
 .contSkills{
@@ -11,7 +11,7 @@
     .contSkills_barsA1{
         width: 20px;
         height: 120px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -36,7 +36,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contHTML_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
             }
@@ -50,7 +50,7 @@
     .contSkills_barsA2{
         width: 20px;
         height: 120px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -75,7 +75,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contCSS_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -89,7 +89,7 @@
     .contSkills_barsA6{
         width: 20px;
         height: 190px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -115,7 +115,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contSASS_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -129,7 +129,7 @@
     .contSkills_barsA5{
         width: 20px;
         height: 150px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -155,7 +155,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contBOOTSTRAP_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -170,7 +170,7 @@
     .contSkills_barsA3{
         width: 20px;
         height: 120px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -194,7 +194,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contJS_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -208,7 +208,7 @@
     .contSkills_barsA7{
         width: 20px;
         height: 170px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -234,7 +234,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contREACT_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
             }
         }
@@ -247,7 +247,7 @@
     .contSkills_barsA4{
         width: 20px;
         height: 120px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -271,7 +271,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contGIT_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -285,7 +285,7 @@
     .contSkills_barsA8{
         width: 20px;
         height: 170px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -311,7 +311,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contGITHUB_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -326,7 +326,7 @@
     .contSkills_barsA9{
         width: 20px;
         height: 120px;
-        background: linear-gradient(transparent ,$colorVerde);
+        background: linear-gradient(transparent ,variables.$colorVerde);
         opacity: 0.5;
         border-radius: 5px;
         position: absolute;
@@ -350,7 +350,7 @@
             //background: red;
             margin-top: -15px;
             .contSkills_contPHOTOSHOP_title_h2{
-                color:$colorVerde;
+                color:variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
 
@@ -378,7 +378,7 @@
         .contSkills_barsA1{
             width: 20px;
             height: 120px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -403,7 +403,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contHTML_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -416,7 +416,7 @@
         .contSkills_barsA2{
             width: 20px;
             height: 120px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -441,7 +441,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contCSS_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -453,7 +453,7 @@
         .contSkills_barsA6{
             width: 20px;
             height: 190px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -479,7 +479,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contSASS_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -491,7 +491,7 @@
         .contSkills_barsA5{
             width: 20px;
             height: 150px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -517,7 +517,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contBOOTSTRAP_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -530,7 +530,7 @@
         .contSkills_barsA3{
             width: 20px;
             height: 120px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -554,7 +554,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contJS_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -566,7 +566,7 @@
         .contSkills_barsA7{
             width: 20px;
             height: 170px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -592,7 +592,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contREACT_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -605,7 +605,7 @@
         .contSkills_barsA4{
             width: 20px;
             height: 120px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -629,7 +629,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contGIT_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -641,7 +641,7 @@
         .contSkills_barsA8{
             width: 20px;
             height: 170px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -667,7 +667,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contGITHUB_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }
@@ -680,7 +680,7 @@
         .contSkills_barsA9{
             width: 20px;
             height: 120px;
-            background: linear-gradient(transparent ,$colorVerde);
+            background: linear-gradient(transparent ,variables.$colorVerde);
             opacity: 0.5;
             border-radius: 5px;
             position: absolute;
@@ -704,7 +704,7 @@
                 //background: red;
                 margin-top: -15px;
                 .contSkills_contPHOTOSHOP_title_h2{
-                    color:$colorVerde;
+                    color:variables.$colorVerde;
                     text-align: center;
                 }
             }

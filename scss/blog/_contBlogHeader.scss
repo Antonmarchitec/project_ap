@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 .contBlogHeader{
     width: 100%;
@@ -31,7 +31,7 @@
             bottom: 30px;
             left:calc(50% - 180px);
             text-align: center;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             border-radius: 5px;
             .contBlogHeader_bannerRight_contTitle_text{
                 color: white;
@@ -65,9 +65,9 @@
                 bottom: 20px;
                 line-height: 20px;
                 left: calc(50% - 150px);
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contcontBlogHeader_bannerRight_title{
-                    color:$colorCelesteOscuro ;
+                    color:variables.$colorCelesteOscuro ;
                     font-weight: 700;
                 }
             }
@@ -112,7 +112,7 @@
                 bottom: 30px;
                 left:calc(50% - 180px);
                 text-align: center;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 border-radius: 5px;
                 .contBlogHeader_bannerRight_contTitle_text{
                     color: white;
@@ -146,9 +146,9 @@
                     bottom: 20px;
                     line-height: 20px;
                     left: initial;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     .contcontBlogHeader_bannerRight_title{
-                        color:$colorCelesteOscuro ;
+                        color:variables.$colorCelesteOscuro ;
                         font-weight: 700;
                     }
                 }
@@ -192,7 +192,7 @@
                 bottom: 30px;
                 left:calc(50% - 180px);
                 text-align: center;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 border-radius: 5px;
                 .contBlogHeader_bannerRight_contTitle_text{
                     color: white;
@@ -227,9 +227,9 @@
                     bottom: 20px;
                     line-height: 20px;
                     left: initial;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     .contcontBlogHeader_bannerRight_title{
-                        color:$colorCelesteOscuro ;
+                        color:variables.$colorCelesteOscuro ;
                         font-weight: 700;
                         font-size: 16px;
                     }
@@ -274,7 +274,7 @@
                 bottom: 30px;
                 left:calc(50% - 150px);
                 text-align: center;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 border-radius: 5px;
                 .contBlogHeader_bannerRight_contTitle_text{
                     color: white;

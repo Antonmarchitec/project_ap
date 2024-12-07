@@ -1,12 +1,12 @@
-@import "variables";
+@use "variables";
 .contContact{
    width: 100%;
-   background: $colorAzul;
+   background: variables.$colorAzul;
    padding-bottom:50px;
    .contContact_gradient{
       width: 100%;
       height: 50px;
-      background: linear-gradient($colorNegro, transparent);
+      background: linear-gradient(variables.$colorNegro, transparent);
    }
 
    .formulario{
@@ -42,18 +42,18 @@
                   font-size: 16px;
                   font-weight: 100;
                   outline: 1px solid transparent;
-                  border: 1px solid $colorVerde;
+                  border: 1px solid variables.$colorVerde;
                   border-radius: 2px;
                }
                .input:focus{
-                  outline: 1px solid $colorVerde;
+                  outline: 1px solid variables.$colorVerde;
                }
                //ESTOS DOS FUNCIONAN CON EL "recuired"
                .input[required]:valid{
-                  outline: 1px solid $colorVerde;
+                  outline: 1px solid variables.$colorVerde;
                }
                .input[required]:invalid{
-                  outline: 1px solid $colorRojo;
+                  outline: 1px solid variables.$colorRojo;
                }
             }
            
@@ -74,7 +74,7 @@
                border-radius: 3px;
                min-width:100%;
                max-width:100%;
-               border:1px solid $colorVerde;
+               border:1px solid variables.$colorVerde;
                outline: none;
                color: rgb(255, 255, 255);
                font-weight: 100;
@@ -91,12 +91,12 @@
          border: 1px solid transparent;
          border-radius: 2px;
          margin-left: calc(80% - 180px);
-         color: $colorAzul;
+         color: variables.$colorAzul;
          transition: 0.2s all;
          cursor: pointer;
       }
       .btnEnviar:hover{
-         background: $colorAzul;
+         background: variables.$colorAzul;
          color: white;
          border: 1px solid white;
 
@@ -113,12 +113,12 @@
 @media (min-width:320px) and (max-width:720px) {
    .contContact{
       width: 100%;
-      background: $colorAzul;
+      background: variables.$colorAzul;
       padding-bottom:50px;
       .contContact_gradient{
          width: 100%;
          height: 50px;
-         background: linear-gradient($colorNegro, transparent);
+         background: linear-gradient(variables.$colorNegro, transparent);
       }
    
       .formulario{
@@ -143,7 +143,7 @@
                padding: 5px 0px;
                
                .campoTextareaTitle{
-                  color: $colorCelesteOscuro;
+                  color: variables.$colorCelesteOscuro;
                }
                .textarea{
                   margin: 10px auto;
@@ -161,8 +161,8 @@
             width:100%;
             font-weight: 100;
             padding: 5px 10px;
-            background:$colorAzul;
-            border: 1px solid $colorVerde;
+            background:variables.$colorAzul;
+            border: 1px solid variables.$colorVerde;
             border-radius: 2px;
             margin-left:0;
             color: white;

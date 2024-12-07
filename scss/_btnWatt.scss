@@ -1,10 +1,10 @@
-@import "variables";
+@use "variables";
 
 .btnWattssap{
     width: 160px;
     padding: 5px 0px;
-    background: $colorAzulTransparente;
-    border-bottom:3px solid $colorVerde ;
+    background: variables.$colorAzulTransparente;
+    border-bottom:3px solid variables.$colorVerde ;
     position: fixed;
     bottom: 50px;
     right: 100px;
@@ -18,7 +18,7 @@
     }
     .iconWatsap{
         margin-left: 10px;
-        color:$colorVerde;
+        color:variables.$colorVerde;
         font-size: 26px;
     }
 }
@@ -28,8 +28,8 @@
     .btnWattssap{
         width: 160px;
         padding: 5px 0px;
-        background: $colorAzulTransparente;
-        border-bottom:3px solid $colorVerde ;
+        background: variables.$colorAzulTransparente;
+        border-bottom:3px solid variables.$colorVerde ;
         position: fixed;
         bottom: 40px;
         right: initial;
@@ -44,7 +44,7 @@
         }
         .iconWatsap{
             margin-left: 10px;
-            color:$colorVerde;
+            color:variables.$colorVerde;
             font-size: 26px;
         }
     }

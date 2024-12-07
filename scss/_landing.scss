@@ -1,3 +1,4 @@
+@use "variables";
 
 *{
     padding: 0;
@@ -11,7 +12,7 @@
 .CONTAINER_LANDING{
     width: 100%;
     max-width: 1440px;
-    background:$colorAzul;
+    background:variables.$colorAzul;
     padding: 20px 0px;
     margin: auto;
     display: grid;
@@ -47,18 +48,18 @@
         .contBars{
             width: 100%;
             padding: 5px 0px;
-            background: $colorAzul;
+            background: variables.$colorAzul;
             text-align: center;
             .contBars_barra{
                 width: 2px;
                 height: 180px;
-                background: $colorVerde;
+                background: variables.$colorVerde;
                 margin: auto;
                 border-radius: 1000px;
-                box-shadow: 0px 0px 20px $colorCelesteOscuro;
+                box-shadow: 0px 0px 20px variables.$colorCelesteOscuro;
             }
             .contBars_tHTML{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size:20px;
                 font-weight: 500;
                 height: 50px;
@@ -73,7 +74,7 @@
             width: 100%;
             height: 180px;
             position: relative;
-            background: $colorAzul;
+            background: variables.$colorAzul;
             overflow: hidden;
             transform: skew(-5deg);
 
@@ -125,25 +126,25 @@
                 .contSectionWeb_figture{
                     width: 350px;
                     height: 500px;
-                    box-shadow: 15px 30px 0px $colorVerde;
+                    box-shadow: 15px 30px 0px variables.$colorVerde;
                     transition: 0.5s all;
                 }
                 .contSectionWeb_figture:hover{
-                    box-shadow: -8px 20px 0px $colorVerde;
+                    box-shadow: -8px 20px 0px variables.$colorVerde;
                 }
                 .contSectionWeb_desc{
                     width: 500px;
                     padding: 10px;
-                    background:$colorAzul;
+                    background:variables.$colorAzul;
                     .contSectionWeb_desc_title{
-                        color: $colorVerde;
+                        color: variables.$colorVerde;
                         font-size: 40px;
                         font-weight: 500;
                     }
     
                     .contSectionWeb_desc_text{
                         margin-top: 10px;
-                        color: $colorCelesteOscuro;
+                        color: variables.$colorCelesteOscuro;
                         font-size: 16px;
 
                     }
@@ -165,7 +166,7 @@
                             .contSectionWeb_desc_block_box_subtitle{
                                 font-size: 18px;
                                 font-weight: 500;
-                                color: $colorVerde;
+                                color: variables.$colorVerde;
 
                             }
                             .contSectionWeb_desc_block_box_desc{
@@ -188,8 +189,8 @@
                         width: 200px;
                         padding: 6px 0px;
                         border: 2px solid transparent;
-                        border-bottom: 2px solid $colorVerde;
-                        background: $colorAzulTransparente;
+                        border-bottom: 2px solid variables.$colorVerde;
+                        background: variables.$colorAzulTransparente;
                         color: white;
                         font-size: 14px;
                         font-weight: 500;
@@ -197,7 +198,7 @@
 
                     }
                     .contSectionWeb_desc_btn:hover{
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         cursor: pointer;
     
                     }
@@ -229,8 +230,8 @@
                 transition: 0.3s all;
             }
             .contentSection_blocks_number:hover{
-                background: $colorAzulOscuro;
-                color: $colorVerde;
+                background: variables.$colorAzulOscuro;
+                color: variables.$colorVerde;
             }
         }
 
@@ -290,7 +291,7 @@
         grid-area:FOOTER;
         .contentFoot{
             width: 100%;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             .contentFoot__cajaLN{
                 width: auto;
                 background:transparent;
@@ -319,7 +320,7 @@
                 .cajaSociales{
                     transform: skew(-5deg);
                     .IconSocial{
-                        color:$colorVerde;
+                        color:variables.$colorVerde;
                         font-size: 28px;
                     }
                     .nota{
@@ -339,7 +340,7 @@
     .CONTAINER_LANDING{
         width: 100%;
         max-width: 1300px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -371,7 +372,7 @@
                 width: 100%;
                 height: 180px;
                 position: relative;
-                background: $colorAzul;
+                background: variables.$colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
                 .contSectionTitleTop{
@@ -420,25 +421,25 @@
                     .contSectionWeb_figture{
                         width: 350px;
                         height: 500px;
-                        box-shadow: 15px 30px 0px $colorVerde;
+                        box-shadow: 15px 30px 0px variables.$colorVerde;
                         transition: 0.5s all;
                     }
                     .contSectionWeb_figture:hover{
-                        box-shadow: -8px 20px 0px $colorVerde;
+                        box-shadow: -8px 20px 0px variables.$colorVerde;
                     }
                     .contSectionWeb_desc{
                         width: 400px;
                         padding: 10px;
-                        background:$colorAzul;
+                        background:variables.$colorAzul;
                         .contSectionWeb_desc_title{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             font-size: 40px;
                             font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
-                            color: $colorCelesteOscuro;
+                            color: variables.$colorCelesteOscuro;
                             font-size: 16px;
     
                         }
@@ -460,7 +461,7 @@
                                 .contSectionWeb_desc_block_box_subtitle{
                                     font-size: 18px;
                                     font-weight: 500;
-                                    color: $colorVerde;
+                                    color: variables.$colorVerde;
     
                                 }
                                 .contSectionWeb_desc_block_box_desc{
@@ -483,8 +484,8 @@
                             width: 200px;
                             padding: 6px 0px;
                             border: 2px solid transparent;
-                            border-bottom: 2px solid $colorVerde;
-                            background: $colorAzulTransparente;
+                            border-bottom: 2px solid variables.$colorVerde;
+                            background: variables.$colorAzulTransparente;
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
@@ -492,7 +493,7 @@
     
                         }
                         .contSectionWeb_desc_btn:hover{
-                            border: 2px solid $colorVerde;
+                            border: 2px solid variables.$colorVerde;
                             cursor: pointer;
         
                         }
@@ -524,8 +525,8 @@
                     transition: 0.3s all;
                 }
                 .contentSection_blocks_number:hover{
-                    background: $colorAzulOscuro;
-                    color: $colorVerde;
+                    background: variables.$colorAzulOscuro;
+                    color: variables.$colorVerde;
                 }
             }
         }
@@ -584,7 +585,7 @@
             grid-area:FOOTER;
             .contentFoot{
                 width: 100%;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contentFoot__cajaLN{
                     width: auto;
                     background:transparent;
@@ -613,7 +614,7 @@
                     .cajaSociales{
                         transform: skew(-5deg);
                         .IconSocial{
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             font-size: 28px;
                         }
                         .nota{
@@ -642,7 +643,7 @@
     .CONTAINER_LANDING{
         width: 100%;
         max-width: 1300px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -676,7 +677,7 @@
                 width: 100%;
                 height: 180px;
                 position: relative;
-                background: $colorAzul;
+                background: variables.$colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
 
@@ -726,25 +727,25 @@
                     .contSectionWeb_figture{
                         width: 350px;
                         height: 500px;
-                        box-shadow: 15px 30px 0px $colorVerde;
+                        box-shadow: 15px 30px 0px variables.$colorVerde;
                         transition: 0.5s all;
                     }
                     .contSectionWeb_figture:hover{
-                        box-shadow: -8px 20px 0px $colorVerde;
+                        box-shadow: -8px 20px 0px variables.$colorVerde;
                     }
                     .contSectionWeb_desc{
                         width: calc(60% - 80px);
                         padding: 10px;
-                        background:$colorAzul;
+                        background:variables.$colorAzul;
                         .contSectionWeb_desc_title{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             font-size: 40px;
                             font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
-                            color: $colorCelesteOscuro;
+                            color: variables.$colorCelesteOscuro;
                             font-size: 16px;
     
                         }
@@ -766,7 +767,7 @@
                                 .contSectionWeb_desc_block_box_subtitle{
                                     font-size: 18px;
                                     font-weight: 500;
-                                    color: $colorVerde;
+                                    color: variables.$colorVerde;
     
                                 }
                                 .contSectionWeb_desc_block_box_desc{
@@ -789,8 +790,8 @@
                             width: 200px;
                             padding: 6px 0px;
                             border: 2px solid transparent;
-                            border-bottom: 2px solid $colorVerde;
-                            background: $colorAzulTransparente;
+                            border-bottom: 2px solid variables.$colorVerde;
+                            background: variables.$colorAzulTransparente;
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
@@ -798,7 +799,7 @@
     
                         }
                         .contSectionWeb_desc_btn:hover{
-                            border: 2px solid $colorVerde;
+                            border: 2px solid variables.$colorVerde;
                             cursor: pointer;
         
                         }
@@ -830,8 +831,8 @@
                     transition: 0.3s all;
                 }
                 .contentSection_blocks_number:hover{
-                    background: $colorAzulOscuro;
-                    color: $colorVerde;
+                    background: variables.$colorAzulOscuro;
+                    color: variables.$colorVerde;
                 }
             }
             
@@ -891,7 +892,7 @@
             grid-area:FOOTER;
             .contentFoot{
                 width: 100%;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contentFoot__cajaLN{
                     width: auto;
                     background:transparent;
@@ -920,7 +921,7 @@
                     .cajaSociales{
                         transform: skew(-5deg);
                         .IconSocial{
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             font-size: 28px;
                         }
                         .nota{
@@ -944,7 +945,7 @@
     .CONTAINER_LANDING{
         width: 100%;
         max-width: 1300px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -979,7 +980,7 @@
                 width: 100%;
                 height: 180px;
                 position: relative;
-                background: $colorAzul;
+                background: variables.$colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
 
@@ -1030,25 +1031,25 @@
                         margin: 20px auto;
                         width: 350px;
                         height: 500px;
-                        box-shadow: 15px 30px 0px $colorVerde;
+                        box-shadow: 15px 30px 0px variables.$colorVerde;
                         transition: 0.5s all;
                     }
                     .contSectionWeb_figture:hover{
-                        box-shadow: -8px 20px 0px $colorVerde;
+                        box-shadow: -8px 20px 0px variables.$colorVerde;
                     }
                     .contSectionWeb_desc{
                         width:90%;
                         padding: 10px;
-                        background:$colorAzul;
+                        background:variables.$colorAzul;
                         .contSectionWeb_desc_title{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             font-size: 40px;
                             font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
-                            color: $colorCelesteOscuro;
+                            color: variables.$colorCelesteOscuro;
                             font-size: 16px;
     
                         }
@@ -1070,7 +1071,7 @@
                                 .contSectionWeb_desc_block_box_subtitle{
                                     font-size: 18px;
                                     font-weight: 500;
-                                    color: $colorVerde;
+                                    color: variables.$colorVerde;
     
                                 }
                                 .contSectionWeb_desc_block_box_desc{
@@ -1093,8 +1094,8 @@
                             width: 200px;
                             padding: 6px 0px;
                             border: 2px solid transparent;
-                            border-bottom: 2px solid $colorVerde;
-                            background: $colorAzulTransparente;
+                            border-bottom: 2px solid variables.$colorVerde;
+                            background: variables.$colorAzulTransparente;
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
@@ -1102,7 +1103,7 @@
     
                         }
                         .contSectionWeb_desc_btn:hover{
-                            border: 2px solid $colorVerde;
+                            border: 2px solid variables.$colorVerde;
                             cursor: pointer;
         
                         }
@@ -1142,8 +1143,8 @@
                     transition: 0.3s all;
                 }
                 .contentSection_blocks_number:hover{
-                    background: $colorAzulOscuro;
-                    color: $colorVerde;
+                    background: variables.$colorAzulOscuro;
+                    color: variables.$colorVerde;
                 }
             }
             
@@ -1203,7 +1204,7 @@
             grid-area:FOOTER;
             .contentFoot{
                 width: 100%;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contentFoot__cajaLN{
                     width: auto;
                     background:transparent;
@@ -1232,7 +1233,7 @@
                     .cajaSociales{
                         transform: skew(-5deg);
                         .IconSocial{
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             font-size: 28px;
                         }
                         .nota{
@@ -1258,7 +1259,7 @@
     .CONTAINER_LANDING{
         width: 100%;
         max-width: 1300px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         padding: 20px 0px;
         margin: auto;
         display: grid;
@@ -1292,7 +1293,7 @@
                 width: 100%;
                 height: 180px;
                 position: relative;
-                background: $colorAzul;
+                background: variables.$colorAzul;
                 overflow: hidden;
                 transform: skew(-5deg);
 
@@ -1343,25 +1344,25 @@
                         margin: 20px auto;
                         width: 350px;
                         height: 500px;
-                        box-shadow: 15px 30px 0px $colorVerde;
+                        box-shadow: 15px 30px 0px variables.$colorVerde;
                         transition: 0.5s all;
                     }
                     .contSectionWeb_figture:hover{
-                        box-shadow: -8px 20px 0px $colorVerde;
+                        box-shadow: -8px 20px 0px variables.$colorVerde;
                     }
                     .contSectionWeb_desc{
                         width:90%;
                         padding: 10px;
-                        background:$colorAzul;
+                        background:variables.$colorAzul;
                         .contSectionWeb_desc_title{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             font-size: 40px;
                             font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
-                            color: $colorCelesteOscuro;
+                            color: variables.$colorCelesteOscuro;
                             font-size: 16px;
     
                         }
@@ -1383,7 +1384,7 @@
                                 .contSectionWeb_desc_block_box_subtitle{
                                     font-size: 18px;
                                     font-weight: 500;
-                                    color: $colorVerde;
+                                    color: variables.$colorVerde;
     
                                 }
                                 .contSectionWeb_desc_block_box_desc{
@@ -1406,8 +1407,8 @@
                             width: 200px;
                             padding: 6px 0px;
                             border: 2px solid transparent;
-                            border-bottom: 2px solid $colorVerde;
-                            background: $colorAzulTransparente;
+                            border-bottom: 2px solid variables.$colorVerde;
+                            background: variables.$colorAzulTransparente;
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
@@ -1415,7 +1416,7 @@
     
                         }
                         .contSectionWeb_desc_btn:hover{
-                            border: 2px solid $colorVerde;
+                            border: 2px solid variables.$colorVerde;
                             cursor: pointer;
         
                         }
@@ -1455,8 +1456,8 @@
                     transition: 0.3s all;
                 }
                 .contentSection_blocks_number:hover{
-                    background: $colorAzulOscuro;
-                    color: $colorVerde;
+                    background: variables.$colorAzulOscuro;
+                    color: variables.$colorVerde;
                 }
             }
             
@@ -1516,7 +1517,7 @@
             grid-area:FOOTER;
             .contentFoot{
                 width: 100%;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contentFoot__cajaLN{
                     width: auto;
                     background:transparent;
@@ -1545,7 +1546,7 @@
                     .cajaSociales{
                         transform: skew(-5deg);
                         .IconSocial{
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             font-size: 28px;
                         }
                         .nota{
@@ -1571,7 +1572,7 @@
     .CONTAINER_LANDING{
         width: 100%;
         max-width: 1300px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         padding: 30px 0px;
         margin: auto;
         display: grid;
@@ -1655,25 +1656,25 @@
                         margin: 20px auto;
                         width: 350px;
                         height: 500px;
-                        box-shadow: 15px 30px 0px $colorVerde;
+                        box-shadow: 15px 30px 0px variables.$colorVerde;
                         transition: 0.5s all;
                     }
                     .contSectionWeb_figture:hover{
-                        box-shadow: -8px 20px 0px $colorVerde;
+                        box-shadow: -8px 20px 0px variables.$colorVerde;
                     }
                     .contSectionWeb_desc{
                         width:90%;
                         padding: 10px;
-                        background:$colorAzul;
+                        background:variables.$colorAzul;
                         .contSectionWeb_desc_title{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             font-size: 36px;
                             font-weight: 500;
                         }
         
                         .contSectionWeb_desc_text{
                             margin-top: 10px;
-                            color: $colorCelesteOscuro;
+                            color: variables.$colorCelesteOscuro;
                             font-size: 16px;
     
                         }
@@ -1697,7 +1698,7 @@
                                     font-size: 18px;
                                     line-height: 20px;
                                     font-weight: 500;
-                                    color: $colorVerde;
+                                    color: variables.$colorVerde;
     
                                 }
                                 .contSectionWeb_desc_block_box_desc{
@@ -1720,8 +1721,8 @@
                             width: 200px;
                             padding: 6px 0px;
                             border: 2px solid transparent;
-                            border-bottom: 2px solid $colorVerde;
-                            background: $colorAzulTransparente;
+                            border-bottom: 2px solid variables.$colorVerde;
+                            background: variables.$colorAzulTransparente;
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
@@ -1729,7 +1730,7 @@
     
                         }
                         .contSectionWeb_desc_btn:hover{
-                            border: 2px solid $colorVerde;
+                            border: 2px solid variables.$colorVerde;
                             cursor: pointer;
         
                         }
@@ -1769,8 +1770,8 @@
                     transition: 0.3s all;
                 }
                 .contentSection_blocks_number:hover{
-                    background: $colorAzulOscuro;
-                    color: $colorVerde;
+                    background: variables.$colorAzulOscuro;
+                    color: variables.$colorVerde;
                 }
             }
             
@@ -1830,7 +1831,7 @@
             grid-area:FOOTER;
             .contentFoot{
                 width: 100%;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 .contentFoot__cajaLN{
                     width: auto;
                     background:transparent;
@@ -1859,7 +1860,7 @@
                     .cajaSociales{
                         transform: skew(-5deg);
                         .IconSocial{
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             font-size: 28px;
                         }
                         .nota{

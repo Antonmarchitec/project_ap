@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 
 .containerNew{
@@ -37,7 +37,7 @@
                 width: 50%;
                 height: 50%;
                 padding: 20px;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 position: absolute;
                 top: -50%;
                 left: 0;
@@ -54,7 +54,7 @@
             .caja2{
                 width: 50%;
                 height: 50%;
-                background:$colorAzulTransparente;
+                background:variables.$colorAzulTransparente;
                 position: absolute;
                 top: 0;
                 right:-50%;
@@ -71,7 +71,7 @@
             .caja3{
                 width: 50%;
                 height: 50%;
-                background:$colorAzulTransparente;
+                background:variables.$colorAzulTransparente;
                 position: absolute;
                 bottom: 0;
                 left:-50%;
@@ -88,7 +88,7 @@
             .caja4{
                 width: 50%;
                 height: 50%;
-                background:$colorAzulTransparente;
+                background:variables.$colorAzulTransparente;
                 position: absolute;
                 bottom: -50%;
                 right:0;
@@ -190,7 +190,7 @@
                     width: 50%;
                     height: 50%;
                     padding: 20px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     position: absolute;
                     top: -50%;
                     left: 0;
@@ -207,7 +207,7 @@
                 .caja2{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     top: 0;
                     right:-50%;
@@ -224,7 +224,7 @@
                 .caja3{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     bottom: 0;
                     left:-50%;
@@ -241,7 +241,7 @@
                 .caja4{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     bottom: -50%;
                     right:0;
@@ -302,7 +302,7 @@
                     width: 50%;
                     height: 50%;
                     padding: 20px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     position: absolute;
                     top: -50%;
                     left: 0;
@@ -319,7 +319,7 @@
                 .caja2{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     top: 0;
                     right:-50%;
@@ -336,7 +336,7 @@
                 .caja3{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     bottom: 0;
                     left:-50%;
@@ -353,7 +353,7 @@
                 .caja4{
                     width: 50%;
                     height: 50%;
-                    background:$colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     position: absolute;
                     bottom: -50%;
                     right:0;

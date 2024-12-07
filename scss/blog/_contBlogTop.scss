@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 /*
 - @media (min-width:1025px) and (max-width:1200px){}     175px 
@@ -13,7 +13,7 @@
 .contBlogTop{
     width: 100%;
     padding: 10px 0px;
-    background: $colorAzul;
+    background: variables.$colorAzul;
     display: flex;
     flex-direction: row;
     //flex-wrap: wrap;
@@ -25,7 +25,7 @@
     .contBlogTop_logo{
         margin-left: 20px;
         .contBlogTop_logo_text{
-            color: $colorVerde;
+            color: variables.$colorVerde;
             font-size: 100px;
             letter-spacing: -4px;
             .blogtextAux{
@@ -53,9 +53,9 @@
             margin: auto;
             padding: 20px 0px;
             color: white;
-            box-shadow: 0px 0px 10px $colorVerde;
-            border: 2px dashed $colorVerde;
-            text-shadow: 0px 3px 2px $colorVerde;
+            box-shadow: 0px 0px 10px variables.$colorVerde;
+            border: 2px dashed variables.$colorVerde;
+            text-shadow: 0px 3px 2px variables.$colorVerde;
             letter-spacing:-2px;
             font-size: 70px;
             text-align:center;
@@ -74,7 +74,7 @@
     .contBlogTop{
         width: 100%;
         padding: 10px 0px;
-        background: $colorAzul;
+        background: variables.$colorAzul;
         display: flex;
         flex-direction: row;
         //flex-wrap: wrap;
@@ -86,7 +86,7 @@
         .contBlogTop_logo{
             margin-left: 20px;
             .contBlogTop_logo_text{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size: 90px;
                 letter-spacing: -4px;
                 .blogtextAux{
@@ -114,9 +114,9 @@
                 margin: auto;
                 padding: 20px 0px;
                 color: white;
-                box-shadow: 0px 0px 10px $colorVerde;
-                border: 2px dashed $colorVerde;
-                text-shadow: 0px 3px 2px $colorVerde;
+                box-shadow: 0px 0px 10px variables.$colorVerde;
+                border: 2px dashed variables.$colorVerde;
+                text-shadow: 0px 3px 2px variables.$colorVerde;
                 letter-spacing:-2px;
                 font-size: 70px;
                 text-align:center;
@@ -135,7 +135,7 @@
     .contBlogTop{
         width: 100%;
         padding: 10px 0px;
-        background: $colorAzul;
+        background: variables.$colorAzul;
         display: flex;
         flex-direction: row;
         //flex-wrap: wrap;
@@ -147,7 +147,7 @@
         .contBlogTop_logo{
             margin-left: 20px;
             .contBlogTop_logo_text{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size: 80px;
                 letter-spacing: -4px;
                 .blogtextAux{
@@ -173,9 +173,9 @@
                 margin: auto;
                 padding: 15px 0px;
                 color: white;
-                box-shadow: 0px 0px 10px $colorVerde;
-                border: 2px dashed $colorVerde;
-                text-shadow: 0px 3px 2px $colorVerde;
+                box-shadow: 0px 0px 10px variables.$colorVerde;
+                border: 2px dashed variables.$colorVerde;
+                text-shadow: 0px 3px 2px variables.$colorVerde;
                 letter-spacing:-2px;
                 font-size: 50px;
                 text-align:center;
@@ -194,7 +194,7 @@
     .contBlogTop{
         width: 100%;
         padding: 10px 0px;
-        background: $colorAzul;
+        background: variables.$colorAzul;
         display: flex;
         flex-direction: column;
         //flex-wrap: wrap;
@@ -206,7 +206,7 @@
         .contBlogTop_logo{
             margin:auto;
             .contBlogTop_logo_text{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size: 100px;
                 letter-spacing: -4px;
                 .blogtextAux{

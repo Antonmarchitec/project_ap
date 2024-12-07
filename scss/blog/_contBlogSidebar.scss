@@ -1,14 +1,14 @@
-@import "../variables";
+@use "../variables";
 
 .contBlogSidebar{
     width: 100%;
     padding: 50px 10px;
-    background:$colorAzul;
+    background:variables.$colorAzul;
     .contBlogSidebar_contPublicidad{
         width: 100%;
         height:60%;
         margin-bottom: 10px;
-        box-shadow: 0px 0px 6px $colorCelesteOscuro;
+        box-shadow: 0px 0px 6px variables.$colorCelesteOscuro;
 
     }
     .contBlogSidebar_contRedes{
@@ -28,13 +28,13 @@
             align-items: center;
             transition: 0.2s linear;
             .iconBlog{
-                color:$colorAzul;
+                color:variables.$colorAzul;
                 transition: 0.2s linear;
 
             }
         }
         .contBlogSidebar_contRedes_box:hover{
-            background: $colorAzul;
+            background: variables.$colorAzul;
             .iconBlog{
                 color:white;
             }
@@ -47,7 +47,7 @@
     .contBlogSidebar{
         width: 100%;
         padding: 50px 10px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         .contBlogSidebar_contPublicidad{
             width: 100%;
             height: 50%;
@@ -71,7 +71,7 @@
                 align-items: center;
                 transition: 0.2s linear;
                 .iconBlog{
-                    color:$colorAzul;
+                    color:variables.$colorAzul;
                     transition: 0.2s linear;
     
                 }
@@ -88,7 +88,7 @@
     .contBlogSidebar{
         width: 100%;
         padding: 20px 10px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -115,7 +115,7 @@
                 align-items: center;
                 transition: 0.2s linear;
                 .iconBlog{
-                    color:$colorAzul;
+                    color:variables.$colorAzul;
                     transition: 0.2s linear;
     
                 }
@@ -132,7 +132,7 @@
     .contBlogSidebar{
         width: 100%;
         padding: 20px 10px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -159,7 +159,7 @@
                 align-items: center;
                 transition: 0.2s linear;
                 .iconBlog{
-                    color:$colorAzul;
+                    color:variables.$colorAzul;
                     transition: 0.2s linear;
     
                 }

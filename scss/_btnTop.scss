@@ -1,3 +1,5 @@
+@use "variables";
+
 //ESTILOS DEL BOTON TOP
 .contBtnTop{
     //background: orange;
@@ -7,7 +9,7 @@
     z-index: 100;
     .iconTop{
         font-size: 40px;
-        color: $colorBlanco;
+        color: variables.$colorBlanco;
         opacity: 0;
         transition: 0.5s all;
         transform: scale(0,0);
@@ -50,7 +52,7 @@
         bottom: 60px;
         .iconTop{
             font-size: 35px;
-            color: $colorBlanco;
+            color: variables.$colorBlanco;
             opacity: 0;
             transition: 0.5s all;
             transform: scale(0,0);

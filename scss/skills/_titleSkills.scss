@@ -1,26 +1,26 @@
-@import "../variables";
+@use "../variables";
 
 .containerSkills{
     width: 100%;
     height: 250px;
-    background: $colorNegro;
+    background: variables.$colorNegro;
     position: relative;
     overflow: hidden;
     transform: skewX(-5deg);
     .containerSkills_blockA{
        width: 100%;
        height: 250px;
-       background:linear-gradient($colorNegro,transparent);
+       background:linear-gradient(variables.$colorNegro,transparent);
     }
 
     .containerSkills_title{
-         color: $colorVerde;
+         color: variables.$colorVerde;
          font-size: 140px;
          position: absolute;
          bottom: -30px;
          left:100px;
          z-index: 0;
-         letter-spacing:$letterSpacing;
+         letter-spacing:variables.$letterSpacing;
          font-family: "Oswald", sans-serif;
          font-optical-sizing: auto;
 
@@ -29,7 +29,7 @@
     .containerSkills_blockB{
         width: 100%;
         height: 250px;
-        background:linear-gradient( transparent,$colorNegro);
+        background:linear-gradient( transparent,variables.$colorNegro);
         position: absolute;
         bottom: -2px;
         z-index: 1;
@@ -42,31 +42,31 @@
     .containerSkills{
         width: 100%;
         height: 250px;
-        background: $colorNegro;
+        background: variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
         .containerSkills_blockA{
            width: 100%;
            height: 250px;
-           background:linear-gradient($colorNegro,transparent);
+           background:linear-gradient(variables.$colorNegro,transparent);
         }
     
         .containerSkills_title{
-             color: $colorVerde;
+             color: variables.$colorVerde;
              font-size: 140px;
              position: absolute;
              bottom: -30px;
              left:60px;
              z-index: 0;
-             letter-spacing:$letterSpacing;
+             letter-spacing:variables.$letterSpacing;
     
         }
     
         .containerSkills_blockB{
             width: 100%;
             height: 250px;
-            background:linear-gradient( transparent,$colorNegro);
+            background:linear-gradient( transparent,variables.$colorNegro);
             position: absolute;
             bottom: -2px;
             z-index: 1;
@@ -81,31 +81,31 @@
     .containerSkills{
         width: 100%;
         height: 200px;
-        background: $colorNegro;
+        background: variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
         .containerSkills_blockA{
            width: 100%;
            height: 200px;
-           background:linear-gradient($colorNegro,transparent);
+           background:linear-gradient(variables.$colorNegro,transparent);
         }
     
         .containerSkills_title{
-             color: $colorVerde;
+             color: variables.$colorVerde;
              font-size: 120px;
              position: absolute;
              bottom: -30px;
              left:60px;
              z-index: 0;
-             letter-spacing:$letterSpacing;
+             letter-spacing:variables.$letterSpacing;
     
         }
     
         .containerSkills_blockB{
             width: 100%;
             height: 200px;
-            background:linear-gradient( transparent,$colorNegro);
+            background:linear-gradient( transparent,variables.$colorNegro);
             position: absolute;
             bottom: -2px;
             z-index: 1;
@@ -121,7 +121,7 @@
     .containerSkills{
         width: 100%;
         height: 200px;
-        background: $colorNegro;
+        background: variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
@@ -131,7 +131,7 @@
         }
     
         .containerSkills_title{
-             color: $colorVerde;
+             color: variables.$colorVerde;
              font-size:75px;
              position: absolute;
              bottom: 15px;

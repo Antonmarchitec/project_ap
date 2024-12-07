@@ -1,4 +1,4 @@
-@import "variables";
+@use "variables";
 
 .contRedes{
     width: 35px;
@@ -13,13 +13,13 @@
     .contRedes_box{
         width: 100%;
         padding: 5px;
-        background:$colorAzulTransparente;
+        background:variables.$colorAzulTransparente;
         display: flex;
         flex-direction: row;
         justify-content:flex-start;
         align-items: center;
         .IconRed{
-            color: $colorVerde;
+            color: variables.$colorVerde;
             font-size: 28px;
             width: 50px;
             z-index: 100;

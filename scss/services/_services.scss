@@ -1,10 +1,10 @@
 
-@import "../variables";
+@use "../variables";
 /*************CONTENEDOR SECCION SERVICIOS*****************************/
 /******************************************/
 /******************************************/
 #contBase{
-    background:$colorAzul;
+    background:variables.$colorAzul;
     //overflow: hidden;
   
     .containerBaseCuadros{
@@ -19,10 +19,10 @@
         .contCuadro{
             width: 250px;
             height: 250px;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             border-radius: 5px;
             //border: 5px solid $colorBlack;
-            box-shadow: 0px 0px 10px $colorCelesteOscuro;
+            box-shadow: 0px 0px 10px variables.$colorCelesteOscuro;
             margin:10px auto;
             position: relative;
             overflow: hidden;
@@ -49,7 +49,7 @@
                     text-align: center;
                     text-transform: uppercase;
                     line-height: 25px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     line-height: 24px;
                     font-size: 20px;
                 }
@@ -74,9 +74,9 @@
                 }
                 .btnPlanes{
                     display: none;
-                    border:2px solid $colorVerde;
+                    border:2px solid variables.$colorVerde;
                     border-radius: 5px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 3px 10px;
                     position: relative;
                     top: 15px;
@@ -106,9 +106,9 @@
             }
             .contCuadro_descripcion{
                 /////////////
-                background:$colorAzulTransparente;
+                background:variables.$colorAzulTransparente;
                 .contCuadro_title{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                 }
                 .contCuadro_parrafo{
                    opacity: 1;
@@ -300,7 +300,7 @@
     .contBase_gradient{
         width: 100%;
         height: 70px;
-        background: linear-gradient(transparent, $colorNegro);
+        background: linear-gradient(transparent, variables.$colorNegro);
     }
 
 }
@@ -311,7 +311,7 @@
 
 @media (min-width:641px) and (max-width:1200px) {
     #contBase{
-        background:$colorAzul;
+        background:variables.$colorAzul;
         //overflow: hidden;
         .containerBaseCuadros{
             margin-top: -100px;
@@ -320,7 +320,7 @@
         .contBase_gradient{
             width: 100%;
             height: 70px;
-            background: linear-gradient(transparent, $colorNegro);
+            background: linear-gradient(transparent, variables.$colorNegro);
         }
     
     }
@@ -332,7 +332,7 @@
 
 @media (min-width:320px) and (max-width:640px) {
     #contBase{
-        background:$colorAzul;
+        background:variables.$colorAzul;
         //overflow: hidden;
       
         .containerBaseCuadros{
@@ -352,7 +352,7 @@
                         text-align: center;
                         text-transform: uppercase;
                         line-height: 25px;
-                        color: $colorVerde;
+                        color: variables.$colorVerde;
                         line-height: 24px;
                         font-size: 25px;
                     }
@@ -364,7 +364,7 @@
         .contBase_gradient{
             width: 100%;
             height: 70px;
-            background: linear-gradient(transparent, $colorNegro);
+            background: linear-gradient(transparent, variables.$colorNegro);
         }
     
     }

@@ -1,4 +1,4 @@
-@import "../variables";
+@use "../variables";
 
 
 
@@ -12,7 +12,7 @@ html, body{
     //padding: 20px 0px;
     margin: auto;
     display: grid;
-    background: $colorAzul;
+    background: variables.$colorAzul;
     //gap: 1em;
     grid-template-columns: repeat(2,1fr) 25%;
     grid-template-rows:auto ;
@@ -78,7 +78,7 @@ html, body{
    .CONTAINER_BLOG{
      
       display: grid;
-      background: $colorAzul;
+      background: variables.$colorAzul;
       //gap: 1em;
       grid-template-columns: repeat(3,1fr);
       grid-template-rows:auto ;

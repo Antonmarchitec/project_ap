@@ -1,9 +1,9 @@
-@import "../variables";
+@use "../variables";
 
 .conatinerTitle{
     width: 100%;
     height: 250px;
-    background:$colorNegro;
+    background:variables.$colorNegro;
     position: relative;
     overflow: hidden;
     transform: skewX(-5deg);
@@ -11,14 +11,14 @@
     .conatinerTitle_blockA{
          width: 100%;
          height: 250px;
-         background:linear-gradient($colorNegro,transparent);
+         background:linear-gradient(variables.$colorNegro,transparent);
          position: absolute;
          top: 0;
          z-index: 1;
     }
     .conatinerTitle_nameBig{
         .nameBig{
-          color: $colorVerde;
+          color: variables.$colorVerde;
           font-size: 140px;
           position: absolute;
           bottom: -30px;
@@ -33,7 +33,7 @@
     .conatinerTitle_blockB{
         width: 100%;
         height: 250px;
-        background:linear-gradient( transparent,$colorNegro);
+        background:linear-gradient( transparent,variables.$colorNegro);
         position: absolute;
         bottom: 0px;
         z-index: 1;
@@ -45,7 +45,7 @@
     .conatinerTitle{
         width: 100%;
         height: 200px;
-        background:$colorNegro;
+        background:variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
@@ -53,27 +53,27 @@
         .conatinerTitle_blockA{
              width: 100%;
              height: 200px;
-             background:linear-gradient($colorNegro,transparent);
+             background:linear-gradient(variables.$colorNegro,transparent);
              position: absolute;
              top: 0;
              z-index: 1;
         }
         .conatinerTitle_nameBig{
             .nameBig{
-              color: $colorVerde;
+              color: variables.$colorVerde;
               font-size: 120px;
               position: absolute;
               bottom: -30px;
               left:60px;
               z-index: 0;
-              letter-spacing:$letterSpacing;
+              letter-spacing:variables.$letterSpacing;
 
             }
         }
         .conatinerTitle_blockB{
             width: 100%;
             height: 200px;
-            background:linear-gradient( transparent,$colorNegro);
+            background:linear-gradient( transparent,variables.$colorNegro);
             position: absolute;
             bottom: -2px;
             z-index: 1;
@@ -87,34 +87,34 @@
     .conatinerTitle{
         width: 100%;
         height: 200px;
-        background:$colorNegro;
+        background:variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
         .conatinerTitle_blockA{
              width: 100%;
              height: 200px;
-             background:linear-gradient($colorNegro,transparent);
+             background:linear-gradient(variables.$colorNegro,transparent);
              position: absolute;
              top: 0;
              z-index: 1;
         }
         .conatinerTitle_nameBig{
             .nameBig{
-              color: $colorVerde;
+              color: variables.$colorVerde;
               font-size: 110px;
               position: absolute;
               bottom: 5px;
               left:calc(50% - 220px);
               z-index: 0;
-              letter-spacing:$letterSpacing;
+              letter-spacing:variables.$letterSpacing;
 
             }
         }
         .conatinerTitle_blockB{
             width: 100%;
             height: 200px;
-            background:linear-gradient( transparent,$colorNegro);
+            background:linear-gradient( transparent,variables.$colorNegro);
             position: absolute;
             bottom: -2px;
             z-index: 1;
@@ -128,7 +128,7 @@
     .conatinerTitle{
         width: 100%;
         height: 150px;
-        background:$colorNegro;
+        background:variables.$colorNegro;
         position: relative;
         overflow: hidden;
         transform: skewX(-5deg);
@@ -139,7 +139,7 @@
         }
         .conatinerTitle_nameBig{
             .nameBig{
-              color: $colorVerde;
+              color: variables.$colorVerde;
               font-size: 75px;
               position: absolute;
               bottom: 0px;

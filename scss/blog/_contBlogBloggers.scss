@@ -1,11 +1,11 @@
-@import "../variables";
+@use "../variables";
 
 .contBlogBloggersBase{
     width: 100%;
     .contBlogBloggers{
         width: 100%;
         padding: 50px 0px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -25,7 +25,7 @@
                 width: 400px;
                 padding: 5px 0px;
                 font-weight: 600;
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-size: 35px;
                 line-height: 30px;
             }
@@ -35,7 +35,7 @@
                 color: white;
             }
             .contBloggers_desc_fuente{
-                color: $colorCelesteOscuro;
+                color: variables.$colorCelesteOscuro;
                 font-weight: 500;
             }
             .contBloggers_desc_IconButton{
@@ -56,10 +56,10 @@
                     background: transparent;
                     transition: 0.2s;
                     border-radius: 5px;
-                    border:2px solid $colorVerde;
+                    border:2px solid variables.$colorVerde;
                 }
                 .contBloggers_desc_btn:hover{
-                    background: $colorAzul;
+                    background: variables.$colorAzul;
                     border:2px solid white;
                     border-radius: 5px;
 
@@ -71,7 +71,7 @@
                     padding: 2px 0px;
                     margin-right: 10px;
                     .blogIcons{
-                        color: $colorVerde;
+                        color: variables.$colorVerde;
                         cursor: pointer;
                         margin-left: 15px;
                     }
@@ -109,13 +109,13 @@
         justify-content: center;
         align-items: center;
         transition: 0.2s all;
-        color:$colorAzul;
+        color:variables.$colorAzul;
         font-weight: 600;
         font-size: 15px;
         border-radius: 3px;
     }
     .contBlogNumerador_box:hover{
-        background: $colorAzul;
+        background: variables.$colorAzul;
         cursor: pointer;
         color: white;
     }
@@ -130,7 +130,7 @@
         .contBlogBloggers{
             width: 100%;
             padding: 10px 20px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction: column;
             flex-direction: column-reverse;
@@ -151,7 +151,7 @@
                 .contBloggers_desc_title{
                     padding: 5px 0px;
                     font-weight: 600;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     line-height: 30px;
                 }
                 .contBloggers_desc_parrafo{
@@ -178,10 +178,10 @@
                         background: transparent;
                         transition: 0.2s;
                         border-radius: 5px;
-                        border:2px solid $colorVerde;
+                        border:2px solid variables.$colorVerde;
                     }
                     .contBloggers_desc_btn:hover{
-                        background: $colorAzul;
+                        background: variables.$colorAzul;
                         border:2px solid white;
                         border-radius: 5px;
     
@@ -193,7 +193,7 @@
                         padding: 2px 0px;
                         margin-left: 5px;
                         .blogIcons{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             cursor: pointer;
                             margin-left: 5px;
                         }
@@ -224,7 +224,7 @@
         .contBlogBloggers{
             width: 100%;
             padding: 10px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction: column;
             flex-direction: column-reverse;
@@ -248,7 +248,7 @@
                     width: 100%;
                     padding: 5px 0px;
                     font-weight: 600;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     line-height: 30px;
                 }
                 .contBloggers_desc_parrafo{
@@ -275,10 +275,10 @@
                         background: transparent;
                         transition: 0.2s;
                         border-radius: 5px;
-                        border:2px solid $colorVerde;
+                        border:2px solid variables.$colorVerde;
                     }
                     .contBloggers_desc_btn:hover{
-                        background: $colorAzul;
+                        background: variables.$colorAzul;
                         border:2px solid white;
                         border-radius: 5px;
     
@@ -290,7 +290,7 @@
                         padding: 2px 0px;
                         margin-left: 5px;
                         .blogIcons{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                             cursor: pointer;
                             margin-left: 5px;
                         }

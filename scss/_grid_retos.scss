@@ -1,11 +1,11 @@
-
+@use "variables";
 
 
 .CONTAINER{
     width: 100%;
     max-width: 1440px;
     padding: 10px 0px;
-    background:$colorAzul;
+    background:variables.$colorAzul;
     margin: auto;
     display: grid;
     overflow: hidden;

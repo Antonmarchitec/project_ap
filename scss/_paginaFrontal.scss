@@ -1,4 +1,4 @@
-
+@use "variables";
 
 /////////////////CAJA PARTICULASS/////////////////////////
 
@@ -21,7 +21,7 @@
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        background: $colorAzulTransparente;
+        background: variables.$colorAzulTransparente;
         position: fixed;
         left: 0;
     
@@ -32,7 +32,7 @@
             font-size: 220px;
             transform: skewX(-5deg);
             line-height:130px;
-            color: $colorAzulOscuro;
+            color: variables.$colorAzulOscuro;
             position: absolute;
             top: 100px;
             font-family: "Oswald", sans-serif;
@@ -41,8 +41,8 @@
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: rgb(255, 255, 255);
             /*GRADIENT TEXT
-            background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-            background-image: linear-gradient(white, $colorVerde) ;
+            background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+            background-image: linear-gradient(white, variables.variables.$colorVerde) ;
             background-clip: text;
 
             -webkit-background-clip:text ;
@@ -64,7 +64,7 @@
             top: 330px;
             font-family: poppins;
             .front_css_js{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-family: poppins;
                 font-weight: 500;
                 font-style: normal;
@@ -87,7 +87,7 @@
 
                 .particles__item{
                     width: 150px;
-                    background:linear-gradient($colorVerde, transparent);
+                    background:linear-gradient(variables.$colorVerde, transparent);
                     padding: 5px 0px;
                     text-align: center;
 
@@ -99,7 +99,7 @@
                 }
                  
                 .particles__item:hover{
-                    background:linear-gradient(transparent, $colorVerde); 
+                    background:linear-gradient(transparent, variables.$colorVerde); 
                     cursor: pointer;
                 }
             }
@@ -109,7 +109,7 @@
         ////////////////////FOOTER/////////////////////////
         .contFooter{
             width:90%;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             position: absolute;
             bottom: 15px;
             .contFooter_cuadroBase{
@@ -126,12 +126,12 @@
                     background: transparent;
                     .IconRed{
                         font-size: 25px;
-                        color:$colorVerde;
+                        color:variables.$colorVerde;
                         transform:  rotateY(25deg);
                         transition: all 0.2s;
                     }
                     .IconRed:hover{
-                        color: $colorCelesteOscuro;
+                        color: variables.$colorCelesteOscuro;
                         transform: rotate(360deg);
                         cursor: pointer;
                     }  
@@ -171,7 +171,7 @@
             flex-direction:column;
             justify-content: center;
             align-items: center;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             position: fixed;
             left: 0;
         
@@ -184,7 +184,7 @@
                 transform: skewX(-5deg);
                 letter-spacing: -6px;
                 line-height:130px;
-                color: $colorAzulOscuro;
+                color: variables.$colorAzulOscuro;
                 position: absolute;
                 top: 100px;
                 font-family: "Oswald", sans-serif;
@@ -193,8 +193,8 @@
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: rgb(255, 255, 255);
                 /*GRADIENT TEXT
-                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, $colorVerde) ;
+                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
                 background-clip: text;
     
                 -webkit-background-clip:text ;
@@ -216,7 +216,7 @@
                 top: 330px;
                 font-family: poppins;
                 .front_css_js{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     font-family: poppins;
                     font-weight: 500;
                     font-style: normal;
@@ -239,7 +239,7 @@
     
                     .particles__item{
                         width: 150px;
-                        background:linear-gradient($colorVerde, transparent);
+                        background:linear-gradient(variables.$colorVerde, transparent);
                         padding: 5px 0px;
                         text-align: center;
                         .particles__link{
@@ -250,7 +250,7 @@
                     }
                      
                     .particles__item:hover{
-                        background:linear-gradient(transparent, $colorVerde); 
+                        background:linear-gradient(transparent, variables.$colorVerde); 
                         cursor: pointer;
                     }
                 }
@@ -277,7 +277,7 @@
                         padding: 0px 3px ;
                         .IconRed{
                             font-size: 28px;
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
                         }
@@ -323,7 +323,7 @@
             flex-direction:column;
             justify-content: center;
             align-items: center;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             position: fixed;
             left: 0;
         
@@ -335,15 +335,15 @@
                 transform: skewX(-5deg);
                 letter-spacing: -6px;
                 line-height:130px;
-                color: $colorAzulOscuro;
+                color: variables.$colorAzulOscuro;
                 position: absolute;
                 top: 100px;
                 text-shadow: 1px 4px 1px rgb(255, 255, 255);
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: rgb(255, 255, 255);
                 /*GRADIENT TEXT
-                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, $colorVerde) ;
+                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
                 background-clip: text;
     
                 -webkit-background-clip:text ;
@@ -365,7 +365,7 @@
                 top: 300px;
                 font-family: poppins;
                 .front_css_js{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     font-family: poppins;
                     font-weight: 500;
                     font-style: normal;
@@ -388,7 +388,7 @@
                     align-items: center;
                     .particles__item{
                         width: 180px;
-                        background:linear-gradient($colorVerde, transparent);
+                        background:linear-gradient(variables.$colorVerde, transparent);
                         padding: 5px 0px;
                         text-align: center;
                         margin: 10px;
@@ -422,7 +422,7 @@
                         padding: 0px 3px ;
                         .IconRed{
                             font-size: 25px;
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
                         }
@@ -466,7 +466,7 @@
             flex-direction:column;
             justify-content: center;
             align-items: center;
-            background: $colorAzulTransparente;
+            background: variables.$colorAzulTransparente;
             position: fixed;
             left: 0;
         
@@ -478,14 +478,14 @@
                 transform: skewX(-5deg);
                 letter-spacing: -6px;
                 line-height:130px;
-                color: $colorAzulOscuro;
+                color: variables.$colorAzulOscuro;
                 position: absolute;
                 top: 80px;
                 text-shadow: 1px 4px 1px rgb(255, 255, 255);
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: rgb(255, 255, 255);                /*GRADIENT TEXT
-                background: $colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, $colorVerde) ;
+                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
                 background-clip: text;
     
                 -webkit-background-clip:text ;
@@ -509,7 +509,7 @@
                 top: 270px;
                 font-family: poppins;
                 .front_css_js{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     font-family: poppins;
                     font-weight: 500;
                     font-style: normal;
@@ -532,7 +532,7 @@
                     align-items: center;
                     .particles__item{
                         width: 200px;
-                        background:linear-gradient($colorVerde, transparent);
+                        background:linear-gradient(variables.$colorVerde, transparent);
                         padding: 5px 0px;
                         text-align: center;
                         margin: 8px 0px;
@@ -566,7 +566,7 @@
                         padding: 0px 3px ;
                         .IconRed{
                             font-size: 28px;
-                            color:$colorVerde;
+                            color:variables.$colorVerde;
                             transform:  rotateY(25deg);
                             transition: all 0.2s;
                         }

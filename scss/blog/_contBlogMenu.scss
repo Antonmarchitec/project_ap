@@ -1,9 +1,9 @@
-@import "../variables";
+@use "../variables";
 
 .contBlogMenu{
     width: 100%;
     padding: 10px 0px;
-    background:$colorAzul;
+    background:variables.$colorAzul;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +22,7 @@
             list-style: none;
             text-align: center;
             .blogLink{
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 font-weight: 300;
                 transition: 0.5s all;
             }
@@ -48,7 +48,7 @@
         .iconBlogResponsive:hover{
             transform: translateX(10px);
             cursor: pointer;
-            color: $colorVerde;
+            color: variables.$colorVerde;
         }
     }
 }
@@ -59,7 +59,7 @@
     .contBlogMenu{
         width: 100%;
         padding: 10px 0px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -74,7 +74,7 @@
             justify-content: space-around;
             align-items: center;
             position: absolute;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             top:-220px;  //70px
             opacity: 1;
             transition: 0.2s linear;
@@ -86,7 +86,7 @@
                 list-style: none;
                 text-align: center;
                 .blogLink{
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     font-weight: 300;
                     transition: 0.5s all;
                 }

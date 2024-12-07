@@ -1,4 +1,53 @@
-@import "variables";
+@use "variables";
+
+@use "menu";
+@use "grid_paginaFrontal";
+@use "paginaFrontal";
+@use "gridContent";
+@use "about";
+@use "contact";
+@use "btnTop";
+@use "preloader";
+@use "pie";
+@use "barras";
+@use "switchAlert";
+@use "grid_retos";
+@use "retos";
+@use "landing"; 
+@use "btnWatt";
+@use "block_redes";
+
+
+//ESTILOS PORTAFOLIO
+@use "../scss/portfolio/title";
+//@import "../scss/portfolio/estructura";
+@use "../scss/portfolio/portafolioNew";
+
+//ESTILOS SERVICIOS
+@use "../scss/services/titleServices";
+@use "../scss/services/services";
+
+//ESTILOS SKILLS
+@use "../scss/skills/skillsCont";
+@use "../scss/skills/titleSkills";
+@use "../scss/skills/skills";
+
+
+//ESTILOS CONTACT
+@use "../scss/contact/contactTitle";
+
+
+//ESTILOS BLOGGER
+@use "../scss/blog/blogGrilla";  
+@use "../scss/blog/contBlogTop";
+@use "../scss/blog/contBlogMenu";
+@use "../scss/blog/contBlogHeader";
+@use "../scss/blog/contBlogBloggers";
+@use "../scss/blog/contBlogSidebar";
+@use "../scss/blog/contBlogFooter";
+
+
+
 
 *{
     padding: 0;
@@ -35,7 +84,7 @@ body::-webkit-scrollbar{
     
 }
 body::-webkit-scrollbar-thumb{
-    background: $colorVerde;
+    background: variables.$colorVerde;
     border-radius: 20px;
     height: 100px;
 }
@@ -45,49 +94,3 @@ body::-webkit-scrollbar-thumb:hover{
 
 
 
-@import "menu";
-@import "grid_paginaFrontal";
-@import "paginaFrontal";
-@import "gridContent";
-@import "about";
-@import "variables";
-@import "contact";
-@import "btnTop";
-@import "preloader";
-@import "pie";
-@import "barras";
-@import "switchAlert";
-@import "grid_retos";
-@import "retos";
-@import "landing"; 
-@import "btnWatt";
-@import "block_redes";
-
-
-//ESTILOS PORTAFOLIO
-@import "../scss/portfolio/title";
-//@import "../scss/portfolio/estructura";
-@import "../scss/portfolio/portafolioNew";
-
-//ESTILOS SERVICIOS
-@import "../scss/services/titleServices";
-@import "../scss/services/services";
-
-//ESTILOS SKILLS
-@import "../scss/skills/skillsCont";
-@import "../scss/skills/titleSkills";
-@import "../scss/skills/skills";
-
-
-//ESTILOS CONTACT
-@import "../scss/contact/contactTitle";
-
-
-//ESTILOS BLOGGER
-@import "../scss/blog/blogGrilla";  
-@import "../scss/blog/contBlogTop";
-@import "../scss/blog/contBlogMenu";
-@import "../scss/blog/contBlogHeader";
-@import "../scss/blog/contBlogBloggers";
-@import "../scss/blog/contBlogSidebar";
-@import "../scss/blog/contBlogFooter";

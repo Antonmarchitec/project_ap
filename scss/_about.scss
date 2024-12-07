@@ -1,14 +1,15 @@
-@import "variables";
+@use "variables";
+
 #cont_descripcion_foto{
     width: 100%;
-    //background:$colorAzul;
+    //background:variables.$colorAzul;
     background-size:100% 500px;
     background-repeat:no-repeat ;
     position: relative;
     .contBase{
         width: 100%;
         padding:50px 0px;
-        background:$colorAzul;
+        background:variables.$colorAzul;
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
@@ -25,10 +26,10 @@
                 height: 400px;
                 font-family: "Oswald", sans-serif;
                 margin-top: 30px    ;
-                font-size: $fuenteTitles;
-                color: $colorVerde ; 
+                font-size: variables.$fuenteTitles;
+                color: variables.$colorVerde ; 
                 line-height: 180px;
-                letter-spacing: $letterSpacing; 
+                letter-spacing: variables.$letterSpacing; 
                 position: absolute;
                 top: 0;
                 left: -500px;
@@ -68,9 +69,9 @@
                     width: 200px;
                     border: none;
                     border: 2px solid transparent;
-                    border-bottom:2px solid $colorVerde;
+                    border-bottom:2px solid variables.$colorVerde;
                     padding: 5px;
-                    background: $colorAzulTransparente;
+                    background:variables.$colorAzulTransparente;
                     transform: skew(-5deg);
                     color: white;
                     font-size: 16px;
@@ -84,12 +85,12 @@
                     .iconAB{
                         margin-left: 5px;
                         font-size: 25px;
-                        color: $colorVerde;
+                        color: variables.$colorVerde;
                     }
                 }
                 .btnAcerca:hover{
                     background:rgba(255, 255, 255, 0.075);
-                    border: 2px solid $colorVerde;
+                    border: 2px solid variables.$colorVerde;
                     //color: $colorBlack;
                 }
             }
@@ -99,7 +100,7 @@
         .contenedor_der{
             width: 40%;
             //margin-right: 50px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction: column;    
             justify-content: center;
@@ -107,10 +108,10 @@
             .contenedor_der_image{
                 width: 380px;
                 height: 380px;
-                border:1px solid $colorVerde;
+                border:1px solid variables.$colorVerde;
                 border-radius:5px;
-                background: $colorVerde;
-                box-shadow: -18px 18px 1px $colorVerdeTrans;
+                background: variables.$colorVerde;
+                box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                 overflow: hidden;
                 transform: skew(-3deg);
                 transition: 0.1s all linear;
@@ -122,8 +123,8 @@
                 }    
             }
             .contenedor_der_image:hover{
-                //border:5px double $colorVerde;
-                border:1px solid $colorVerde;
+                //border:5px double variables.$colorVerde;
+                border:1px solid variables.$colorVerde;
                 .foto{
                     mix-blend-mode:normal;    
                 }   
@@ -131,9 +132,9 @@
             .contenedor_der_name{
                 margin: -60px auto;
                 width: 200px;
-                background: $colorAzulTransparente;
+                background: variables.$colorAzulTransparente;
                 padding: 5px 0px;
-                color: $colorVerde;
+                color: variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
             }
@@ -148,7 +149,7 @@
         top: 0;
         left: 0;
         background: rgb(2,0,36);
-        background: linear-gradient(90deg, $colorAzul 0%, $colorAzul 15%,transparent);
+        background: linear-gradient(90deg, variables.$colorAzul 0%, variables.$colorAzul 15%,transparent);
     }
    
 }
@@ -167,7 +168,7 @@
         .contBase{
             width: 100%;
             padding:50px 0px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -184,9 +185,9 @@
                     height: 400px;
                     margin-top: 30px;
                     font-size: 150px;
-                    color: $colorVerde ; 
+                    color: variables.$colorVerde ; 
                     line-height: 180px;
-                    letter-spacing: $letterSpacing; 
+                    letter-spacing: variables.$letterSpacing; 
                     position: absolute;
                     top: 0;
                     left: -500px;
@@ -209,16 +210,16 @@
                         color: rgb(255, 255, 255);
                         font-size: 16px;
                         .formms{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }    
                     }
                     .btnAcerca{
                         width: 200px;
                         border: none;
                         border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
+                        border-bottom:2px solid variables.$colorVerde;
                         padding: 5px;
-                        background: $colorAzulTransparente;
+                        background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
                         font-size: 14px;
@@ -232,12 +233,12 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }
                     }
                     .btnAcerca:hover{
                         background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         //color: $colorBlack;
                     }
                 }
@@ -245,7 +246,7 @@
             }
             .contenedor_der{
                 width: 40%;
-                background: $colorAzul;
+                background: variables.$colorAzul;
                 margin-right: 20px;
                 display: flex;
                 justify-content: center;
@@ -254,10 +255,10 @@
                 .contenedor_der_image{
                     width: 350px;
                     height: 350px;
-                    border:1px solid $colorVerde;
+                    border:1px solid variables.$colorVerde;
                     border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    background: variables.$colorVerde;
+                    box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                     overflow: hidden;
                     transform: skew(-3deg);
                     transition: 0.1s all linear;
@@ -269,8 +270,8 @@
                     }    
                 }
                 .contenedor_der_image:hover{
-                    //border:5px double $colorVerde;
-                    border:1px solid $colorVerde;
+                    //border:5px double variables.$colorVerde;
+                    border:1px solid variables.$colorVerde;
                     .foto{
                         mix-blend-mode:normal;    
                     }   
@@ -278,9 +279,9 @@
                 .contenedor_der_name{
                     margin: -60px auto;
                     width: 200px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 5px 0px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     text-align: center;
                     transform: skew(-5deg);
                 }
@@ -294,7 +295,7 @@
             top: 0;
             left: 0;
             background: rgb(2,0,36);
-            background: linear-gradient(90deg, $colorAzul 0%, $colorAzul 15%,transparent);
+            background: linear-gradient(90deg, variables.$colorAzul 0%, variables.$colorAzul 15%,transparent);
         }
        
     } 
@@ -314,7 +315,7 @@
         .contBase{
             width: 100%;
             padding:50px 0px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -332,9 +333,9 @@
                     height: auto;
                     margin-top: initial;
                     font-size: 120px;
-                    color: $colorVerde ; 
+                    color: variables.$colorVerde ; 
                     line-height: 180px;
-                    letter-spacing: $letterSpacing; 
+                    letter-spacing: variables.$letterSpacing; 
                     position: initial;
                     top: initial;
                     left: initial;
@@ -358,16 +359,16 @@
                         color: rgb(255, 255, 255);
                         font-size: 16px;
                         .formms{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }    
                     }
                     .btnAcerca{
                         width: 200px;
                         border: none;
                         border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
+                        border-bottom:2px solid variables.$colorVerde;
                         padding: 5px;
-                        background: $colorAzulTransparente;
+                        background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
                         font-size: 14px;
@@ -384,12 +385,12 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }
                     }
                     .btnAcerca:hover{
                         background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         //color: $colorBlack;
                     }
                 }
@@ -407,10 +408,10 @@
                 .contenedor_der_image{
                     width: 250px;
                     height: 250px;
-                    border:1px solid $colorVerde;
+                    border:1px solid variables.$colorVerde;
                     border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    background: variables.$colorVerde;
+                    box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                     overflow: hidden;
                     transform: skew(-2deg);
                     transition: 0.1s all linear;
@@ -424,9 +425,9 @@
                 .contenedor_der_name{
                     margin: -60px auto;
                     width: 200px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 5px 0px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     text-align: center;
                     transform: skew(-5deg);
                 }
@@ -455,7 +456,7 @@
         .contBase{
             width: 100%;
             padding:50px 0px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -472,9 +473,9 @@
                     height: auto;
                     margin-top: initial;
                     font-size: 120px;
-                    color: $colorVerde ; 
+                    color: variables.$colorVerde ; 
                     line-height: 180px;
-                    letter-spacing: $letterSpacing; 
+                    letter-spacing: variables.$letterSpacing; 
                     position: initial;
                     top: initial;
                     left: initial;
@@ -498,16 +499,16 @@
                         color: rgb(255, 255, 255);
                         font-size: 16px;
                         .formms{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }    
                     }
                     .btnAcerca{
                         width: 200px;
                         border: none;
                         border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
+                        border-bottom:2px solid variables.$colorVerde;
                         padding: 5px;
-                        background: $colorAzulTransparente;
+                        background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
                         font-size: 14px;
@@ -524,12 +525,12 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }
                     }
                     .btnAcerca:hover{
                         background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         //color: $colorBlack;
                     }
                 }
@@ -547,10 +548,10 @@
                 .contenedor_der_image{
                     width: 230px;
                     height: 230px;
-                    border:1px solid $colorVerde;
+                    border:1px solid variables.$colorVerde;
                     border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    background: variables.$colorVerde;
+                    box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                     overflow: hidden;
                     transform: skew(-2deg);
                     transition: 0.1s all linear;
@@ -564,9 +565,9 @@
                 .contenedor_der_name{
                     margin: -60px auto;
                     width: 200px;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 5px 0px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     text-align: center;
                     transform: skew(-5deg);
                 }
@@ -596,7 +597,7 @@
         .contBase{
             width: 100%;
             padding:50px 0px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -613,9 +614,9 @@
                     height: auto;
                     margin-top:initial;
                     font-size: 100px;
-                    color: $colorVerde ; 
+                    color: variables.$colorVerde ; 
                     line-height: 180px;
-                    letter-spacing: $letterSpacing; 
+                    letter-spacing: variables.$letterSpacing; 
                     position: initial;
                     top: initial;
                     left: initial;
@@ -639,7 +640,7 @@
                         font-size: 16px;
 
                         .formms{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }    
                     }
 
@@ -647,9 +648,9 @@
                         width: 180px;
                         border: none;
                         border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
+                        border-bottom:2px solid variables.$colorVerde;
                         padding: 5px;
-                        background: $colorAzulTransparente;
+                        background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
                         font-size: 14px;
@@ -666,12 +667,12 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }
                     }
                     .btnAcerca:hover{
                         background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         //color: $colorBlack;
                     }
                 }
@@ -689,10 +690,10 @@
                     width: 200px;
                     height: 200px;
                     margin-left: calc(10% - 240px);
-                    border:1px solid $colorVerde;
+                    border:1px solid variables.$colorVerde;
                     border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    background: variables.$colorVerde;
+                    box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                     overflow: hidden;
                     transform: skew(-2deg);
                     transition: 0.1s all linear;
@@ -706,9 +707,9 @@
                 .contenedor_der_name{
                     margin: -60px auto;
                     width: 100%;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 5px 0px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     text-align: center;
                     transform: skew(-5deg);
                     font-size: 14px;
@@ -739,7 +740,7 @@
         .contBase{
             width: 100%;
             padding:10px 0px;
-            background:$colorAzul;
+            background:variables.$colorAzul;
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -755,9 +756,9 @@
                     height: auto;
                     margin-top:-15px;
                     font-size: 100px;
-                    color: $colorVerde ; 
+                    color: variables.$colorVerde ; 
                     line-height: 180px;
-                    letter-spacing: $letterSpacing; 
+                    letter-spacing: variables.$letterSpacing; 
                     position: initial;
                     top: initial;
                     left: initial;
@@ -783,7 +784,7 @@
                         font-size: 16px;
 
                         .formms{
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }    
                     }
 
@@ -791,9 +792,9 @@
                         width: 180px;
                         border: none;
                         border: 2px solid transparent;
-                        border-bottom:2px solid $colorVerde;
+                        border-bottom:2px solid variables.$colorVerde;
                         padding: 5px;
-                        background: $colorAzulTransparente;
+                        background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
                         font-size: 16px;
@@ -810,12 +811,12 @@
                         .iconAB{
                             margin-left: 5px;
                             font-size: 25px;
-                            color: $colorVerde;
+                            color: variables.$colorVerde;
                         }
                     }
                     .btnAcerca:hover{
                         background:rgba(255, 255, 255, 0.075);
-                        border: 2px solid $colorVerde;
+                        border: 2px solid variables.$colorVerde;
                         //color: $colorBlack;
                     }
                 }
@@ -834,10 +835,10 @@
                     width: 200px;
                     height: 200px;
                     margin-left: calc(55% - 240px);
-                    border:1px solid $colorVerde;
+                    border:1px solid variables.$colorVerde;
                     border-radius:5px;
-                    background: $colorVerde;
-                    box-shadow: -18px 18px 1px $colorVerdeTrans;
+                    background: variables.$colorVerde;
+                    box-shadow: -18px 18px 1px variables.$colorVerdeTrans;
                     overflow: hidden;
                     transform: skew(-2deg);
                     transition: 0.1s all linear;
@@ -851,9 +852,9 @@
                 .contenedor_der_name{
                     margin: -60px auto;
                     width: 100%;
-                    background: $colorAzulTransparente;
+                    background: variables.$colorAzulTransparente;
                     padding: 5px 0px;
-                    color: $colorVerde;
+                    color: variables.$colorVerde;
                     text-align: center;
                     transform: skew(-5deg);
                     font-size: 14px;
