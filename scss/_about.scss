@@ -25,6 +25,7 @@
                 width: 500px;
                 height: 400px;
                 font-family: "Oswald", sans-serif;
+                font-weight: 700;
                 margin-top: 30px    ;
                 font-size: variables.$fuenteTitles;
                 color: variables.$colorVerde ; 
@@ -58,10 +59,9 @@
                 left: 120px;
                 top:250px;
                 .descripcion_acerca{
-                    text-align:justify;
+                    text-align:start;
                     color:white;
                     font-weight: 100;
-                    font-size: 16px;
                     
 
                 }
@@ -74,8 +74,7 @@
                     background:variables.$colorAzulTransparente;
                     transform: skew(-5deg);
                     color: white;
-                    font-size: 16px;
-                    font-weight: 300;
+                    font-weight: 100;
                     margin-top: 20px;
                     margin-left: 10px;
                     float: right;
@@ -134,6 +133,7 @@
                 width: 200px;
                 background: variables.$colorAzulTransparente;
                 padding: 5px 0px;
+                font-weight: 300;
                 color: variables.$colorVerde;
                 text-align: center;
                 transform: skew(-5deg);
@@ -355,7 +355,6 @@
                     top: initial;
                  
                     .descripcion_acerca{
-                        text-align: justify;
                         color: rgb(255, 255, 255);
                         font-size: 16px;
                         .formms{
@@ -495,7 +494,6 @@
                     top: initial;
                  
                     .descripcion_acerca{
-                        text-align: justify;
                         color: rgb(255, 255, 255);
                         font-size: 16px;
                         .formms{
@@ -635,7 +633,6 @@
                     bottom:initial;
                     top: initial;
                     .descripcion_acerca{
-                        text-align: justify;
                         color: rgb(255, 255, 255);
                         font-size: 16px;
 
@@ -779,9 +776,7 @@
                     bottom:initial;
                     top: initial;
                     .descripcion_acerca{
-                        text-align:justify;
                         color: rgb(255, 255, 255);
-                        font-size: 16px;
 
                         .formms{
                             color: variables.$colorVerde;
@@ -797,7 +792,6 @@
                         background: variables.$colorAzulTransparente;
                         transform: skew(-5deg);
                         color: white;
-                        font-size: 16px;
                         font-weight: 300;
                         margin-top: initial;
                         margin-left: initial;

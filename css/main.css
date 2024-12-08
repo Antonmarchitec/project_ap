@@ -935,6 +935,7 @@ html {
   width: 500px;
   height: 400px;
   font-family: "Oswald", sans-serif;
+  font-weight: 700;
   margin-top: 30px;
   font-size: 140px;
   color: #56fbd3;
@@ -967,10 +968,9 @@ html {
   top: 250px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-  text-align: justify;
+  text-align: start;
   color: white;
   font-weight: 100;
-  font-size: 16px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
   width: 200px;
@@ -981,8 +981,7 @@ html {
   background: rgba(5, 11, 32, 0.7764705882);
   transform: skew(-5deg);
   color: white;
-  font-size: 16px;
-  font-weight: 300;
+  font-weight: 100;
   margin-top: 20px;
   margin-left: 10px;
   float: right;
@@ -1032,6 +1031,7 @@ html {
   width: 200px;
   background: rgba(5, 11, 32, 0.7764705882);
   padding: 5px 0px;
+  font-weight: 300;
   color: #56fbd3;
   text-align: center;
   transform: skew(-5deg);
@@ -1228,7 +1228,6 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 16px;
   }
@@ -1353,7 +1352,6 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 16px;
   }
@@ -1478,7 +1476,6 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 16px;
   }
@@ -1606,9 +1603,7 @@ html {
     top: initial;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
     color: rgb(255, 255, 255);
-    font-size: 16px;
   }
   #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
     color: #56fbd3;
@@ -1622,7 +1617,6 @@ html {
     background: rgba(5, 11, 32, 0.7764705882);
     transform: skew(-5deg);
     color: white;
-    font-size: 16px;
     font-weight: 300;
     margin-top: initial;
     margin-left: initial;
