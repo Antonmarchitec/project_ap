@@ -1705,7 +1705,7 @@ html {
 }
 .contContact .formulario .contDatosPersonales .contCampos label {
   color: white;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 18px;
 }
 .contContact .formulario .contDatosPersonales .contCampos .campoInput {
@@ -1739,7 +1739,7 @@ html {
 }
 .contContact .formulario .contDatosPersonales .campoTextarea label {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 .contContact .formulario .contDatosPersonales .campoTextarea .textarea {
