@@ -58,11 +58,11 @@
             text-align: center;
             color:white;
             font-size: 22px;
-            font-weight: 100;
+            font-weight: 300;
             transform: skewX(-5deg);
             position: absolute;
             top: 330px;
-            font-family: poppins;
+            font-family: Poppins;
             .front_css_js{
                 color: variables.$colorVerde;
                 font-family: poppins;
@@ -94,7 +94,7 @@
                     .particles__link{
                         color: white;
                         font-size: 16px;
-                        font-weight: 100;
+                        font-weight: 300;
                     }
                 }
                  
@@ -139,7 +139,6 @@
                     .caja__parra{
                         font-size: 14px;
                         color: white;
-                        font-weight: 100;
                         margin-left: 5px;
                     }  
                 }
@@ -210,7 +209,7 @@
                 text-align: center;
                 color:white;
                 font-size: 20px;
-                font-weight: 100;
+                font-weight: 300;
                 transform: skewX(-5deg);
                 position: absolute;
                 top: 330px;
@@ -245,7 +244,7 @@
                         .particles__link{
                             color: white;
                             font-size: 16px;
-                            font-weight: 100;
+                            font-weight: 300;
                         }
                     }
                      
@@ -285,7 +284,7 @@
                         .caja__parra{
                             font-size: 14px;
                             color: white;
-                            font-weight: 100;
+                            font-weight: 300;
                             margin-left: 5px;
                             display: none;
                         }  
@@ -359,7 +358,7 @@
                 text-align: center;
                 color:white;
                 font-size: 20px;
-                font-weight: 100;
+                font-weight: 300;
                 transform: skewX(-5deg);
                 position: absolute;
                 top: 300px;
@@ -430,7 +429,7 @@
                         .caja__parra{
                             font-size: 14px;
                             color: white;
-                            font-weight: 100;
+                            font-weight: 300;
                             margin-left: 5px;
                             display: none;
                         }  
@@ -498,12 +497,12 @@
     
             //SUBTITLE
             .subtitle{
-                width: 85%;
+                width: 65%;
                 text-align: center;
                 color:white;
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 23px;
-                font-weight: 300;
+                font-weight: 200;
                 transform: skewX(-5deg);
                 position: absolute;
                 top: 270px;
@@ -511,9 +510,9 @@
                 .front_css_js{
                     color: variables.$colorVerde;
                     font-family: poppins;
-                    font-weight: 500;
+                    font-weight: 300;
                     font-style: normal;
-                    font-size: 24px;
+                    font-size: 20px;
                 }
             }
     
@@ -574,7 +573,7 @@
                         .caja__parra{
                             font-size: 14px;
                             color: white;
-                            font-weight: 100;
+                            font-weight: 300;
                             margin-left: 5px;
                             display: none;
                         }  

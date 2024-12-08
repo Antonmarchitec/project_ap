@@ -361,11 +361,11 @@
   text-align: center;
   color: white;
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 300;
   transform: skewX(-5deg);
   position: absolute;
   top: 330px;
-  font-family: poppins;
+  font-family: Poppins;
 }
 .contParticulas #particles-js .subtitle .front_css_js {
   color: #56fbd3;
@@ -396,7 +396,7 @@
 .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
   color: white;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
   background: linear-gradient(transparent, #56fbd3);
@@ -435,7 +435,6 @@
 .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
   font-size: 14px;
   color: white;
-  font-weight: 100;
   margin-left: 5px;
 }
 
@@ -493,7 +492,7 @@
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
     top: 330px;
@@ -528,7 +527,7 @@
   .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
     color: white;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
   }
   .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
     background: linear-gradient(transparent, #56fbd3);
@@ -563,7 +562,7 @@
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     font-size: 14px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     margin-left: 5px;
     display: none;
   }
@@ -623,7 +622,7 @@
     text-align: center;
     color: white;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
     top: 300px;
@@ -691,7 +690,7 @@
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     font-size: 14px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     margin-left: 5px;
     display: none;
   }
@@ -745,12 +744,12 @@ background-clip: text;
 //FIN GRADIENT*/
   }
   .contParticulas #particles-js .subtitle {
-    width: 85%;
+    width: 65%;
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 23px;
-    font-weight: 300;
+    font-weight: 200;
     transform: skewX(-5deg);
     position: absolute;
     top: 270px;
@@ -759,9 +758,9 @@ background-clip: text;
   .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
   }
   .contParticulas #particles-js .particles__menu {
     width: 200px;
@@ -818,7 +817,7 @@ background-clip: text;
   .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     font-size: 14px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     margin-left: 5px;
     display: none;
   }
@@ -970,7 +969,7 @@ html {
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
   text-align: justify;
   color: white;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 16px;
 }
 #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
@@ -7351,8 +7350,10 @@ html, body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: poppins;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
   /*   200    700
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
@@ -7366,6 +7367,11 @@ html, body {
   }
 
       */
+  /*
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  */
 }
 
 body {
