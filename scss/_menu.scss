@@ -44,7 +44,7 @@
       //BLOCK NAVEGADOR
       .contNavegador{
         width:570px;
-        padding: 3px 0px;
+        padding: 10px 0px;
         margin-right: 20px;
         display: flex;
         flex-direction: row;
@@ -60,7 +60,7 @@
             font-size: 20px;
           }
           .contLetras{
-            margin-top: -5px;
+            margin-top: 4px;
             font-size: 14px;
             font-weight: 100;
             color: variables.$colorVerde;
@@ -80,7 +80,7 @@
           }
 
           .contLetras{
-            margin-top: -5px;
+            margin-top: 4px;
             font-size: 14px;
             font-weight: 300;
             color: variables.$colorVerde;
@@ -226,6 +226,7 @@
         left: initial;
         transform: translateX(-100%);
         transition: 0.8s;
+
         .contIcono_active{
           width: 160px;
           padding: 15px 20px;
@@ -262,6 +263,7 @@
           .submenu{
             width: 150px;
             background:variables.$colorAzulOscuro;
+
             padding: 10px;
             list-style: none;
             display: flex;
@@ -271,7 +273,7 @@
             position: absolute;
             top:-167px;
             right:initial;
-            left: 150px;
+            left: 149px;
             opacity: 0;
             visibility: hidden;
             transition: 0.5s all;
