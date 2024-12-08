@@ -4565,6 +4565,7 @@ a {
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja1 .box-dos_texto {
   font-size: 26px;
+  font-weight: 700;
   line-height: 26px;
 }
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja2 {
@@ -4614,6 +4615,7 @@ a {
 .containerNew .newBaseCuadro .containerNew_cuadroBase .caja4 .box-dos_texto {
   color: rgb(255, 255, 255);
   font-size: 26px;
+  font-weight: 700;
   line-height: 60px;
 }
 .containerNew .newBaseCuadro:hover {
