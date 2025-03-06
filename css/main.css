@@ -57,7 +57,7 @@
 .header .contNavegador .contIcono_active .contLetras {
   margin-top: 4px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
   color: #56fbd3;
   transform: skewX(-5deg);
 }

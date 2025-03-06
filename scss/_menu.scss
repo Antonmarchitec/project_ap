@@ -54,7 +54,6 @@
         .contIcono_active{
           width: 100px;
           padding: 5px 20px;
-          
           .IconNombre{
             color: variables.$colorVerde;
             font-size: 20px;
@@ -62,7 +61,7 @@
           .contLetras{
             margin-top: 4px;
             font-size: 14px;
-            font-weight: 100;
+            font-weight: 300;
             color: variables.$colorVerde;
             transform: skewX(-5deg);
 
