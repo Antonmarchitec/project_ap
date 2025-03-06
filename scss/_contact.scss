@@ -1,4 +1,6 @@
 @use "variables";
+
+
 .contContact{
    width: 100%;
    background: variables.$colorAzul;
@@ -13,7 +15,7 @@
        width:80%;
        margin: auto;
        padding: 20px 0px;
-
+      
        .contDatosPersonales{
          width: 100%;
          padding: 20px 0px;
@@ -26,8 +28,8 @@
             width: 50%;
             label{
                color: white;
-               font-weight:100 ;
-               font-size:18px;
+               font-weight:300 ;
+               font-size:22px;
             }
 
             .campoInput{
@@ -40,7 +42,7 @@
                   background: transparent;
                   color: rgb(255, 255, 255);
                   font-size: 16px;
-                  font-weight: 100;
+                  font-weight: 300;
                   outline: 1px solid transparent;
                   border: 1px solid variables.$colorVerde;
                   border-radius: 2px;
@@ -65,7 +67,7 @@
             border-radius: 2px;
             label{
                color: white;
-               font-size:18px;
+               font-size:22px;
                font-weight: 300;
             }
             .textarea{
@@ -77,7 +79,7 @@
                border:1px solid variables.$colorVerde;
                outline: none;
                color: rgb(255, 255, 255);
-               font-weight: 100;
+               font-weight: 300;
                background: transparent;
                resize: none;
             }  
@@ -87,11 +89,11 @@
          width:280px;
          font-weight: 100;
          padding: 5px 10px;
-         background:white;
-         border: 1px solid transparent;
+         background: variables.$colorAzulOscuro;
+         border: 1px solid variables.$colorVerde;
          border-radius: 2px;
          margin-left: calc(80% - 180px);
-         color: variables.$colorAzul;
+         color: white;
          transition: 0.2s all;
          cursor: pointer;
       }
