@@ -83,29 +83,37 @@
 
 
 
+<!--CODIGO MEJORADO VALIDACION EN PHP-->
+
 <?php
-$nombre = $_POST['nombre'];
-$mail = $_POST['email'];
-$telefono = $_POST['celular'];
-$comentario = $_POST['comentario'];
+$nombre    = htmlspecialchars(trim($_POST['nombre']));
+$mail      = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+$telefono  = htmlspecialchars(trim($_POST['celular']));
+$comentario = htmlspecialchars(trim($_POST['comentario']));
 
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
+// Validación básica de email
+if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+    die("Correo electrónico no válido.");
+}
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n";
-$mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Telefono de contacto: " . $telefono . " \r\n";
-$mensaje .= "Mensaje: " . $_POST['comentario'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
+$header  = 'From: ' . $mail . "\r\n";
+$header .= 'Reply-To: ' . $mail . "\r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . "\r\n";
+$header .= "Mime-Version: 1.0\r\n";
+$header .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-//$para = 'contacto@antomdeveloper.com';
+$mensaje  = "Este mensaje fue enviado por: $nombre\r\n";
+$mensaje .= "E-mail: $mail\r\n";
+$mensaje .= "Teléfono: $telefono\r\n";
+$mensaje .= "Mensaje:\r\n$comentario\r\n";
+$mensaje .= "Enviado el " . date('d/m/Y H:i:s') . "\r\n";
+
 $para = 'registros@portafolio.digitizingcode.com';
 $asunto = 'Nuevo mensaje registrado';
 
-mail($para, $asunto, $mensaje, $header);
-
-//  header("Location:enviado.html"); 
-header("Location:contenido.html");   //ESTA ES LA CARPETA DONDE DIRECCIONAMOS
+if (mail($para, $asunto, $mensaje, $header)) {
+    header("Location: contenido.html");
+} else {
+    echo "Error al enviar el mensaje. Intenta nuevamente más tarde.";
+}
 ?>
