@@ -108,7 +108,7 @@ $mensaje .= "Teléfono: $telefono\r\n";
 $mensaje .= "Mensaje:\r\n$comentario\r\n";
 $mensaje .= "Enviado el " . date('d/m/Y H:i:s') . "\r\n";
 
-$para = 'registros@portafolio.digitizingcode.com';
+$para = 'contacto@digitizingcode.com';
 $asunto = 'Nuevo mensaje registrado';
 
 if (mail($para, $asunto, $mensaje, $header)) {
