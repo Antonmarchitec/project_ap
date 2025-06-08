@@ -75,11 +75,7 @@
             <div class="imagen">
                 <i class="iconBv fas fa-american-sign-language-interpreting"></i>
             </div>
-<<<<<<< HEAD
-            <a href="index.html" class="enlaceRegresar">Regresar</a>
-=======
             <a href="contenido.html" class="enlaceRegresar">Regresar</a>
->>>>>>> 9e72f05 (105_actualizandoContacto)
 
         </div>
     </div>
