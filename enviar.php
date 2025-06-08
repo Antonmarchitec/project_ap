@@ -76,6 +76,7 @@
                 <i class="iconBv fas fa-american-sign-language-interpreting"></i>
             </div>
             <a href="index.html" class="enlaceRegresar">Regresar</a>
+
         </div>
     </div>
 </body>
@@ -86,9 +87,9 @@
 <!--CODIGO MEJORADO VALIDACION EN PHP-->
 
 <?php
-$nombre    = htmlspecialchars(trim($_POST['nombre']));
-$mail      = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
-$telefono  = htmlspecialchars(trim($_POST['celular']));
+$nombre     = htmlspecialchars(trim($_POST['nombre']));
+$mail       = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+$telefono   = htmlspecialchars(trim($_POST['celular']));
 $comentario = htmlspecialchars(trim($_POST['comentario']));
 
 // Validación básica de email
@@ -96,10 +97,10 @@ if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
     die("Correo electrónico no válido.");
 }
 
-$header  = 'From: ' . $mail . "\r\n";
-$header .= 'Reply-To: ' . $mail . "\r\n";
+$header  = "From: $mail\r\n";
+$header .= "Reply-To: $mail\r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . "\r\n";
-$header .= "Mime-Version: 1.0\r\n";
+$header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
 $mensaje  = "Este mensaje fue enviado por: $nombre\r\n";
@@ -113,7 +114,10 @@ $asunto = 'Nuevo mensaje registrado';
 
 if (mail($para, $asunto, $mensaje, $header)) {
     header("Location: contenido.html");
+    exit(); // 🔸 buena práctica: asegura que no se ejecute nada después
 } else {
     echo "Error al enviar el mensaje. Intenta nuevamente más tarde.";
 }
 ?>
+
+
