@@ -72,7 +72,7 @@ function validar(){
      });
      return false
                
-   }else if(nombre.length > 30){
+   }else if(nombre.length > 20){
        //alert("no puedes ingresar mas de 20 palabras en el campo nombre");
        
        Swal.fire({
@@ -396,7 +396,7 @@ function validar(){
      });
      return false
    }else{
-      Swal.fire({
+      /**Swal.fire({
          title:"<h2 class = 'title'> Mensaje enviado exitosamente! <h2>",    //tilte si se acepta codigo html
          //html:"RELLENAR TODOS LOS ESPACIOS",  //si se permite html
          icon:"success",  //error   wargning  info  success
@@ -455,7 +455,8 @@ function validar(){
                  //cancelButton:"class_buttonCancel",
                  
              },
-     });
+     });*///
+     console.log("Mensaje enciado con exito")
      return true
    }
 }
