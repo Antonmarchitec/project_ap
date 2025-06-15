@@ -97,7 +97,12 @@ if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
     die("Correo electrónico no válido.");
 }
 
+/*
 $header  = "From: $mail\r\n";
+$header .= "Reply-To: $mail\r\n";
+*/
+
+$header  = "From: no-reply@digitizingcode.com\r\n";
 $header .= "Reply-To: $mail\r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . "\r\n";
 $header .= "MIME-Version: 1.0\r\n";
