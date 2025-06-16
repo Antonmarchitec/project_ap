@@ -2,14 +2,20 @@
 
 
 .contenedorSkills{
-    width: 90%;
+    width: 80%;
     margin: auto;
-    height: 300px;
     padding: 50px 20px;
     background:variables.$colorNegro;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     .contenedorSkills_box{
-        width: 200px;
+        width: 220px;
+        height: 200PX;
         padding:20px 5px;
+        margin-bottom: 30px;
         background:variables.$color_n_azulMarino;
         border-radius: 20px 0px 20px 0px;
         box-shadow: 5px 5px 2px variables.$color_n_white;
