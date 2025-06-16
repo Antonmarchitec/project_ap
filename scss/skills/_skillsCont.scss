@@ -1,47 +1,42 @@
-
-/*
-contenedorSkills_box
-box_numero
-box_cajaBase
-cajaBaseImage
-cajaLegenda
-
-*/
+@use "../variables";
 
 
 .contenedorSkills{
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 300px;
-    padding: 20px 0px;
-    background: rgb(54, 54, 54);
+    padding: 50px 20px;
+    background:variables.$colorNegro;
     .contenedorSkills_box{
-        width: 160px;
-        padding: 5px 0px;
-        background: green;
+        width: 200px;
+        padding:20px 5px;
+        background:variables.$color_n_azulMarino;
+        border-radius: 20px 0px 20px 0px;
+        box-shadow: 5px 5px 2px variables.$color_n_white;
+        overflow: hidden;
+        transform: skew(-3deg);
         .box_numero{
-            padding: 5px 0px;
             display: flex;
             justify-content:center;
             align-items: center;
-            background: white;
             margin: auto;
-            font-size: 35px;
+            font-size: 38px;
             font-weight: 700;
-
+            color:variables.$color_n_green;
             .spanNumero{
-                font-size: 35px;
-                font-weight: 700;    
+                font-size: 38px;
+                font-weight: 700;  
+                color:variables.$color_n_green;
             }
 
         }
 
         .box_cajaBase{
-            width: 90%;
-            margin: auto;
+            margin-top: -10px;
             padding: 5px 0px;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             .cajaBaseImage{
                 width: 60px;
@@ -49,12 +44,13 @@ cajaLegenda
             }
 
             .cajaLegenda{
-                padding: 5px 0px;
+                padding: 5px;
                 font-size: 20px;
+                color:variables.$color_n_white;
+                font-weight: 500;
+
             }
         }
     }
 }
 
-
-@use "variables";
