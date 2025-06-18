@@ -2,7 +2,7 @@
 
 
 .contenedorSkills{
-    width: 75%;
+    width: 68%;
     margin: auto;
     padding: 50px 20px;
     background:variables.$colorNegro;
@@ -12,7 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     .contenedorSkills_box{
-        width: 200px;
+        width: 198px;
         height: 180PX;
         padding:20px 5px;
         margin-bottom: 30px;
@@ -21,6 +21,7 @@
         box-shadow: 5px 5px 2px variables.$color_n_white;
         overflow: hidden;
         transform: skew(-3deg);
+        position: relative;
         .box_numero{
             display: flex;
             justify-content:center;
@@ -29,12 +30,17 @@
             font-size: 38px;
             font-weight: 700;
             color:variables.$color_n_green;
-            .spanNumero{
-                font-size: 38px;
+           
+
+        }
+
+        .spanNumero{
+                font-size: 80px;
                 font-weight: 700;  
                 color:variables.$color_n_green;
-            }
-
+                position: absolute;
+                top: -30px;
+                right: -5px;
         }
 
         .box_cajaBase{
@@ -47,6 +53,10 @@
             .cajaBaseImage{
                 width: 60px;
                 height: 60px;
+                .iconsTech{
+                    font-size: 46px;
+                    color: variables.$color_n_green;
+                }
             }
 
             .cajaLegenda{

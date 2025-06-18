@@ -20,8 +20,8 @@
     function estaEnPantalla(elemento) {
       const rect = elemento.getBoundingClientRect();
       return (
-        rect.top >= 0 &&
-        rect.bottom <= window.innerHeight
+        rect.bottom >= 0 &&
+        rect.top <= window.innerHeight
       );
     }
 

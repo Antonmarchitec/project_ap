@@ -5306,7 +5306,7 @@ a {
   }
 }
 .contenedorSkills {
-  width: 75%;
+  width: 68%;
   margin: auto;
   padding: 50px 20px;
   background: #000000;
@@ -5317,7 +5317,7 @@ a {
   align-items: center;
 }
 .contenedorSkills .contenedorSkills_box {
-  width: 200px;
+  width: 198px;
   height: 180PX;
   padding: 20px 5px;
   margin-bottom: 30px;
@@ -5326,6 +5326,7 @@ a {
   box-shadow: 5px 5px 2px #ffffff;
   overflow: hidden;
   transform: skew(-3deg);
+  position: relative;
 }
 .contenedorSkills .contenedorSkills_box .box_numero {
   display: flex;
@@ -5336,10 +5337,13 @@ a {
   font-weight: 700;
   color: #56fbd3;
 }
-.contenedorSkills .contenedorSkills_box .box_numero .spanNumero {
-  font-size: 38px;
+.contenedorSkills .contenedorSkills_box .spanNumero {
+  font-size: 80px;
   font-weight: 700;
   color: #56fbd3;
+  position: absolute;
+  top: -30px;
+  right: -5px;
 }
 .contenedorSkills .contenedorSkills_box .box_cajaBase {
   margin-top: -10px;
@@ -5352,6 +5356,10 @@ a {
 .contenedorSkills .contenedorSkills_box .box_cajaBase .cajaBaseImage {
   width: 60px;
   height: 60px;
+}
+.contenedorSkills .contenedorSkills_box .box_cajaBase .cajaBaseImage .iconsTech {
+  font-size: 46px;
+  color: #56fbd3;
 }
 .contenedorSkills .contenedorSkills_box .box_cajaBase .cajaLegenda {
   padding: 5px;
