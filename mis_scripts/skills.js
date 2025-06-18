@@ -1,20 +1,21 @@
   
-  function animarContador(elemento, valorFinal, duracion = 1500) {
-      let inicio = null;
+  function animarContador(elemento, valorFinal, duracion = 5000) {
+  let inicio = null;
 
-      function paso(timestamp) {
-        if (!inicio) inicio = timestamp;
-        const progreso = timestamp - inicio;
-        const porcentaje = Math.min(progreso / duracion, 1);
-        const valorActual = Math.floor(porcentaje * valorFinal);
-        elemento.textContent = valorActual;
-        if (porcentaje < 1) {
-          requestAnimationFrame(paso);
-        }
-      }
-
+  function paso(timestamp) {
+    if (!inicio) inicio = timestamp;
+    const progreso = timestamp - inicio;
+    const porcentaje = Math.min(1 - Math.pow(1 - (progreso / duracion), 3), 1);
+    const valorActual = Math.floor(porcentaje * valorFinal);
+    elemento.textContent = valorActual;
+    if (porcentaje < 1) {
       requestAnimationFrame(paso);
     }
+  }
+
+  requestAnimationFrame(paso);
+  }
+
 
     // 👇 Cambiado: Solo se activa si el elemento entero es visible
     function estaEnPantalla(elemento) {
