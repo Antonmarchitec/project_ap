@@ -5694,7 +5694,7 @@ a {
   }
 }
 /****************************/
-@media (min-width: 380px) and (max-width: 480px) {
+@media (min-width: 360px) and (max-width: 480px) {
   .contenedorSkills {
     width: 100%;
     margin: auto;
@@ -5707,8 +5707,8 @@ a {
     align-items: center;
   }
   .contenedorSkills .contenedorSkills_box {
-    width: 160px;
-    height: 180PX;
+    width: 150px;
+    height: 170PX;
     padding: 20px 5px;
     margin-bottom: 30px;
     background: #101928;
