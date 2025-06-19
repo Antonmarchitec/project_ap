@@ -1,5 +1,5 @@
   
-  function animarContador(elemento, valorFinal, duracion = 5000) {
+  function animarContador(elemento, valorFinal, duracion = 7000) {
   let inicio = null;
 
   function paso(timestamp) {
