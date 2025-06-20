@@ -43,4 +43,17 @@
 @media (min-width:423px)  and (max-width:480px){}      160px
 
 
+
+DATOS DESDE CHAT GPT
+/* Movil first*/
+    @media (min-width: 423px) and (max-width: 480px)
+/* Móvil grande */
+    @media (min-width: 481px) and (max-width: 767px)
+/* Tablet */
+    @media (min-width: 768px) and (max-width: 1023px)
+/* Laptop */
+    @media (min-width: 1024px) and (max-width: 1279px)
+/* Pantallas grandes */
+    @media (min-width: 1280px)
+
     

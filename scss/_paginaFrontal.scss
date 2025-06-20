@@ -309,8 +309,6 @@
 /*****************************************************************************
 -----------------------------------------------------------*/
 
-/*****************************************************************************
------------------------------------------------------------*/
 
 @media (min-width:481px)  and (max-width:640px){
     .contParticulas{
@@ -340,13 +338,17 @@
             .titulo_principal{
                 width:auto;
                 padding: 15px 0px;
-                font-size: 160px;
+                font-size: 20px;
+                font-family: Poppins;
                 transform: skewX(-5deg);
                 letter-spacing: -6px;
                 line-height:130px;
                 color: variables.$colorAzulOscuro;
+                background: teal;
                 position: absolute;
                 top: 100px;
+                font-family: "Oswald", sans-serif;
+                font-weight: 700;
                 text-shadow: 1px 4px 1px rgb(255, 255, 255);
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -367,11 +369,11 @@
             .subtitle{
                 text-align: center;
                 color:white;
-                font-size: 20px;
+                font-size: 80px;
                 font-weight: 300;
                 transform: skewX(-5deg);
                 position: absolute;
-                top: 300px;
+                top: 330px;
                 font-family: poppins;
                 .front_css_js{
                     color: variables.$colorVerde;
@@ -384,28 +386,32 @@
     
             //BOTONES
             .particles__menu{
-                width: 200px;
+                width: 400px;
                 padding:0px;
                 position: absolute;
-                top: 340px;
+                top: 380px;
                 .particles__ul{
                     padding: 4px 0px;
                     list-style: none;
                     display: flex;
-                    flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
+    
                     .particles__item{
-                        width: 180px;
+                        width: 150px;
                         background:linear-gradient(variables.$colorVerde, transparent);
                         padding: 5px 0px;
                         text-align: center;
-                        margin: 10px;
                         .particles__link{
                             color: white;
                             font-size: 16px;
                             font-weight: 300;
                         }
+                    }
+                     
+                    .particles__item:hover{
+                        background:linear-gradient(transparent, variables.$colorVerde); 
+                        cursor: pointer;
                     }
                 }
                 
@@ -418,151 +424,7 @@
                 position: absolute;
                 bottom: 15px;
                 .contFooter_cuadroBase{
-                    width: 32%;
-                    margin: auto;
-                    padding: 3px 0px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contFooter_cuadroBase_caja{
-                        background: transparent;
-                        padding: 0px 3px ;
-                        .IconRed{
-                            font-size: 25px;
-                            color:variables.$colorVerde;
-                            transform:  rotateY(25deg);
-                            transition: all 0.2s;
-                        }
-    
-                        .caja__parra{
-                            font-size: 14px;
-                            color: white;
-                            font-weight: 300;
-                            margin-left: 5px;
-                            display: none;
-                        }  
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-/*****************************************************************************
------------------------------------------------------------*/
-
-@media (min-width:320px)  and (max-width:480px){
-    .contParticulas{
-        width: 100%;
-        max-width: 1440px;
-        height: 100vh;
-        margin: auto;
-        //padding: 10px 0px;
-        background-image: url(../img/desarrollando.jpg);
-        background-size: 100% 100%;
-        //background-attachment: fixed;
-        overflow: hidden;
-        position: fixed;
-        z-index: -1;
-        #particles-js{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction:column;
-            justify-content: center;
-            align-items: center;
-            background: variables.$colorAzulTransparente;
-            position: fixed;
-            left: 0;
-        
-            //TITLE
-            .titulo_principal{
-                width:auto;
-                padding: 15px 0px;
-                font-size: 130px;
-                transform: skewX(-5deg);
-                letter-spacing: -6px;
-                line-height:130px;
-                color: variables.$colorAzulOscuro;
-                position: absolute;
-                top: 80px;
-                text-shadow: 1px 4px 1px rgb(255, 255, 255);
-                -webkit-text-stroke-width: 2px;
-                -webkit-text-stroke-color: rgb(255, 255, 255);                /*GRADIENT TEXT
-                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
-                background-clip: text;
-    
-                -webkit-background-clip:text ;
-                -moz-background-clip:text ;
-                -webkit-text-fill-color: transparent;
-                -moz-text-fill-color: transparent;
-                //FIN GRADIENT*/
-    
-            }
-    
-            //SUBTITLE
-            .subtitle{
-                width: 65%;
-                text-align: center;
-                color:white;
-                font-size: 20px;
-                line-height: 23px;
-                font-weight: 200;
-                transform: skewX(-5deg);
-                position: absolute;
-                top: 270px;
-                font-family: poppins;
-                .front_css_js{
-                    color: variables.$colorVerde;
-                    font-family: poppins;
-                    font-weight: 300;
-                    font-style: normal;
-                    font-size: 20px;
-                }
-            }
-    
-            //BOTONES
-            .particles__menu{
-                width: 200px;
-                padding:0px;
-                position: absolute;
-                top: 350px;
-                .particles__ul{
-                    padding: 4px 0px;
-                    list-style: none;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-                    .particles__item{
-                        width: 200px;
-                        background:linear-gradient(variables.$colorVerde, transparent);
-                        padding: 5px 0px;
-                        text-align: center;
-                        margin: 8px 0px;
-                        .particles__link{
-                            color: white;
-                            font-size: 16px;
-                            font-weight: 300;
-                        }
-                    }
-                }
-                
-            }
-    
-            ////////////////////FOOTER/////////////////////////
-            .contFooter{
-                width:100%;
-                background: transparent;
-                position: absolute;
-                bottom: 15px;
-                .contFooter_cuadroBase{
-                    width: 50%;
+                    width: 28%;
                     margin: auto;
                     padding: 3px 0px;
                     display: flex;
@@ -593,6 +455,16 @@
         }
     }
 }
+
+
+/*****************************************************************************
+-----------------------------------------------------------*/
+
+
+
+/*****************************************************************************
+-----------------------------------------------------------*/
+
 
 
 
