@@ -324,12 +324,12 @@
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
   width: auto;
   padding: 15px 0px;
-  font-size: 220px;
+  font-size: 200px;
   transform: skewX(-5deg);
   line-height: 130px;
   color: #060f1d;
   position: absolute;
-  top: 100px;
+  top: 68px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-shadow: 1px 4px 1px rgb(255, 255, 255);
@@ -353,7 +353,7 @@
   font-weight: 300;
   transform: skewX(-5deg);
   position: absolute;
-  top: 330px;
+  top: 300px;
   font-family: Poppins;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle .front_css_js {
@@ -367,7 +367,7 @@
   width: 400px;
   padding: 0px;
   position: absolute;
-  top: 380px;
+  top: 340px;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul {
   padding: 4px 0px;
