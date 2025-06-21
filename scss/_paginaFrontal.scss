@@ -486,7 +486,7 @@
 
 /*****************************************************************************
 -----------------------------------------------------------*/
-@media (min-width: 380px) and (max-width: 480px){
+@media (min-width: 350px) and (max-width: 480px){
     .CONTENT-PRINCIPAL{
     background: transparent;
     .CONTENT-PARTICULAS{
@@ -520,7 +520,7 @@
                 .titulo_principal{
                     width:auto;
                     padding: 15px 0px;
-                    font-size: 140px;
+                    font-size: 120px;
                     transform: skewX(-5deg);
                     line-height:130px;
                     color: variables.$colorAzulOscuro;
@@ -553,7 +553,7 @@
                     font-weight: 300;
                     transform: skewX(-5deg);
                     position: absolute;
-                    top: 280px;
+                    top: 260px;
                     font-family: Poppins;
                     .front_css_js{
                         color: variables.$colorVerde;
