@@ -8,7 +8,7 @@
 
         .contParticulas{
             width: 100%;
-            max-width: 1600px;
+            max-width: 1440px;
             height: 500px;
             margin: auto;
             //padding: 10px 0px;
@@ -160,311 +160,488 @@
 
 
 
-@media (min-width:641px)  and (max-width:1024px){
-    .contParticulas{
-        width: 100%;
-        max-width: 1440px;
-        height: 100vh;
-        margin: auto;
-        //padding: 10px 0px;
-        background-image: url(../img/desarrollando.jpg);
-        background-size: 100% 100%;
-        //background-attachment: fixed;
-        overflow: hidden;
-        position: fixed;
-        z-index: -1;
-        #particles-js{
+
+/*****************************************************************************
+-----------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .CONTENT-PRINCIPAL{
+    background: transparent;
+    .CONTENT-PARTICULAS{
+        background: transparent;
+
+        .contParticulas{
             width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction:column;
-            justify-content: center;
-            align-items: center;
-            background: variables.$colorAzulTransparente;
+            max-width: 1440px;
+            height: 500px;
+            margin: auto;
+            //padding: 10px 0px;
+            background-image: url(../img/desarrollando.jpg);
+            background-size: 100% 100%;
+            //background-attachment: fixed;
+            overflow: hidden;
             position: fixed;
-            left: 0;
+            z-index: -1;
         
-            //TITLE
-            .titulo_principal{
-                width:auto;
-                padding: 15px 0px;
-                font-size: 220px;
-                font-family: Poppins;
-                transform: skewX(-5deg);
-                letter-spacing: -6px;
-                line-height:130px;
-                color: variables.$colorAzulOscuro;
-                position: absolute;
-                top: 100px;
-                font-family: "Oswald", sans-serif;
-                font-weight: 700;
-                text-shadow: 1px 4px 1px rgb(255, 255, 255);
-                -webkit-text-stroke-width: 2px;
-                -webkit-text-stroke-color: rgb(255, 255, 255);
-                /*GRADIENT TEXT
-                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
-                background-clip: text;
-    
-                -webkit-background-clip:text ;
-                -moz-background-clip:text ;
-                -webkit-text-fill-color: transparent;
-                -moz-text-fill-color: transparent;
-                //FIN GRADIENT*/
-    
-            }
-    
-            //SUBTITLE
-            .subtitle{
-                text-align: center;
-                color:white;
-                font-size: 20px;
-                font-weight: 300;
-                transform: skewX(-5deg);
-                position: absolute;
-                top: 330px;
-                font-family: poppins;
-                .front_css_js{
-                    color: variables.$colorVerde;
-                    font-family: poppins;
-                    font-weight: 500;
-                    font-style: normal;
+            #particles-js{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                background: variables.$colorAzulTransparente;
+                position: fixed;
+                left: 0;
+            
+                //TITLE
+                .titulo_principal{
+                    width:auto;
+                    padding: 15px 0px;
+                    font-size: 180px;
+                    transform: skewX(-5deg);
+                    line-height:130px;
+                    color: variables.$colorAzulOscuro;
+                    position: absolute;
+                    top: 68px;
+                    font-family: "Oswald", sans-serif;
+                    font-weight: 700;
+                    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: rgb(255, 255, 255);
+                    /*GRADIENT TEXT
+                    background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                    background-image: linear-gradient(white, variables.variables.$colorVerde) ;
+                    background-clip: text;
+        
+                    -webkit-background-clip:text ;
+                    -moz-background-clip:text ;
+                    -webkit-text-fill-color: transparent;
+                    -moz-text-fill-color: transparent;
+                    //FIN GRADIENT*/
+        
+                }
+        
+                //SUBTITLE
+                .subtitle{
+                    text-align: center;
+                    color:white;
                     font-size: 20px;
-                }
-            }
-    
-            //BOTONES
-            .particles__menu{
-                width: 400px;
-                padding:0px;
-                position: absolute;
-                top: 380px;
-                .particles__ul{
-                    padding: 4px 0px;
-                    list-style: none;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-    
-                    .particles__item{
-                        width: 150px;
-                        background:linear-gradient(variables.$colorVerde, transparent);
-                        padding: 5px 0px;
-                        text-align: center;
-                        .particles__link{
-                            color: white;
-                            font-size: 16px;
-                            font-weight: 300;
-                        }
-                    }
-                     
-                    .particles__item:hover{
-                        background:linear-gradient(transparent, variables.$colorVerde); 
-                        cursor: pointer;
+                    font-weight: 300;
+                    transform: skewX(-5deg);
+                    position: absolute;
+                    top: 300px;
+                    font-family: Poppins;
+                    .front_css_js{
+                        color: variables.$colorVerde;
+                        font-family: poppins;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 20px;
                     }
                 }
-                
-            }
-    
-            ////////////////////FOOTER/////////////////////////
-            .contFooter{
-                width:100%;
-                background: transparent;
-                position: absolute;
-                bottom: 15px;
-                .contFooter_cuadroBase{
-                    width: 28%;
-                    margin: auto;
-                    padding: 3px 0px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contFooter_cuadroBase_caja{
-                        background: transparent;
-                        padding: 0px 3px ;
-                        .IconRed{
-                            font-size: 28px;
-                            color:variables.$colorVerde;
-                            transform:  rotateY(25deg);
-                            transition: all 0.2s;
+        
+                //BOTONES
+                .particles__menu{
+                    width: 400px;
+                    padding:0px;
+                    position: absolute;
+                    top: 340px;
+                    .particles__ul{
+                        padding: 4px 0px;
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        .particles__item{
+                            width: 150px;
+                            background:linear-gradient(variables.$colorVerde, transparent);
+                            padding: 5px 0px;
+                            text-align: center;
+        
+                            .particles__link{
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 300;
+                            }
                         }
-    
-                        .caja__parra{
-                            font-size: 14px;
-                            color: white;
-                            font-weight: 300;
-                            margin-left: 5px;
-                            display: none;
-                        }  
+                         
+                        .particles__item:hover{
+                            background:linear-gradient(transparent, variables.$colorVerde); 
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+        
+                ////////////////////FOOTER/////////////////////////
+                .contFooter{
+                    width:90%;
+                    background: variables.$colorAzulTransparente;
+                    position: absolute;
+                    bottom: 15px;
+                    .contFooter_cuadroBase{
+                        width: 80%;
+                        margin: auto;
+                        //background: red;
+                        padding: 3px 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        .contFooter_cuadroBase_caja{
+                            background: transparent;
+                            .IconRed{
+                                font-size: 25px;
+                                color:variables.$colorVerde;
+                                transform:  rotateY(25deg);
+                                transition: all 0.2s;
+                            }
+                            .IconRed:hover{
+                                color: variables.$colorCelesteOscuro;
+                                transform: rotate(360deg);
+                                cursor: pointer;
+                            }  
+        
+                            .caja__parra{
+                                font-size: 14px;
+                                color: white;
+                                margin-left: 5px;
+                            }  
+                        }
                     }
                 }
             }
         }
     }
 }
+}
+
+
 
 
 /*****************************************************************************
 -----------------------------------------------------------*/
+@media (min-width: 481px) and (max-width: 767px){
+    .CONTENT-PRINCIPAL{
+    background: transparent;
+    .CONTENT-PARTICULAS{
+        background: transparent;
 
-
-@media (min-width:481px)  and (max-width:640px){
-    .contParticulas{
-        width: 100%;
-        max-width: 1440px;
-        height: 100vh;
-        margin: auto;
-        //padding: 10px 0px;
-        background-image: url(../img/desarrollando.jpg);
-        background-size: 100% 100%;
-        //background-attachment: fixed;
-        overflow: hidden;
-        position: fixed;
-        z-index: -1;
-        #particles-js{
+        .contParticulas{
             width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction:column;
-            justify-content: center;
-            align-items: center;
-            background: variables.$colorAzulTransparente;
+            max-width: 1440px;
+            height: 500px;
+            margin: auto;
+            //padding: 10px 0px;
+            background-image: url(../img/desarrollando.jpg);
+            background-size: 100% 100%;
+            //background-attachment: fixed;
+            overflow: hidden;
             position: fixed;
-            left: 0;
+            z-index: -1;
         
-            //TITLE
-            .titulo_principal{
-                width:auto;
-                padding: 15px 0px;
-                font-size: 20px;
-                font-family: Poppins;
-                transform: skewX(-5deg);
-                letter-spacing: -6px;
-                line-height:130px;
-                color: variables.$colorAzulOscuro;
-                background: teal;
-                position: absolute;
-                top: 100px;
-                font-family: "Oswald", sans-serif;
-                font-weight: 700;
-                text-shadow: 1px 4px 1px rgb(255, 255, 255);
-                -webkit-text-stroke-width: 2px;
-                -webkit-text-stroke-color: rgb(255, 255, 255);
-                /*GRADIENT TEXT
-                background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
-                background-image: linear-gradient(white, variables.variables.$colorVerde) ;
-                background-clip: text;
-    
-                -webkit-background-clip:text ;
-                -moz-background-clip:text ;
-                -webkit-text-fill-color: transparent;
-                -moz-text-fill-color: transparent;
-                //FIN GRADIENT*/
-    
-            }
-    
-            //SUBTITLE
-            .subtitle{
-                text-align: center;
-                color:white;
-                font-size: 80px;
-                font-weight: 300;
-                transform: skewX(-5deg);
-                position: absolute;
-                top: 330px;
-                font-family: poppins;
-                .front_css_js{
-                    color: variables.$colorVerde;
-                    font-family: poppins;
-                    font-weight: 500;
-                    font-style: normal;
-                    font-size: 20px;
+            #particles-js{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                background: variables.$colorAzulTransparente;
+                position: fixed;
+                left: 0;
+            
+                //TITLE
+                .titulo_principal{
+                    width:auto;
+                    padding: 15px 0px;
+                    font-size: 160px;
+                    transform: skewX(-5deg);
+                    line-height:130px;
+                    color: variables.$colorAzulOscuro;
+                    position: absolute;
+                    top: 68px;
+                    font-family: "Oswald", sans-serif;
+                    font-weight: 700;
+                    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: rgb(255, 255, 255);
+                    /*GRADIENT TEXT
+                    background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                    background-image: linear-gradient(white, variables.variables.$colorVerde) ;
+                    background-clip: text;
+        
+                    -webkit-background-clip:text ;
+                    -moz-background-clip:text ;
+                    -webkit-text-fill-color: transparent;
+                    -moz-text-fill-color: transparent;
+                    //FIN GRADIENT*/
+        
                 }
-            }
-    
-            //BOTONES
-            .particles__menu{
-                width: 400px;
-                padding:0px;
-                position: absolute;
-                top: 380px;
-                .particles__ul{
-                    padding: 4px 0px;
-                    list-style: none;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-    
-                    .particles__item{
-                        width: 150px;
-                        background:linear-gradient(variables.$colorVerde, transparent);
-                        padding: 5px 0px;
-                        text-align: center;
-                        .particles__link{
-                            color: white;
-                            font-size: 16px;
-                            font-weight: 300;
-                        }
-                    }
-                     
-                    .particles__item:hover{
-                        background:linear-gradient(transparent, variables.$colorVerde); 
-                        cursor: pointer;
+        
+                //SUBTITLE
+                .subtitle{
+                    text-align: center;
+                    color:white;
+                    font-size: 18px;
+                    font-weight: 300;
+                    transform: skewX(-5deg);
+                    position: absolute;
+                    top: 280px;
+                    font-family: Poppins;
+                    .front_css_js{
+                        color: variables.$colorVerde;
+                        font-family: poppins;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 20px;
                     }
                 }
-                
-            }
-    
-            ////////////////////FOOTER/////////////////////////
-            .contFooter{
-                width:100%;
-                background: transparent;
-                position: absolute;
-                bottom: 15px;
-                .contFooter_cuadroBase{
-                    width: 28%;
-                    margin: auto;
-                    padding: 3px 0px;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contFooter_cuadroBase_caja{
-                        background: transparent;
-                        padding: 0px 3px ;
-                        .IconRed{
-                            font-size: 28px;
-                            color:variables.$colorVerde;
-                            transform:  rotateY(25deg);
-                            transition: all 0.2s;
+        
+                //BOTONES
+                .particles__menu{
+                    width: 400px;
+                    padding:0px;
+                    position: absolute;
+                    top: 340px;
+                    .particles__ul{
+                        padding: 4px 0px;
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+        
+                        .particles__item{
+                            width: 150px;
+                            background:linear-gradient(variables.$colorVerde, transparent);
+                            padding: 5px 0px;
+                            text-align: center;
+        
+                            .particles__link{
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 300;
+                            }
                         }
-    
-                        .caja__parra{
-                            font-size: 14px;
-                            color: white;
-                            font-weight: 300;
-                            margin-left: 5px;
-                            display: none;
-                        }  
+                         
+                        .particles__item:hover{
+                            background:linear-gradient(transparent, variables.$colorVerde); 
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+        
+                ////////////////////FOOTER/////////////////////////
+                .contFooter{
+                    width:90%;
+                    background: variables.$colorAzulTransparente;
+                    position: absolute;
+                    bottom: 15px;
+                    .contFooter_cuadroBase{
+                        width: 60%;
+                        margin: auto;
+                        //background: red;
+                        padding: 3px 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        .contFooter_cuadroBase_caja{
+                            background: transparent;
+                            .IconRed{
+                                font-size: 25px;
+                                color:variables.$colorVerde;
+                                transform:  rotateY(25deg);
+                                transition: all 0.2s;
+                            }
+                            .IconRed:hover{
+                                color: variables.$colorCelesteOscuro;
+                                transform: rotate(360deg);
+                                cursor: pointer;
+                            }  
+        
+                            .caja__parra{
+                                font-size: 14px;
+                                color: white;
+                                margin-left: 5px;
+                                display: none;
+                            }  
+                        }
                     }
                 }
             }
         }
     }
 }
+}
+
+
+
+
 
 
 /*****************************************************************************
 -----------------------------------------------------------*/
+@media (min-width: 380px) and (max-width: 480px){
+    .CONTENT-PRINCIPAL{
+    background: transparent;
+    .CONTENT-PARTICULAS{
+        background: transparent;
 
-
-
-/*****************************************************************************
------------------------------------------------------------*/
-
+        .contParticulas{
+            width: 100%;
+            max-width: 1440px;
+            height: 500px;
+            margin: auto;
+            //padding: 10px 0px;
+            background-image: url(../img/desarrollando.jpg);
+            background-size: 100% 100%;
+            //background-attachment: fixed;
+            overflow: hidden;
+            position: fixed;
+            z-index: -1;
+        
+            #particles-js{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                background: variables.$colorAzulTransparente;
+                position: fixed;
+                left: 0;
+            
+                //TITLE
+                .titulo_principal{
+                    width:auto;
+                    padding: 15px 0px;
+                    font-size: 140px;
+                    transform: skewX(-5deg);
+                    line-height:130px;
+                    color: variables.$colorAzulOscuro;
+                    position: absolute;
+                    top: 68px;
+                    font-family: "Oswald", sans-serif;
+                    font-weight: 700;
+                    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+                    -webkit-text-stroke-width: 2px;
+                    -webkit-text-stroke-color: rgb(255, 255, 255);
+                    /*GRADIENT TEXT
+                    background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+                    background-image: linear-gradient(white, variables.variables.$colorVerde) ;
+                    background-clip: text;
+        
+                    -webkit-background-clip:text ;
+                    -moz-background-clip:text ;
+                    -webkit-text-fill-color: transparent;
+                    -moz-text-fill-color: transparent;
+                    //FIN GRADIENT*/
+        
+                }
+        
+                //SUBTITLE
+                .subtitle{
+                    width: 90%;
+                    text-align: center;
+                    color:white;
+                    font-size: 18px;
+                    font-weight: 300;
+                    transform: skewX(-5deg);
+                    position: absolute;
+                    top: 280px;
+                    font-family: Poppins;
+                    .front_css_js{
+                        color: variables.$colorVerde;
+                        font-family: poppins;
+                        font-weight: 500;
+                        font-style: normal;
+                        font-size: 18px;
+                    }
+                }
+        
+                //BOTONES
+                .particles__menu{
+                    width: 340px;
+                    padding:0px;
+                    position: absolute;
+                    top: 340px;
+                    .particles__ul{
+                        padding: 4px 0px;
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        .particles__item{
+                            width: 150px;
+                            background:linear-gradient(variables.$colorVerde, transparent);
+                            padding: 5px 0px;
+                            text-align: center;
+                            margin-bottom: 15px;
+                            .particles__link{
+                                color: white;
+                                font-size: 16px;
+                                font-weight: 300;
+                            }
+                        }
+                         
+                        .particles__item:hover{
+                            background:linear-gradient(transparent, variables.$colorVerde); 
+                            cursor: pointer;
+                        }
+                    }
+                    
+                }
+        
+                ////////////////////FOOTER/////////////////////////
+                .contFooter{
+                    width:90%;
+                    background: variables.$colorAzulTransparente;
+                    position: absolute;
+                    bottom: 15px;
+                    .contFooter_cuadroBase{
+                        width: 60%;
+                        margin: auto;
+                        //background: red;
+                        padding: 3px 0px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        .contFooter_cuadroBase_caja{
+                            background: transparent;
+                            .IconRed{
+                                font-size: 25px;
+                                color:variables.$colorVerde;
+                                transform:  rotateY(25deg);
+                                transition: all 0.2s;
+                            }
+                            .IconRed:hover{
+                                color: variables.$colorCelesteOscuro;
+                                transform: rotate(360deg);
+                                cursor: pointer;
+                            }  
+        
+                            .caja__parra{
+                                font-size: 14px;
+                                color: white;
+                                margin-left: 5px;
+                                display: none;
+                            }  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
 
 
 

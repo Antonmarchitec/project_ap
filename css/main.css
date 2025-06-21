@@ -301,7 +301,7 @@
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1440px;
   height: 500px;
   margin: auto;
   background-image: url(../img/desarrollando.jpg);
@@ -427,11 +427,19 @@
   margin-left: 5px;
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
-  .contParticulas {
+/*****************************************************************************
+-----------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .CONTENT-PRINCIPAL {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
     width: 100%;
     max-width: 1440px;
-    height: 100vh;
+    height: 500px;
     margin: auto;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
@@ -439,7 +447,7 @@
     position: fixed;
     z-index: -1;
   }
-  .contParticulas #particles-js {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js {
     width: 100%;
     height: 100%;
     display: flex;
@@ -450,17 +458,15 @@
     position: fixed;
     left: 0;
   }
-  .contParticulas #particles-js .titulo_principal {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
     width: auto;
     padding: 15px 0px;
-    font-size: 220px;
-    font-family: Poppins;
+    font-size: 180px;
     transform: skewX(-5deg);
-    letter-spacing: -6px;
     line-height: 130px;
     color: #060f1d;
     position: absolute;
-    top: 100px;
+    top: 68px;
     font-family: "Oswald", sans-serif;
     font-weight: 700;
     text-shadow: 1px 4px 1px rgb(255, 255, 255);
@@ -477,59 +483,59 @@
     -moz-text-fill-color: transparent;
     //FIN GRADIENT*/
   }
-  .contParticulas #particles-js .subtitle {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle {
     text-align: center;
     color: white;
     font-size: 20px;
     font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
-    top: 330px;
-    font-family: poppins;
+    top: 300px;
+    font-family: Poppins;
   }
-  .contParticulas #particles-js .subtitle .front_css_js {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
   }
-  .contParticulas #particles-js .particles__menu {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu {
     width: 400px;
     padding: 0px;
     position: absolute;
-    top: 380px;
+    top: 340px;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul {
     padding: 4px 0px;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
     width: 150px;
     background: linear-gradient(#56fbd3, transparent);
     padding: 5px 0px;
     text-align: center;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
     color: white;
     font-size: 16px;
     font-weight: 300;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
     background: linear-gradient(transparent, #56fbd3);
     cursor: pointer;
   }
-  .contParticulas #particles-js .contFooter {
-    width: 100%;
-    background: transparent;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter {
+    width: 90%;
+    background: rgba(5, 11, 32, 0.7764705882);
     position: absolute;
     bottom: 15px;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-    width: 28%;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
+    width: 80%;
     margin: auto;
     padding: 3px 0px;
     display: flex;
@@ -538,31 +544,39 @@
     justify-content: space-around;
     align-items: center;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
     background: transparent;
-    padding: 0px 3px;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 28px;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
+    font-size: 25px;
     color: #56fbd3;
     transform: rotateY(25deg);
     transition: all 0.2s;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed:hover {
+    color: #96aadb;
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     font-size: 14px;
     color: white;
-    font-weight: 300;
     margin-left: 5px;
-    display: none;
   }
 }
 /*****************************************************************************
 -----------------------------------------------------------*/
-@media (min-width: 481px) and (max-width: 640px) {
-  .contParticulas {
+@media (min-width: 481px) and (max-width: 767px) {
+  .CONTENT-PRINCIPAL {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
     width: 100%;
     max-width: 1440px;
-    height: 100vh;
+    height: 500px;
     margin: auto;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
@@ -570,7 +584,7 @@
     position: fixed;
     z-index: -1;
   }
-  .contParticulas #particles-js {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js {
     width: 100%;
     height: 100%;
     display: flex;
@@ -581,18 +595,15 @@
     position: fixed;
     left: 0;
   }
-  .contParticulas #particles-js .titulo_principal {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
     width: auto;
     padding: 15px 0px;
-    font-size: 20px;
-    font-family: Poppins;
+    font-size: 160px;
     transform: skewX(-5deg);
-    letter-spacing: -6px;
     line-height: 130px;
     color: #060f1d;
-    background: teal;
     position: absolute;
-    top: 100px;
+    top: 68px;
     font-family: "Oswald", sans-serif;
     font-weight: 700;
     text-shadow: 1px 4px 1px rgb(255, 255, 255);
@@ -609,59 +620,59 @@
     -moz-text-fill-color: transparent;
     //FIN GRADIENT*/
   }
-  .contParticulas #particles-js .subtitle {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle {
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 18px;
     font-weight: 300;
     transform: skewX(-5deg);
     position: absolute;
-    top: 330px;
-    font-family: poppins;
+    top: 280px;
+    font-family: Poppins;
   }
-  .contParticulas #particles-js .subtitle .front_css_js {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle .front_css_js {
     color: #56fbd3;
     font-family: poppins;
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
   }
-  .contParticulas #particles-js .particles__menu {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu {
     width: 400px;
     padding: 0px;
     position: absolute;
-    top: 380px;
+    top: 340px;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul {
     padding: 4px 0px;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
     width: 150px;
     background: linear-gradient(#56fbd3, transparent);
     padding: 5px 0px;
     text-align: center;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
     color: white;
     font-size: 16px;
     font-weight: 300;
   }
-  .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
     background: linear-gradient(transparent, #56fbd3);
     cursor: pointer;
   }
-  .contParticulas #particles-js .contFooter {
-    width: 100%;
-    background: transparent;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter {
+    width: 90%;
+    background: rgba(5, 11, 32, 0.7764705882);
     position: absolute;
     bottom: 15px;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-    width: 28%;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
+    width: 60%;
     margin: auto;
     padding: 3px 0px;
     display: flex;
@@ -670,28 +681,168 @@
     justify-content: space-around;
     align-items: center;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
     background: transparent;
-    padding: 0px 3px;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-    font-size: 28px;
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
+    font-size: 25px;
     color: #56fbd3;
     transform: rotateY(25deg);
     transition: all 0.2s;
   }
-  .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed:hover {
+    color: #96aadb;
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
     font-size: 14px;
     color: white;
-    font-weight: 300;
     margin-left: 5px;
     display: none;
   }
 }
 /*****************************************************************************
 -----------------------------------------------------------*/
-/*****************************************************************************
------------------------------------------------------------*/
+@media (min-width: 380px) and (max-width: 480px) {
+  .CONTENT-PRINCIPAL {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
+    width: 100%;
+    max-width: 1440px;
+    height: 500px;
+    margin: auto;
+    background-image: url(../img/desarrollando.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: fixed;
+    left: 0;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
+    width: auto;
+    padding: 15px 0px;
+    font-size: 140px;
+    transform: skewX(-5deg);
+    line-height: 130px;
+    color: #060f1d;
+    position: absolute;
+    top: 68px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 4px 1px rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    /*GRADIENT TEXT
+    background: variables.variables.$colorVerde;  //EN CASO DE QUE NO FUNCIONE EL GRDIENT EN ALGUN NAVEGADOR
+    background-image: linear-gradient(white, variables.variables.$colorVerde) ;
+    background-clip: text;
+
+    -webkit-background-clip:text ;
+    -moz-background-clip:text ;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    //FIN GRADIENT*/
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle {
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    transform: skewX(-5deg);
+    position: absolute;
+    top: 280px;
+    font-family: Poppins;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle .front_css_js {
+    color: #56fbd3;
+    font-family: poppins;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu {
+    width: 340px;
+    padding: 0px;
+    position: absolute;
+    top: 340px;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul {
+    padding: 4px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item {
+    width: 150px;
+    background: linear-gradient(#56fbd3, transparent);
+    padding: 5px 0px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item .particles__link {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul .particles__item:hover {
+    background: linear-gradient(transparent, #56fbd3);
+    cursor: pointer;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter {
+    width: 90%;
+    background: rgba(5, 11, 32, 0.7764705882);
+    position: absolute;
+    bottom: 15px;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
+    width: 60%;
+    margin: auto;
+    padding: 3px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
+    background: transparent;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
+    font-size: 25px;
+    color: #56fbd3;
+    transform: rotateY(25deg);
+    transition: all 0.2s;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed:hover {
+    color: #96aadb;
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+  .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+    display: none;
+  }
+}
 body {
   background: #000000;
 }
