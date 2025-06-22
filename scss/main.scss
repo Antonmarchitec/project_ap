@@ -79,22 +79,26 @@
 }
 
 
-body{
-    scroll-behavior:unset;
+html{
+    scroll-behavior:smooth;
 
 }
 
 body::-webkit-scrollbar{
-    width: 15px;
+    width: 8px;
     
 }
 body::-webkit-scrollbar-thumb{
     background: variables.$colorVerde;
-    border-radius: 20px;
-    height: 100px;
+    border-radius: 2px;
+
+    height: 80px;
+    transition: 5s ease-in-out;
 }
 body::-webkit-scrollbar-thumb:hover{
     cursor: pointer;
+    height: 100px;
+
 }
 
 
