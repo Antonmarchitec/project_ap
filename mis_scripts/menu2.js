@@ -2,6 +2,7 @@ let btnResponsive = document.getElementById("btnResponsive");
 let contMenu = document.getElementById("contNavegador");
 let contHeader = document.querySelector("#contHeader");
 
+
 // Mostrar/ocultar al hacer clic en el botón
 btnResponsive.addEventListener("click", (e) => {
     e.stopPropagation(); // evita que el clic cierre el menú inmediatamente
@@ -28,7 +29,6 @@ contHeader.addEventListener("click", (e) => {
 
 
 //Aparicion de la Barra
-
 window.addEventListener("scroll", () =>{
      let positionElement = contHeader.offsetTop;
      //console.log(positionElement);
