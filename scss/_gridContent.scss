@@ -21,7 +21,6 @@ html{
                         "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT"
                         "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO"
                         "PORTAFOLIO_NEW      PORTAFOLIO_NEW      PORTAFOLIO_NEW"
-                        "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER"
                         "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE"
                         "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT"
                         "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS"
@@ -55,12 +54,7 @@ html{
                             //background: brown;
                             grid-area: TITLE_PORTFOLIO;
                         }
-                        .PORTFOLIO_CONTAINER{
-                            //padding: 5px 0px;
-                            //background:brown;
-                            grid-area: PORTFOLIO_CONTAINER;
-                            display:none;
-                        }   
+                      
                         .PORTAFOLIO_NEW{
                             //padding: 10px 0px;
                             //background: brown;
@@ -144,7 +138,6 @@ html{
                             "ABOUT_CONTENT       ABOUT_CONTENT       ABOUT_CONTENT"
                             "TITLE_PORTFOLIO     TITLE_PORTFOLIO     TITLE_PORTFOLIO"
                             "PORTAFOLIO_NEW      PORTAFOLIO_NEW      PORTAFOLIO_NEW"
-                            "PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER   PORTFOLIO_CONTAINER"
                             "SERVICES_TITLE      SERVICES_TITLE      SERVICES_TITLE"
                             "SERVICES_CONTENT    SERVICES_CONTENT    SERVICES_CONTENT"
                             "TILTE_SKILLS        TILTE_SKILLS        TILTE_SKILLS"
