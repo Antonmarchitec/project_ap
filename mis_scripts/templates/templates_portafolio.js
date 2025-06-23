@@ -41,10 +41,65 @@ const pintarPortafolio = (dataPortafolio)=>{
     basePortafolio.appendChild(fragmentPortafolio)
 
 
+    //DELEGACION DE EVENTOS
     document.addEventListener("click", (e) =>{
         //console.log(e.target)
         if(e.target.dataset.idOjo === "dataImage1"){
-            window.open("./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg")
+            //window.open("./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg")
+            // Crear el modal y sus elementos
+            const modal = document.createElement('div');
+            modal.classList.add('modal');
+            modal.style.cssText = `
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            background: rgba(0,0,0,0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            `;
+
+            const imagenAmpliada = document.createElement('img');
+            imagenAmpliada.src = "./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg"; // ✅ Aquí pones tu imagen grande
+            imagenAmpliada.style.cssText = `
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            animation: zoomIn 0.3s ease;
+            `;
+
+            const cerrar = document.createElement('span');
+            cerrar.innerHTML = '&times;';
+            cerrar.style.cssText = `
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2rem;
+            color: white;
+            cursor: pointer;
+            `;
+
+            // Añadir elementos al modal
+            modal.appendChild(cerrar);
+            modal.appendChild(imagenAmpliada);
+            document.body.appendChild(modal);
+
+            // Evento para cerrar el modal
+            cerrar.addEventListener('click', () => {
+            document.body.removeChild(modal); // eliminar completamente
+            });
+
+            modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                document.body.removeChild(modal);
+            }
+            });
+    
+        
+
+
         }else if(e.target.dataset.idPhoto === "dataGitHub1"){
             window.open("https://github.com/Antonmarchitec/template_gamer.git")
 
