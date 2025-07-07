@@ -301,7 +301,7 @@
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1600px;
   height: 500px;
   margin: auto;
   background-image: url(../img/desarrollando.jpg);
@@ -309,6 +309,7 @@
   overflow: hidden;
   position: fixed;
   z-index: -1;
+  margin: auto;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js {
   width: 100%;
@@ -324,12 +325,12 @@
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
   width: auto;
   padding: 15px 0px;
-  font-size: 200px;
+  font-size: 250px;
   transform: skewX(-5deg);
   line-height: 130px;
   color: #060f1d;
   position: absolute;
-  top: 68px;
+  top: 120px;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-shadow: 1px 4px 1px rgb(255, 255, 255);
@@ -353,7 +354,7 @@
   font-weight: 300;
   transform: skewX(-5deg);
   position: absolute;
-  top: 300px;
+  top: 370px;
   font-family: Poppins;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .subtitle .front_css_js {
@@ -367,7 +368,7 @@
   width: 400px;
   padding: 0px;
   position: absolute;
-  top: 340px;
+  top: 450px;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .particles__menu .particles__ul {
   padding: 4px 0px;
