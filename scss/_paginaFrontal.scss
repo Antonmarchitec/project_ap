@@ -9,7 +9,7 @@
         .contParticulas{
             width: 100%;
             max-width: 1600px;
-            height: 500px;
+            height: 100%;
             margin: auto;
             //padding: 10px 0px;
             background-image: url(../img/desarrollando.jpg);
@@ -34,7 +34,7 @@
                 .titulo_principal{
                     width:auto;
                     padding: 15px 0px;
-                    font-size: 200px;
+                    font-size: calc(230px - 20%);
                     transform: skewX(-5deg);
                     line-height:130px;
                     color: variables.$colorAzulOscuro;
@@ -118,11 +118,11 @@
                     width:90%;
                     background: variables.$colorAzulTransparente;
                     position: absolute;
-                    bottom: 15px;
+                    bottom: 25px;
                     .contFooter_cuadroBase{
-                        width: 60%;
+                        width: 80%;
                         margin: auto;
-                        //background: red;
+                        margin-bottom: 30px;
                         padding: 3px 0px;
                         display: flex;
                         flex-wrap: wrap;
@@ -131,8 +131,11 @@
                         align-items: center;
                         .contFooter_cuadroBase_caja{
                             background: transparent;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
                             .IconRed{
-                                font-size: 25px;
+                                font-size: 30px;
                                 color:variables.$colorVerde;
                                 transform:  rotateY(25deg);
                                 transition: all 0.2s;
@@ -144,9 +147,10 @@
                             }  
         
                             .caja__parra{
-                                font-size: 14px;
+                                font-size: 16px;
                                 color: white;
                                 margin-left: 5px;
+                            
                             }  
                         }
                     }
@@ -174,7 +178,7 @@
         .contParticulas{
             width: 100%;
             max-width: 1440px;
-            height: 500px;
+            height: 100%;
             margin: auto;
             //padding: 10px 0px;
             background-image: url(../img/desarrollando.jpg);
@@ -334,7 +338,7 @@
         .contParticulas{
             width: 100%;
             max-width: 1440px;
-            height: 500px;
+            height: 100%;
             margin: auto;
             //padding: 10px 0px;
             background-image: url(../img/desarrollando.jpg);
@@ -497,7 +501,7 @@
         .contParticulas{
             width: 100%;
             max-width: 1440px;
-            height: 500px;
+            height: 100%;
             margin: auto;
             //padding: 10px 0px;
             background-image: url(../img/desarrollando.jpg);

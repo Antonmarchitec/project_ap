@@ -302,7 +302,7 @@
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
   width: 100%;
   max-width: 1600px;
-  height: 500px;
+  height: 100%;
   margin: auto;
   background-image: url(../img/desarrollando.jpg);
   background-size: 100% 100%;
@@ -325,7 +325,7 @@
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .titulo_principal {
   width: auto;
   padding: 15px 0px;
-  font-size: 200px;
+  font-size: calc(230px - 20%);
   transform: skewX(-5deg);
   line-height: 130px;
   color: #060f1d;
@@ -396,11 +396,12 @@
   width: 90%;
   background: rgba(5, 11, 32, 0.7764705882);
   position: absolute;
-  bottom: 15px;
+  bottom: 25px;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase {
-  width: 60%;
+  width: 80%;
   margin: auto;
+  margin-bottom: 30px;
   padding: 3px 0px;
   display: flex;
   flex-wrap: wrap;
@@ -410,9 +411,12 @@
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja {
   background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .IconRed {
-  font-size: 25px;
+  font-size: 30px;
   color: #56fbd3;
   transform: rotateY(25deg);
   transition: all 0.2s;
@@ -423,7 +427,7 @@
   cursor: pointer;
 }
 .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas #particles-js .contFooter .contFooter_cuadroBase .contFooter_cuadroBase_caja .caja__parra {
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   margin-left: 5px;
 }
@@ -440,7 +444,7 @@
   .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
     width: 100%;
     max-width: 1440px;
-    height: 500px;
+    height: 100%;
     margin: auto;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
@@ -577,7 +581,7 @@
   .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
     width: 100%;
     max-width: 1440px;
-    height: 500px;
+    height: 100%;
     margin: auto;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
@@ -715,7 +719,7 @@
   .CONTENT-PRINCIPAL .CONTENT-PARTICULAS .contParticulas {
     width: 100%;
     max-width: 1440px;
-    height: 500px;
+    height: 100%;
     margin: auto;
     background-image: url(../img/desarrollando.jpg);
     background-size: 100% 100%;
