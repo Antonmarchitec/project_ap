@@ -5335,7 +5335,7 @@ a {
   }
 }
 .contenedorSkills {
-  width: 68%;
+  width: 65%;
   margin: auto;
   padding: 50px 20px;
   background: #000000;
@@ -5400,7 +5400,7 @@ a {
 /****************************/
 @media (min-width: 1025px) and (max-width: 1440px) {
   .contenedorSkills {
-    width: 78%;
+    width: 70%;
     margin: auto;
     padding: 50px 20px;
     background: #000000;
