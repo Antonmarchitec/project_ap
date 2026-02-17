@@ -2088,8 +2088,8 @@ h3 { /*SE RESPETA LAS CLASE DE LA BOTON*/
 
 .CONTAINER {
   width: 100%;
-  max-width: 1440px;
-  padding: 10px 0px;
+  max-width: 1600px;
+  padding: 10px 30px;
   background: #0c1b32;
   margin: auto;
   display: grid;
