@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
 /*******ESTILOS DEL MENU*****/
@@ -928,6 +929,7 @@ html {
     display: block;
   }
 }
+/* Escritorios grandes (más de 1440px) */
 #cont_descripcion_foto {
   width: 100%;
   background-size: 100% 500px;
@@ -942,6 +944,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: rgba(255, 166, 0, 0.205);
 }
 #cont_descripcion_foto .contBase .contenedor_izq {
   width: 50%;
@@ -1065,7 +1068,8 @@ html {
 
 /*********************************************************
 *************---------------------------------------/*/
-@media (min-width: 1025px) and (max-width: 1200px) {
+/* Laptops y escritorios (1025px a 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
   #cont_descripcion_foto {
     width: 100%;
     padding: 0px 0px;
@@ -1196,6 +1200,7 @@ html {
 }
 /*********************************************************
 *************---------------------------------------/*/
+/* Tablets (769px a 1024px) */
 @media (min-width: 770px) and (max-width: 1024px) {
   #cont_descripcion_foto {
     width: 100%;
@@ -2734,7 +2739,6 @@ a {
   grid-template-columns: 50px 1fr 300px;
   grid-template-rows: auto;
   grid-template-areas: "HEADER                 HEADER               HEADER" "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING" "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING" "BARS_VERTICLE          SECTION_PROYECTS     SIDEBAR_LANDING" "SIDEBAR                SIDEBAR              SIDEBAR_LANDING" "FOOTER                 FOOTER               FOOTER";
-  /**ESTA OCULTO*/
 }
 .CONTAINER_LANDING .contDowload {
   width: 100%;
@@ -2913,6 +2917,9 @@ a {
 .CONTAINER_LANDING .SECTION_PROYECTS .contentSection_blocks .contentSection_blocks_number:hover {
   background: #060f1d;
   color: #56fbd3;
+}
+.CONTAINER_LANDING {
+  /**ESTA OCULTO*/
 }
 .CONTAINER_LANDING .SIDEBAR {
   padding: 10px 0px;

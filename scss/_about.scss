@@ -1,5 +1,7 @@
 @use "variables";
 
+
+/* Escritorios grandes (más de 1440px) */
 #cont_descripcion_foto{
     width: 100%;
     //background:variables.$colorAzul;
@@ -15,6 +17,8 @@
         flex-wrap: wrap;
         justify-content:space-around;
         //align-items: center;
+            background: rgba(255, 166, 0, 0.205);
+
         .contenedor_izq{
             width:50%;
             height: 650px;
@@ -156,8 +160,8 @@
 
 /*********************************************************
 *************---------------------------------------/*/
-
-@media (min-width:1025px) and (max-width:1200px){
+/* Laptops y escritorios (1025px a 1440px) */
+@media (min-width:1025px) and (max-width:1440px){
     #cont_descripcion_foto{
         width: 100%;
         padding: 0px 0px;
@@ -301,9 +305,12 @@
 }
 
 
+
+
+
 /*********************************************************
 *************---------------------------------------/*/
-
+/* Tablets (769px a 1024px) */
 @media (min-width:770px) and (max-width:1024px){
     #cont_descripcion_foto{
         width: 100%;
