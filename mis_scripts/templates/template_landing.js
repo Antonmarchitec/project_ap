@@ -87,7 +87,7 @@ const pintarlanding = (dataWeb) =>{
         if(e.target.dataset.id === "1"){
             window.open("https://templaterestaurant01.digitizingcode.com/")
         }else if(e.target.dataset.id === "2"){
-            window.open("https://templateveterinariavip.digitizingcode.com/")
+            //window.open("https://templateveterinariavip.digitizingcode.com/")
         }else if(e.target.dataset.id === "3"){
             window.open("http://templatereposteria01.digitizingcode.com/")
         }else if(e.target.dataset.id === "4"){
