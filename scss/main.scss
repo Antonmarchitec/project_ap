@@ -45,6 +45,10 @@
 @use "../scss/blog/contBlogFooter";
 
 
+//HOME PAGE
+@use "../scss/home_page/header";
+@use "../scss/home_page/hero";
+@use "../scss/home_page/reset";
 
 
 *{

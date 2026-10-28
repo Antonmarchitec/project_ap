@@ -1,0 +1,280 @@
+@use "./variables";
+
+//HEADER
+.header{
+    width:100%;
+    height:90px;
+    padding: 0 5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:absolute;
+    top:0;
+    z-index:10;
+    background: variables.$bg-primary;
+
+        
+    //LOGO
+    .logo{
+        width: 70px;
+        height: 70px;
+        font-family: variables.$font-display;
+        font-size:35px;
+        font-weight:700;
+        color:variables.$cyan;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* NAVBAR */
+    .navbar {
+        display: flex;
+        gap: 45px;
+
+        a {
+            font-size: 16px;
+            color: #cbd5e1;
+            transition: variables.$transition;
+            position: relative;
+
+            &:hover,
+            &.active {
+                color: variables.$cyan;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -15px;
+                left: 50%;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: #00f5d4;
+                box-shadow:
+                    0 0 6px #00f5d4,
+                    0 0 12px rgba(0, 245, 212, 0.7);
+
+                opacity: 0;
+                transform: translateX(-50%) scale(0.4);
+                transition: opacity 0.3s ease, transform 0.3s ease;
+            }
+
+        &:hover::after {
+                opacity: 1;
+                transform: translateX(-50%) scale(1);
+            }
+        }
+    }
+
+
+    /* BUTTON */
+    .talk-btn {
+        padding: 12px 25px;
+        border: 1px solid variables.$cyan;
+        border-radius: 30px;
+        color: white;
+        transition: variables.$transition;
+
+        &:hover {
+            color: #ffffff;
+            box-shadow: variables.$glow;
+
+            .arrow {
+                font-weight: 900;
+                color: variables.$cyan;
+                filter: drop-shadow(0 0 4px variables.$cyan)
+                        drop-shadow(0 0 8px variables.$cyan);
+            }
+        }
+
+        .arrow {
+            transition: all 0.3s ease;
+            font-weight: 900;
+        }
+    }
+
+
+    //BTN-RESPONSIVE
+    .menu-btn{
+        display:none;
+        
+        span{
+            display:block;
+            width:25px;
+            height:2px;
+            background:white;
+            margin:5px;
+        }
+    }
+
+
+        
+    .header-menu {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+}
+
+
+
+
+
+
+
+// =====================================
+// TABLET
+// 768px - 1024px
+// =====================================
+
+/* TABLET Y MOVIL */
+@media (max-width: 1024px) {
+
+    .header {
+        height: 80px;
+        padding: 0 5%;
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+
+        /* BOTON HAMBURGUESA */
+        .menu-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            padding: 6px;
+            margin-left: auto;
+            background: rgba(0, 245, 212, 0.04);
+            border: 1px solid rgba(0, 245, 212, 0.35);
+            border-radius: 10px;
+            cursor: pointer;
+            z-index: 12;
+            transition: variables.$transition;
+
+            span {
+                display: block;
+                width: 22px;
+                height: 2px;
+                margin: 3px 0;
+                background: variables.$cyan;
+                box-shadow: 0 0 5px rgba(0, 245, 212, 0.35);
+                transition: all 0.3s ease;
+            }
+
+            &:hover {
+                box-shadow: variables.$glow;
+            }
+
+            &.active {
+                span:nth-child(1) {
+                    transform: translateY(8px) rotate(45deg);
+                }
+
+                span:nth-child(2) {
+                    opacity: 0;
+                }
+
+                span:nth-child(3) {
+                    transform: translateY(-8px) rotate(-45deg);
+                }
+            }
+        }
+
+        /* MENU DESPLEGABLE */
+        .header-menu {
+            position: absolute;
+            top: 75px;
+            right: 5%;
+            width: 250px;
+            padding: 25px 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 25px;
+
+            background: rgba(3, 15, 25, 0.97);
+            border: 1px solid rgba(0, 245, 212, 0.25);
+            border-radius: 14px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 0 25px rgba(0, 245, 212, 0.08);
+
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: translateY(-10px);
+
+            transition:
+                opacity 0.3s ease,
+                transform 0.3s ease,
+                visibility 0.3s ease;
+
+            &.open {
+                opacity: 1;
+                visibility: visible;
+                pointer-events: auto;
+                transform: translateY(0);
+            }
+
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+
+                a {
+                    font-size: 15px;
+
+                    &::after {
+                        bottom: -8px;
+                        width: 6px;
+                        height: 6px;
+                    }
+                }
+            }
+
+            .talk-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 12px 18px;
+                font-size: 14px;
+                white-space: nowrap;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// =====================================
+// MOVILES
+// MIN - 480px
+// =====================================
+/* MOVILES PEQUEÑOS */
+@media (max-width: 480px) {
+    .header {
+        .header-menu {
+            width: 90%;
+            right: 5%;
+        }
+    }
+}
+

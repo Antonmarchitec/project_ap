@@ -35,119 +35,249 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
+    <!--HOME PAGE-->
+     <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap" 
+      rel="stylesheet">
+
+
 </head>
 
 <body>
   
-  <div class="CONTENT-PRINCIPAL">
+    <!-- ================= HEADER ================= -->
 
-    <!--PRELOADER DE LA PAGINA STAR-->
-    <div class="loader" id="loader">
-      <div class="cssload-thecube">
-        <div class="cssload-cube cssload-c1"></div>
-        <div class="cssload-cube cssload-c2"></div>
-        <div class="cssload-cube cssload-c4"></div>
-        <div class="cssload-cube cssload-c3"></div>
-      </div>
-      <p class="text"> Portafolio<span class="codex">Code... </p>
-    </div>
-     <!--PRELOADER DE LA PAGINA END-->
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="./img/home_page/img/DigitizingCod.png" alt="image_logo" style="width: 100%; height: 100%;">
+        </a>
+
+
+          <!-- MENU MOBILE -->
+        <button class="menu-btn"
+                id="menu-btn"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="navbar">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <div class="header-menu" id="header-menu">
+            <nav class="navbar">
+                <a href="index.html">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <a href="https://wa.me/+59170856061?text=Hola%20necesito%20información" class="talk-btn">
+                Hablemos <span class="arrow">→</span>
+            </a>
+        </div>
 
        
-    <div class="CONTENT-PARTICULAS">
-      <div class="contParticulas">
-        <div id="particles-js">
-          
-            <h1 class="titulo_principal
-            animate__animated animate__fadeInDown" style="animation-duration: 2s;"> Dennis </h1>
-              
-            <h2 class="subtitle
-            animate__animated animate__fadeInUp" style="animation-duration: 2s;"> <- Web designer and developer <span class="typed"></span>
-            </h2>
+    </header>
 
-            <nav class="particles__menu">
-              <ul class="particles__ul">
-                <li class="particles__item"><a href="contenido.html" class="particles__link"> Portfolio
-                </a></li>
-                <li class="particles__item"><a href="http://digitizingcode.com/" class="particles__link"> Side project
-                </a></li>
+
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+
+
+                <span class="subtitle">
+
+                    WEB DEVELOPER AND CREATIVE THINKER
+
+                </span>
+
+
+
+
+
+                <h1 class="title">
+
+                    Dennis
+
+                </h1>
+
+
+
+
+
+                <h2 class="role">
+
+                    Web Developer & AI
+
+                    <!--
+                      <span>
+                        &lt;/&gt;
+                      </span>
+                    -->
+                  
+
+                </h2>
+
+
+
+
+
+                <p class="description">
+                    Creo experiencias web combinando mi creatividad y desarrollo con el potencial de la inteligencia artificial.
+                </p>
+
+
+
+
+
+                <div class="hero-buttons">
+
+
+                    <a href="contenido.html" class="btn primary">
+                        Ver portafolio →
+                    </a>
+
+
+
+                    <a href="#projects" class="btn secondary">
+                        Hablemos de tu idea →
+                    </a>
+
+
+                </div>
+
+
+
+
+                <!-- SOCIAL -->
+
+                <div class="socials">
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <img src="./img/home_page/logotipo-de-github.png" alt="GitHub">
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="./img/home_page/linkedin.png" alt="LinkedIn">
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <img src="./img/home_page/facebook.png" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="./img/home_page/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+
+
+
+            </div>
+
+            <!-- CODE CARD -->
+            <div class="code-card">
                 
-              </ul>
-            </nav>
-<!--
-            <div class="contImagesBlock">
+                <pre>
+                    <span class="line"><span class="number">01</span>  <span class="keyword">const</span> <span class="variable">developer</span> = {</span>
+                    <span class="line"><span class="number">02</span>   <span class="property">name</span>: <span class="string">"Dennis"</span>,</span>
+                    <span class="line"><span class="number">03</span>   <span class="property">role</span>: <span class="string">"Frontend Developer"</span>,</span>
+                    <span class="line"><span class="number">04</span>   <span class="property">passion</span>: <span class="string">"Building ideas"</span></span>
+                    <span class="line"><span class="number">05</span> };</span>
+                </pre>
 
-              <div class="contImagesBlock__caja">
-                <figure class="contImagesBlock__cajaImg">
-                  <img src="./img/foto.png" alt="foto" style="width: 100%;height:100%;">
-                </figure>
-
-                <p class="contImagesBlock__cajaKLegend"> Portafolio </p>
-              </div>
-
-              <div class="contImagesBlock__caja">
-                <figure class="contImagesBlock__cajaImg">
-                  <img src="./img/foto.png" alt="foto" style="width: 100%;height:100%;">
-                </figure>
-
-                <p class="contImagesBlock__cajaKLegend"> Proyecto </p>
-              </div>
-
-              <div class="contImagesBlock__caja">
-                <figure class="contImagesBlock__cajaImg">
-                  <img src="./img/foto.png" alt="foto" style="width: 100%;height:100%;">
-                </figure>
-
-                <p class="contImagesBlock__cajaKLegend"> Targeta interactiva </p>
-              </div>
             </div>
-          -->
 
-            <div class="contFooter">
-              <div class="contFooter_cuadroBase">
+            <!-- BACKGROUND LOGO -->
+            <div class="hero-logo">
 
-                <!--BLOCK BOX-->
-                <div class="contFooter_cuadroBase_caja">
-                  <a href="https://www.facebook.com/digitizingCode/" target="_blank">
-                    <i class="IconRed fab fa-facebook-square"></i><span class="caja__parra"> facebook</span>
-                  </a>
-                </div>
+                D
 
-                <!--BLOCK BOX-->      
-                <div class="contFooter_cuadroBase_caja">
-                  <a href="https://www.instagram.com/digitizingcode/" target="_blank">
-                    <i class="IconRed fab fa-instagram-square"></i><span class="caja__parra"> Instagram</span>
-                  </a>
-                </div>
-
-                <!--BLOCK BOX-->
-                <div class="contFooter_cuadroBase_caja">
-                  <a href="https://linkedin.com/in/antonio-dennis-ponce-salazar-255243225" target="_blank"><i class="IconRed fab fa-linkedin"></i><span class="caja__parra"> Linkedln</span>
-                  </a>
-                </div>
-
-                <!--BLOCK BOX-->
-                <div class="contFooter_cuadroBase_caja">
-                  <a href="https://www.youtube.com/channel/UCElch2zsoBX7PzHxa6I53rQ" target="_blank">
-                    <i class="IconRed fab fa-youtube" title="youTube"></i><span class="caja__parra"> YouTube</span>
-                  </a>
-                </div>
-
-                <!--BLOCK BOX-->
-                <div class="contFooter_cuadroBase_caja">
-                  <a href="https://github.com/Antonmarchitec" target="_blank">
-                    <i class="IconRed fa-brands fa-github" title="youTube"></i><span class="caja__parra"> GitHub</span>
-                  </a>
-                </div>
-              </div>
             </div>
+
+            <!-- SIDE MESSAGE -->
+            <div class="side-message">
+
+                <span>
+                    OPTIMIZE
+                </span>
+
+                <span>
+                    DESING
+                </span>
+
+                <span>
+                    DEVEPOVER
+                </span>
+
+                 <span>
+                    MAKE
+                </span>
+
+                <span>
+                    IDEAS
+                </span>
+
+                <span>
+                    REAL
+                </span>
+
+
+            </div>
+
             
-        </div>
-      </div>
-    </div>
-  </div>
+
+            <!-- SCROLL -->
+            <div class="scroll">
+
+                SCROLL ↓
+
+            </div>
+
+        </section>
+
+    </main>
+  
     
  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    <!--SCRIPT DE ANIMATION EL SCROLLING-->
    <script src="mis_scripts/wow.min.js"></script>
@@ -176,6 +306,12 @@
 
      <!--SCRIPT DE EFECTO PRELOADER-->
      <script src="mis_scripts/preloader.js"></script>
+
+
+     <!--HOME PAGE-->
+      <script src="./mis_scripts/home_page/main.js"></script>
+      <script src="./mis_scripts/home_page/header/taiping.js"></script>
+      <script src="./mis_scripts/home_page/header/menu_btn.js"></script>
   
 </body>
 </html>
