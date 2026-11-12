@@ -6899,7 +6899,7 @@ html, body {
   font-weight: 900;
   color: rgba(0, 245, 212, 0.06);
   z-index: 0;
-  background-image: url("/img/home_page/img/DigitizingCod.png");
+  background-image: url("../img/home_page/img/DigitizingCod.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
