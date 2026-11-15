@@ -7,7 +7,7 @@
   background: #0c1b32;
   transition: 0.5s all;
   width: 100%;
-  box-shadow: 0px 2px 10px black;
+  box-shadow: 0px 2px 20px black;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
@@ -6639,7 +6639,7 @@ html, body {
     color: #96aadb;
   }
 }
-.header {
+.headerFront {
   width: 100%;
   height: 90px;
   padding: 0 5%;
@@ -6651,7 +6651,7 @@ html, body {
   z-index: 10;
   background: #020b18;
 }
-.header .logo {
+.headerFront .logo {
   width: 70px;
   height: 70px;
   font-family: "Space Grotesk", sans-serif;
@@ -6661,23 +6661,23 @@ html, body {
   display: flex;
   justify-content: center;
 }
-.header {
+.headerFront {
   /* NAVBAR */
 }
-.header .navbar {
+.headerFront .navbar {
   display: flex;
   gap: 45px;
 }
-.header .navbar a {
+.headerFront .navbar a {
   font-size: 16px;
   color: #cbd5e1;
   transition: all 0.35s ease;
   position: relative;
 }
-.header .navbar a:hover, .header .navbar a.active {
+.headerFront .navbar a:hover, .headerFront .navbar a.active {
   color: #00f5d4;
 }
-.header .navbar a::after {
+.headerFront .navbar a::after {
   content: "";
   position: absolute;
   bottom: -15px;
@@ -6691,44 +6691,44 @@ html, body {
   transform: translateX(-50%) scale(0.4);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
-.header .navbar a:hover::after {
+.headerFront .navbar a:hover::after {
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
-.header {
+.headerFront {
   /* BUTTON */
 }
-.header .talk-btn {
+.headerFront .talk-btn {
   padding: 12px 25px;
   border: 1px solid #00f5d4;
   border-radius: 30px;
   color: white;
   transition: all 0.35s ease;
 }
-.header .talk-btn:hover {
+.headerFront .talk-btn:hover {
   color: #ffffff;
   box-shadow: 0 0 25px rgba(0, 245, 212, 0.35);
 }
-.header .talk-btn:hover .arrow {
+.headerFront .talk-btn:hover .arrow {
   font-weight: 900;
   color: #00f5d4;
   filter: drop-shadow(0 0 4px #00f5d4) drop-shadow(0 0 8px #00f5d4);
 }
-.header .talk-btn .arrow {
+.headerFront .talk-btn .arrow {
   transition: all 0.3s ease;
   font-weight: 900;
 }
-.header .menu-btn {
+.headerFront .menu-btn {
   display: none;
 }
-.header .menu-btn span {
+.headerFront .menu-btn span {
   display: block;
   width: 25px;
   height: 2px;
   background: white;
   margin: 5px;
 }
-.header .header-menu {
+.headerFront .header-menu {
   display: flex;
   align-items: center;
   gap: 35px;
@@ -6736,19 +6736,19 @@ html, body {
 
 /* TABLET Y MOVIL */
 @media (max-width: 1024px) {
-  .header {
+  .headerFront {
     height: 80px;
     padding: 0 5%;
   }
-  .header .logo {
+  .headerFront .logo {
     width: 60px;
     height: 60px;
     font-size: 30px;
   }
-  .header {
+  .headerFront {
     /* BOTON HAMBURGUESA */
   }
-  .header .menu-btn {
+  .headerFront .menu-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6764,7 +6764,7 @@ html, body {
     z-index: 12;
     transition: all 0.35s ease;
   }
-  .header .menu-btn span {
+  .headerFront .menu-btn span {
     display: block;
     width: 22px;
     height: 2px;
@@ -6773,22 +6773,22 @@ html, body {
     box-shadow: 0 0 5px rgba(0, 245, 212, 0.35);
     transition: all 0.3s ease;
   }
-  .header .menu-btn:hover {
+  .headerFront .menu-btn:hover {
     box-shadow: 0 0 25px rgba(0, 245, 212, 0.35);
   }
-  .header .menu-btn.active span:nth-child(1) {
+  .headerFront .menu-btn.active span:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  .header .menu-btn.active span:nth-child(2) {
+  .headerFront .menu-btn.active span:nth-child(2) {
     opacity: 0;
   }
-  .header .menu-btn.active span:nth-child(3) {
+  .headerFront .menu-btn.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .header {
+  .headerFront {
     /* MENU DESPLEGABLE */
   }
-  .header .header-menu {
+  .headerFront .header-menu {
     position: absolute;
     top: 75px;
     right: 5%;
@@ -6809,27 +6809,27 @@ html, body {
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
   }
-  .header .header-menu.open {
+  .headerFront .header-menu.open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     transform: translateY(0);
   }
-  .header .header-menu .navbar {
+  .headerFront .header-menu .navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
   }
-  .header .header-menu .navbar a {
+  .headerFront .header-menu .navbar a {
     font-size: 15px;
   }
-  .header .header-menu .navbar a::after {
+  .headerFront .header-menu .navbar a::after {
     bottom: -8px;
     width: 6px;
     height: 6px;
   }
-  .header .header-menu .talk-btn {
+  .headerFront .header-menu .talk-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6840,7 +6840,7 @@ html, body {
 }
 /* MOVILES PEQUEÑOS */
 @media (max-width: 480px) {
-  .header .header-menu {
+  .headerFront .header-menu {
     width: 90%;
     right: 5%;
   }
