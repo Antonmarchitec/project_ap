@@ -307,6 +307,7 @@ html {
   max-width: 1600px;
   padding: 30px 0px;
   margin: auto;
+  background: #000000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
