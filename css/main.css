@@ -6649,7 +6649,7 @@ html, body {
   position: absolute;
   top: 0;
   z-index: 10;
-  background: #020b18;
+  background: transparent;
 }
 .headerFront .logo {
   width: 70px;
